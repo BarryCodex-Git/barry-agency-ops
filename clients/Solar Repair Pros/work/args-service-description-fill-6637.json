@@ -1,0 +1,17 @@
+{
+  "post_id": 6637,
+  "operations": [
+    {
+      "element_id": "2faafed",
+      "settings": {
+        "editor": "<p>When your solar company is gone, the system still needs clear answers before any repair decision is made. This section explains how Solar Repair Pros helps Dallas-Fort Worth owners move from confusion to a practical repair plan. The work starts with what changed, what the system is showing, and which details still need confirmation.</p>"
+      }
+    },
+    {
+      "element_id": "99cd4df",
+      "settings": {
+        "editor": "<p>A production problem is not always a failed panel, even when the monitoring app makes it look that way. Weather, shade, wiring, optimizers, inverter behaviour and monitoring errors can all affect output. This section explains why diagnosis matters before Dallas-Fort Worth owners replace parts or approve a repair.</p>"
+      }
+    }
+  ]
+}

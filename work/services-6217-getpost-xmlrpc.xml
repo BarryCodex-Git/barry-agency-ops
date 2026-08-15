@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<methodCall>
+  <methodName>wp.getPost</methodName>
+  <params>
+    <param><value><int>1</int></value></param>
+    <param><value><string>barry</string></value></param>
+    <param><value><string>ZqMh tekF Mg2M hq5P aevn 0kLB</string></value></param>
+    <param><value><int>6217</int></value></param>
+    <param><value><array><data><value><string>custom_fields</string></value></data></array></value></param>
+  </params>
+</methodCall>

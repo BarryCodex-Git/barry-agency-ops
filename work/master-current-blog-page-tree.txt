@@ -1,0 +1,11 @@
+982a57c | container |  | 
+  3b3cb57 | widget | heading | 
+  097ba41 | widget | text-editor | 
+148b9be | container |  | 
+  6e863df | container |  | 
+    69d5bda | widget | posts | 
+  34688a2 | container |  | 
+    06b6fe2 | widget | heading | 
+    35ebaf6 | widget | search | 
+    d029c80 | widget | wp-widget-categories | 
+    e32783f | widget | wp-widget-recent-posts | 

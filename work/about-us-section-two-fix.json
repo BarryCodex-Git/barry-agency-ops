@@ -1,0 +1,29 @@
+﻿{
+  "post_id": 6606,
+  "operations": [
+    {
+      "element_id": "39eba42",
+      "settings": { "title": "WHY CHOOSE US" }
+    },
+    {
+      "element_id": "d2d0889",
+      "settings": { "title": "Plumbing Work Explained Before It Starts" }
+    },
+    {
+      "element_id": "90d1208",
+      "settings": {
+        "editor": "<p>Customers often call when something is already stressful: water is running, a drain is backing up, or a hidden leak is starting to cause damage. H2O Plumbers keeps the conversation practical by checking the visible symptoms, explaining likely causes and helping customers understand the next sensible step.</p>"
+      }
+    },
+    {
+      "element_id": "f262c9c",
+      "settings": {
+        "icon_list": [
+          { "text": "<strong>Careful checks:</strong> The team looks at symptoms before jumping to a repair recommendation.", "_id": "a1" },
+          { "text": "<strong>Right tools:</strong> Leak, drain and pipe access work is matched to the actual problem on site.", "_id": "a2" },
+          { "text": "<strong>Clear handover:</strong> Customers are told what was done and what to watch afterwards.", "_id": "a3" }
+        ]
+      }
+    }
+  ]
+}

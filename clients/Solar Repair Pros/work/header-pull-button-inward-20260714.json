@@ -1,0 +1,256 @@
+﻿{
+    "post_id":  2785,
+    "operations":  [
+                       {
+                           "element_id":  "9ad6dd3",
+                           "settings":  {
+                                            "flex_gap":  {
+                                                             "row":  "0",
+                                                             "size":  42,
+                                                             "column":  "42",
+                                                             "unit":  "px",
+                                                             "isLinked":  false
+                                                         },
+                                            "content_width":  "full",
+                                            "gap":  {
+                                                        "row":  "0",
+                                                        "size":  42,
+                                                        "column":  "42",
+                                                        "unit":  "px",
+                                                        "isLinked":  false
+                                                    },
+                                            "column_gap":  {
+                                                               "size":  42,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "px"
+                                                           },
+                                            "flex_wrap":  "nowrap",
+                                            "flex_direction":  "row",
+                                            "flex_justify_content":  "center",
+                                            "padding":  {
+                                                            "left":  "28",
+                                                            "bottom":  "8",
+                                                            "top":  "8",
+                                                            "right":  "28",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "row_gap":  {
+                                                            "size":  0,
+                                                            "sizes":  [
+
+                                                                      ],
+                                                            "unit":  "px"
+                                                        },
+                                            "margin":  {
+                                                           "left":  "0",
+                                                           "bottom":  "0",
+                                                           "top":  "0",
+                                                           "right":  "0",
+                                                           "isLinked":  true,
+                                                           "unit":  "px"
+                                                       },
+                                            "flex_align_items":  "center"
+                                        }
+                       },
+                       {
+                           "element_id":  "df23374",
+                           "settings":  {
+                                            "flex_align_items":  "center",
+                                            "_flex_size":  "none",
+                                            "width":  {
+                                                          "size":  20,
+                                                          "sizes":  [
+
+                                                                    ],
+                                                          "unit":  "%"
+                                                      },
+                                            "flex_justify_content":  "flex-start",
+                                            "_element_custom_width":  {
+                                                                          "size":  20,
+                                                                          "sizes":  [
+
+                                                                                    ],
+                                                                          "unit":  "%"
+                                                                      },
+                                            "_element_width":  "initial"
+                                        }
+                       },
+                       {
+                           "element_id":  "7cd3aa7",
+                           "settings":  {
+                                            "align":  "left",
+                                            "width_mobile":  {
+                                                                 "size":  112,
+                                                                 "sizes":  [
+
+                                                                           ],
+                                                                 "unit":  "px"
+                                                             },
+                                            "width":  {
+                                                          "size":  145,
+                                                          "sizes":  [
+
+                                                                    ],
+                                                          "unit":  "px"
+                                                      },
+                                            "width_tablet":  {
+                                                                 "size":  128,
+                                                                 "sizes":  [
+
+                                                                           ],
+                                                                 "unit":  "px"
+                                                             },
+                                            "_margin":  {
+                                                            "left":  "0",
+                                                            "bottom":  "0",
+                                                            "top":  "0",
+                                                            "right":  "0",
+                                                            "isLinked":  true,
+                                                            "unit":  "px"
+                                                        }
+                                        }
+                       },
+                       {
+                           "element_id":  "d55e28e",
+                           "settings":  {
+                                            "margin":  {
+                                                           "left":  "0",
+                                                           "bottom":  "0",
+                                                           "top":  "0",
+                                                           "right":  "0",
+                                                           "isLinked":  true,
+                                                           "unit":  "px"
+                                                       },
+                                            "row_gap":  {
+                                                            "size":  0,
+                                                            "sizes":  [
+
+                                                                      ],
+                                                            "unit":  "px"
+                                                        },
+                                            "_element_custom_width":  {
+                                                                          "size":  68,
+                                                                          "sizes":  [
+
+                                                                                    ],
+                                                                          "unit":  "%"
+                                                                      },
+                                            "width":  {
+                                                          "size":  68,
+                                                          "sizes":  [
+
+                                                                    ],
+                                                          "unit":  "%"
+                                                      },
+                                            "_flex_size":  "none",
+                                            "gap":  {
+                                                        "row":  "0",
+                                                        "size":  48,
+                                                        "column":  "48",
+                                                        "unit":  "px",
+                                                        "isLinked":  false
+                                                    },
+                                            "flex_justify_content":  "flex-start",
+                                            "padding":  {
+                                                            "left":  "0",
+                                                            "bottom":  "0",
+                                                            "top":  "0",
+                                                            "right":  "0",
+                                                            "isLinked":  true,
+                                                            "unit":  "px"
+                                                        },
+                                            "flex_gap":  {
+                                                             "row":  "0",
+                                                             "size":  48,
+                                                             "column":  "48",
+                                                             "unit":  "px",
+                                                             "isLinked":  false
+                                                         },
+                                            "flex_align_items":  "center",
+                                            "flex_direction":  "row",
+                                            "column_gap":  {
+                                                               "size":  48,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "px"
+                                                           },
+                                            "flex_wrap":  "nowrap",
+                                            "_element_width":  "initial"
+                                        }
+                       },
+                       {
+                           "element_id":  "fcb90ea",
+                           "settings":  {
+                                            "text_align":  "center",
+                                            "_flex_size":  "none",
+                                            "menu_typography_font_size":  {
+                                                                              "size":  15,
+                                                                              "sizes":  [
+
+                                                                                        ],
+                                                                              "unit":  "px"
+                                                                          },
+                                            "padding_horizontal_menu_item":  {
+                                                                                 "size":  0.7,
+                                                                                 "sizes":  [
+
+                                                                                           ],
+                                                                                 "unit":  "rem"
+                                                                             },
+                                            "align_items":  "center",
+                                            "_element_custom_width":  {
+                                                                          "size":  74,
+                                                                          "sizes":  [
+
+                                                                                    ],
+                                                                          "unit":  "%"
+                                                                      },
+                                            "_element_width":  "initial"
+                                        }
+                       },
+                       {
+                           "element_id":  "8d2ccd4",
+                           "settings":  {
+                                            "typography_font_size":  {
+                                                                         "size":  14,
+                                                                         "sizes":  [
+
+                                                                                   ],
+                                                                         "unit":  "px"
+                                                                     },
+                                            "align":  "right",
+                                            "text":  "CONTACT US",
+                                            "custom_css":  "",
+                                            "_element_width":  "initial",
+                                            "text_padding":  {
+                                                                 "left":  "14",
+                                                                 "bottom":  "14",
+                                                                 "top":  "14",
+                                                                 "right":  "14",
+                                                                 "isLinked":  false,
+                                                                 "unit":  "px"
+                                                             },
+                                            "_flex_size":  "none",
+                                            "_element_custom_width":  {
+                                                                          "size":  166,
+                                                                          "sizes":  [
+
+                                                                                    ],
+                                                                          "unit":  "px"
+                                                                      },
+                                            "_margin":  {
+                                                            "left":  "0",
+                                                            "bottom":  "0",
+                                                            "top":  "0",
+                                                            "right":  "0",
+                                                            "isLinked":  true,
+                                                            "unit":  "px"
+                                                        }
+                                        }
+                       }
+                   ]
+}

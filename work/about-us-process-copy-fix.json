@@ -1,0 +1,26 @@
+﻿{
+  "post_id": 6606,
+  "operations": [
+    {
+      "element_id": "5ce4f31",
+      "settings": {
+        "title_text": "Understand The Issue",
+        "description_text": "The team starts with the symptoms, property type and service area so the first check is based on what is actually happening on site."
+      }
+    },
+    {
+      "element_id": "ade04b8",
+      "settings": {
+        "title_text": "Check The Cause",
+        "description_text": "The plumber checks the likely fault before recommending work, whether the call involves a leak, blocked drain, fixture problem or pipe access issue."
+      }
+    },
+    {
+      "element_id": "7d7f2f1",
+      "settings": {
+        "title_text": "Explain The Work",
+        "description_text": "After the agreed work is done, the customer is told what was completed and what to watch if future maintenance may be needed."
+      }
+    }
+  ]
+}

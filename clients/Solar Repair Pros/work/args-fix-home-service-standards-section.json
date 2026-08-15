@@ -1,0 +1,118 @@
+{
+  "post_id": 2747,
+  "operations": [
+    {
+      "element_id": "343af79",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0B254D",
+        "background_image": {
+          "id": 6679,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/solar-repair-pros-technician-tablet-dfw-ai-01.png",
+          "alt": "Solar technician reviewing system information at a Dallas-Fort Worth home",
+          "source": "library",
+          "size": "full"
+        },
+        "background_video_link": "",
+        "background_video_fallback": {
+          "id": 6679,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/solar-repair-pros-technician-tablet-dfw-ai-01.png",
+          "alt": "Solar technician reviewing system information at a Dallas-Fort Worth home",
+          "source": "library",
+          "size": "full"
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#0B254D",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.78,
+          "sizes": []
+        },
+        "shape_divider_top": "waves",
+        "shape_divider_bottom": "waves",
+        "padding": {
+          "unit": "rem",
+          "top": "5",
+          "right": "1",
+          "bottom": "5.5",
+          "left": "1",
+          "isLinked": false
+        }
+      }
+    },
+    {
+      "element_id": "e6cf9ab",
+      "settings": {
+        "title": "HOW WE WORK",
+        "title_color": "#0B254D",
+        "_background_color": "#FFFFFF",
+        "_border_color": "#F27A1D"
+      }
+    },
+    {
+      "element_id": "406c264",
+      "settings": {
+        "ekit_heading_title": "Clear Help When Solar Support Disappears",
+        "ekit_heading_extra_title": "<p>Solar Repair Pros gives Dallas-Fort Worth owners a practical way forward when the installer is gone, the system is not working, or the next decision feels unclear.</p>",
+        "ekit_heading_title_color": "#FFFFFF",
+        "ekit_heading_extra_title_color": "#FFFFFF",
+        "ekit_heading_seperator_color": "#F27A1D",
+        "ekit_heading_sub_title": ""
+      }
+    },
+    {
+      "element_id": "43e373c",
+      "settings": {
+        "selected_icon": {
+          "value": "fas fa-phone-slash",
+          "library": "fa-solid"
+        },
+        "primary_color": "#F27A1D",
+        "secondary_color": "#FFF4EA",
+        "title_text": "We Start With the Story",
+        "description_text": "Who installed the system, what changed, what support disappeared, and what the owner has already been told all matter before recommending a fix.",
+        "title_color": "#0B254D",
+        "description_color": "#10294F",
+        "_background_color": "#FFFFFF",
+        "_border_color": "#F27A1D"
+      }
+    },
+    {
+      "element_id": "7e20e98",
+      "settings": {
+        "selected_icon": {
+          "value": "fas fa-clipboard-check",
+          "library": "fa-solid"
+        },
+        "primary_color": "#F27A1D",
+        "secondary_color": "#FFF4EA",
+        "title_text": "We Explain the Options",
+        "description_text": "Repair, inspection, replacement planning, battery compatibility, panel capacity, and EV charging should be explained in plain language.",
+        "title_color": "#0B254D",
+        "description_color": "#10294F",
+        "_background_color": "#FFFFFF",
+        "_border_color": "#F27A1D"
+      }
+    },
+    {
+      "element_id": "3da0c7b",
+      "settings": {
+        "selected_icon": {
+          "value": "fas fa-shield-alt",
+          "library": "fa-solid"
+        },
+        "primary_color": "#F27A1D",
+        "secondary_color": "#FFF4EA",
+        "title_text": "We Avoid Guesswork",
+        "description_text": "Solar output, visible damage, roof concerns, electrical capacity, and equipment compatibility need careful review before money is spent.",
+        "title_color": "#0B254D",
+        "description_color": "#10294F",
+        "_background_color": "#FFFFFF",
+        "_border_color": "#F27A1D"
+      }
+    }
+  ]
+}

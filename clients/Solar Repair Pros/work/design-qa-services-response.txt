@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":522,"result":{"content":[{"type":"text","text":"{\"success\":true,\"updated\":10,\"failed\":[]}"}],"structuredContent":{"success":true,"updated":10,"failed":[]}}}

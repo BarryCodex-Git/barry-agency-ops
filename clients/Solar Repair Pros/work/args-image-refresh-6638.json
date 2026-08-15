@@ -1,0 +1,18 @@
+{
+    "post_id":  6638,
+    "operations":  [
+                       {
+                           "element_id":  "0406fd3",
+                           "settings":  {
+                                            "image":  {
+                                                          "id":  6952,
+                                                          "url":  "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-system-inspection-report-dfw-home-1000x1000-1.webp",
+                                                          "alt":  "Technician preparing a solar system inspection report at a Dallas-Fort Worth home",
+                                                          "source":  "library",
+                                                          "size":  "full"
+                                                      },
+                                            "image_size":  "full"
+                                        }
+                       }
+                   ]
+}

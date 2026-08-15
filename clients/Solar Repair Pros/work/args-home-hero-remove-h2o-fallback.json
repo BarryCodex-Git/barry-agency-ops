@@ -1,0 +1,18 @@
+{
+  "post_id": 2747,
+  "operations": [
+    {
+      "element_id": "f6e6b0b",
+      "settings": {
+        "background_video_link": "",
+        "background_video_fallback": {
+          "id": 6862,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-repair-process-background-1920x1080-1.png",
+          "alt": "Solar technician reviewing solar system data beside home equipment in Dallas-Fort Worth",
+          "source": "library",
+          "size": "full"
+        }
+      }
+    }
+  ]
+}

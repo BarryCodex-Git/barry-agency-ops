@@ -1,0 +1,35 @@
+{
+  "post_id": 6639,
+  "operations": [
+    {
+      "element_id": "2fea2c0",
+      "settings": {
+        "title": "Battery Planning When Installer Support Is Gone"
+      }
+    },
+    {
+      "element_id": "36a9a5b",
+      "settings": {
+        "editor": "<p>If your original solar company is no longer around, adding a battery can feel confusing fast. Solar Repair Pros helps you check compatibility, backup expectations, and electrical requirements before you commit to more equipment.</p>"
+      }
+    },
+    {
+      "element_id": "84b0bc9",
+      "settings": {
+        "title": "Questions to Answer Before Buying Storage"
+      }
+    },
+    {
+      "element_id": "3e8bd2d",
+      "settings": {
+        "editor": "<p>A battery should solve a real need, not become another expensive mystery on the wall. Capacity, compatibility, outage goals, and panel limits all need to be clear first.</p>"
+      }
+    },
+    {
+      "element_id": "eadc2b5",
+      "settings": {
+        "title": "Battery Advice That Starts With Your Existing System"
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+﻿{
+    "post_id":  2805,
+    "operations":  [
+                       {
+                           "element_id":  "edfabe3",
+                           "settings":  {
+                                            "_animation":  "fadeInLeft",
+                                            "title":  "Need Solar Help Fast?",
+                                            "typography_font_weight":  "900",
+                                            "title_color":  "#FFFFFF"
+                                        }
+                       },
+                       {
+                           "element_id":  "14e5bef",
+                           "settings":  {
+                                            "_animation":  "fadeInLeft",
+                                            "title":  "Call, email or send a message. We will help you understand the next step when a solar system is broken, unsupported or underperforming.",
+                                            "typography_font_weight":  "600",
+                                            "title_color":  "#FFFFFF",
+                                            "_animation_delay":  120
+                                        }
+                       },
+                       {
+                           "element_id":  "806ea58",
+                           "settings":  {
+                                            "title_link":  {
+                                                               "custom_attributes":  "",
+                                                               "url":  "tel:+18049282768",
+                                                               "is_external":  "",
+                                                               "nofollow":  ""
+                                                           },
+                                            "title_text":  "Call The Repair Pros",
+                                            "link":  {
+                                                         "custom_attributes":  "",
+                                                         "url":  "tel:+18049282768",
+                                                         "is_external":  "",
+                                                         "nofollow":  ""
+                                                     },
+                                            "selected_icon":  {
+                                                                  "library":  "fa-solid",
+                                                                  "value":  "fas fa-phone-volume"
+                                                              },
+                                            "_animation_delay":  80,
+                                            "_animation":  "fadeInUp",
+                                            "description_text":  "804-928-2768"
+                                        }
+                       },
+                       {
+                           "element_id":  "30407bc",
+                           "settings":  {
+                                            "title_link":  {
+                                                               "custom_attributes":  "",
+                                                               "url":  "mailto:info@solarrepairdfw.com",
+                                                               "is_external":  "",
+                                                               "nofollow":  ""
+                                                           },
+                                            "title_text":  "Email The Team",
+                                            "link":  {
+                                                         "custom_attributes":  "",
+                                                         "url":  "mailto:info@solarrepairdfw.com",
+                                                         "is_external":  "",
+                                                         "nofollow":  ""
+                                                     },
+                                            "selected_icon":  {
+                                                                  "library":  "fa-solid",
+                                                                  "value":  "fas fa-envelope-open-text"
+                                                              },
+                                            "_animation_delay":  160,
+                                            "_animation":  "fadeInUp",
+                                            "description_text":  "info@solarrepairdfw.com"
+                                        }
+                       },
+                       {
+                           "element_id":  "0b9992d",
+                           "settings":  {
+                                            "description_text":  "Dallas-Fort Worth, TX",
+                                            "_animation_delay":  240,
+                                            "_animation":  "fadeInUp",
+                                            "selected_icon":  {
+                                                                  "library":  "fa-solid",
+                                                                  "value":  "fas fa-map-location-dot"
+                                                              },
+                                            "title_text":  "DFW Service Area"
+                                        }
+                       },
+                       {
+                           "element_id":  "886812f",
+                           "settings":  {
+                                            "_animation":  "fadeInRight",
+                                            "title":  "Tell Us What Happened",
+                                            "typography_font_weight":  "900",
+                                            "title_color":  "#0B254D"
+                                        }
+                       }
+                   ]
+}

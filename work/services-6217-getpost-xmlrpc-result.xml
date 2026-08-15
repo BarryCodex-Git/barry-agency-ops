@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<methodResponse>
+  <params>
+    <param>
+      <value>
+      <struct>
+  <member><name>post_id</name><value><string>6217</string></value></member>
+  <member><name>custom_fields</name><value><array><data>
+  <value><struct>
+  <member><name>id</name><value><string>39789</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_content_score</string></value></member>
+  <member><name>value</name><value><string>60</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>39784</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_estimated-reading-time-minutes</string></value></member>
+  <member><name>value</name><value><string>5</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>39787</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_focuskw</string></value></member>
+  <member><name>value</name><value><string>Pool Contractor in Cleveland South Euclid</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>41593</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_focuskw</string></value></member>
+  <member><name>value</name><value><string>plumbing services Garden Route</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>39788</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_linkdex</string></value></member>
+  <member><name>value</name><value><string>54</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>39783</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_metadesc</string></value></member>
+  <member><name>value</name><value><string>Trust Mawby Pool Services for maintenance, repairs, and pool building in Cleveland South Euclid. Call today for a free quote!</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>41592</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_metadesc</string></value></member>
+  <member><name>value</name><value><string>Explore H2O Plumbers services across the Garden Route, including general plumbing, leak detection, blocked drains, core drilling, hydro jetting and more.</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>39786</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_opengraph-description</string></value></member>
+  <member><name>value</name><value><string>Trust Mawby&#039;s Pool Services for maintenance, repairs, pools &amp; spas in Cleveland South Euclid. Call today for a free quote!</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>41595</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_opengraph-description</string></value></member>
+  <member><name>value</name><value><string>General plumbing, leak detection, blocked drains and additional plumbing services for homes and businesses across the Garden Route.</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>39791</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_opengraph-image</string></value></member>
+  <member><name>value</name><value><string>https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/01/Mawbys-SC-1024x576.png</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>39792</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_opengraph-image-id</string></value></member>
+  <member><name>value</name><value><string>6181</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>39785</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_opengraph-title</string></value></member>
+  <member><name>value</name><value><string>Pool Contractor in Cleveland South Euclid | Expert Pool Services &amp; Repairs</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>41594</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_opengraph-title</string></value></member>
+  <member><name>value</name><value><string>Plumbing Services in the Garden Route | H2O Plumbers</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>39782</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_title</string></value></member>
+  <member><name>value</name><value><string>Pool Contractor in Cleveland South Euclid | Mawbys Pool Services</string></value></member>
+</struct></value>
+  <value><struct>
+  <member><name>id</name><value><string>41591</string></value></member>
+  <member><name>key</name><value><string>_yoast_wpseo_title</string></value></member>
+  <member><name>value</name><value><string>Plumbing Services Garden Route | H2O Plumbers</string></value></member>
+</struct></value>
+</data></array></value></member>
+</struct>
+      </value>
+    </param>
+  </params>
+</methodResponse>

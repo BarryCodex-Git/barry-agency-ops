@@ -1,0 +1,256 @@
+﻿{
+    "post_id":  2805,
+    "operations":  [
+                       {
+                           "element_id":  "643c715",
+                           "settings":  {
+                                            "_animation":  "fadeIn",
+                                            "background_color":  "#0B254D",
+                                            "padding":  {
+                                                            "left":  "20",
+                                                            "bottom":  "74",
+                                                            "top":  "74",
+                                                            "right":  "20",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "background_background":  "classic"
+                                        }
+                       },
+                       {
+                           "element_id":  "77b7980",
+                           "settings":  {
+                                            "_animation":  "fadeInUp",
+                                            "width":  {
+                                                          "size":  1480,
+                                                          "sizes":  [
+
+                                                                    ],
+                                                          "unit":  "px"
+                                                      },
+                                            "content_width":  "boxed",
+                                            "gap":  {
+                                                        "size":  28,
+                                                        "sizes":  [
+
+                                                                  ],
+                                                        "unit":  "px"
+                                                    }
+                                        }
+                       },
+                       {
+                           "element_id":  "87d6132",
+                           "settings":  {
+                                            "border_radius":  {
+                                                                  "left":  "28",
+                                                                  "bottom":  "28",
+                                                                  "top":  "28",
+                                                                  "right":  "28",
+                                                                  "isLinked":  true,
+                                                                  "unit":  "px"
+                                                              },
+                                            "box_shadow_box_shadow_type":  "yes",
+                                            "box_shadow_box_shadow":  {
+                                                                          "vertical":  22,
+                                                                          "color":  "rgba(0,0,0,0.22)",
+                                                                          "spread":  0,
+                                                                          "blur":  45,
+                                                                          "horizontal":  0
+                                                                      },
+                                            "background_background":  "classic",
+                                            "background_color":  "#F27A1D",
+                                            "padding":  {
+                                                            "left":  "56",
+                                                            "bottom":  "58",
+                                                            "top":  "58",
+                                                            "right":  "56",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "_animation":  "fadeInLeft"
+                                        }
+                       },
+                       {
+                           "element_id":  "c523d2e",
+                           "settings":  {
+                                            "border_border":  "solid",
+                                            "border_radius":  {
+                                                                  "left":  "28",
+                                                                  "bottom":  "28",
+                                                                  "top":  "28",
+                                                                  "right":  "28",
+                                                                  "isLinked":  true,
+                                                                  "unit":  "px"
+                                                              },
+                                            "background_color":  "#FFFFFF",
+                                            "background_background":  "classic",
+                                            "box_shadow_box_shadow_type":  "yes",
+                                            "border_width":  {
+                                                                 "left":  "1",
+                                                                 "bottom":  "1",
+                                                                 "top":  "1",
+                                                                 "right":  "1",
+                                                                 "isLinked":  true,
+                                                                 "unit":  "px"
+                                                             },
+                                            "border_color":  "rgba(242,122,29,0.28)",
+                                            "padding":  {
+                                                            "left":  "56",
+                                                            "bottom":  "58",
+                                                            "top":  "58",
+                                                            "right":  "56",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "_animation":  "fadeInRight",
+                                            "box_shadow_box_shadow":  {
+                                                                          "vertical":  16,
+                                                                          "color":  "rgba(11,37,77,0.16)",
+                                                                          "spread":  0,
+                                                                          "blur":  35,
+                                                                          "horizontal":  0
+                                                                      }
+                                        }
+                       },
+                       {
+                           "element_id":  "553fb35",
+                           "settings":  {
+                                            "padding":  {
+                                                            "left":  "0",
+                                                            "bottom":  "0",
+                                                            "top":  "20",
+                                                            "right":  "0",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "gap":  {
+                                                        "size":  18,
+                                                        "sizes":  [
+
+                                                                  ],
+                                                        "unit":  "px"
+                                                    }
+                                        }
+                       },
+                       {
+                           "element_id":  "806ea58",
+                           "settings":  {
+                                            "primary_color":  "#FFFFFF",
+                                            "border_radius":  {
+                                                                  "left":  "16",
+                                                                  "bottom":  "16",
+                                                                  "top":  "16",
+                                                                  "right":  "16",
+                                                                  "isLinked":  true,
+                                                                  "unit":  "px"
+                                                              },
+                                            "background_color":  "#0B254D",
+                                            "background_background":  "classic",
+                                            "box_shadow_box_shadow_type":  "yes",
+                                            "padding":  {
+                                                            "left":  "22",
+                                                            "bottom":  "18",
+                                                            "top":  "18",
+                                                            "right":  "22",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "icon_space":  {
+                                                               "size":  16,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "px"
+                                                           },
+                                            "box_shadow_box_shadow":  {
+                                                                          "vertical":  10,
+                                                                          "color":  "rgba(0,0,0,0.18)",
+                                                                          "spread":  0,
+                                                                          "blur":  24,
+                                                                          "horizontal":  0
+                                                                      },
+                                            "secondary_color":  "#FFFFFF"
+                                        }
+                       },
+                       {
+                           "element_id":  "30407bc",
+                           "settings":  {
+                                            "primary_color":  "#FFFFFF",
+                                            "border_radius":  {
+                                                                  "left":  "16",
+                                                                  "bottom":  "16",
+                                                                  "top":  "16",
+                                                                  "right":  "16",
+                                                                  "isLinked":  true,
+                                                                  "unit":  "px"
+                                                              },
+                                            "background_color":  "#0B254D",
+                                            "background_background":  "classic",
+                                            "box_shadow_box_shadow_type":  "yes",
+                                            "padding":  {
+                                                            "left":  "22",
+                                                            "bottom":  "18",
+                                                            "top":  "18",
+                                                            "right":  "22",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "icon_space":  {
+                                                               "size":  16,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "px"
+                                                           },
+                                            "box_shadow_box_shadow":  {
+                                                                          "vertical":  10,
+                                                                          "color":  "rgba(0,0,0,0.18)",
+                                                                          "spread":  0,
+                                                                          "blur":  24,
+                                                                          "horizontal":  0
+                                                                      },
+                                            "secondary_color":  "#FFFFFF"
+                                        }
+                       },
+                       {
+                           "element_id":  "0b9992d",
+                           "settings":  {
+                                            "primary_color":  "#FFFFFF",
+                                            "border_radius":  {
+                                                                  "left":  "16",
+                                                                  "bottom":  "16",
+                                                                  "top":  "16",
+                                                                  "right":  "16",
+                                                                  "isLinked":  true,
+                                                                  "unit":  "px"
+                                                              },
+                                            "background_color":  "#0B254D",
+                                            "background_background":  "classic",
+                                            "box_shadow_box_shadow_type":  "yes",
+                                            "padding":  {
+                                                            "left":  "22",
+                                                            "bottom":  "18",
+                                                            "top":  "18",
+                                                            "right":  "22",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "icon_space":  {
+                                                               "size":  16,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "px"
+                                                           },
+                                            "box_shadow_box_shadow":  {
+                                                                          "vertical":  10,
+                                                                          "color":  "rgba(0,0,0,0.18)",
+                                                                          "spread":  0,
+                                                                          "blur":  24,
+                                                                          "horizontal":  0
+                                                                      },
+                                            "secondary_color":  "#FFFFFF"
+                                        }
+                       }
+                   ]
+}

@@ -1,0 +1,283 @@
+﻿{
+    "post_id":  2747,
+    "operations":  [
+                       {
+                           "element_id":  "0b6d202",
+                           "settings":  {
+                                            "typography_font_size":  {
+                                                                         "size":  78,
+                                                                         "sizes":  [
+
+                                                                                   ],
+                                                                         "unit":  "px"
+                                                                     },
+                                            "title_color":  "#FFFFFF",
+                                            "typography_letter_spacing":  {
+                                                                              "size":  -1.2,
+                                                                              "sizes":  [
+
+                                                                                        ],
+                                                                              "unit":  "px"
+                                                                          },
+                                            "typography_font_family":  "Montserrat",
+                                            "typography_font_size_mobile":  {
+                                                                                "size":  42,
+                                                                                "sizes":  [
+
+                                                                                          ],
+                                                                                "unit":  "px"
+                                                                            },
+                                            "typography_typography":  "custom",
+                                            "typography_line_height":  {
+                                                                           "size":  0.98,
+                                                                           "sizes":  [
+
+                                                                                     ],
+                                                                           "unit":  "em"
+                                                                       },
+                                            "text_shadow_text_shadow_type":  "yes",
+                                            "text_shadow_text_shadow":  {
+                                                                            "vertical":  5,
+                                                                            "color":  "#F27A1D",
+                                                                            "blur":  0,
+                                                                            "horizontal":  5
+                                                                        },
+                                            "typography_font_size_tablet":  {
+                                                                                "size":  58,
+                                                                                "sizes":  [
+
+                                                                                          ],
+                                                                                "unit":  "px"
+                                                                            },
+                                            "title":  "Did Your Solar Company Disappear?",
+                                            "typography_font_weight":  "900"
+                                        }
+                       },
+                       {
+                           "element_id":  "76e1be9",
+                           "settings":  {
+                                            "border_border":  "solid",
+                                            "border_radius":  {
+                                                                  "left":  "18",
+                                                                  "bottom":  "18",
+                                                                  "top":  "18",
+                                                                  "right":  "18",
+                                                                  "isLinked":  true,
+                                                                  "unit":  "px"
+                                                              },
+                                            "background_color":  "#0B254D",
+                                            "background_background":  "classic",
+                                            "box_shadow_box_shadow_type":  "yes",
+                                            "border_width":  {
+                                                                 "left":  "1",
+                                                                 "bottom":  "1",
+                                                                 "top":  "1",
+                                                                 "right":  "1",
+                                                                 "isLinked":  true,
+                                                                 "unit":  "px"
+                                                             },
+                                            "gap":  {
+                                                        "size":  10,
+                                                        "sizes":  [
+
+                                                                  ],
+                                                        "unit":  "px"
+                                                    },
+                                            "border_color":  "rgba(255,255,255,0.85)",
+                                            "padding":  {
+                                                            "left":  "1.6",
+                                                            "bottom":  "1.5",
+                                                            "top":  "1.5",
+                                                            "right":  "1.6",
+                                                            "isLinked":  false,
+                                                            "unit":  "rem"
+                                                        },
+                                            "margin":  {
+                                                           "left":  "0",
+                                                           "bottom":  "0",
+                                                           "top":  "0",
+                                                           "right":  "0",
+                                                           "isLinked":  true,
+                                                           "unit":  "px"
+                                                       },
+                                            "box_shadow_box_shadow":  {
+                                                                          "vertical":  18,
+                                                                          "color":  "rgba(0,0,0,0.22)",
+                                                                          "spread":  0,
+                                                                          "blur":  36,
+                                                                          "horizontal":  0
+                                                                      }
+                                        }
+                       },
+                       {
+                           "element_id":  "70a5a5d",
+                           "settings":  {
+                                            "typography_font_size":  {
+                                                                         "size":  26,
+                                                                         "sizes":  [
+
+                                                                                   ],
+                                                                         "unit":  "px"
+                                                                     },
+                                            "typography_typography":  "custom",
+                                            "text_color":  "#FFFFFF",
+                                            "margin":  {
+                                                           "left":  "0",
+                                                           "bottom":  "0",
+                                                           "top":  "0",
+                                                           "right":  "0",
+                                                           "isLinked":  true,
+                                                           "unit":  "px"
+                                                       },
+                                            "typography_font_family":  "Montserrat",
+                                            "typography_font_size_mobile":  {
+                                                                                "size":  21,
+                                                                                "sizes":  [
+
+                                                                                          ],
+                                                                                "unit":  "px"
+                                                                            },
+                                            "typography_font_weight":  "500",
+                                            "editor":  "\u003cp\u003eNeed Solar Help?\u003c/p\u003e"
+                                        }
+                       },
+                       {
+                           "element_id":  "3a14914",
+                           "settings":  {
+                                            "typography_font_size":  {
+                                                                         "size":  30,
+                                                                         "sizes":  [
+
+                                                                                   ],
+                                                                         "unit":  "px"
+                                                                     },
+                                            "title_color":  "#FFFFFF",
+                                            "typography_letter_spacing":  {
+                                                                              "size":  0.4,
+                                                                              "sizes":  [
+
+                                                                                        ],
+                                                                              "unit":  "px"
+                                                                          },
+                                            "typography_font_family":  "Montserrat",
+                                            "typography_font_size_mobile":  {
+                                                                                "size":  24,
+                                                                                "sizes":  [
+
+                                                                                          ],
+                                                                                "unit":  "px"
+                                                                            },
+                                            "typography_typography":  "custom",
+                                            "margin":  {
+                                                           "left":  "0",
+                                                           "bottom":  "12",
+                                                           "top":  "0",
+                                                           "right":  "0",
+                                                           "isLinked":  false,
+                                                           "unit":  "px"
+                                                       },
+                                            "title":  "We Can Help",
+                                            "typography_font_weight":  "900"
+                                        }
+                       },
+                       {
+                           "element_id":  "80bdf03",
+                           "settings":  {
+                                            "field_text_color":  "#0B254D",
+                                            "button_hover_color":  "#0B254D",
+                                            "field_typography_font_family":  "Montserrat",
+                                            "button_typography_font_weight":  "900",
+                                            "button_background_color":  "#F27A1D",
+                                            "field_typography_typography":  "custom",
+                                            "field_border_radius":  {
+                                                                        "left":  "3",
+                                                                        "bottom":  "3",
+                                                                        "top":  "3",
+                                                                        "right":  "3",
+                                                                        "isLinked":  true,
+                                                                        "unit":  "px"
+                                                                    },
+                                            "label_typography_font_family":  "Montserrat",
+                                            "button_hover_border_color":  "#FFFFFF",
+                                            "button_text_padding":  {
+                                                                        "left":  "1",
+                                                                        "bottom":  "0.9",
+                                                                        "top":  "0.9",
+                                                                        "right":  "1",
+                                                                        "isLinked":  false,
+                                                                        "unit":  "rem"
+                                                                    },
+                                            "button_typography_font_family":  "Montserrat",
+                                            "field_typography_font_size":  {
+                                                                               "size":  16,
+                                                                               "sizes":  [
+
+                                                                                         ],
+                                                                               "unit":  "px"
+                                                                           },
+                                            "column_gap":  {
+                                                               "size":  0.55,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "rem"
+                                                           },
+                                            "field_border_width":  {
+                                                                       "left":  "1",
+                                                                       "bottom":  "1",
+                                                                       "top":  "1",
+                                                                       "right":  "1",
+                                                                       "isLinked":  true,
+                                                                       "unit":  "px"
+                                                                   },
+                                            "field_border_color":  "#FFFFFF",
+                                            "button_border_color":  "#F27A1D",
+                                            "field_background_color":  "#FFFFFF",
+                                            "label_color":  "#FFFFFF",
+                                            "button_text_color":  "#FFFFFF",
+                                            "label_typography_typography":  "custom",
+                                            "label_typography_font_weight":  "700",
+                                            "field_typography_font_weight":  "600",
+                                            "row_gap":  {
+                                                            "size":  0.55,
+                                                            "sizes":  [
+
+                                                                      ],
+                                                            "unit":  "rem"
+                                                        },
+                                            "show_labels":  "",
+                                            "label_spacing":  {
+                                                                  "size":  4,
+                                                                  "sizes":  [
+
+                                                                            ],
+                                                                  "unit":  "px"
+                                                              },
+                                            "button_typography_typography":  "custom",
+                                            "button_border_radius":  {
+                                                                         "left":  "3",
+                                                                         "bottom":  "3",
+                                                                         "top":  "3",
+                                                                         "right":  "3",
+                                                                         "isLinked":  true,
+                                                                         "unit":  "px"
+                                                                     },
+                                            "label_typography_font_size":  {
+                                                                               "size":  13,
+                                                                               "sizes":  [
+
+                                                                                         ],
+                                                                               "unit":  "px"
+                                                                           },
+                                            "button_background_hover_color":  "#FFFFFF",
+                                            "button_typography_font_size":  {
+                                                                                "size":  17,
+                                                                                "sizes":  [
+
+                                                                                          ],
+                                                                                "unit":  "px"
+                                                                            }
+                                        }
+                       }
+                   ]
+}

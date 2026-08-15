@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<methodResponse>
+  <params>
+    <param>
+      <value>
+      <struct>
+  <member><name>blog_title</name><value><struct>
+  <member><name>desc</name><value><string>Site Title</string></value></member>
+  <member><name>readonly</name><value><boolean>0</boolean></value></member>
+  <member><name>value</name><value><string>H2O Plumbers</string></value></member>
+</struct></value></member>
+  <member><name>blog_tagline</name><value><struct>
+  <member><name>desc</name><value><string>Site Tagline</string></value></member>
+  <member><name>readonly</name><value><boolean>0</boolean></value></member>
+  <member><name>value</name><value><string>Professional plumbing services in the Garden Route</string></value></member>
+</struct></value></member>
+</struct>
+      </value>
+    </param>
+  </params>
+</methodResponse>

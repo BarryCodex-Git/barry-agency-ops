@@ -1,0 +1,606 @@
+[
+    {
+        "name":  "elementor-mcp-add-image",
+        "description":  "Adds an image widget. Supports width, max-width, opacity, border, border-radius, box shadow, CSS filters (brightness, contrast, saturation, hue), and hover effects. Accepts responsive suffixes and advanced controls. All other settings pass through; get-widget-schema for the full list.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "image":  {
+                                                             "type":  "object",
+                                                             "description":  "Image object with url (required) and optional id."
+                                                         },
+                                               "image_size":  {
+                                                                  "type":  "string",
+                                                                  "enum":  [
+                                                                               "thumbnail",
+                                                                               "medium",
+                                                                               "medium_large",
+                                                                               "large",
+                                                                               "full"
+                                                                           ],
+                                                                  "description":  "Image size preset."
+                                                              },
+                                               "align":  {
+                                                             "type":  "string",
+                                                             "enum":  [
+                                                                          "left",
+                                                                          "center",
+                                                                          "right"
+                                                                      ],
+                                                             "description":  "Image alignment. Responsive: align_tablet, align_mobile."
+                                                         },
+                                               "caption_source":  {
+                                                                      "type":  "string",
+                                                                      "enum":  [
+                                                                                   "none",
+                                                                                   "attachment",
+                                                                                   "custom"
+                                                                               ],
+                                                                      "description":  "Caption source."
+                                                                  },
+                                               "caption":  {
+                                                               "type":  "string",
+                                                               "description":  "Custom caption text."
+                                                           }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id",
+                                             "image"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-image-box",
+        "description":  "Adds an image box widget with image, title, and description. Great for service cards.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "image":  {
+                                                             "type":  "object",
+                                                             "description":  "Image object with url and optional id."
+                                                         },
+                                               "title_text":  {
+                                                                  "type":  "string",
+                                                                  "description":  "Box title."
+                                                              },
+                                               "description_text":  {
+                                                                        "type":  "string",
+                                                                        "description":  "Box description."
+                                                                    },
+                                               "link":  {
+                                                            "type":  "object",
+                                                            "description":  "Link object with url key."
+                                                        },
+                                               "title_size":  {
+                                                                  "type":  "string",
+                                                                  "enum":  [
+                                                                               "h1",
+                                                                               "h2",
+                                                                               "h3",
+                                                                               "h4",
+                                                                               "h5",
+                                                                               "h6",
+                                                                               "div",
+                                                                               "span",
+                                                                               "p"
+                                                                           ],
+                                                                  "description":  "Title HTML tag. Default: h3."
+                                                              }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id",
+                                             "title_text"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-image-carousel",
+        "description":  "Adds a rotating image carousel/slider widget. All other settings pass through; get-widget-schema for the full list.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "carousel":  {
+                                                                "type":  "array",
+                                                                "description":  "Array of image objects with url and optional id.",
+                                                                "items":  {
+                                                                              "type":  "object",
+                                                                              "properties":  {
+                                                                                                 "url":  {
+                                                                                                             "type":  "string"
+                                                                                                         },
+                                                                                                 "id":  {
+                                                                                                            "type":  "integer"
+                                                                                                        }
+                                                                                             }
+                                                                          }
+                                                            },
+                                               "slides_to_show":  {
+                                                                      "type":  "string",
+                                                                      "enum":  [
+                                                                                   "1",
+                                                                                   "2",
+                                                                                   "3",
+                                                                                   "4",
+                                                                                   "5",
+                                                                                   "6",
+                                                                                   "7",
+                                                                                   "8",
+                                                                                   "9",
+                                                                                   "10"
+                                                                               ],
+                                                                      "description":  "Number of slides visible."
+                                                                  },
+                                               "navigation":  {
+                                                                  "type":  "string",
+                                                                  "enum":  [
+                                                                               "both",
+                                                                               "arrows",
+                                                                               "dots",
+                                                                               "none"
+                                                                           ],
+                                                                  "description":  "Navigation type. Default: both."
+                                                              },
+                                               "autoplay":  {
+                                                                "type":  "string",
+                                                                "enum":  [
+                                                                             "yes"
+                                                                         ],
+                                                                "description":  "Autoplay slides. Default: yes."
+                                                            },
+                                               "autoplay_speed":  {
+                                                                      "type":  "integer",
+                                                                      "description":  "Autoplay interval in ms. Default: 5000."
+                                                                  }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id",
+                                             "carousel"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-posts-grid",
+        "description":  "Adds an Elementor Pro posts grid widget to display a grid of posts.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "posts_post_type":  {
+                                                                       "type":  "string",
+                                                                       "enum":  [
+                                                                                    "post",
+                                                                                    "page",
+                                                                                    "any"
+                                                                                ],
+                                                                       "description":  "Post type to query."
+                                                                   },
+                                               "posts_per_page":  {
+                                                                      "type":  "integer",
+                                                                      "description":  "Number of posts to show."
+                                                                  },
+                                               "columns":  {
+                                                               "type":  "integer",
+                                                               "description":  "Number of grid columns."
+                                                           },
+                                               "pagination_type":  {
+                                                                       "type":  "string",
+                                                                       "enum":  [
+                                                                                    "numbers",
+                                                                                    "prev_next",
+                                                                                    "numbers_and_prev_next",
+                                                                                    "load_more_on_click"
+                                                                                ],
+                                                                       "description":  "Pagination type."
+                                                                   }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-media-carousel",
+        "description":  "Adds a media carousel widget for images/video with multiple skins (Pro). All other settings pass through; get-widget-schema for the full list.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "skin":  {
+                                                            "type":  "string",
+                                                            "enum":  [
+                                                                         "carousel",
+                                                                         "slideshow",
+                                                                         "coverflow"
+                                                                     ],
+                                                            "description":  "Carousel skin. Default: carousel."
+                                                        },
+                                               "slides":  {
+                                                              "type":  "array",
+                                                              "description":  "Array of slide items with image/video.",
+                                                              "items":  {
+                                                                            "type":  "object",
+                                                                            "properties":  {
+                                                                                               "image":  {
+                                                                                                             "type":  "object",
+                                                                                                             "description":  "{ \"url\": \"...\", \"id\": 0 }"
+                                                                                                         },
+                                                                                               "type":  {
+                                                                                                            "type":  "string",
+                                                                                                            "description":  "Slide type: image or video."
+                                                                                                        }
+                                                                                           }
+                                                                        }
+                                                          },
+                                               "effect":  {
+                                                              "type":  "string",
+                                                              "enum":  [
+                                                                           "slide",
+                                                                           "fade",
+                                                                           "cube"
+                                                                       ],
+                                                              "description":  "Transition effect. Default: slide."
+                                                          },
+                                               "slides_per_view":  {
+                                                                       "type":  "string",
+                                                                       "description":  "Slides visible at once."
+                                                                   },
+                                               "slides_to_scroll":  {
+                                                                        "type":  "string",
+                                                                        "description":  "Slides to scroll per step."
+                                                                    }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-search-images",
+        "description":  "Searches Openverse (WordPress.org) for Creative Commons licensed images. Returns image URLs, thumbnails, licensing info, and attribution. Use the returned URLs with sideload-image or add-stock-image.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "query":  {
+                                                             "type":  "string",
+                                                             "description":  "Search keywords (e.g. \"mountain landscape\", \"modern office\")."
+                                                         },
+                                               "page":  {
+                                                            "type":  "integer",
+                                                            "description":  "Page number. Default: 1."
+                                                        },
+                                               "page_size":  {
+                                                                 "type":  "integer",
+                                                                 "description":  "Results per page (1-20). Default: 5."
+                                                             },
+                                               "license":  {
+                                                               "type":  "string",
+                                                               "enum":  [
+                                                                            "by",
+                                                                            "by-sa",
+                                                                            "by-nc",
+                                                                            "cc0",
+                                                                            "pdm"
+                                                                        ],
+                                                               "description":  "Filter by Creative Commons license type."
+                                                           },
+                                               "source":  {
+                                                              "type":  "string",
+                                                              "description":  "Filter by source (e.g. \"flickr\", \"wikimedia\", \"wordpress\")."
+                                                          },
+                                               "aspect_ratio":  {
+                                                                    "type":  "string",
+                                                                    "enum":  [
+                                                                                 "tall",
+                                                                                 "wide",
+                                                                                 "square"
+                                                                             ],
+                                                                    "description":  "Filter by aspect ratio. Use \"wide\" for landscape images (recommended for hero banners, cards, and most page layouts). Use \"tall\" for portrait/sidebar images. Use \"square\" for avatars and thumbnails."
+                                                                },
+                                               "size":  {
+                                                            "type":  "string",
+                                                            "enum":  [
+                                                                         "small",
+                                                                         "medium",
+                                                                         "large"
+                                                                     ],
+                                                            "description":  "Filter by image size."
+                                                        },
+                                               "category":  {
+                                                                "type":  "string",
+                                                                "enum":  [
+                                                                             "photograph",
+                                                                             "illustration",
+                                                                             "digitized_artwork"
+                                                                         ],
+                                                                "description":  "Filter by image category."
+                                                            }
+                                           },
+                            "required":  [
+                                             "query"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-sideload-image",
+        "description":  "Downloads an external image URL into the WordPress Media Library and returns the local attachment ID and URL. Use this after search-images to import a chosen image.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "url":  {
+                                                           "type":  "string",
+                                                           "description":  "The external image URL to download."
+                                                       },
+                                               "title":  {
+                                                             "type":  "string",
+                                                             "description":  "Attachment title. Falls back to the filename."
+                                                         },
+                                               "alt_text":  {
+                                                                "type":  "string",
+                                                                "description":  "Alt text for the image."
+                                                            },
+                                               "caption":  {
+                                                               "type":  "string",
+                                                               "description":  "Image caption."
+                                                           },
+                                               "attribution":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Attribution text for Creative Commons images. Stored as the attachment caption/excerpt."
+                                                               }
+                                           },
+                            "required":  [
+                                             "url"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-stock-image",
+        "description":  "Searches Openverse for an image, downloads it to the Media Library, and adds it as an image widget to the page — all in one step. Defaults to landscape (wide) images for consistent layouts. Combines search-images + sideload-image + add-image.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container element ID."
+                                                             },
+                                               "query":  {
+                                                             "type":  "string",
+                                                             "description":  "Image search keywords (e.g. \"hero banner technology\", \"team photo office\")."
+                                                         },
+                                               "index":  {
+                                                             "type":  "integer",
+                                                             "description":  "Which search result to use (0 = best match). Default: 0."
+                                                         },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position within parent. -1 = append (default)."
+                                                            },
+                                               "image_size":  {
+                                                                  "type":  "string",
+                                                                  "enum":  [
+                                                                               "thumbnail",
+                                                                               "medium",
+                                                                               "medium_large",
+                                                                               "large",
+                                                                               "full"
+                                                                           ],
+                                                                  "description":  "Image size preset. Default: full."
+                                                              },
+                                               "align":  {
+                                                             "type":  "string",
+                                                             "enum":  [
+                                                                          "left",
+                                                                          "center",
+                                                                          "right"
+                                                                      ],
+                                                             "description":  "Image alignment."
+                                                         },
+                                               "caption":  {
+                                                               "type":  "string",
+                                                               "description":  "Caption override. Defaults to Openverse attribution."
+                                                           },
+                                               "aspect_ratio":  {
+                                                                    "type":  "string",
+                                                                    "enum":  [
+                                                                                 "wide",
+                                                                                 "tall",
+                                                                                 "square",
+                                                                                 "any"
+                                                                             ],
+                                                                    "description":  "Image aspect ratio filter. Default: wide (landscape). Use \"wide\" for hero banners and card images, \"tall\" for sidebar/portrait, \"square\" for thumbnails, \"any\" for no filter."
+                                                                },
+                                               "alt_text":  {
+                                                                "type":  "string",
+                                                                "description":  "Alt text override. Defaults to the image title."
+                                                            },
+                                               "link_to":  {
+                                                               "type":  "string",
+                                                               "enum":  [
+                                                                            "none",
+                                                                            "file",
+                                                                            "custom"
+                                                                        ],
+                                                               "description":  "Link behavior. Default: none."
+                                                           }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id",
+                                             "query"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-list-media",
+        "description":  "Lists and searches images already in the WordPress Media Library. Use this to find a site\u0027s own uploaded photos (e.g. a client\u0027s product or job-site images) before reaching for Openverse stock. The optional \"search\" matches the title, alt text, caption, and description. Returns attachment IDs and URLs you can pass straight to add-image / add-widget.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "search":  {
+                                                              "type":  "string",
+                                                              "description":  "Keyword to match against the attachment title, alt text, caption, and description. Omit to list everything."
+                                                          },
+                                               "mime_type":  {
+                                                                 "type":  "string",
+                                                                 "description":  "MIME type filter. Accepts a top-level type (\"image\") or a specific type (\"image/jpeg\", \"image/png\"). Use \"any\" for all media types. Default: image."
+                                                             },
+                                               "page":  {
+                                                            "type":  "integer",
+                                                            "description":  "Page number (1-based). Default: 1."
+                                                        },
+                                               "per_page":  {
+                                                                "type":  "integer",
+                                                                "description":  "Results per page (1-100). Default: 20."
+                                                            },
+                                               "orderby":  {
+                                                               "type":  "string",
+                                                               "enum":  [
+                                                                            "date",
+                                                                            "title"
+                                                                        ],
+                                                               "description":  "Sort field. Default: date (newest first)."
+                                                           },
+                                               "order":  {
+                                                             "type":  "string",
+                                                             "enum":  [
+                                                                          "desc",
+                                                                          "asc"
+                                                                      ],
+                                                             "description":  "Sort direction. Default: desc."
+                                                         }
+                                           }
+                        }
+    },
+    {
+        "name":  "elementor-mcp-upload-svg-icon",
+        "description":  "Uploads an SVG icon to the WordPress Media Library and returns an Elementor icon object ready to use with any widget that accepts icons (icon, icon-box, button, etc.). Accepts either an external SVG URL or raw SVG markup. The returned icon object has the format: { \"value\": { \"id\": 123, \"url\": \"...\" }, \"library\": \"svg\" }. Use this value for the selected_icon setting in icon/icon-box widgets, or the selected_icon setting in button widgets.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "svg_url":  {
+                                                               "type":  "string",
+                                                               "description":  "External URL to an SVG file to download and import. Use this OR svg_content, not both."
+                                                           },
+                                               "svg_content":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Raw SVG markup string (e.g. \"\u003csvg viewBox=\u00270 0 24 24\u0027\u003e\u003cpath d=\u0027M12 ...\u0027/\u003e\u003c/svg\u003e\"). Use this OR svg_url, not both."
+                                                               },
+                                               "title":  {
+                                                             "type":  "string",
+                                                             "description":  "Title for the SVG in the Media Library. Falls back to filename or \"Custom SVG Icon\"."
+                                                         }
+                                           }
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-atomic-image",
+        "description":  "Adds an Elementor 4.0 atomic image element. Provide either image_id (from media library) or image_url.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container element ID (e-flexbox or e-div-block)."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position. -1 = append."
+                                                            },
+                                               "image_id":  {
+                                                                "type":  "integer",
+                                                                "description":  "WordPress media library attachment ID."
+                                                            },
+                                               "image_url":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Image URL (if not using media library)."
+                                                             },
+                                               "alt":  {
+                                                           "type":  "string",
+                                                           "description":  "Alt text for the image."
+                                                       },
+                                               "link":  {
+                                                            "type":  "string",
+                                                            "description":  "Optional link URL."
+                                                        },
+                                               "css_id":  {
+                                                              "type":  "string",
+                                                              "description":  "Optional CSS ID."
+                                                          }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id"
+                                         ]
+                        }
+    }
+]

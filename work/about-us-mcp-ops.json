@@ -1,0 +1,427 @@
+{
+  "post_id": 6606,
+  "operations": [
+    {
+      "element_id": "cd5afd7",
+      "settings": {
+        "title": "About H2O Plumbers Garden Route"
+      }
+    },
+    {
+      "element_id": "a028392",
+      "settings": {
+        "editor": "<p>H2O Plumbers is a Garden Route plumbing company helping homes, businesses, guesthouses and rental properties with practical plumbing work that is explained clearly from the start. Based around George and serving wider areas including Mossel Bay, Knysna and Oudtshoorn, the team works across everyday plumbing repairs, leak detection, blocked drains, core drilling and drain hydro jetting.</p><p>The business has grown around a simple service standard: understand the problem properly, use the right tools for the job, keep the property as neat as possible and give customers straightforward next steps. That matters whether the call is for a leaking pipe at home, a drainage issue at a business premises or planned plumbing work during a renovation.</p>"
+      }
+    },
+    {
+      "element_id": "8c893f2",
+      "settings": {
+        "background_image": {
+          "id": 6612,
+          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-about-us-garden-route-team-hero.webp"
+        },
+        "background_video_fallback": {
+          "id": 6612,
+          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-about-us-garden-route-team-hero.webp"
+        },
+        "background_video_link": ""
+      }
+    },
+    {
+      "element_id": "ad60050",
+      "settings": {
+        "title": "A Local Plumbing Team Built Around Practical Service"
+      }
+    },
+    {
+      "element_id": "d2d0889",
+      "settings": {
+        "title": "A Local Plumbing Team Built Around Practical Service"
+      }
+    },
+    {
+      "element_id": "48c4d42",
+      "settings": {
+        "editor": "<p>Good plumbing is not only about fixing the visible fault. It is about finding the likely cause, explaining the options and doing the work in a way that suits the property. H2O Plumbers works with homes and businesses across the Garden Route, where coastal conditions, older pipework, high-use rentals and busy commercial spaces can all create different plumbing demands.</p><ul><li><strong>Local service area:</strong> The team works across George, Mossel Bay, Knysna, Oudtshoorn and nearby Garden Route towns.</li><li><strong>Home and business plumbing:</strong> Support includes repairs, leak checks, blocked drains, pipe access work and planned maintenance.</li><li><strong>Straightforward next steps:</strong> Customers get clear guidance before work starts, without unnecessary pressure.</li></ul>"
+      }
+    },
+    {
+      "element_id": "90d1208",
+      "settings": {
+        "editor": "<p>Good plumbing is not only about fixing the visible fault. It is about finding the likely cause, explaining the options and doing the work in a way that suits the property. H2O Plumbers works with homes and businesses across the Garden Route, where coastal conditions, older pipework, high-use rentals and busy commercial spaces can all create different plumbing demands.</p><ul><li><strong>Local service area:</strong> The team works across George, Mossel Bay, Knysna, Oudtshoorn and nearby Garden Route towns.</li><li><strong>Home and business plumbing:</strong> Support includes repairs, leak checks, blocked drains, pipe access work and planned maintenance.</li><li><strong>Straightforward next steps:</strong> Customers get clear guidance before work starts, without unnecessary pressure.</li></ul>"
+      }
+    },
+    {
+      "element_id": "2b931a0",
+      "settings": {
+        "image": {
+          "id": 6613,
+          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-about-local-plumbing-team-george.webp"
+        }
+      }
+    },
+    {
+      "element_id": "680bd9b",
+      "settings": {
+        "image": {
+          "id": 6613,
+          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-about-local-plumbing-team-george.webp"
+        }
+      }
+    },
+    {
+      "element_id": "386797f",
+      "settings": {
+        "title": "OUR APPROACH"
+      }
+    },
+    {
+      "element_id": "5f330f0",
+      "settings": {
+        "ekit_heading_title": "How H2O Plumbers Keeps Plumbing Work Clear",
+        "ekit_heading_sub_title": "OUR APPROACH",
+        "ekit_heading_extra_title": "<p>Most customers do not want a long speech. They want to know what is wrong, what can be done and what the next sensible step looks like. The H2O Plumbers approach is built around that kind of practical communication.</p>"
+      }
+    },
+    {
+      "element_id": "e7a018d",
+      "settings": {
+        "background_image": {
+          "id": 6614,
+          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-about-process-garden-route-background.webp"
+        },
+        "background_video_fallback": {
+          "id": 6614,
+          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-about-process-garden-route-background.webp"
+        },
+        "background_video_link": ""
+      }
+    },
+    {
+      "element_id": "28e4d06",
+      "settings": {
+        "image": {
+          "id": 6614,
+          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-about-process-garden-route-background.webp"
+        }
+      }
+    },
+    {
+      "element_id": "5ce4f31",
+      "settings": {
+        "title_text": "Listen First",
+        "description_text": "The team starts with the symptom, the property type and the service area. A leaking pipe, slow drain or pressure issue can point to different causes, so the first step is to understand what the customer is seeing."
+      }
+    },
+    {
+      "element_id": "ade04b8",
+      "settings": {
+        "title_text": "Check Properly",
+        "description_text": "Where access allows, the plumber checks the likely fault before recommending work. Leak detection, drain clearing, fixture repairs and pipe access tasks each need a practical decision based on what is found on site."
+      }
+    },
+    {
+      "element_id": "7d7f2f1",
+      "settings": {
+        "title_text": "Leave It Clear",
+        "description_text": "Once the agreed work is complete, the area is checked and the customer is told what was done. If a follow-up step or future maintenance note matters, it is explained in plain language."
+      }
+    },
+    {
+      "element_id": "ae23633",
+      "settings": {
+        "title": "WHAT WE HELP WITH"
+      }
+    },
+    {
+      "element_id": "60de8a3",
+      "settings": {
+        "ekit_heading_title": "Plumbing Support For Homes, Rentals And Businesses",
+        "ekit_heading_sub_title": "WHAT WE HELP WITH",
+        "ekit_heading_extra_title": "<p>H2O Plumbers handles a wide range of practical plumbing needs across the Garden Route. The work can be urgent, planned or investigative, depending on what the property needs at the time.</p>"
+      }
+    },
+    {
+      "element_id": "fbe534b",
+      "settings": {
+        "title_text": "General Plumbing",
+        "description_text": "From leaking taps and running toilets to pipe repairs and fixture problems, general plumbing work keeps everyday water systems working properly. Small faults are easier to manage when they are checked before they cause bigger damage."
+      }
+    },
+    {
+      "element_id": "7365a61",
+      "settings": {
+        "title_text": "Leak Detection",
+        "description_text": "Hidden leaks often show through damp walls, mould smells, pressure changes or a water meter that keeps moving. Careful leak detection helps narrow down the likely source before unnecessary breaking or repair work begins."
+      }
+    },
+    {
+      "element_id": "5a32a4d",
+      "settings": {
+        "title_text": "Blocked Drains",
+        "description_text": "Slow drains, bad smells, overflowing gullies and repeat blockages can point to grease, debris, root entry or damaged pipe sections. H2O Plumbers helps customers choose a sensible clearing or inspection step."
+      }
+    },
+    {
+      "element_id": "f7ae970",
+      "settings": {
+        "title_text": "Planned Work",
+        "description_text": "Some plumbing work needs planning rather than panic. Bathroom updates, toilet installations, core drilling and pipe access tasks are easier when the scope, access and finish are discussed before the tools come out."
+      }
+    },
+    {
+      "element_id": "dad2408",
+      "settings": {
+        "title": "CUSTOMER FEEDBACK"
+      }
+    },
+    {
+      "element_id": "deb445d",
+      "settings": {
+        "ekit_heading_title": "What Customers Often Value About H2O Plumbers",
+        "ekit_heading_sub_title": "CUSTOMER FEEDBACK",
+        "ekit_heading_extra_title": "<p>This section is reserved for approved Google reviews or verified customer feedback. Until final review text is connected, the cards below show the service themes the About page should support: clear communication, neat work and practical help.</p>"
+      }
+    },
+    {
+      "element_id": "d3267a8",
+      "settings": {
+        "title": "Clear Communication"
+      }
+    },
+    {
+      "element_id": "6968c98",
+      "settings": {
+        "editor": "<p>Customers should know what is being checked, what the likely next step is and how the work will be handled before anyone starts. Clear explanation is especially useful when plumbing faults are hidden, urgent or difficult to see.</p>"
+      }
+    },
+    {
+      "element_id": "45c72f6",
+      "settings": {
+        "title": "Neat Workmanship"
+      }
+    },
+    {
+      "element_id": "c78390a",
+      "settings": {
+        "editor": "<p>Plumbing work can be disruptive, so neat work habits matter. The goal is to solve the problem while respecting the property, keeping tools organised and leaving the work area as tidy as reasonably possible.</p>"
+      }
+    },
+    {
+      "element_id": "9e64e2b",
+      "settings": {
+        "title": "Practical Advice"
+      }
+    },
+    {
+      "element_id": "b146dae",
+      "settings": {
+        "editor": "<p>Not every plumbing issue needs the biggest repair first. Helpful advice means explaining the likely cause, the available options and the maintenance steps that could prevent the same problem from returning.</p>"
+      }
+    },
+    {
+      "element_id": "8c6cd38",
+      "settings": {
+        "title": "SERVICE STANDARDS"
+      }
+    },
+    {
+      "element_id": "aa69916",
+      "settings": {
+        "background_image": {
+          "id": 6614,
+          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-about-process-garden-route-background.webp"
+        }
+      }
+    },
+    {
+      "element_id": "780caa5",
+      "settings": {
+        "ekit_heading_title": "Service Standards Behind The H2O Plumbers Name",
+        "ekit_heading_sub_title": "SERVICE STANDARDS",
+        "ekit_heading_extra_title": "<p>An About Us page should make the business easier to trust. These are the practical standards H2O Plumbers aims to bring into plumbing work across the Garden Route.</p>"
+      }
+    },
+    {
+      "element_id": "68b1cf1",
+      "settings": {
+        "title_text": "Local Knowledge",
+        "description_text": "Garden Route properties can vary from coastal homes and holiday rentals to older buildings and busy commercial sites. Local knowledge helps the team think practically about access, moisture, pipe routes and drainage behaviour."
+      }
+    },
+    {
+      "element_id": "84bec0c",
+      "settings": {
+        "title_text": "Prepared Teams",
+        "description_text": "A prepared plumbing team arrives with tools suited to common service calls, including leak checks, blocked drains, fixture repairs and pipe access work. That preparation saves time and keeps the job moving properly."
+      }
+    },
+    {
+      "element_id": "7b4adf7",
+      "settings": {
+        "title_text": "Clear Accountability",
+        "description_text": "Customers need to know who they are dealing with and what has been agreed. H2O Plumbers keeps the conversation direct, practical and focused on the work needed at the property."
+      }
+    },
+    {
+      "element_id": "bfe2683",
+      "settings": {
+        "title": "GOT QUESTIONS?"
+      }
+    },
+    {
+      "element_id": "fa6a362",
+      "settings": {
+        "ekit_heading_title": "Questions About H2O Plumbers And Local Plumbing Work",
+        "ekit_heading_sub_title": "ABOUT FAQS",
+        "ekit_heading_extra_title": "<p>These answers help customers understand how H2O Plumbers works, where the team operates and what kind of plumbing problems can be discussed before booking.</p>"
+      }
+    },
+    {
+      "element_id": "9b703bb",
+      "settings": {
+        "items": [
+          {
+            "_id": "eb0fb3f",
+            "item_title": "Where does H2O Plumbers work?"
+          },
+          {
+            "_id": "c0efb58",
+            "item_title": "What plumbing services can customers ask about?"
+          },
+          {
+            "_id": "70d8a3f",
+            "item_title": "Can H2O Plumbers help identify the cause of a problem?"
+          },
+          {
+            "_id": "c0dc501",
+            "item_title": "Should I send photos before booking plumbing help?"
+          },
+          {
+            "_id": "6663533",
+            "item_title": "Does H2O Plumbers handle urgent plumbing problems?"
+          }
+        ]
+      }
+    },
+    {
+      "element_id": "77c725d",
+      "settings": {
+        "editor": "<p>H2O Plumbers works across the Garden Route, with service coverage focused around George, Mossel Bay, Knysna, Oudtshoorn and nearby towns. The team assists residential and commercial customers, including homes, guesthouses, rental properties, offices and business premises.</p>"
+      }
+    },
+    {
+      "element_id": "52b33c5",
+      "settings": {
+        "editor": "<p>Customers can ask for help with general plumbing repairs, leak detection, blocked drains, core drilling, drain hydro jetting and other practical plumbing needs. If the problem needs a specialist tool or a different approach, the team can explain the next sensible step.</p>"
+      }
+    },
+    {
+      "element_id": "4b3d608",
+      "settings": {
+        "editor": "<p>Yes. Some issues, such as a running toilet or dripping tap, may be simple to describe. Others, like hidden leaks or repeat drain blockages, are easier to assess when the team understands the symptoms, timing, property type and where the problem appears.</p>"
+      }
+    },
+    {
+      "element_id": "3c037e4",
+      "settings": {
+        "editor": "<p>Photos or short videos can be very useful, especially for leaks, visible pipe damage, overflowing gullies, fixture faults or access issues. They help the team understand the situation before arrival, but they do not replace an on-site check when the cause is hidden.</p>"
+      }
+    },
+    {
+      "element_id": "8c303b5",
+      "settings": {
+        "editor": "<p>H2O Plumbers works with both planned plumbing tasks and urgent plumbing problems. If water is actively leaking, drains are overflowing or a business cannot operate normally, calling or sending a WhatsApp message is the best way to explain the situation quickly.</p>"
+      }
+    },
+    {
+      "element_id": "97fa801",
+      "settings": {
+        "title": "SERVICE AREAS"
+      }
+    },
+    {
+      "element_id": "f2a9f85",
+      "settings": {
+        "ekit_heading_title": "Areas H2O Plumbers Serves Across The Garden Route",
+        "ekit_heading_sub_title": "SERVICE AREAS",
+        "ekit_heading_extra_title": "<p>From everyday repairs to leak detection and blocked drain support, H2O Plumbers helps customers across the main Garden Route service regions and nearby local areas.</p>"
+      }
+    },
+    {
+      "element_id": "31d1f8a",
+      "settings": {
+        "editor": "<p>George is central to the H2O Plumbers service area, with support for homes, rentals, offices and local businesses that need general plumbing, leak checks, blocked drain help or planned pipework.</p>"
+      }
+    },
+    {
+      "element_id": "d3236a3",
+      "settings": {
+        "editor": "<p>Mossel Bay properties often need practical plumbing support for coastal homes, holiday rentals and businesses. H2O Plumbers assists with leaks, drains, fixture faults and maintenance work where required.</p>"
+      }
+    },
+    {
+      "element_id": "a63d7d3",
+      "settings": {
+        "editor": "<p>Knysna customers can contact H2O Plumbers for plumbing faults, drainage problems and leak concerns where access, moisture and local property layouts need careful attention.</p>"
+      }
+    },
+    {
+      "element_id": "77d1277",
+      "settings": {
+        "editor": "<p>Oudtshoorn homes and businesses can get help with general plumbing, pipe repairs, blocked drains and planned service work. The team keeps the advice practical for inland Garden Route properties.</p>"
+      }
+    },
+    {
+      "element_id": "17e30e4",
+      "settings": {
+        "editor": "<p>Wilderness properties can call H2O Plumbers for everyday plumbing, leak detection, drain clearing and hydro jetting where appropriate. The work stays focused on clear communication and neat service.</p>"
+      }
+    },
+    {
+      "element_id": "2cbee7d",
+      "settings": {
+        "image": {
+          "id": 6615,
+          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-qualified-plumbing-team-garden-route.webp"
+        }
+      }
+    },
+    {
+      "element_id": "400d819",
+      "settings": {
+        "image": {
+          "id": 6615,
+          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-qualified-plumbing-team-garden-route.webp"
+        }
+      }
+    },
+    {
+      "element_id": "f8fe57c",
+      "settings": {
+        "image": {
+          "id": 6615,
+          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-qualified-plumbing-team-garden-route.webp"
+        }
+      }
+    },
+    {
+      "element_id": "02198d1",
+      "settings": {
+        "image": {
+          "id": 6615,
+          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-qualified-plumbing-team-garden-route.webp"
+        }
+      }
+    },
+    {
+      "element_id": "73decc2",
+      "settings": {
+        "image": {
+          "id": 6615,
+          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-qualified-plumbing-team-garden-route.webp"
+        }
+      }
+    }
+  ]
+}

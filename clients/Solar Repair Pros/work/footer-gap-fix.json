@@ -1,0 +1,79 @@
+﻿{
+    "post_id":  2805,
+    "operations":  [
+                       {
+                           "element_id":  "74a3309",
+                           "settings":  {
+                                            "padding":  {
+                                                            "left":  "20",
+                                                            "bottom":  "36",
+                                                            "top":  "36",
+                                                            "right":  "20",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "row_gap":  {
+                                                            "size":  22,
+                                                            "sizes":  [
+
+                                                                      ],
+                                                            "unit":  "px"
+                                                        },
+                                            "column_gap":  {
+                                                               "size":  22,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "px"
+                                                           },
+                                            "gap":  {
+                                                        "size":  22,
+                                                        "sizes":  [
+
+                                                                  ],
+                                                        "unit":  "px"
+                                                    },
+                                            "flex_gap":  {
+                                                             "size":  22,
+                                                             "sizes":  [
+
+                                                                       ],
+                                                             "unit":  "px"
+                                                         }
+                                        }
+                       },
+                       {
+                           "element_id":  "77b7980",
+                           "settings":  {
+                                            "row_gap":  {
+                                                            "size":  22,
+                                                            "sizes":  [
+
+                                                                      ],
+                                                            "unit":  "px"
+                                                        },
+                                            "column_gap":  {
+                                                               "size":  22,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "px"
+                                                           },
+                                            "gap":  {
+                                                        "size":  22,
+                                                        "sizes":  [
+
+                                                                  ],
+                                                        "unit":  "px"
+                                                    },
+                                            "flex_gap":  {
+                                                             "size":  22,
+                                                             "sizes":  [
+
+                                                                       ],
+                                                             "unit":  "px"
+                                                         }
+                                        }
+                       }
+                   ]
+}

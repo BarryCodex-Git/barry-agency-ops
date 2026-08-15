@@ -1,0 +1,16 @@
+{
+    "method":  "tools/call",
+    "params":  {
+                   "arguments":  {
+                                     "post_id":  6432,
+                                     "conditions":  [
+                                                        "include",
+                                                        "singular",
+                                                        "post"
+                                                    ]
+                                 },
+                   "name":  "elementor-mcp-set-template-conditions"
+               },
+    "id":  4,
+    "jsonrpc":  "2.0"
+}

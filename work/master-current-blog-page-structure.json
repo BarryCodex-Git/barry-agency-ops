@@ -1,0 +1,95 @@
+{
+  "post_id": 6425,
+  "title": "Blog",
+  "type": "wp-page",
+  "structure": [
+    {
+      "id": "982a57c",
+      "elType": "container",
+      "elements": [
+        {
+          "id": "3b3cb57",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings_summary": {
+            "title": "Plumbing Advice From H2O Plumbers",
+            "header_size": "h1"
+          }
+        },
+        {
+          "id": "097ba41",
+          "elType": "widget",
+          "widgetType": "text-editor",
+          "settings_summary": {
+            "editor": "<p>Helpful plumbing tips, leak detection advice, drainage guidance and maintenance notes for Garden ..."
+          }
+        }
+      ]
+    },
+    {
+      "id": "148b9be",
+      "elType": "container",
+      "settings_summary": {
+        "flex_direction": "row"
+      },
+      "elements": [
+        {
+          "id": "6e863df",
+          "elType": "container",
+          "settings_summary": {
+            "content_width": "full"
+          },
+          "elements": [
+            {
+              "id": "69d5bda",
+              "elType": "widget",
+              "widgetType": "posts",
+              "settings_summary": {
+                "text": "Load More"
+              }
+            }
+          ]
+        },
+        {
+          "id": "34688a2",
+          "elType": "container",
+          "settings_summary": {
+            "content_width": "full"
+          },
+          "elements": [
+            {
+              "id": "06b6fe2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings_summary": {
+                "title": "Find Articles",
+                "header_size": "h3"
+              }
+            },
+            {
+              "id": "35ebaf6",
+              "elType": "widget",
+              "widgetType": "search"
+            },
+            {
+              "id": "d029c80",
+              "elType": "widget",
+              "widgetType": "wp-widget-categories",
+              "settings_summary": {
+                "title": "Categories"
+              }
+            },
+            {
+              "id": "e32783f",
+              "elType": "widget",
+              "widgetType": "wp-widget-recent-posts",
+              "settings_summary": {
+                "title": "Recent Posts"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

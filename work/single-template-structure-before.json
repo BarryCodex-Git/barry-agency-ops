@@ -1,0 +1,148 @@
+{
+    "jsonrpc":  "2.0",
+    "id":  2,
+    "result":  {
+                   "content":  [
+                                   {
+                                       "type":  "text",
+                                       "text":  "{\"post_id\":6432,\"title\":\"Barry Blog Single Post\",\"type\":\"single-post\",\"structure\":[{\"id\":\"bc0d4f7\",\"elType\":\"container\",\"settings_summary\":{\"flex_direction\":\"row\",\"content_width\":\"boxed\"},\"elements\":[{\"id\":\"ba22fe8\",\"elType\":\"container\",\"settings_summary\":{\"content_width\":\"full\"},\"elements\":[{\"id\":\"cf245d1\",\"elType\":\"widget\",\"widgetType\":\"post-info\"},{\"id\":\"524e3ef\",\"elType\":\"widget\",\"widgetType\":\"theme-post-title\",\"settings_summary\":{\"header_size\":\"h1\"}},{\"id\":\"94e8298\",\"elType\":\"widget\",\"widgetType\":\"theme-post-excerpt\"}]},{\"id\":\"5ec7fc6\",\"elType\":\"container\",\"settings_summary\":{\"content_width\":\"full\"},\"elements\":[{\"id\":\"f27e671\",\"elType\":\"widget\",\"widgetType\":\"theme-post-featured-image\"}]}]},{\"id\":\"17571fe\",\"elType\":\"container\",\"settings_summary\":{\"flex_direction\":\"row\",\"content_width\":\"boxed\"},\"elements\":[{\"id\":\"faec6ea\",\"elType\":\"container\",\"settings_summary\":{\"content_width\":\"full\"},\"elements\":[{\"id\":\"2b8ee4d\",\"elType\":\"widget\",\"widgetType\":\"table-of-contents\"},{\"id\":\"c041107\",\"elType\":\"widget\",\"widgetType\":\"theme-post-content\"},{\"id\":\"179e287\",\"elType\":\"widget\",\"widgetType\":\"post-navigation\"}]},{\"id\":\"ce83363\",\"elType\":\"container\",\"settings_summary\":{\"content_width\":\"full\"},\"elements\":[{\"id\":\"feb456d\",\"elType\":\"widget\",\"widgetType\":\"heading\",\"settings_summary\":{\"title\":\"More Plumbing Advice\",\"header_size\":\"h3\"}},{\"id\":\"30870fb\",\"elType\":\"widget\",\"widgetType\":\"search\"},{\"id\":\"468c049\",\"elType\":\"widget\",\"widgetType\":\"wp-widget-categories\",\"settings_summary\":{\"title\":\"Categories\"}},{\"id\":\"07d4439\",\"elType\":\"widget\",\"widgetType\":\"wp-widget-recent-posts\",\"settings_summary\":{\"title\":\"Recent Posts\"}},{\"id\":\"948de9b\",\"elType\":\"widget\",\"widgetType\":\"author-box\"}]}]}]}"
+                                   }
+                               ],
+                   "structuredContent":  {
+                                             "post_id":  6432,
+                                             "title":  "Barry Blog Single Post",
+                                             "type":  "single-post",
+                                             "structure":  [
+                                                               {
+                                                                   "id":  "bc0d4f7",
+                                                                   "elType":  "container",
+                                                                   "settings_summary":  {
+                                                                                            "flex_direction":  "row",
+                                                                                            "content_width":  "boxed"
+                                                                                        },
+                                                                   "elements":  [
+                                                                                    {
+                                                                                        "id":  "ba22fe8",
+                                                                                        "elType":  "container",
+                                                                                        "settings_summary":  {
+                                                                                                                 "content_width":  "full"
+                                                                                                             },
+                                                                                        "elements":  [
+                                                                                                         {
+                                                                                                             "id":  "cf245d1",
+                                                                                                             "elType":  "widget",
+                                                                                                             "widgetType":  "post-info"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "id":  "524e3ef",
+                                                                                                             "elType":  "widget",
+                                                                                                             "widgetType":  "theme-post-title",
+                                                                                                             "settings_summary":  {
+                                                                                                                                      "header_size":  "h1"
+                                                                                                                                  }
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "id":  "94e8298",
+                                                                                                             "elType":  "widget",
+                                                                                                             "widgetType":  "theme-post-excerpt"
+                                                                                                         }
+                                                                                                     ]
+                                                                                    },
+                                                                                    {
+                                                                                        "id":  "5ec7fc6",
+                                                                                        "elType":  "container",
+                                                                                        "settings_summary":  {
+                                                                                                                 "content_width":  "full"
+                                                                                                             },
+                                                                                        "elements":  [
+                                                                                                         {
+                                                                                                             "id":  "f27e671",
+                                                                                                             "elType":  "widget",
+                                                                                                             "widgetType":  "theme-post-featured-image"
+                                                                                                         }
+                                                                                                     ]
+                                                                                    }
+                                                                                ]
+                                                               },
+                                                               {
+                                                                   "id":  "17571fe",
+                                                                   "elType":  "container",
+                                                                   "settings_summary":  {
+                                                                                            "flex_direction":  "row",
+                                                                                            "content_width":  "boxed"
+                                                                                        },
+                                                                   "elements":  [
+                                                                                    {
+                                                                                        "id":  "faec6ea",
+                                                                                        "elType":  "container",
+                                                                                        "settings_summary":  {
+                                                                                                                 "content_width":  "full"
+                                                                                                             },
+                                                                                        "elements":  [
+                                                                                                         {
+                                                                                                             "id":  "2b8ee4d",
+                                                                                                             "elType":  "widget",
+                                                                                                             "widgetType":  "table-of-contents"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "id":  "c041107",
+                                                                                                             "elType":  "widget",
+                                                                                                             "widgetType":  "theme-post-content"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "id":  "179e287",
+                                                                                                             "elType":  "widget",
+                                                                                                             "widgetType":  "post-navigation"
+                                                                                                         }
+                                                                                                     ]
+                                                                                    },
+                                                                                    {
+                                                                                        "id":  "ce83363",
+                                                                                        "elType":  "container",
+                                                                                        "settings_summary":  {
+                                                                                                                 "content_width":  "full"
+                                                                                                             },
+                                                                                        "elements":  [
+                                                                                                         {
+                                                                                                             "id":  "feb456d",
+                                                                                                             "elType":  "widget",
+                                                                                                             "widgetType":  "heading",
+                                                                                                             "settings_summary":  {
+                                                                                                                                      "title":  "More Plumbing Advice",
+                                                                                                                                      "header_size":  "h3"
+                                                                                                                                  }
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "id":  "30870fb",
+                                                                                                             "elType":  "widget",
+                                                                                                             "widgetType":  "search"
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "id":  "468c049",
+                                                                                                             "elType":  "widget",
+                                                                                                             "widgetType":  "wp-widget-categories",
+                                                                                                             "settings_summary":  {
+                                                                                                                                      "title":  "Categories"
+                                                                                                                                  }
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "id":  "07d4439",
+                                                                                                             "elType":  "widget",
+                                                                                                             "widgetType":  "wp-widget-recent-posts",
+                                                                                                             "settings_summary":  {
+                                                                                                                                      "title":  "Recent Posts"
+                                                                                                                                  }
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "id":  "948de9b",
+                                                                                                             "elType":  "widget",
+                                                                                                             "widgetType":  "author-box"
+                                                                                                         }
+                                                                                                     ]
+                                                                                    }
+                                                                                ]
+                                                               }
+                                                           ]
+                                         }
+               }
+}

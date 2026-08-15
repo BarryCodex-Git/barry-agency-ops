@@ -1,0 +1,12 @@
+{
+    "method":  "tools/call",
+    "params":  {
+                   "arguments":  {
+                                     "template_type":  "archive",
+                                     "title":  "Barry Blog Archive"
+                                 },
+                   "name":  "elementor-mcp-create-theme-template"
+               },
+    "id":  3,
+    "jsonrpc":  "2.0"
+}

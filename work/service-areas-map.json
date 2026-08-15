@@ -1,0 +1,2752 @@
+[
+  {
+    "id": "8c893f2",
+    "type": "container",
+    "title": "Service Areas Hero Section",
+    "text": "",
+    "path": "0"
+  },
+  {
+    "id": "fcb3243",
+    "type": "container",
+    "title": "Services Hero Copy Column",
+    "text": "",
+    "path": "0>8c893f2"
+  },
+  {
+    "id": "cd5afd7",
+    "type": "heading",
+    "title": "Service Areas Hero Heading",
+    "text": "Plumber Service Areas in the Garden Route",
+    "path": "0>8c893f2>fcb3243"
+  },
+  {
+    "id": "a028392",
+    "type": "text-editor",
+    "title": "Service Areas Hero Copy",
+    "text": "H2O Plumbers serves homes and businesses across George, Mossel Bay, Knysna, Oudtshoorn, Wilderness and nearby Garden Route areas. This page ",
+    "path": "0>8c893f2>fcb3243"
+  },
+  {
+    "id": "ebf3610",
+    "type": "container",
+    "title": "Services Hero Trust Points Row",
+    "text": "",
+    "path": "0>8c893f2>fcb3243"
+  },
+  {
+    "id": "3d49090",
+    "type": "icon-list",
+    "title": "Hero Trust Bubble 01",
+    "text": "",
+    "path": "0>8c893f2>fcb3243>ebf3610"
+  },
+  {
+    "id": "d686603",
+    "type": "icon-list",
+    "title": "Hero Trust Bubble 02",
+    "text": "",
+    "path": "0>8c893f2>fcb3243>ebf3610"
+  },
+  {
+    "id": "594c392",
+    "type": "container",
+    "title": "Services Hero Form Column",
+    "text": "",
+    "path": "0>8c893f2"
+  },
+  {
+    "id": "50db817",
+    "type": "container",
+    "title": "Services Hero Form Intro",
+    "text": "",
+    "path": "0>8c893f2>594c392"
+  },
+  {
+    "id": "243d0ce",
+    "type": "text-editor",
+    "title": "Hero Form Static Prompt",
+    "text": "Need a Plumber?",
+    "path": "0>8c893f2>594c392>50db817"
+  },
+  {
+    "id": "fb30028",
+    "type": "heading",
+    "title": "Hero Form Static Heading",
+    "text": "Contact Us Now!",
+    "path": "0>8c893f2>594c392>50db817"
+  },
+  {
+    "id": "6d03bd9",
+    "type": "form",
+    "title": "Service Areas Hero Form",
+    "text": "",
+    "path": "0>8c893f2>594c392"
+  },
+  {
+    "id": "62e1e7e",
+    "type": "container",
+    "title": "Services Hero Review Row",
+    "text": "",
+    "path": "0>8c893f2>594c392"
+  },
+  {
+    "id": "03c3c21",
+    "type": "image",
+    "title": "Service Areas Hero Review Badge Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2024/12/67115003f90caba871b24da3_reviews.webp",
+    "link": "#",
+    "path": "0>8c893f2>594c392>62e1e7e"
+  },
+  {
+    "id": "7b48d0e",
+    "type": "container",
+    "title": "Service Areas Intro Section",
+    "text": "",
+    "path": "1"
+  },
+  {
+    "id": "b93c6bb",
+    "type": "container",
+    "title": "Services Intro Copy Column",
+    "text": "",
+    "path": "1>7b48d0e"
+  },
+  {
+    "id": "5b924cb",
+    "type": "heading",
+    "title": "Service Areas Intro Eyebrow",
+    "text": "SERVICE AREAS",
+    "path": "1>7b48d0e>b93c6bb"
+  },
+  {
+    "id": "786bc25",
+    "type": "heading",
+    "title": "Service Areas Intro Heading",
+    "text": "Plumbing Help Across Local Garden Route Areas",
+    "path": "1>7b48d0e>b93c6bb"
+  },
+  {
+    "id": "92685cf",
+    "type": "heading",
+    "title": "Service Areas Intro Subheading",
+    "text": "Serving homes and businesses nearby",
+    "path": "1>7b48d0e>b93c6bb"
+  },
+  {
+    "id": "77fee99",
+    "type": "text-editor",
+    "title": "Service Areas Intro Copy",
+    "text": "H2O Plumbers assists customers across George, Mossel Bay, Knysna, Oudtshoorn and nearby Garden Route towns. The team works with homes, renta",
+    "path": "1>7b48d0e>b93c6bb"
+  },
+  {
+    "id": "8f9a71d",
+    "type": "container",
+    "title": "Services Intro CTA Row",
+    "text": "",
+    "path": "1>7b48d0e>b93c6bb"
+  },
+  {
+    "id": "4dc1563",
+    "type": "global",
+    "title": "Home Trust Primary CTA",
+    "text": "",
+    "link": "https://wa.me/27726514447",
+    "path": "1>7b48d0e>b93c6bb>8f9a71d"
+  },
+  {
+    "id": "9061a5a",
+    "type": "global",
+    "title": "Home Trust Phone CTA",
+    "text": "",
+    "link": "tel:+27726514447",
+    "path": "1>7b48d0e>b93c6bb>8f9a71d"
+  },
+  {
+    "id": "f6ed073",
+    "type": "container",
+    "title": "Services Intro Image Column",
+    "text": "",
+    "path": "1>7b48d0e"
+  },
+  {
+    "id": "596a3e2",
+    "type": "image",
+    "title": "Service Areas Intro Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+    "path": "1>7b48d0e>f6ed073"
+  },
+  {
+    "id": "a943ea6",
+    "type": "container",
+    "title": "Service Area George Section",
+    "text": "",
+    "path": "2"
+  },
+  {
+    "id": "9e3b1de",
+    "type": "container",
+    "title": "Service Area George Inner",
+    "text": "",
+    "path": "2>a943ea6"
+  },
+  {
+    "id": "4ad885e",
+    "type": "heading",
+    "title": "Service Area George Eyebrow",
+    "text": "GEORGE",
+    "path": "2>a943ea6>9e3b1de"
+  },
+  {
+    "id": "82b497d",
+    "type": "elementskit-heading",
+    "title": "Service Area George Heading",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de"
+  },
+  {
+    "id": "fccb38b",
+    "type": "container",
+    "title": "Service Area George Cards Row",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de"
+  },
+  {
+    "id": "0023f5f",
+    "type": "container",
+    "title": "Service Area George Card 01",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b"
+  },
+  {
+    "id": "86bf2a1",
+    "type": "image",
+    "title": "Service Area George Card 01 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg",
+    "path": "2>a943ea6>9e3b1de>fccb38b>0023f5f"
+  },
+  {
+    "id": "828035e",
+    "type": "heading",
+    "title": "Service Area George Card 01 Title",
+    "text": "Heather Park",
+    "path": "2>a943ea6>9e3b1de>fccb38b>0023f5f"
+  },
+  {
+    "id": "003aef3",
+    "type": "text-editor",
+    "title": "Service Area George Card 01 Copy",
+    "text": "Plumbing service coverage planned for Heather Park, supporting homes, rentals, estates, guesthouses and business properties in the greater G",
+    "path": "2>a943ea6>9e3b1de>fccb38b>0023f5f"
+  },
+  {
+    "id": "a134343",
+    "type": "button",
+    "title": "Service Area George Card 01 CTA",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b>0023f5f"
+  },
+  {
+    "id": "f86fe42",
+    "type": "container",
+    "title": "Service Area George Card 02",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b"
+  },
+  {
+    "id": "74ed7e0",
+    "type": "image",
+    "title": "Service Area George Card 02 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "2>a943ea6>9e3b1de>fccb38b>f86fe42"
+  },
+  {
+    "id": "5278cb6",
+    "type": "heading",
+    "title": "Service Area George Card 02 Title",
+    "text": "Fancourt",
+    "path": "2>a943ea6>9e3b1de>fccb38b>f86fe42"
+  },
+  {
+    "id": "a1403b9",
+    "type": "text-editor",
+    "title": "Service Area George Card 02 Copy",
+    "text": "Plumbing service coverage planned for Fancourt, supporting homes, rentals, estates, guesthouses and business properties in the greater Georg",
+    "path": "2>a943ea6>9e3b1de>fccb38b>f86fe42"
+  },
+  {
+    "id": "97f2e3f",
+    "type": "button",
+    "title": "Service Area George Card 02 CTA",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b>f86fe42"
+  },
+  {
+    "id": "7168fc4",
+    "type": "container",
+    "title": "Service Area George Card 03",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b"
+  },
+  {
+    "id": "5513c73",
+    "type": "image",
+    "title": "Service Area George Card 03 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "2>a943ea6>9e3b1de>fccb38b>7168fc4"
+  },
+  {
+    "id": "b166eb8",
+    "type": "heading",
+    "title": "Service Area George Card 03 Title",
+    "text": "Kingswood Golf Estate",
+    "path": "2>a943ea6>9e3b1de>fccb38b>7168fc4"
+  },
+  {
+    "id": "b78a1c7",
+    "type": "text-editor",
+    "title": "Service Area George Card 03 Copy",
+    "text": "Plumbing service coverage planned for Kingswood Golf Estate, supporting homes, rentals, estates, guesthouses and business properties in the ",
+    "path": "2>a943ea6>9e3b1de>fccb38b>7168fc4"
+  },
+  {
+    "id": "1d6fe76",
+    "type": "button",
+    "title": "Service Area George Card 03 CTA",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b>7168fc4"
+  },
+  {
+    "id": "a9aad6d",
+    "type": "container",
+    "title": "Service Area George Card 04",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b"
+  },
+  {
+    "id": "f1c0467",
+    "type": "image",
+    "title": "Service Area George Card 04 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "2>a943ea6>9e3b1de>fccb38b>a9aad6d"
+  },
+  {
+    "id": "983ffcf",
+    "type": "heading",
+    "title": "Service Area George Card 04 Title",
+    "text": "Blanco",
+    "path": "2>a943ea6>9e3b1de>fccb38b>a9aad6d"
+  },
+  {
+    "id": "c8a3865",
+    "type": "text-editor",
+    "title": "Service Area George Card 04 Copy",
+    "text": "Plumbing service coverage planned for Blanco, supporting homes, rentals, estates, guesthouses and business properties in the greater George ",
+    "path": "2>a943ea6>9e3b1de>fccb38b>a9aad6d"
+  },
+  {
+    "id": "5a78f19",
+    "type": "button",
+    "title": "Service Area George Card 04 CTA",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b>a9aad6d"
+  },
+  {
+    "id": "1e2a2c3",
+    "type": "container",
+    "title": "Service Area George Card 05",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b"
+  },
+  {
+    "id": "b95eeec",
+    "type": "image",
+    "title": "Service Area George Card 05 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "2>a943ea6>9e3b1de>fccb38b>1e2a2c3"
+  },
+  {
+    "id": "9ba26e4",
+    "type": "heading",
+    "title": "Service Area George Card 05 Title",
+    "text": "Denneoord",
+    "path": "2>a943ea6>9e3b1de>fccb38b>1e2a2c3"
+  },
+  {
+    "id": "d42f0c9",
+    "type": "text-editor",
+    "title": "Service Area George Card 05 Copy",
+    "text": "Plumbing service coverage planned for Denneoord, supporting homes, rentals, estates, guesthouses and business properties in the greater Geor",
+    "path": "2>a943ea6>9e3b1de>fccb38b>1e2a2c3"
+  },
+  {
+    "id": "5c6f0c3",
+    "type": "button",
+    "title": "Service Area George Card 05 CTA",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b>1e2a2c3"
+  },
+  {
+    "id": "a9614b1",
+    "type": "container",
+    "title": "Service Area George Card 06",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b"
+  },
+  {
+    "id": "1b0cc4d",
+    "type": "image",
+    "title": "Service Area George Card 06 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "2>a943ea6>9e3b1de>fccb38b>a9614b1"
+  },
+  {
+    "id": "a2fd9fb",
+    "type": "heading",
+    "title": "Service Area George Card 06 Title",
+    "text": "George Central",
+    "path": "2>a943ea6>9e3b1de>fccb38b>a9614b1"
+  },
+  {
+    "id": "0fabfcd",
+    "type": "text-editor",
+    "title": "Service Area George Card 06 Copy",
+    "text": "Plumbing service coverage planned for George Central, supporting homes, rentals, estates, guesthouses and business properties in the greater",
+    "path": "2>a943ea6>9e3b1de>fccb38b>a9614b1"
+  },
+  {
+    "id": "da8b082",
+    "type": "button",
+    "title": "Service Area George Card 06 CTA",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b>a9614b1"
+  },
+  {
+    "id": "4dc86a1",
+    "type": "container",
+    "title": "Service Area George Card 07",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b"
+  },
+  {
+    "id": "c390abc",
+    "type": "image",
+    "title": "Service Area George Card 07 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "2>a943ea6>9e3b1de>fccb38b>4dc86a1"
+  },
+  {
+    "id": "564c9ee",
+    "type": "heading",
+    "title": "Service Area George Card 07 Title",
+    "text": "George South",
+    "path": "2>a943ea6>9e3b1de>fccb38b>4dc86a1"
+  },
+  {
+    "id": "7d3924b",
+    "type": "text-editor",
+    "title": "Service Area George Card 07 Copy",
+    "text": "Plumbing service coverage planned for George South, supporting homes, rentals, estates, guesthouses and business properties in the greater G",
+    "path": "2>a943ea6>9e3b1de>fccb38b>4dc86a1"
+  },
+  {
+    "id": "14e57ed",
+    "type": "button",
+    "title": "Service Area George Card 07 CTA",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b>4dc86a1"
+  },
+  {
+    "id": "6b0c5aa",
+    "type": "container",
+    "title": "Service Area George Card 08",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b"
+  },
+  {
+    "id": "bd93093",
+    "type": "image",
+    "title": "Service Area George Card 08 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "2>a943ea6>9e3b1de>fccb38b>6b0c5aa"
+  },
+  {
+    "id": "71607ec",
+    "type": "heading",
+    "title": "Service Area George Card 08 Title",
+    "text": "Heatherlands",
+    "path": "2>a943ea6>9e3b1de>fccb38b>6b0c5aa"
+  },
+  {
+    "id": "b7e3a4e",
+    "type": "text-editor",
+    "title": "Service Area George Card 08 Copy",
+    "text": "Plumbing service coverage planned for Heatherlands, supporting homes, rentals, estates, guesthouses and business properties in the greater G",
+    "path": "2>a943ea6>9e3b1de>fccb38b>6b0c5aa"
+  },
+  {
+    "id": "a46ed3f",
+    "type": "button",
+    "title": "Service Area George Card 08 CTA",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b>6b0c5aa"
+  },
+  {
+    "id": "e9e739c",
+    "type": "container",
+    "title": "Service Area George Card 09",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b"
+  },
+  {
+    "id": "f96dd8d",
+    "type": "image",
+    "title": "Service Area George Card 09 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "2>a943ea6>9e3b1de>fccb38b>e9e739c"
+  },
+  {
+    "id": "c5e0019",
+    "type": "heading",
+    "title": "Service Area George Card 09 Title",
+    "text": "Dormehls Drift",
+    "path": "2>a943ea6>9e3b1de>fccb38b>e9e739c"
+  },
+  {
+    "id": "73d9b4e",
+    "type": "text-editor",
+    "title": "Service Area George Card 09 Copy",
+    "text": "Plumbing service coverage planned for Dormehls Drift, supporting homes, rentals, estates, guesthouses and business properties in the greater",
+    "path": "2>a943ea6>9e3b1de>fccb38b>e9e739c"
+  },
+  {
+    "id": "0a764df",
+    "type": "button",
+    "title": "Service Area George Card 09 CTA",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b>e9e739c"
+  },
+  {
+    "id": "018762c",
+    "type": "container",
+    "title": "Service Area George Card 10",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b"
+  },
+  {
+    "id": "64e32fd",
+    "type": "image",
+    "title": "Service Area George Card 10 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "2>a943ea6>9e3b1de>fccb38b>018762c"
+  },
+  {
+    "id": "bf00041",
+    "type": "heading",
+    "title": "Service Area George Card 10 Title",
+    "text": "Camphersdrift",
+    "path": "2>a943ea6>9e3b1de>fccb38b>018762c"
+  },
+  {
+    "id": "c19a694",
+    "type": "text-editor",
+    "title": "Service Area George Card 10 Copy",
+    "text": "Plumbing service coverage planned for Camphersdrift, supporting homes, rentals, estates, guesthouses and business properties in the greater ",
+    "path": "2>a943ea6>9e3b1de>fccb38b>018762c"
+  },
+  {
+    "id": "c784c77",
+    "type": "button",
+    "title": "Service Area George Card 10 CTA",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b>018762c"
+  },
+  {
+    "id": "61f76a7",
+    "type": "container",
+    "title": "Service Area George Card 11",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b"
+  },
+  {
+    "id": "3b051b3",
+    "type": "image",
+    "title": "Service Area George Card 11 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "2>a943ea6>9e3b1de>fccb38b>61f76a7"
+  },
+  {
+    "id": "44bb85e",
+    "type": "heading",
+    "title": "Service Area George Card 11 Title",
+    "text": "Herolds Bay",
+    "path": "2>a943ea6>9e3b1de>fccb38b>61f76a7"
+  },
+  {
+    "id": "83a371e",
+    "type": "text-editor",
+    "title": "Service Area George Card 11 Copy",
+    "text": "Plumbing service coverage planned for Herolds Bay, supporting homes, rentals, estates, guesthouses and business properties in the greater Ge",
+    "path": "2>a943ea6>9e3b1de>fccb38b>61f76a7"
+  },
+  {
+    "id": "6d55d63",
+    "type": "button",
+    "title": "Service Area George Card 11 CTA",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b>61f76a7"
+  },
+  {
+    "id": "7697e41",
+    "type": "container",
+    "title": "Service Area George Card 12",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b"
+  },
+  {
+    "id": "ef8d96f",
+    "type": "image",
+    "title": "Service Area George Card 12 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "2>a943ea6>9e3b1de>fccb38b>7697e41"
+  },
+  {
+    "id": "898bc03",
+    "type": "heading",
+    "title": "Service Area George Card 12 Title",
+    "text": "Oubaai",
+    "path": "2>a943ea6>9e3b1de>fccb38b>7697e41"
+  },
+  {
+    "id": "7a6a7cd",
+    "type": "text-editor",
+    "title": "Service Area George Card 12 Copy",
+    "text": "Plumbing service coverage planned for Oubaai, supporting homes, rentals, estates, guesthouses and business properties in the greater George ",
+    "path": "2>a943ea6>9e3b1de>fccb38b>7697e41"
+  },
+  {
+    "id": "ecc589b",
+    "type": "button",
+    "title": "Service Area George Card 12 CTA",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de>fccb38b>7697e41"
+  },
+  {
+    "id": "6a6046f",
+    "type": "container",
+    "title": "Service Area George CTA Row",
+    "text": "",
+    "path": "2>a943ea6>9e3b1de"
+  },
+  {
+    "id": "ce5bb16",
+    "type": "global",
+    "title": "Home Trust Phone CTA",
+    "text": "",
+    "link": "tel:+27726514447",
+    "path": "2>a943ea6>9e3b1de>6a6046f"
+  },
+  {
+    "id": "2d1ed2d",
+    "type": "container",
+    "title": "Service Area Mossel Bay Section",
+    "text": "",
+    "path": "3"
+  },
+  {
+    "id": "cd7f9c5",
+    "type": "container",
+    "title": "Service Area Mossel Bay Inner",
+    "text": "",
+    "path": "3>2d1ed2d"
+  },
+  {
+    "id": "5f379fd",
+    "type": "heading",
+    "title": "Service Area Mossel Bay Eyebrow",
+    "text": "MOSSEL BAY",
+    "path": "3>2d1ed2d>cd7f9c5"
+  },
+  {
+    "id": "3a409c2",
+    "type": "elementskit-heading",
+    "title": "Service Area Mossel Bay Heading",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5"
+  },
+  {
+    "id": "673d8f1",
+    "type": "container",
+    "title": "Service Area Mossel Bay Cards Row",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5"
+  },
+  {
+    "id": "338e0e0",
+    "type": "container",
+    "title": "Service Area Mossel Bay Card 01",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1"
+  },
+  {
+    "id": "2833d93",
+    "type": "image",
+    "title": "Service Area Mossel Bay Card 01 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-mossel-bay-service-area-ai-01.jpg",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>338e0e0"
+  },
+  {
+    "id": "90a3448",
+    "type": "heading",
+    "title": "Service Area Mossel Bay Card 01 Title",
+    "text": "Dana Bay",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>338e0e0"
+  },
+  {
+    "id": "00c6dd9",
+    "type": "text-editor",
+    "title": "Service Area Mossel Bay Card 01 Copy",
+    "text": "Plumbing service coverage planned for Dana Bay, supporting homes, rentals, estates, guesthouses and business properties in the greater Mosse",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>338e0e0"
+  },
+  {
+    "id": "24a73c2",
+    "type": "button",
+    "title": "Service Area Mossel Bay Card 01 CTA",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>338e0e0"
+  },
+  {
+    "id": "fa38bf2",
+    "type": "container",
+    "title": "Service Area Mossel Bay Card 02",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1"
+  },
+  {
+    "id": "349a30d",
+    "type": "image",
+    "title": "Service Area Mossel Bay Card 02 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-mossel-bay-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>fa38bf2"
+  },
+  {
+    "id": "0dc15c6",
+    "type": "heading",
+    "title": "Service Area Mossel Bay Card 02 Title",
+    "text": "Hartenbos",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>fa38bf2"
+  },
+  {
+    "id": "6634a74",
+    "type": "text-editor",
+    "title": "Service Area Mossel Bay Card 02 Copy",
+    "text": "Plumbing service coverage planned for Hartenbos, supporting homes, rentals, estates, guesthouses and business properties in the greater Moss",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>fa38bf2"
+  },
+  {
+    "id": "4aa1444",
+    "type": "button",
+    "title": "Service Area Mossel Bay Card 02 CTA",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>fa38bf2"
+  },
+  {
+    "id": "9521e95",
+    "type": "container",
+    "title": "Service Area Mossel Bay Card 03",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1"
+  },
+  {
+    "id": "90dd1b8",
+    "type": "image",
+    "title": "Service Area Mossel Bay Card 03 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-mossel-bay-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>9521e95"
+  },
+  {
+    "id": "cf590b0",
+    "type": "heading",
+    "title": "Service Area Mossel Bay Card 03 Title",
+    "text": "Diaz Beach",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>9521e95"
+  },
+  {
+    "id": "1325ffa",
+    "type": "text-editor",
+    "title": "Service Area Mossel Bay Card 03 Copy",
+    "text": "Plumbing service coverage planned for Diaz Beach, supporting homes, rentals, estates, guesthouses and business properties in the greater Mos",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>9521e95"
+  },
+  {
+    "id": "d22d81b",
+    "type": "button",
+    "title": "Service Area Mossel Bay Card 03 CTA",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>9521e95"
+  },
+  {
+    "id": "04157c3",
+    "type": "container",
+    "title": "Service Area Mossel Bay Card 04",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1"
+  },
+  {
+    "id": "8bc507d",
+    "type": "image",
+    "title": "Service Area Mossel Bay Card 04 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-mossel-bay-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>04157c3"
+  },
+  {
+    "id": "a4f14cd",
+    "type": "heading",
+    "title": "Service Area Mossel Bay Card 04 Title",
+    "text": "De Bakke",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>04157c3"
+  },
+  {
+    "id": "c5afcb8",
+    "type": "text-editor",
+    "title": "Service Area Mossel Bay Card 04 Copy",
+    "text": "Plumbing service coverage planned for De Bakke, supporting homes, rentals, estates, guesthouses and business properties in the greater Mosse",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>04157c3"
+  },
+  {
+    "id": "8500bfa",
+    "type": "button",
+    "title": "Service Area Mossel Bay Card 04 CTA",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>04157c3"
+  },
+  {
+    "id": "5c399e9",
+    "type": "container",
+    "title": "Service Area Mossel Bay Card 05",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1"
+  },
+  {
+    "id": "2a74bbc",
+    "type": "image",
+    "title": "Service Area Mossel Bay Card 05 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-mossel-bay-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>5c399e9"
+  },
+  {
+    "id": "8ae81f4",
+    "type": "heading",
+    "title": "Service Area Mossel Bay Card 05 Title",
+    "text": "Mossel Bay Central",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>5c399e9"
+  },
+  {
+    "id": "7d509af",
+    "type": "text-editor",
+    "title": "Service Area Mossel Bay Card 05 Copy",
+    "text": "Plumbing service coverage planned for Mossel Bay Central, supporting homes, rentals, estates, guesthouses and business properties in the gre",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>5c399e9"
+  },
+  {
+    "id": "78aaf75",
+    "type": "button",
+    "title": "Service Area Mossel Bay Card 05 CTA",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>5c399e9"
+  },
+  {
+    "id": "77dab98",
+    "type": "container",
+    "title": "Service Area Mossel Bay Card 06",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1"
+  },
+  {
+    "id": "069ea10",
+    "type": "image",
+    "title": "Service Area Mossel Bay Card 06 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-mossel-bay-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>77dab98"
+  },
+  {
+    "id": "34d7b84",
+    "type": "heading",
+    "title": "Service Area Mossel Bay Card 06 Title",
+    "text": "Heiderand",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>77dab98"
+  },
+  {
+    "id": "7fa27e5",
+    "type": "text-editor",
+    "title": "Service Area Mossel Bay Card 06 Copy",
+    "text": "Plumbing service coverage planned for Heiderand, supporting homes, rentals, estates, guesthouses and business properties in the greater Moss",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>77dab98"
+  },
+  {
+    "id": "cdefb6c",
+    "type": "button",
+    "title": "Service Area Mossel Bay Card 06 CTA",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>77dab98"
+  },
+  {
+    "id": "b90a7fb",
+    "type": "container",
+    "title": "Service Area Mossel Bay Card 07",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1"
+  },
+  {
+    "id": "e2903b7",
+    "type": "image",
+    "title": "Service Area Mossel Bay Card 07 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-mossel-bay-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>b90a7fb"
+  },
+  {
+    "id": "8e45b7f",
+    "type": "heading",
+    "title": "Service Area Mossel Bay Card 07 Title",
+    "text": "Island View",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>b90a7fb"
+  },
+  {
+    "id": "722544e",
+    "type": "text-editor",
+    "title": "Service Area Mossel Bay Card 07 Copy",
+    "text": "Plumbing service coverage planned for Island View, supporting homes, rentals, estates, guesthouses and business properties in the greater Mo",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>b90a7fb"
+  },
+  {
+    "id": "a391fa2",
+    "type": "button",
+    "title": "Service Area Mossel Bay Card 07 CTA",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>b90a7fb"
+  },
+  {
+    "id": "17c947a",
+    "type": "container",
+    "title": "Service Area Mossel Bay Card 08",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1"
+  },
+  {
+    "id": "6eb1875",
+    "type": "image",
+    "title": "Service Area Mossel Bay Card 08 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-mossel-bay-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>17c947a"
+  },
+  {
+    "id": "5ffb9f9",
+    "type": "heading",
+    "title": "Service Area Mossel Bay Card 08 Title",
+    "text": "Seemeeu Park",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>17c947a"
+  },
+  {
+    "id": "5c482ad",
+    "type": "text-editor",
+    "title": "Service Area Mossel Bay Card 08 Copy",
+    "text": "Plumbing service coverage planned for Seemeeu Park, supporting homes, rentals, estates, guesthouses and business properties in the greater M",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>17c947a"
+  },
+  {
+    "id": "ab7f779",
+    "type": "button",
+    "title": "Service Area Mossel Bay Card 08 CTA",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>17c947a"
+  },
+  {
+    "id": "beb6c86",
+    "type": "container",
+    "title": "Service Area Mossel Bay Card 09",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1"
+  },
+  {
+    "id": "d706923",
+    "type": "image",
+    "title": "Service Area Mossel Bay Card 09 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-mossel-bay-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>beb6c86"
+  },
+  {
+    "id": "2ba1b81",
+    "type": "heading",
+    "title": "Service Area Mossel Bay Card 09 Title",
+    "text": "Pinnacle Point",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>beb6c86"
+  },
+  {
+    "id": "3295c60",
+    "type": "text-editor",
+    "title": "Service Area Mossel Bay Card 09 Copy",
+    "text": "Plumbing service coverage planned for Pinnacle Point, supporting homes, rentals, estates, guesthouses and business properties in the greater",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>beb6c86"
+  },
+  {
+    "id": "ef48324",
+    "type": "button",
+    "title": "Service Area Mossel Bay Card 09 CTA",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>beb6c86"
+  },
+  {
+    "id": "1aa4269",
+    "type": "container",
+    "title": "Service Area Mossel Bay Card 10",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1"
+  },
+  {
+    "id": "f2be2a2",
+    "type": "image",
+    "title": "Service Area Mossel Bay Card 10 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-mossel-bay-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>1aa4269"
+  },
+  {
+    "id": "d738e8f",
+    "type": "heading",
+    "title": "Service Area Mossel Bay Card 10 Title",
+    "text": "Mossel Bay Golf Estate",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>1aa4269"
+  },
+  {
+    "id": "274605a",
+    "type": "text-editor",
+    "title": "Service Area Mossel Bay Card 10 Copy",
+    "text": "Plumbing service coverage planned for Mossel Bay Golf Estate, supporting homes, rentals, estates, guesthouses and business properties in the",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>1aa4269"
+  },
+  {
+    "id": "a0b2320",
+    "type": "button",
+    "title": "Service Area Mossel Bay Card 10 CTA",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>1aa4269"
+  },
+  {
+    "id": "2667214",
+    "type": "container",
+    "title": "Service Area Mossel Bay Card 11",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1"
+  },
+  {
+    "id": "86ad56f",
+    "type": "image",
+    "title": "Service Area Mossel Bay Card 11 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-mossel-bay-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>2667214"
+  },
+  {
+    "id": "d4365c8",
+    "type": "heading",
+    "title": "Service Area Mossel Bay Card 11 Title",
+    "text": "Linkside",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>2667214"
+  },
+  {
+    "id": "1188e7d",
+    "type": "text-editor",
+    "title": "Service Area Mossel Bay Card 11 Copy",
+    "text": "Plumbing service coverage planned for Linkside, supporting homes, rentals, estates, guesthouses and business properties in the greater Mosse",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>2667214"
+  },
+  {
+    "id": "dc373e1",
+    "type": "button",
+    "title": "Service Area Mossel Bay Card 11 CTA",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>2667214"
+  },
+  {
+    "id": "08fe879",
+    "type": "container",
+    "title": "Service Area Mossel Bay Card 12",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1"
+  },
+  {
+    "id": "edfe69d",
+    "type": "image",
+    "title": "Service Area Mossel Bay Card 12 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-mossel-bay-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>08fe879"
+  },
+  {
+    "id": "12eb119",
+    "type": "heading",
+    "title": "Service Area Mossel Bay Card 12 Title",
+    "text": "Voorbaai",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>08fe879"
+  },
+  {
+    "id": "8f3585c",
+    "type": "text-editor",
+    "title": "Service Area Mossel Bay Card 12 Copy",
+    "text": "Plumbing service coverage planned for Voorbaai, supporting homes, rentals, estates, guesthouses and business properties in the greater Mosse",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>08fe879"
+  },
+  {
+    "id": "7a2d9d6",
+    "type": "button",
+    "title": "Service Area Mossel Bay Card 12 CTA",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5>673d8f1>08fe879"
+  },
+  {
+    "id": "a6f0c96",
+    "type": "container",
+    "title": "Service Area Mossel Bay CTA Row",
+    "text": "",
+    "path": "3>2d1ed2d>cd7f9c5"
+  },
+  {
+    "id": "28a918a",
+    "type": "global",
+    "title": "Home Trust Primary CTA",
+    "text": "",
+    "link": "https://wa.me/27726514447",
+    "path": "3>2d1ed2d>cd7f9c5>a6f0c96"
+  },
+  {
+    "id": "4fb6585",
+    "type": "container",
+    "title": "Service Area Knysna Section",
+    "text": "",
+    "path": "4"
+  },
+  {
+    "id": "4caad85",
+    "type": "container",
+    "title": "Service Area Knysna Inner",
+    "text": "",
+    "path": "4>4fb6585"
+  },
+  {
+    "id": "bc4f91b",
+    "type": "heading",
+    "title": "Service Area Knysna Eyebrow",
+    "text": "KNYSNA",
+    "path": "4>4fb6585>4caad85"
+  },
+  {
+    "id": "d657bdf",
+    "type": "elementskit-heading",
+    "title": "Service Area Knysna Heading",
+    "text": "",
+    "path": "4>4fb6585>4caad85"
+  },
+  {
+    "id": "b0d1d4c",
+    "type": "container",
+    "title": "Service Area Knysna Cards Row",
+    "text": "",
+    "path": "4>4fb6585>4caad85"
+  },
+  {
+    "id": "11d2d1a",
+    "type": "container",
+    "title": "Service Area Knysna Card 01",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c"
+  },
+  {
+    "id": "cdb0162",
+    "type": "image",
+    "title": "Service Area Knysna Card 01 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+    "path": "4>4fb6585>4caad85>b0d1d4c>11d2d1a"
+  },
+  {
+    "id": "09f5688",
+    "type": "heading",
+    "title": "Service Area Knysna Card 01 Title",
+    "text": "Knysna Central",
+    "path": "4>4fb6585>4caad85>b0d1d4c>11d2d1a"
+  },
+  {
+    "id": "7dc109f",
+    "type": "text-editor",
+    "title": "Service Area Knysna Card 01 Copy",
+    "text": "Plumbing service coverage planned for Knysna Central, supporting homes, rentals, estates, guesthouses and business properties in the greater",
+    "path": "4>4fb6585>4caad85>b0d1d4c>11d2d1a"
+  },
+  {
+    "id": "4e82055",
+    "type": "button",
+    "title": "Service Area Knysna Card 01 CTA",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c>11d2d1a"
+  },
+  {
+    "id": "3fc59e2",
+    "type": "container",
+    "title": "Service Area Knysna Card 02",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c"
+  },
+  {
+    "id": "d519745",
+    "type": "image",
+    "title": "Service Area Knysna Card 02 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "4>4fb6585>4caad85>b0d1d4c>3fc59e2"
+  },
+  {
+    "id": "11ef753",
+    "type": "heading",
+    "title": "Service Area Knysna Card 02 Title",
+    "text": "Old Place",
+    "path": "4>4fb6585>4caad85>b0d1d4c>3fc59e2"
+  },
+  {
+    "id": "6313de8",
+    "type": "text-editor",
+    "title": "Service Area Knysna Card 02 Copy",
+    "text": "Plumbing service coverage planned for Old Place, supporting homes, rentals, estates, guesthouses and business properties in the greater Knys",
+    "path": "4>4fb6585>4caad85>b0d1d4c>3fc59e2"
+  },
+  {
+    "id": "52207b9",
+    "type": "button",
+    "title": "Service Area Knysna Card 02 CTA",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c>3fc59e2"
+  },
+  {
+    "id": "34c2a49",
+    "type": "container",
+    "title": "Service Area Knysna Card 03",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c"
+  },
+  {
+    "id": "4735166",
+    "type": "image",
+    "title": "Service Area Knysna Card 03 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "4>4fb6585>4caad85>b0d1d4c>34c2a49"
+  },
+  {
+    "id": "3b95388",
+    "type": "heading",
+    "title": "Service Area Knysna Card 03 Title",
+    "text": "Leisure Isle",
+    "path": "4>4fb6585>4caad85>b0d1d4c>34c2a49"
+  },
+  {
+    "id": "0bbc84e",
+    "type": "text-editor",
+    "title": "Service Area Knysna Card 03 Copy",
+    "text": "Plumbing service coverage planned for Leisure Isle, supporting homes, rentals, estates, guesthouses and business properties in the greater K",
+    "path": "4>4fb6585>4caad85>b0d1d4c>34c2a49"
+  },
+  {
+    "id": "5fafc36",
+    "type": "button",
+    "title": "Service Area Knysna Card 03 CTA",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c>34c2a49"
+  },
+  {
+    "id": "8a3984b",
+    "type": "container",
+    "title": "Service Area Knysna Card 04",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c"
+  },
+  {
+    "id": "9ce60c9",
+    "type": "image",
+    "title": "Service Area Knysna Card 04 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "4>4fb6585>4caad85>b0d1d4c>8a3984b"
+  },
+  {
+    "id": "a07232a",
+    "type": "heading",
+    "title": "Service Area Knysna Card 04 Title",
+    "text": "The Heads",
+    "path": "4>4fb6585>4caad85>b0d1d4c>8a3984b"
+  },
+  {
+    "id": "932a9a8",
+    "type": "text-editor",
+    "title": "Service Area Knysna Card 04 Copy",
+    "text": "Plumbing service coverage planned for The Heads, supporting homes, rentals, estates, guesthouses and business properties in the greater Knys",
+    "path": "4>4fb6585>4caad85>b0d1d4c>8a3984b"
+  },
+  {
+    "id": "a473749",
+    "type": "button",
+    "title": "Service Area Knysna Card 04 CTA",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c>8a3984b"
+  },
+  {
+    "id": "0a536c5",
+    "type": "container",
+    "title": "Service Area Knysna Card 05",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c"
+  },
+  {
+    "id": "f19ff9a",
+    "type": "image",
+    "title": "Service Area Knysna Card 05 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "4>4fb6585>4caad85>b0d1d4c>0a536c5"
+  },
+  {
+    "id": "ac67edc",
+    "type": "heading",
+    "title": "Service Area Knysna Card 05 Title",
+    "text": "Pezula",
+    "path": "4>4fb6585>4caad85>b0d1d4c>0a536c5"
+  },
+  {
+    "id": "55926b2",
+    "type": "text-editor",
+    "title": "Service Area Knysna Card 05 Copy",
+    "text": "Plumbing service coverage planned for Pezula, supporting homes, rentals, estates, guesthouses and business properties in the greater Knysna ",
+    "path": "4>4fb6585>4caad85>b0d1d4c>0a536c5"
+  },
+  {
+    "id": "83cdc53",
+    "type": "button",
+    "title": "Service Area Knysna Card 05 CTA",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c>0a536c5"
+  },
+  {
+    "id": "daa13ce",
+    "type": "container",
+    "title": "Service Area Knysna Card 06",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c"
+  },
+  {
+    "id": "6b56efb",
+    "type": "image",
+    "title": "Service Area Knysna Card 06 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "4>4fb6585>4caad85>b0d1d4c>daa13ce"
+  },
+  {
+    "id": "72e8f0c",
+    "type": "heading",
+    "title": "Service Area Knysna Card 06 Title",
+    "text": "Simola",
+    "path": "4>4fb6585>4caad85>b0d1d4c>daa13ce"
+  },
+  {
+    "id": "2594927",
+    "type": "text-editor",
+    "title": "Service Area Knysna Card 06 Copy",
+    "text": "Plumbing service coverage planned for Simola, supporting homes, rentals, estates, guesthouses and business properties in the greater Knysna ",
+    "path": "4>4fb6585>4caad85>b0d1d4c>daa13ce"
+  },
+  {
+    "id": "f9b712c",
+    "type": "button",
+    "title": "Service Area Knysna Card 06 CTA",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c>daa13ce"
+  },
+  {
+    "id": "7ce8d85",
+    "type": "container",
+    "title": "Service Area Knysna Card 07",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c"
+  },
+  {
+    "id": "143014b",
+    "type": "image",
+    "title": "Service Area Knysna Card 07 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "4>4fb6585>4caad85>b0d1d4c>7ce8d85"
+  },
+  {
+    "id": "d3bc207",
+    "type": "heading",
+    "title": "Service Area Knysna Card 07 Title",
+    "text": "Hunters Home",
+    "path": "4>4fb6585>4caad85>b0d1d4c>7ce8d85"
+  },
+  {
+    "id": "a7016ac",
+    "type": "text-editor",
+    "title": "Service Area Knysna Card 07 Copy",
+    "text": "Plumbing service coverage planned for Hunters Home, supporting homes, rentals, estates, guesthouses and business properties in the greater K",
+    "path": "4>4fb6585>4caad85>b0d1d4c>7ce8d85"
+  },
+  {
+    "id": "fc2eada",
+    "type": "button",
+    "title": "Service Area Knysna Card 07 CTA",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c>7ce8d85"
+  },
+  {
+    "id": "77c5a14",
+    "type": "container",
+    "title": "Service Area Knysna Card 08",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c"
+  },
+  {
+    "id": "c327eb7",
+    "type": "image",
+    "title": "Service Area Knysna Card 08 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "4>4fb6585>4caad85>b0d1d4c>77c5a14"
+  },
+  {
+    "id": "f00d4e6",
+    "type": "heading",
+    "title": "Service Area Knysna Card 08 Title",
+    "text": "Rexford",
+    "path": "4>4fb6585>4caad85>b0d1d4c>77c5a14"
+  },
+  {
+    "id": "f1511a2",
+    "type": "text-editor",
+    "title": "Service Area Knysna Card 08 Copy",
+    "text": "Plumbing service coverage planned for Rexford, supporting homes, rentals, estates, guesthouses and business properties in the greater Knysna",
+    "path": "4>4fb6585>4caad85>b0d1d4c>77c5a14"
+  },
+  {
+    "id": "e729642",
+    "type": "button",
+    "title": "Service Area Knysna Card 08 CTA",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c>77c5a14"
+  },
+  {
+    "id": "70b72c0",
+    "type": "container",
+    "title": "Service Area Knysna Card 09",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c"
+  },
+  {
+    "id": "5ce5223",
+    "type": "image",
+    "title": "Service Area Knysna Card 09 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "4>4fb6585>4caad85>b0d1d4c>70b72c0"
+  },
+  {
+    "id": "6df791d",
+    "type": "heading",
+    "title": "Service Area Knysna Card 09 Title",
+    "text": "Belvidere",
+    "path": "4>4fb6585>4caad85>b0d1d4c>70b72c0"
+  },
+  {
+    "id": "e038796",
+    "type": "text-editor",
+    "title": "Service Area Knysna Card 09 Copy",
+    "text": "Plumbing service coverage planned for Belvidere, supporting homes, rentals, estates, guesthouses and business properties in the greater Knys",
+    "path": "4>4fb6585>4caad85>b0d1d4c>70b72c0"
+  },
+  {
+    "id": "95e2228",
+    "type": "button",
+    "title": "Service Area Knysna Card 09 CTA",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c>70b72c0"
+  },
+  {
+    "id": "e2c8725",
+    "type": "container",
+    "title": "Service Area Knysna Card 10",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c"
+  },
+  {
+    "id": "a20f65e",
+    "type": "image",
+    "title": "Service Area Knysna Card 10 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "4>4fb6585>4caad85>b0d1d4c>e2c8725"
+  },
+  {
+    "id": "45c4313",
+    "type": "heading",
+    "title": "Service Area Knysna Card 10 Title",
+    "text": "Brenton-on-Sea",
+    "path": "4>4fb6585>4caad85>b0d1d4c>e2c8725"
+  },
+  {
+    "id": "b66d96e",
+    "type": "text-editor",
+    "title": "Service Area Knysna Card 10 Copy",
+    "text": "Plumbing service coverage planned for Brenton-on-Sea, supporting homes, rentals, estates, guesthouses and business properties in the greater",
+    "path": "4>4fb6585>4caad85>b0d1d4c>e2c8725"
+  },
+  {
+    "id": "2b58b5d",
+    "type": "button",
+    "title": "Service Area Knysna Card 10 CTA",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c>e2c8725"
+  },
+  {
+    "id": "a3ab22c",
+    "type": "container",
+    "title": "Service Area Knysna Card 11",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c"
+  },
+  {
+    "id": "00b4a09",
+    "type": "image",
+    "title": "Service Area Knysna Card 11 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "4>4fb6585>4caad85>b0d1d4c>a3ab22c"
+  },
+  {
+    "id": "61a667c",
+    "type": "heading",
+    "title": "Service Area Knysna Card 11 Title",
+    "text": "Knysna Heights",
+    "path": "4>4fb6585>4caad85>b0d1d4c>a3ab22c"
+  },
+  {
+    "id": "f4bbee1",
+    "type": "text-editor",
+    "title": "Service Area Knysna Card 11 Copy",
+    "text": "Plumbing service coverage planned for Knysna Heights, supporting homes, rentals, estates, guesthouses and business properties in the greater",
+    "path": "4>4fb6585>4caad85>b0d1d4c>a3ab22c"
+  },
+  {
+    "id": "09ff81b",
+    "type": "button",
+    "title": "Service Area Knysna Card 11 CTA",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c>a3ab22c"
+  },
+  {
+    "id": "a4dcc65",
+    "type": "container",
+    "title": "Service Area Knysna Card 12",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c"
+  },
+  {
+    "id": "913582d",
+    "type": "image",
+    "title": "Service Area Knysna Card 12 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "4>4fb6585>4caad85>b0d1d4c>a4dcc65"
+  },
+  {
+    "id": "8fb873d",
+    "type": "heading",
+    "title": "Service Area Knysna Card 12 Title",
+    "text": "Paradise",
+    "path": "4>4fb6585>4caad85>b0d1d4c>a4dcc65"
+  },
+  {
+    "id": "d8f5a59",
+    "type": "text-editor",
+    "title": "Service Area Knysna Card 12 Copy",
+    "text": "Plumbing service coverage planned for Paradise, supporting homes, rentals, estates, guesthouses and business properties in the greater Knysn",
+    "path": "4>4fb6585>4caad85>b0d1d4c>a4dcc65"
+  },
+  {
+    "id": "eefc6d6",
+    "type": "button",
+    "title": "Service Area Knysna Card 12 CTA",
+    "text": "",
+    "path": "4>4fb6585>4caad85>b0d1d4c>a4dcc65"
+  },
+  {
+    "id": "5cda5dc",
+    "type": "container",
+    "title": "Service Area Knysna CTA Row",
+    "text": "",
+    "path": "4>4fb6585>4caad85"
+  },
+  {
+    "id": "babdb2f",
+    "type": "global",
+    "title": "Home Trust Phone CTA",
+    "text": "",
+    "link": "tel:+27726514447",
+    "path": "4>4fb6585>4caad85>5cda5dc"
+  },
+  {
+    "id": "2dfa768",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Section",
+    "text": "",
+    "path": "5"
+  },
+  {
+    "id": "ab2b5bd",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Inner",
+    "text": "",
+    "path": "5>2dfa768"
+  },
+  {
+    "id": "3d9ad7c",
+    "type": "heading",
+    "title": "Service Area Oudtshoorn Eyebrow",
+    "text": "OUDTSHOORN",
+    "path": "5>2dfa768>ab2b5bd"
+  },
+  {
+    "id": "19cad63",
+    "type": "elementskit-heading",
+    "title": "Service Area Oudtshoorn Heading",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd"
+  },
+  {
+    "id": "0f43780",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Cards Row",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd"
+  },
+  {
+    "id": "bc6c3ae",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Card 01",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780"
+  },
+  {
+    "id": "aef708a",
+    "type": "image",
+    "title": "Service Area Oudtshoorn Card 01 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-oudtshoorn-service-area-ai-01.jpg",
+    "path": "5>2dfa768>ab2b5bd>0f43780>bc6c3ae"
+  },
+  {
+    "id": "444f484",
+    "type": "heading",
+    "title": "Service Area Oudtshoorn Card 01 Title",
+    "text": "Oudtshoorn Central",
+    "path": "5>2dfa768>ab2b5bd>0f43780>bc6c3ae"
+  },
+  {
+    "id": "f532167",
+    "type": "text-editor",
+    "title": "Service Area Oudtshoorn Card 01 Copy",
+    "text": "Plumbing service coverage planned for Oudtshoorn Central, supporting homes, rentals, estates, guesthouses and business properties in the gre",
+    "path": "5>2dfa768>ab2b5bd>0f43780>bc6c3ae"
+  },
+  {
+    "id": "c6055aa",
+    "type": "button",
+    "title": "Service Area Oudtshoorn Card 01 CTA",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780>bc6c3ae"
+  },
+  {
+    "id": "8c39553",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Card 02",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780"
+  },
+  {
+    "id": "db1baa7",
+    "type": "image",
+    "title": "Service Area Oudtshoorn Card 02 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-oudtshoorn-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "5>2dfa768>ab2b5bd>0f43780>8c39553"
+  },
+  {
+    "id": "44cdb93",
+    "type": "heading",
+    "title": "Service Area Oudtshoorn Card 02 Title",
+    "text": "West Bank",
+    "path": "5>2dfa768>ab2b5bd>0f43780>8c39553"
+  },
+  {
+    "id": "491971d",
+    "type": "text-editor",
+    "title": "Service Area Oudtshoorn Card 02 Copy",
+    "text": "Plumbing service coverage planned for West Bank, supporting homes, rentals, estates, guesthouses and business properties in the greater Oudt",
+    "path": "5>2dfa768>ab2b5bd>0f43780>8c39553"
+  },
+  {
+    "id": "e88ae8d",
+    "type": "button",
+    "title": "Service Area Oudtshoorn Card 02 CTA",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780>8c39553"
+  },
+  {
+    "id": "fb3ced4",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Card 03",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780"
+  },
+  {
+    "id": "8eba683",
+    "type": "image",
+    "title": "Service Area Oudtshoorn Card 03 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-oudtshoorn-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "5>2dfa768>ab2b5bd>0f43780>fb3ced4"
+  },
+  {
+    "id": "fc11d38",
+    "type": "heading",
+    "title": "Service Area Oudtshoorn Card 03 Title",
+    "text": "Oudtshoorn North",
+    "path": "5>2dfa768>ab2b5bd>0f43780>fb3ced4"
+  },
+  {
+    "id": "719002d",
+    "type": "text-editor",
+    "title": "Service Area Oudtshoorn Card 03 Copy",
+    "text": "Plumbing service coverage planned for Oudtshoorn North, supporting homes, rentals, estates, guesthouses and business properties in the great",
+    "path": "5>2dfa768>ab2b5bd>0f43780>fb3ced4"
+  },
+  {
+    "id": "7439d51",
+    "type": "button",
+    "title": "Service Area Oudtshoorn Card 03 CTA",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780>fb3ced4"
+  },
+  {
+    "id": "9ee6fac",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Card 04",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780"
+  },
+  {
+    "id": "1f86467",
+    "type": "image",
+    "title": "Service Area Oudtshoorn Card 04 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-oudtshoorn-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "5>2dfa768>ab2b5bd>0f43780>9ee6fac"
+  },
+  {
+    "id": "537c30d",
+    "type": "heading",
+    "title": "Service Area Oudtshoorn Card 04 Title",
+    "text": "Oudtshoorn South",
+    "path": "5>2dfa768>ab2b5bd>0f43780>9ee6fac"
+  },
+  {
+    "id": "075868d",
+    "type": "text-editor",
+    "title": "Service Area Oudtshoorn Card 04 Copy",
+    "text": "Plumbing service coverage planned for Oudtshoorn South, supporting homes, rentals, estates, guesthouses and business properties in the great",
+    "path": "5>2dfa768>ab2b5bd>0f43780>9ee6fac"
+  },
+  {
+    "id": "d32dffd",
+    "type": "button",
+    "title": "Service Area Oudtshoorn Card 04 CTA",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780>9ee6fac"
+  },
+  {
+    "id": "725cd0c",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Card 05",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780"
+  },
+  {
+    "id": "59ed09e",
+    "type": "image",
+    "title": "Service Area Oudtshoorn Card 05 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-oudtshoorn-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "5>2dfa768>ab2b5bd>0f43780>725cd0c"
+  },
+  {
+    "id": "1171f42",
+    "type": "heading",
+    "title": "Service Area Oudtshoorn Card 05 Title",
+    "text": "Bridgton",
+    "path": "5>2dfa768>ab2b5bd>0f43780>725cd0c"
+  },
+  {
+    "id": "2628b47",
+    "type": "text-editor",
+    "title": "Service Area Oudtshoorn Card 05 Copy",
+    "text": "Plumbing service coverage planned for Bridgton, supporting homes, rentals, estates, guesthouses and business properties in the greater Oudts",
+    "path": "5>2dfa768>ab2b5bd>0f43780>725cd0c"
+  },
+  {
+    "id": "3d07b9e",
+    "type": "button",
+    "title": "Service Area Oudtshoorn Card 05 CTA",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780>725cd0c"
+  },
+  {
+    "id": "5cc8a39",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Card 06",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780"
+  },
+  {
+    "id": "c8d8533",
+    "type": "image",
+    "title": "Service Area Oudtshoorn Card 06 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-oudtshoorn-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "5>2dfa768>ab2b5bd>0f43780>5cc8a39"
+  },
+  {
+    "id": "5878a12",
+    "type": "heading",
+    "title": "Service Area Oudtshoorn Card 06 Title",
+    "text": "Bongolethu",
+    "path": "5>2dfa768>ab2b5bd>0f43780>5cc8a39"
+  },
+  {
+    "id": "707e1f6",
+    "type": "text-editor",
+    "title": "Service Area Oudtshoorn Card 06 Copy",
+    "text": "Plumbing service coverage planned for Bongolethu, supporting homes, rentals, estates, guesthouses and business properties in the greater Oud",
+    "path": "5>2dfa768>ab2b5bd>0f43780>5cc8a39"
+  },
+  {
+    "id": "6e19c04",
+    "type": "button",
+    "title": "Service Area Oudtshoorn Card 06 CTA",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780>5cc8a39"
+  },
+  {
+    "id": "0a0ef12",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Card 07",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780"
+  },
+  {
+    "id": "07d22d5",
+    "type": "image",
+    "title": "Service Area Oudtshoorn Card 07 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-oudtshoorn-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "5>2dfa768>ab2b5bd>0f43780>0a0ef12"
+  },
+  {
+    "id": "fc165cb",
+    "type": "heading",
+    "title": "Service Area Oudtshoorn Card 07 Title",
+    "text": "Colridge",
+    "path": "5>2dfa768>ab2b5bd>0f43780>0a0ef12"
+  },
+  {
+    "id": "a5eb65d",
+    "type": "text-editor",
+    "title": "Service Area Oudtshoorn Card 07 Copy",
+    "text": "Plumbing service coverage planned for Colridge, supporting homes, rentals, estates, guesthouses and business properties in the greater Oudts",
+    "path": "5>2dfa768>ab2b5bd>0f43780>0a0ef12"
+  },
+  {
+    "id": "b075e38",
+    "type": "button",
+    "title": "Service Area Oudtshoorn Card 07 CTA",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780>0a0ef12"
+  },
+  {
+    "id": "cac31aa",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Card 08",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780"
+  },
+  {
+    "id": "a933c8b",
+    "type": "image",
+    "title": "Service Area Oudtshoorn Card 08 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-oudtshoorn-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "5>2dfa768>ab2b5bd>0f43780>cac31aa"
+  },
+  {
+    "id": "4051572",
+    "type": "heading",
+    "title": "Service Area Oudtshoorn Card 08 Title",
+    "text": "Coldridge View",
+    "path": "5>2dfa768>ab2b5bd>0f43780>cac31aa"
+  },
+  {
+    "id": "17840db",
+    "type": "text-editor",
+    "title": "Service Area Oudtshoorn Card 08 Copy",
+    "text": "Plumbing service coverage planned for Coldridge View, supporting homes, rentals, estates, guesthouses and business properties in the greater",
+    "path": "5>2dfa768>ab2b5bd>0f43780>cac31aa"
+  },
+  {
+    "id": "2198a21",
+    "type": "button",
+    "title": "Service Area Oudtshoorn Card 08 CTA",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780>cac31aa"
+  },
+  {
+    "id": "61335b1",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Card 09",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780"
+  },
+  {
+    "id": "fc5910e",
+    "type": "image",
+    "title": "Service Area Oudtshoorn Card 09 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-oudtshoorn-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "5>2dfa768>ab2b5bd>0f43780>61335b1"
+  },
+  {
+    "id": "46bc267",
+    "type": "heading",
+    "title": "Service Area Oudtshoorn Card 09 Title",
+    "text": "Toekomsrus",
+    "path": "5>2dfa768>ab2b5bd>0f43780>61335b1"
+  },
+  {
+    "id": "86cb886",
+    "type": "text-editor",
+    "title": "Service Area Oudtshoorn Card 09 Copy",
+    "text": "Plumbing service coverage planned for Toekomsrus, supporting homes, rentals, estates, guesthouses and business properties in the greater Oud",
+    "path": "5>2dfa768>ab2b5bd>0f43780>61335b1"
+  },
+  {
+    "id": "e9a25ad",
+    "type": "button",
+    "title": "Service Area Oudtshoorn Card 09 CTA",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780>61335b1"
+  },
+  {
+    "id": "103b0bf",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Card 10",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780"
+  },
+  {
+    "id": "b4163a2",
+    "type": "image",
+    "title": "Service Area Oudtshoorn Card 10 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-oudtshoorn-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "5>2dfa768>ab2b5bd>0f43780>103b0bf"
+  },
+  {
+    "id": "b23f591",
+    "type": "heading",
+    "title": "Service Area Oudtshoorn Card 10 Title",
+    "text": "Palm Village",
+    "path": "5>2dfa768>ab2b5bd>0f43780>103b0bf"
+  },
+  {
+    "id": "750c91a",
+    "type": "text-editor",
+    "title": "Service Area Oudtshoorn Card 10 Copy",
+    "text": "Plumbing service coverage planned for Palm Village, supporting homes, rentals, estates, guesthouses and business properties in the greater O",
+    "path": "5>2dfa768>ab2b5bd>0f43780>103b0bf"
+  },
+  {
+    "id": "c61add7",
+    "type": "button",
+    "title": "Service Area Oudtshoorn Card 10 CTA",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780>103b0bf"
+  },
+  {
+    "id": "15b28dd",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Card 11",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780"
+  },
+  {
+    "id": "b50c476",
+    "type": "image",
+    "title": "Service Area Oudtshoorn Card 11 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-oudtshoorn-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "5>2dfa768>ab2b5bd>0f43780>15b28dd"
+  },
+  {
+    "id": "d6f9732",
+    "type": "heading",
+    "title": "Service Area Oudtshoorn Card 11 Title",
+    "text": "Hospitaal Uitbreiding",
+    "path": "5>2dfa768>ab2b5bd>0f43780>15b28dd"
+  },
+  {
+    "id": "39e1882",
+    "type": "text-editor",
+    "title": "Service Area Oudtshoorn Card 11 Copy",
+    "text": "Plumbing service coverage planned for Hospitaal Uitbreiding, supporting homes, rentals, estates, guesthouses and business properties in the ",
+    "path": "5>2dfa768>ab2b5bd>0f43780>15b28dd"
+  },
+  {
+    "id": "adb0560",
+    "type": "button",
+    "title": "Service Area Oudtshoorn Card 11 CTA",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780>15b28dd"
+  },
+  {
+    "id": "35e2165",
+    "type": "container",
+    "title": "Service Area Oudtshoorn Card 12",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780"
+  },
+  {
+    "id": "6870dbd",
+    "type": "image",
+    "title": "Service Area Oudtshoorn Card 12 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-oudtshoorn-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "5>2dfa768>ab2b5bd>0f43780>35e2165"
+  },
+  {
+    "id": "2acd35c",
+    "type": "heading",
+    "title": "Service Area Oudtshoorn Card 12 Title",
+    "text": "Bergsig",
+    "path": "5>2dfa768>ab2b5bd>0f43780>35e2165"
+  },
+  {
+    "id": "86cd4bb",
+    "type": "text-editor",
+    "title": "Service Area Oudtshoorn Card 12 Copy",
+    "text": "Plumbing service coverage planned for Bergsig, supporting homes, rentals, estates, guesthouses and business properties in the greater Oudtsh",
+    "path": "5>2dfa768>ab2b5bd>0f43780>35e2165"
+  },
+  {
+    "id": "e489fce",
+    "type": "button",
+    "title": "Service Area Oudtshoorn Card 12 CTA",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd>0f43780>35e2165"
+  },
+  {
+    "id": "f1e8a0c",
+    "type": "container",
+    "title": "Service Area Oudtshoorn CTA Row",
+    "text": "",
+    "path": "5>2dfa768>ab2b5bd"
+  },
+  {
+    "id": "1bb4705",
+    "type": "global",
+    "title": "Home Trust Phone CTA",
+    "text": "",
+    "link": "tel:+27726514447",
+    "path": "5>2dfa768>ab2b5bd>f1e8a0c"
+  },
+  {
+    "id": "834d3b6",
+    "type": "container",
+    "title": "Service Area Wilderness Section",
+    "text": "",
+    "path": "6"
+  },
+  {
+    "id": "562c194",
+    "type": "container",
+    "title": "Service Area Wilderness Inner",
+    "text": "",
+    "path": "6>834d3b6"
+  },
+  {
+    "id": "2c673b7",
+    "type": "heading",
+    "title": "Service Area Wilderness Eyebrow",
+    "text": "WILDERNESS",
+    "path": "6>834d3b6>562c194"
+  },
+  {
+    "id": "b74f4ad",
+    "type": "elementskit-heading",
+    "title": "Service Area Wilderness Heading",
+    "text": "",
+    "path": "6>834d3b6>562c194"
+  },
+  {
+    "id": "e162cda",
+    "type": "container",
+    "title": "Service Area Wilderness Cards Row",
+    "text": "",
+    "path": "6>834d3b6>562c194"
+  },
+  {
+    "id": "7d4a4fc",
+    "type": "container",
+    "title": "Service Area Wilderness Card 01",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda"
+  },
+  {
+    "id": "7d9b02c",
+    "type": "image",
+    "title": "Service Area Wilderness Card 01 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-wilderness-service-area-ai-01.jpg",
+    "path": "6>834d3b6>562c194>e162cda>7d4a4fc"
+  },
+  {
+    "id": "5d7d400",
+    "type": "heading",
+    "title": "Service Area Wilderness Card 01 Title",
+    "text": "Wilderness Central",
+    "path": "6>834d3b6>562c194>e162cda>7d4a4fc"
+  },
+  {
+    "id": "b982271",
+    "type": "text-editor",
+    "title": "Service Area Wilderness Card 01 Copy",
+    "text": "Plumbing service coverage planned for Wilderness Central, supporting homes, rentals, estates, guesthouses and business properties in the gre",
+    "path": "6>834d3b6>562c194>e162cda>7d4a4fc"
+  },
+  {
+    "id": "5166f0e",
+    "type": "button",
+    "title": "Service Area Wilderness Card 01 CTA",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda>7d4a4fc"
+  },
+  {
+    "id": "bbf70fa",
+    "type": "container",
+    "title": "Service Area Wilderness Card 02",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda"
+  },
+  {
+    "id": "95f2b21",
+    "type": "image",
+    "title": "Service Area Wilderness Card 02 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-wilderness-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "6>834d3b6>562c194>e162cda>bbf70fa"
+  },
+  {
+    "id": "92b4c65",
+    "type": "heading",
+    "title": "Service Area Wilderness Card 02 Title",
+    "text": "Wilderness Heights",
+    "path": "6>834d3b6>562c194>e162cda>bbf70fa"
+  },
+  {
+    "id": "6df58af",
+    "type": "text-editor",
+    "title": "Service Area Wilderness Card 02 Copy",
+    "text": "Plumbing service coverage planned for Wilderness Heights, supporting homes, rentals, estates, guesthouses and business properties in the gre",
+    "path": "6>834d3b6>562c194>e162cda>bbf70fa"
+  },
+  {
+    "id": "00393c4",
+    "type": "button",
+    "title": "Service Area Wilderness Card 02 CTA",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda>bbf70fa"
+  },
+  {
+    "id": "32f337a",
+    "type": "container",
+    "title": "Service Area Wilderness Card 03",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda"
+  },
+  {
+    "id": "31a7fc9",
+    "type": "image",
+    "title": "Service Area Wilderness Card 03 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-wilderness-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "6>834d3b6>562c194>e162cda>32f337a"
+  },
+  {
+    "id": "6ff91e3",
+    "type": "heading",
+    "title": "Service Area Wilderness Card 03 Title",
+    "text": "Hoekwil",
+    "path": "6>834d3b6>562c194>e162cda>32f337a"
+  },
+  {
+    "id": "b11117f",
+    "type": "text-editor",
+    "title": "Service Area Wilderness Card 03 Copy",
+    "text": "Plumbing service coverage planned for Hoekwil, supporting homes, rentals, estates, guesthouses and business properties in the greater Wilder",
+    "path": "6>834d3b6>562c194>e162cda>32f337a"
+  },
+  {
+    "id": "9acc56c",
+    "type": "button",
+    "title": "Service Area Wilderness Card 03 CTA",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda>32f337a"
+  },
+  {
+    "id": "ad101dc",
+    "type": "container",
+    "title": "Service Area Wilderness Card 04",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda"
+  },
+  {
+    "id": "6f72c65",
+    "type": "image",
+    "title": "Service Area Wilderness Card 04 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-wilderness-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "6>834d3b6>562c194>e162cda>ad101dc"
+  },
+  {
+    "id": "45aff19",
+    "type": "heading",
+    "title": "Service Area Wilderness Card 04 Title",
+    "text": "Kleinkrantz",
+    "path": "6>834d3b6>562c194>e162cda>ad101dc"
+  },
+  {
+    "id": "9258d9d",
+    "type": "text-editor",
+    "title": "Service Area Wilderness Card 04 Copy",
+    "text": "Plumbing service coverage planned for Kleinkrantz, supporting homes, rentals, estates, guesthouses and business properties in the greater Wi",
+    "path": "6>834d3b6>562c194>e162cda>ad101dc"
+  },
+  {
+    "id": "06e4195",
+    "type": "button",
+    "title": "Service Area Wilderness Card 04 CTA",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda>ad101dc"
+  },
+  {
+    "id": "257decc",
+    "type": "container",
+    "title": "Service Area Wilderness Card 05",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda"
+  },
+  {
+    "id": "0773ca4",
+    "type": "image",
+    "title": "Service Area Wilderness Card 05 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-wilderness-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "6>834d3b6>562c194>e162cda>257decc"
+  },
+  {
+    "id": "ff7ff0b",
+    "type": "heading",
+    "title": "Service Area Wilderness Card 05 Title",
+    "text": "Rondevlei",
+    "path": "6>834d3b6>562c194>e162cda>257decc"
+  },
+  {
+    "id": "bc7ec1c",
+    "type": "text-editor",
+    "title": "Service Area Wilderness Card 05 Copy",
+    "text": "Plumbing service coverage planned for Rondevlei, supporting homes, rentals, estates, guesthouses and business properties in the greater Wild",
+    "path": "6>834d3b6>562c194>e162cda>257decc"
+  },
+  {
+    "id": "6602f05",
+    "type": "button",
+    "title": "Service Area Wilderness Card 05 CTA",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda>257decc"
+  },
+  {
+    "id": "95e4473",
+    "type": "container",
+    "title": "Service Area Wilderness Card 06",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda"
+  },
+  {
+    "id": "cfb9129",
+    "type": "image",
+    "title": "Service Area Wilderness Card 06 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-wilderness-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "6>834d3b6>562c194>e162cda>95e4473"
+  },
+  {
+    "id": "950ecab",
+    "type": "heading",
+    "title": "Service Area Wilderness Card 06 Title",
+    "text": "Wilderness Rural",
+    "path": "6>834d3b6>562c194>e162cda>95e4473"
+  },
+  {
+    "id": "b6660c5",
+    "type": "text-editor",
+    "title": "Service Area Wilderness Card 06 Copy",
+    "text": "Plumbing service coverage planned for Wilderness Rural, supporting homes, rentals, estates, guesthouses and business properties in the great",
+    "path": "6>834d3b6>562c194>e162cda>95e4473"
+  },
+  {
+    "id": "7e0f0f9",
+    "type": "button",
+    "title": "Service Area Wilderness Card 06 CTA",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda>95e4473"
+  },
+  {
+    "id": "9098a7f",
+    "type": "container",
+    "title": "Service Area Wilderness Card 07",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda"
+  },
+  {
+    "id": "5d1e649",
+    "type": "image",
+    "title": "Service Area Wilderness Card 07 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-wilderness-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "6>834d3b6>562c194>e162cda>9098a7f"
+  },
+  {
+    "id": "dc0483f",
+    "type": "heading",
+    "title": "Service Area Wilderness Card 07 Title",
+    "text": "Touwsranten",
+    "path": "6>834d3b6>562c194>e162cda>9098a7f"
+  },
+  {
+    "id": "7faf2e2",
+    "type": "text-editor",
+    "title": "Service Area Wilderness Card 07 Copy",
+    "text": "Plumbing service coverage planned for Touwsranten, supporting homes, rentals, estates, guesthouses and business properties in the greater Wi",
+    "path": "6>834d3b6>562c194>e162cda>9098a7f"
+  },
+  {
+    "id": "7ec8949",
+    "type": "button",
+    "title": "Service Area Wilderness Card 07 CTA",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda>9098a7f"
+  },
+  {
+    "id": "bcc2c36",
+    "type": "container",
+    "title": "Service Area Wilderness Card 08",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda"
+  },
+  {
+    "id": "53d65f8",
+    "type": "image",
+    "title": "Service Area Wilderness Card 08 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-wilderness-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "6>834d3b6>562c194>e162cda>bcc2c36"
+  },
+  {
+    "id": "321e352",
+    "type": "heading",
+    "title": "Service Area Wilderness Card 08 Title",
+    "text": "Victoria Bay",
+    "path": "6>834d3b6>562c194>e162cda>bcc2c36"
+  },
+  {
+    "id": "b6c2c34",
+    "type": "text-editor",
+    "title": "Service Area Wilderness Card 08 Copy",
+    "text": "Plumbing service coverage planned for Victoria Bay, supporting homes, rentals, estates, guesthouses and business properties in the greater W",
+    "path": "6>834d3b6>562c194>e162cda>bcc2c36"
+  },
+  {
+    "id": "5614c3a",
+    "type": "button",
+    "title": "Service Area Wilderness Card 08 CTA",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda>bcc2c36"
+  },
+  {
+    "id": "70f1856",
+    "type": "container",
+    "title": "Service Area Wilderness Card 09",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda"
+  },
+  {
+    "id": "15d74d5",
+    "type": "image",
+    "title": "Service Area Wilderness Card 09 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-wilderness-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "6>834d3b6>562c194>e162cda>70f1856"
+  },
+  {
+    "id": "81d0574",
+    "type": "heading",
+    "title": "Service Area Wilderness Card 09 Title",
+    "text": "Kaaimans River",
+    "path": "6>834d3b6>562c194>e162cda>70f1856"
+  },
+  {
+    "id": "1a2098c",
+    "type": "text-editor",
+    "title": "Service Area Wilderness Card 09 Copy",
+    "text": "Plumbing service coverage planned for Kaaimans River, supporting homes, rentals, estates, guesthouses and business properties in the greater",
+    "path": "6>834d3b6>562c194>e162cda>70f1856"
+  },
+  {
+    "id": "62d43c2",
+    "type": "button",
+    "title": "Service Area Wilderness Card 09 CTA",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda>70f1856"
+  },
+  {
+    "id": "7d9430c",
+    "type": "container",
+    "title": "Service Area Wilderness Card 10",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda"
+  },
+  {
+    "id": "0c796be",
+    "type": "image",
+    "title": "Service Area Wilderness Card 10 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-wilderness-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "6>834d3b6>562c194>e162cda>7d9430c"
+  },
+  {
+    "id": "c3575ce",
+    "type": "heading",
+    "title": "Service Area Wilderness Card 10 Title",
+    "text": "Ebb and Flow",
+    "path": "6>834d3b6>562c194>e162cda>7d9430c"
+  },
+  {
+    "id": "51bce15",
+    "type": "text-editor",
+    "title": "Service Area Wilderness Card 10 Copy",
+    "text": "Plumbing service coverage planned for Ebb and Flow, supporting homes, rentals, estates, guesthouses and business properties in the greater W",
+    "path": "6>834d3b6>562c194>e162cda>7d9430c"
+  },
+  {
+    "id": "944da3f",
+    "type": "button",
+    "title": "Service Area Wilderness Card 10 CTA",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda>7d9430c"
+  },
+  {
+    "id": "8dedddc",
+    "type": "container",
+    "title": "Service Area Wilderness Card 11",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda"
+  },
+  {
+    "id": "fd01c0c",
+    "type": "image",
+    "title": "Service Area Wilderness Card 11 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-wilderness-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "6>834d3b6>562c194>e162cda>8dedddc"
+  },
+  {
+    "id": "2138e4a",
+    "type": "heading",
+    "title": "Service Area Wilderness Card 11 Title",
+    "text": "Langvlei",
+    "path": "6>834d3b6>562c194>e162cda>8dedddc"
+  },
+  {
+    "id": "aa10807",
+    "type": "text-editor",
+    "title": "Service Area Wilderness Card 11 Copy",
+    "text": "Plumbing service coverage planned for Langvlei, supporting homes, rentals, estates, guesthouses and business properties in the greater Wilde",
+    "path": "6>834d3b6>562c194>e162cda>8dedddc"
+  },
+  {
+    "id": "2c047b7",
+    "type": "button",
+    "title": "Service Area Wilderness Card 11 CTA",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda>8dedddc"
+  },
+  {
+    "id": "112b432",
+    "type": "container",
+    "title": "Service Area Wilderness Card 12",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda"
+  },
+  {
+    "id": "ece2c3d",
+    "type": "image",
+    "title": "Service Area Wilderness Card 12 Image",
+    "text": "",
+    "image": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-wilderness-service-area-ai-01.jpg",
+    "link": "#",
+    "path": "6>834d3b6>562c194>e162cda>112b432"
+  },
+  {
+    "id": "73619e6",
+    "type": "heading",
+    "title": "Service Area Wilderness Card 12 Title",
+    "text": "Fairy Knowe",
+    "path": "6>834d3b6>562c194>e162cda>112b432"
+  },
+  {
+    "id": "a0ce5c5",
+    "type": "text-editor",
+    "title": "Service Area Wilderness Card 12 Copy",
+    "text": "Plumbing service coverage planned for Fairy Knowe, supporting homes, rentals, estates, guesthouses and business properties in the greater Wi",
+    "path": "6>834d3b6>562c194>e162cda>112b432"
+  },
+  {
+    "id": "f20eb2e",
+    "type": "button",
+    "title": "Service Area Wilderness Card 12 CTA",
+    "text": "",
+    "path": "6>834d3b6>562c194>e162cda>112b432"
+  },
+  {
+    "id": "38c64b3",
+    "type": "container",
+    "title": "Service Area Wilderness CTA Row",
+    "text": "",
+    "path": "6>834d3b6>562c194"
+  },
+  {
+    "id": "3a5a258",
+    "type": "global",
+    "title": "Home Trust Primary CTA",
+    "text": "",
+    "link": "https://wa.me/27726514447",
+    "path": "6>834d3b6>562c194>38c64b3"
+  },
+  {
+    "id": "5379a55",
+    "type": "container",
+    "title": "Service Areas FAQ Section",
+    "text": "",
+    "path": "7"
+  },
+  {
+    "id": "a273c38",
+    "type": "menu-anchor",
+    "title": "Services FAQ Anchor",
+    "text": "",
+    "path": "7>5379a55"
+  },
+  {
+    "id": "bfe2683",
+    "type": "heading",
+    "title": "Service Areas FAQ Eyebrow",
+    "text": "GOT QUESTIONS?",
+    "path": "7>5379a55"
+  },
+  {
+    "id": "fa6a362",
+    "type": "elementskit-heading",
+    "title": "Service Areas FAQ Heading",
+    "text": "",
+    "path": "7>5379a55"
+  },
+  {
+    "id": "9b703bb",
+    "type": "nested-accordion",
+    "title": "Service Areas FAQ Accordion",
+    "text": "",
+    "path": "7>5379a55"
+  },
+  {
+    "id": "07bf7ec",
+    "type": "container",
+    "title": "item #1",
+    "text": "",
+    "path": "7>5379a55>9b703bb"
+  },
+  {
+    "id": "77c725d",
+    "type": "text-editor",
+    "title": "Service Areas FAQ 01 Answer",
+    "text": "H2O Plumbers currently structures service coverage around George, Mossel Bay, Knysna, Oudtshoorn, Wilderness and nearby Garden Route areas. ",
+    "path": "7>5379a55>9b703bb>07bf7ec"
+  },
+  {
+    "id": "f670e8d",
+    "type": "container",
+    "title": "item #2",
+    "text": "",
+    "path": "7>5379a55>9b703bb"
+  },
+  {
+    "id": "52b33c5",
+    "type": "text-editor",
+    "title": "Service Areas FAQ 02 Answer",
+    "text": "The suburb cards prepare the site for local SEO growth. They help organise high-value residential, estate, coastal and commercial areas so f",
+    "path": "7>5379a55>9b703bb>f670e8d"
+  },
+  {
+    "id": "7828241",
+    "type": "container",
+    "title": "item #3",
+    "text": "",
+    "path": "7>5379a55>9b703bb"
+  },
+  {
+    "id": "4b3d608",
+    "type": "text-editor",
+    "title": "Service Areas FAQ 03 Answer",
+    "text": "Not automatically. These suburb cards are a planning layer. If the client signs up for SEO, Barry can help select the best opportunities and",
+    "path": "7>5379a55>9b703bb>7828241"
+  },
+  {
+    "id": "51dd10c",
+    "type": "container",
+    "title": "Item #5",
+    "text": "",
+    "path": "7>5379a55>9b703bb"
+  },
+  {
+    "id": "3c037e4",
+    "type": "text-editor",
+    "title": "Service Areas FAQ 04 Answer",
+    "text": "Yes. If your property is near one of the main Garden Route service areas but not listed on this page, call or WhatsApp H2O Plumbers to confi",
+    "path": "7>5379a55>9b703bb>51dd10c"
+  },
+  {
+    "id": "e2d6a31",
+    "type": "container",
+    "title": "item #2",
+    "text": "",
+    "path": "7>5379a55>9b703bb"
+  },
+  {
+    "id": "8c303b5",
+    "type": "text-editor",
+    "title": "Service Areas FAQ 05 Answer",
+    "text": "The Service Areas page acts as the location hub. Later, individual suburb pages can link back to this hub and to related service pages, buil",
+    "path": "7>5379a55>9b703bb>e2d6a31"
+  }
+]

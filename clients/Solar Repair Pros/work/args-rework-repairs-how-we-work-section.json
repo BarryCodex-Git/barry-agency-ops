@@ -1,0 +1,74 @@
+{
+  "post_id": 6637,
+  "operations": [
+    {
+      "element_id": "bcf73bb",
+      "settings": {
+        "title": "WHEN SUPPORT DISAPPEARS",
+        "title_color": "#0B254D",
+        "_background_color": "#FFFFFF",
+        "_border_color": "#F27A1D"
+      }
+    },
+    {
+      "element_id": "6862c6b",
+      "settings": {
+        "title": "Your Solar Company Is Gone. Your System Still Needs Answers.",
+        "title_color": "#0B254D"
+      }
+    },
+    {
+      "element_id": "1af5557",
+      "settings": {
+        "title": "We help you move from confusion to a practical repair plan.",
+        "title_color": "#0B254D"
+      }
+    },
+    {
+      "element_id": "c9da4f5",
+      "settings": {
+        "icon_list": [
+          {
+            "text": "Start with what changed: alerts, production drops, app warnings, storm damage, or the moment the system stopped behaving normally.",
+            "selected_icon": {
+              "value": "fas fa-phone-slash",
+              "library": "fa-solid"
+            },
+            "_id": "lostsupport"
+          },
+          {
+            "text": "Review the visible system: panels, inverter, monitoring history, wiring clues, roof context, and electrical panel capacity.",
+            "selected_icon": {
+              "value": "fas fa-search",
+              "library": "fa-solid"
+            },
+            "_id": "reviewsystem"
+          },
+          {
+            "text": "Explain the next step in plain language, whether that means repair, inspection, replacement planning, or a connected electrical upgrade.",
+            "selected_icon": {
+              "value": "fas fa-route",
+              "library": "fa-solid"
+            },
+            "_id": "nextstep"
+          }
+        ],
+        "text_color": "#0B254D",
+        "icon_color": "#F27A1D"
+      }
+    },
+    {
+      "element_id": "329ba93",
+      "settings": {
+        "image": {
+          "id": 6868,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-repair-installer-disappeared-consultation-1000x1000-1.png",
+          "alt": "Solar technician explaining inverter and monitoring issues to a Dallas-Fort Worth homeowner",
+          "source": "library",
+          "size": "full"
+        },
+        "image_size": "full"
+      }
+    }
+  ]
+}

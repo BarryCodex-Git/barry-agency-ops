@@ -1,0 +1,1 @@
+﻿{"jsonrpc":"2.0","id":2,"result":{"content":[{"type":"text","text":"{\"success\":false,\"updated\":22,\"failed\":[{\"element_id\":\"hppr004\",\"reason\":\"element not found\"}]}"}],"structuredContent":{"success":false,"updated":22,"failed":[{"element_id":"hppr004","reason":"element not found"}]}}}

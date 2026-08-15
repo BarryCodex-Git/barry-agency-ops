@@ -1,0 +1,11 @@
+{
+    "method":  "tools/call",
+    "params":  {
+                   "arguments":  {
+                                     "group":  "post"
+                                 },
+                   "name":  "elementor-mcp-list-dynamic-tags"
+               },
+    "id":  2,
+    "jsonrpc":  "2.0"
+}

@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":2,"method":"tools/call","params":{"name":"elementor-mcp-set-template-conditions","arguments":{"post_id":6432,"conditions":[["include","singular","post"]]}}}

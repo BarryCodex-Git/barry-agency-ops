@@ -1,0 +1,17 @@
+{
+  "post_id": 6640,
+  "operations": [
+    {
+      "element_id": "b331af9",
+      "settings": {
+        "editor": "<p>Electrical planning should happen before solar equipment, battery storage or EV charging hardware is added. The existing service rating, breaker space, household loads and equipment requirements all affect the recommendation. This section helps Dallas-Fort Worth owners confirm whether a panel upgrade is truly needed before replacing equipment.</p>"
+      }
+    },
+    {
+      "element_id": "a3c85eb",
+      "settings": {
+        "editor": "<p>Panel work sits between the utility service and the new equipment being planned, so the sequence matters. Solar repairs, storage additions and EV charger installs can each affect capacity decisions in a different way. This section explains why planning matters before the project moves from equipment choice to electrical work.</p>"
+      }
+    }
+  ]
+}

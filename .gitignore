@@ -9,35 +9,13 @@ clients/*/access-notes.md
 clients/*/private/
 clients/*/exports/
 
-# Local working output and temporary automation data
-work/
-outputs/
-tmp-*
-*-request.json
-*-response.txt
+# Local authentication/session traces
 *-headers.txt
+*session-response.txt
+*session-headers.txt
+*cookie*.txt
+*cookies*.txt
 *.log
 
-# Client-specific bulky/private assets stay local by default.
-clients/*
-!clients/_template/
-!clients/_template/**
-
-# Large imports, backups, media, and generated site artifacts
+# Large WordPress site imports stay local. These are uploaded to DEV domains directly.
 *.wpress
-*.zip
-*.tar
-*.gz
-*.7z
-*.jpg
-*.jpeg
-*.png
-*.webp
-*.gif
-*.svg
-*.mp4
-*.mov
-*.avi
-*.pdf
-*.docx
-*.xlsx

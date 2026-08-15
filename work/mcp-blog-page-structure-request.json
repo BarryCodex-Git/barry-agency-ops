@@ -1,0 +1,11 @@
+{
+    "method":  "tools/call",
+    "params":  {
+                   "arguments":  {
+                                     "post_id":  6425
+                                 },
+                   "name":  "elementor-mcp-get-page-structure"
+               },
+    "id":  2,
+    "jsonrpc":  "2.0"
+}

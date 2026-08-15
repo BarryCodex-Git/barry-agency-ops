@@ -1,0 +1,21 @@
+{
+    "method":  "tools/call",
+    "params":  {
+                   "arguments":  {
+                                     "post_id":  6425,
+                                     "parent_id":  "34688a2",
+                                     "position":  -1,
+                                     "widget_type":  "wp-widget-categories",
+                                     "settings":  {
+                                                      "hierarchical":  "yes",
+                                                      "_title":  "Blog Sidebar Categories",
+                                                      "title":  "Categories",
+                                                      "count":  "yes",
+                                                      "css_classes":  "barry-field barry-blog-sidebar-categories"
+                                                  }
+                                 },
+                   "name":  "elementor-mcp-add-widget"
+               },
+    "id":  4,
+    "jsonrpc":  "2.0"
+}

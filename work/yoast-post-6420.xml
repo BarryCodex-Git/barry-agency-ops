@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<methodCall>
+  <methodName>wp.editPost</methodName>
+  <params>
+    <param><value><int>1</int></value></param>
+    <param><value><string>barry</string></value></param>
+    <param><value><string>ZqMh tekF Mg2M hq5P aevn 0kLB</string></value></param>
+    <param><value><int>6420</int></value></param>
+    <param><value><struct><member><name>custom_fields</name><value><array><data><value><struct><member><name>key</name><value><string>_yoast_wpseo_title</string></value></member><member><name>value</name><value><string>Blocked Drain Warning Signs Garden Route | H2O Plumbers</string></value></member></struct></value>
+<value><struct><member><name>key</name><value><string>_yoast_wpseo_metadesc</string></value></member><member><name>value</name><value><string>Learn the blocked drain warning signs Garden Route property owners should watch for, including slow drains, gurgling pipes and bad smells.</string></value></member></struct></value>
+<value><struct><member><name>key</name><value><string>_yoast_wpseo_focuskw</string></value></member><member><name>value</name><value><string>blocked drain warning signs Garden Route</string></value></member></struct></value>
+<value><struct><member><name>key</name><value><string>_yoast_wpseo_opengraph-title</string></value></member><member><name>value</name><value><string>Blocked Drain Warning Signs Garden Route | H2O Plumbers</string></value></member></struct></value>
+<value><struct><member><name>key</name><value><string>_yoast_wpseo_opengraph-description</string></value></member><member><name>value</name><value><string>Learn the blocked drain warning signs Garden Route property owners should watch for, including slow drains, gurgling pipes and bad smells.</string></value></member></struct></value></data></array></value></member></struct></value></param>
+  </params>
+</methodCall>

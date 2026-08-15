@@ -1,0 +1,35 @@
+{
+  "post_id": 6640,
+  "operations": [
+    {
+      "element_id": "475d9f9",
+      "settings": {
+        "title": "Panel Upgrades for Solar, Battery and EV Plans"
+      }
+    },
+    {
+      "element_id": "2b83f4e",
+      "settings": {
+        "editor": "<p>When an unsupported solar system needs repairs, batteries, or EV charging, the electrical panel may become part of the decision. Solar Repair Pros helps Dallas-Fort Worth owners understand whether capacity, condition, or layout needs attention before more equipment is added.</p>"
+      }
+    },
+    {
+      "element_id": "3a3bdf2",
+      "settings": {
+        "title": "When Solar Plans Run Into Panel Limits"
+      }
+    },
+    {
+      "element_id": "4496445",
+      "settings": {
+        "editor": "<p>A new solar, storage, or charging project does not always require a panel replacement. The existing service rating, breaker space, load demand, and equipment condition should be checked before deciding.</p>"
+      }
+    },
+    {
+      "element_id": "3258d2b",
+      "settings": {
+        "title": "Electrical Planning Before Equipment Is Added"
+      }
+    }
+  ]
+}

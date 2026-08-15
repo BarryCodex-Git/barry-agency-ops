@@ -1,0 +1,263 @@
+﻿[
+    {
+        "name":  "elementor-mcp-get-page-structure",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The WordPress post/page ID."
+                                                           }
+                                           },
+                            "required":  [
+                                             "post_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-page-settings",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Page settings object."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "settings"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-container",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The container element ID."
+                                                              },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Partial settings to merge into the container."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id",
+                                             "settings"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-element",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The element ID (container or widget)."
+                                                              },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Partial settings to merge into the element."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id",
+                                             "settings"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-batch-update",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "operations":  {
+                                                                  "type":  "array",
+                                                                  "description":  "Array of update operations.",
+                                                                  "items":  {
+                                                                                "type":  "object",
+                                                                                "properties":  {
+                                                                                                   "element_id":  {
+                                                                                                                      "type":  "string",
+                                                                                                                      "description":  "Element ID to update."
+                                                                                                                  },
+                                                                                                   "settings":  {
+                                                                                                                    "type":  "object",
+                                                                                                                    "description":  "Settings to merge."
+                                                                                                                }
+                                                                                               },
+                                                                                "required":  [
+                                                                                                 "element_id",
+                                                                                                 "settings"
+                                                                                             ]
+                                                                            }
+                                                              }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "operations"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-widget",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The widget element ID."
+                                                              },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Partial settings to merge."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id",
+                                             "settings"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-global-colors",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "colors":  {
+                                                              "type":  "array",
+                                                              "description":  "Array of color definitions.",
+                                                              "items":  {
+                                                                            "type":  "object",
+                                                                            "properties":  {
+                                                                                               "_id":  {
+                                                                                                           "type":  "string",
+                                                                                                           "description":  "Unique color ID (e.g. \"primary\")."
+                                                                                                       },
+                                                                                               "title":  {
+                                                                                                             "type":  "string",
+                                                                                                             "description":  "Human-readable title."
+                                                                                                         },
+                                                                                               "color":  {
+                                                                                                             "type":  "string",
+                                                                                                             "description":  "Color value in hex format (e.g. \"#FF5733\")."
+                                                                                                         }
+                                                                                           },
+                                                                            "required":  [
+                                                                                             "_id",
+                                                                                             "title",
+                                                                                             "color"
+                                                                                         ]
+                                                                        }
+                                                          }
+                                           },
+                            "required":  [
+                                             "colors"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-global-typography",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "typography":  {
+                                                                  "type":  "array",
+                                                                  "description":  "Array of typography definitions.",
+                                                                  "items":  {
+                                                                                "type":  "object",
+                                                                                "properties":  {
+                                                                                                   "_id":  {
+                                                                                                               "type":  "string",
+                                                                                                               "description":  "Unique typography ID (e.g. \"primary\")."
+                                                                                                           },
+                                                                                                   "title":  {
+                                                                                                                 "type":  "string",
+                                                                                                                 "description":  "Human-readable title."
+                                                                                                             },
+                                                                                                   "typography_font_family":  {
+                                                                                                                                  "type":  "string",
+                                                                                                                                  "description":  "Font family name."
+                                                                                                                              },
+                                                                                                   "typography_font_size":  {
+                                                                                                                                "type":  "object",
+                                                                                                                                "description":  "Font size with size and unit."
+                                                                                                                            },
+                                                                                                   "typography_font_weight":  {
+                                                                                                                                  "type":  "string",
+                                                                                                                                  "description":  "Font weight (100-900, normal, bold)."
+                                                                                                                              },
+                                                                                                   "typography_line_height":  {
+                                                                                                                                  "type":  "object",
+                                                                                                                                  "description":  "Line height with size and unit."
+                                                                                                                              },
+                                                                                                   "typography_letter_spacing":  {
+                                                                                                                                     "type":  "object",
+                                                                                                                                     "description":  "Letter spacing with size and unit."
+                                                                                                                                 }
+                                                                                               },
+                                                                                "required":  [
+                                                                                                 "_id",
+                                                                                                 "title"
+                                                                                             ]
+                                                                            }
+                                                              }
+                                           },
+                            "required":  [
+                                             "typography"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-atomic-widget",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The element ID to update."
+                                                              },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Partial settings to merge ($$type-wrapped values)."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id",
+                                             "settings"
+                                         ]
+                        }
+    }
+]

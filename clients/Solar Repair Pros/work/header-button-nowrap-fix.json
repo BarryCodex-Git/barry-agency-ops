@@ -1,0 +1,55 @@
+﻿{
+    "post_id":  2785,
+    "operations":  [
+                       {
+                           "element_id":  "8d2ccd4",
+                           "settings":  {
+                                            "custom_css":  "selector .elementor-button{white-space:nowrap;min-width:220px;display:inline-flex;align-items:center;justify-content:center;gap:10px;} selector .elementor-button-content-wrapper{white-space:nowrap;display:inline-flex;align-items:center;gap:10px;}",
+                                            "_flex_align_self":  "center",
+                                            "_width":  "auto",
+                                            "_flex_size":  "none"
+                                        }
+                       },
+                       {
+                           "element_id":  "fcb90ea",
+                           "settings":  {
+                                            "_flex_align_self":  "center",
+                                            "_width":  "auto",
+                                            "_flex_size":  "grow"
+                                        }
+                       },
+                       {
+                           "element_id":  "d55e28e",
+                           "settings":  {
+                                            "row_gap":  {
+                                                            "size":  0,
+                                                            "sizes":  [
+
+                                                                      ],
+                                                            "unit":  "px"
+                                                        },
+                                            "column_gap":  {
+                                                               "size":  24,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "px"
+                                                           },
+                                            "gap":  {
+                                                        "row":  "0",
+                                                        "size":  24,
+                                                        "column":  "24",
+                                                        "unit":  "px",
+                                                        "isLinked":  false
+                                                    },
+                                            "flex_gap":  {
+                                                             "size":  24,
+                                                             "sizes":  [
+
+                                                                       ],
+                                                             "unit":  "px"
+                                                         }
+                                        }
+                       }
+                   ]
+}

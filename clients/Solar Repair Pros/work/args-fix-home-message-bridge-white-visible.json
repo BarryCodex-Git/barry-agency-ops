@@ -1,0 +1,152 @@
+{
+  "post_id": 2747,
+  "operations": [
+    {
+      "element_id": "0528a33",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#FFFFFF",
+        "padding": {
+          "unit": "rem",
+          "top": "3.5",
+          "right": "1",
+          "bottom": "3.5",
+          "left": "1",
+          "isLinked": false
+        },
+        "padding_mobile": {
+          "unit": "rem",
+          "top": "2.5",
+          "right": "1",
+          "bottom": "2.5",
+          "left": "1",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "rem",
+          "size": 1.1,
+          "column": "1.1",
+          "row": "1.1",
+          "isLinked": true
+        },
+        "animation": ""
+      }
+    },
+    {
+      "element_id": "3965131",
+      "settings": {
+        "title": "SOLAR COMPANY GONE?",
+        "title_color": "#FFFFFF",
+        "_background_color": "#F27A1D",
+        "_border_color": "#F27A1D"
+      }
+    },
+    {
+      "element_id": "2f9dc70",
+      "settings": {
+        "title": "You Still Deserve Solar Support",
+        "title_color": "#0B254D"
+      }
+    },
+    {
+      "element_id": "57075e2",
+      "settings": {
+        "text_color": "#0B254D",
+        "editor": "<p>If the company that installed your panels is no longer answering the phone, you should not have to guess what went wrong. Solar Repair Pros helps Dallas-Fort Worth owners understand the problem, protect the system, and choose the next practical step.</p>"
+      }
+    },
+    {
+      "element_id": "e4c9edd",
+      "settings": {
+        "margin": {
+          "unit": "rem",
+          "top": "0.8",
+          "right": "0",
+          "bottom": "0.6",
+          "left": "0",
+          "isLinked": false
+        },
+        "flex_gap": {
+          "unit": "rem",
+          "size": 1,
+          "column": "1",
+          "row": "1",
+          "isLinked": true
+        }
+      }
+    },
+    {
+      "element_id": "99d42f3",
+      "settings": {
+        "_background_color": "#FFF4EA",
+        "_border_color": "#F27A1D",
+        "title_color": "#0B254D",
+        "description_color": "#10294F",
+        "animation": "",
+        "hover_animation": ""
+      }
+    },
+    {
+      "element_id": "7185f9a",
+      "settings": {
+        "_background_color": "#FFF4EA",
+        "_border_color": "#F27A1D",
+        "title_color": "#0B254D",
+        "description_color": "#10294F",
+        "animation": "",
+        "hover_animation": ""
+      }
+    },
+    {
+      "element_id": "cde088c",
+      "settings": {
+        "_background_color": "#FFF4EA",
+        "_border_color": "#F27A1D",
+        "title_color": "#0B254D",
+        "description_color": "#10294F",
+        "animation": "",
+        "hover_animation": ""
+      }
+    },
+    {
+      "element_id": "c5f29bd",
+      "settings": {
+        "_background_color": "#FFF4EA",
+        "_border_color": "#F27A1D",
+        "title_color": "#0B254D",
+        "description_color": "#10294F",
+        "animation": "",
+        "hover_animation": ""
+      }
+    },
+    {
+      "element_id": "894624c",
+      "settings": {
+        "margin": {
+          "unit": "rem",
+          "top": "0.4",
+          "right": "0",
+          "bottom": "0",
+          "left": "0",
+          "isLinked": false
+        }
+      }
+    },
+    {
+      "element_id": "0d0ebed",
+      "settings": {
+        "background_color": "#F27A1D",
+        "button_text_color": "#FFFFFF",
+        "border_color": "#F27A1D"
+      }
+    },
+    {
+      "element_id": "57d0dc4",
+      "settings": {
+        "background_color": "#0B254D",
+        "button_text_color": "#FFFFFF",
+        "border_color": "#0B254D"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "post_id": 2747,
+  "operations": [
+    {
+      "element_id": "507fabe",
+      "settings": {
+        "image": {
+          "id": 6903,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/fort-worth-texas-cityscape-service-area.webp",
+          "alt": "Fort Worth Texas cityscape for Solar Repair Pros service area",
+          "source": "library",
+          "size": "full"
+        },
+        "image_size": "full"
+      }
+    },
+    {
+      "element_id": "e93193e",
+      "settings": {
+        "image": {
+          "id": 6904,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/arlington-texas-stadium-district-service-area.webp",
+          "alt": "Arlington Texas stadium district for Solar Repair Pros service area",
+          "source": "library",
+          "size": "full"
+        },
+        "image_size": "full"
+      }
+    },
+    {
+      "element_id": "4e9f1fe",
+      "settings": {
+        "image": {
+          "id": 6905,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/plano-texas-business-district-service-area.webp",
+          "alt": "Plano Texas business district for Solar Repair Pros service area",
+          "source": "library",
+          "size": "full"
+        },
+        "image_size": "full"
+      }
+    },
+    {
+      "element_id": "620b991",
+      "settings": {
+        "image": {
+          "id": 6906,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/frisco-texas-district-service-area.webp",
+          "alt": "Frisco Texas city district for Solar Repair Pros service area",
+          "source": "library",
+          "size": "full"
+        },
+        "image_size": "full"
+      }
+    }
+  ]
+}

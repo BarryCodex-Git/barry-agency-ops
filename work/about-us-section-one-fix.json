@@ -1,0 +1,29 @@
+﻿{
+  "post_id": 6606,
+  "operations": [
+    {
+      "element_id": "cb7266c",
+      "settings": { "title": "ABOUT H2O" }
+    },
+    {
+      "element_id": "ad60050",
+      "settings": { "title": "A Garden Route Plumbing Company With Local Roots" }
+    },
+    {
+      "element_id": "48c4d42",
+      "settings": {
+        "editor": "<p>H2O Plumbers is based in George and works across the wider Garden Route, supporting residential properties, businesses, guesthouses and rentals with practical plumbing help. The company has been part of the local plumbing space since 2007, with a focus on clear communication, neat work and sensible problem solving.</p>"
+      }
+    },
+    {
+      "element_id": "235a8fa",
+      "settings": {
+        "icon_list": [
+          { "text": "<strong>George based:</strong> Local plumbing support for Garden Route homes, rentals and business properties.", "_id": "a1" },
+          { "text": "<strong>Operating since 2007:</strong> Practical experience across everyday repairs, leak checks and drainage work.", "_id": "a2" },
+          { "text": "<strong>Family-owned approach:</strong> Direct communication and straightforward service without unnecessary complication.", "_id": "a3" }
+        ]
+      }
+    }
+  ]
+}

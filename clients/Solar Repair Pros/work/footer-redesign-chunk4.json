@@ -1,0 +1,94 @@
+﻿{
+    "post_id":  2805,
+    "operations":  [
+                       {
+                           "element_id":  "24d254d",
+                           "settings":  {
+                                            "field_border_radius":  {
+                                                                        "left":  "12",
+                                                                        "bottom":  "12",
+                                                                        "top":  "12",
+                                                                        "right":  "12",
+                                                                        "isLinked":  true,
+                                                                        "unit":  "px"
+                                                                    },
+                                            "button_border_radius":  {
+                                                                         "left":  "14",
+                                                                         "bottom":  "14",
+                                                                         "top":  "14",
+                                                                         "right":  "14",
+                                                                         "isLinked":  true,
+                                                                         "unit":  "px"
+                                                                     },
+                                            "button_background_color":  "#F27A1D",
+                                            "button_hover_color":  "#FFFFFF",
+                                            "field_border_width":  {
+                                                                       "left":  "1",
+                                                                       "bottom":  "1",
+                                                                       "top":  "1",
+                                                                       "right":  "1",
+                                                                       "isLinked":  true,
+                                                                       "unit":  "px"
+                                                                   },
+                                            "button_box_shadow_box_shadow":  {
+                                                                                 "vertical":  12,
+                                                                                 "color":  "rgba(11,37,77,0.22)",
+                                                                                 "spread":  0,
+                                                                                 "blur":  24,
+                                                                                 "horizontal":  0
+                                                                             },
+                                            "button_hover_background_color":  "#0B254D",
+                                            "field_border_color":  "#F27A1D",
+                                            "button_box_shadow_box_shadow_type":  "yes",
+                                            "button_text_color":  "#FFFFFF"
+                                        }
+                       },
+                       {
+                           "element_id":  "44a2e53",
+                           "settings":  {
+                                            "icon_size":  {
+                                                              "size":  22,
+                                                              "sizes":  [
+
+                                                                        ],
+                                                              "unit":  "px"
+                                                          },
+                                            "icon_primary_color":  "#0B254D",
+                                            "_animation_delay":  180,
+                                            "icon_color":  "custom",
+                                            "icon_secondary_color":  "#F27A1D",
+                                            "_animation":  "fadeInUp"
+                                        }
+                       },
+                       {
+                           "element_id":  "1a37522",
+                           "settings":  {
+                                            "pointer_color_menu_item_hover":  "#F27A1D",
+                                            "color_menu_item":  "#0B254D",
+                                            "color_menu_item_hover":  "#F27A1D",
+                                            "typography_font_weight":  "800",
+                                            "_animation_delay":  220,
+                                            "_animation":  "fadeInUp"
+                                        }
+                       },
+                       {
+                           "element_id":  "fc4b537",
+                           "settings":  {
+                                            "pointer_color_menu_item_hover":  "#F27A1D",
+                                            "color_menu_item":  "#0B254D",
+                                            "color_menu_item_hover":  "#F27A1D",
+                                            "typography_font_weight":  "800",
+                                            "_animation_delay":  260,
+                                            "_animation":  "fadeInUp"
+                                        }
+                       },
+                       {
+                           "element_id":  "4ef0803",
+                           "settings":  {
+                                            "_animation":  "bounceIn",
+                                            "hover_primary_color":  "#FFFFFF",
+                                            "primary_color":  "#F27A1D"
+                                        }
+                       }
+                   ]
+}

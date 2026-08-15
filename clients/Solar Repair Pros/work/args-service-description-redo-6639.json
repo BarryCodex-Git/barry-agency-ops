@@ -1,0 +1,17 @@
+{
+  "post_id": 6639,
+  "operations": [
+    {
+      "element_id": "bc590b7",
+      "settings": {
+        "editor": "<p>Battery storage sounds simple until it has to work with the solar equipment already on the wall. The existing inverter, electrical panel, backup expectations and household usage all affect whether an add-on is realistic. Sorting those details first helps avoid buying storage that cannot do the job you expected.</p>"
+      }
+    },
+    {
+      "element_id": "fc91ddc",
+      "settings": {
+        "editor": "<p>“Backup power” can mean keeping a few essentials running or trying to support much larger household loads. Those two goals need very different planning. A useful battery recommendation starts with what you want powered, how long it must run, and what the existing system can safely support.</p>"
+      }
+    }
+  ]
+}

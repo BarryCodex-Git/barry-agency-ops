@@ -1,0 +1,339 @@
+﻿{
+    "post_id":  2785,
+    "operations":  [
+                       {
+                           "element_id":  "9ad6dd3",
+                           "settings":  {
+                                            "margin":  {
+                                                           "left":  "0",
+                                                           "bottom":  "0",
+                                                           "top":  "0",
+                                                           "right":  "0",
+                                                           "isLinked":  "",
+                                                           "unit":  "px"
+                                                       },
+                                            "row_gap":  {
+                                                            "size":  0,
+                                                            "sizes":  [
+
+                                                                      ],
+                                                            "unit":  "px"
+                                                        },
+                                            "flex_justify_content":  "space-between",
+                                            "padding":  {
+                                                            "left":  "1",
+                                                            "bottom":  "0.4",
+                                                            "top":  "0.4",
+                                                            "right":  "1",
+                                                            "isLinked":  false,
+                                                            "unit":  "rem"
+                                                        },
+                                            "min_height":  {
+                                                               "size":  80,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "px"
+                                                           },
+                                            "flex_align_items":  "center",
+                                            "boxed_width":  {
+                                                                "size":  1250,
+                                                                "sizes":  [
+
+                                                                          ],
+                                                                "unit":  "px"
+                                                            },
+                                            "layout":  "full_width",
+                                            "column_gap":  {
+                                                               "size":  0,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "px"
+                                                           },
+                                            "flex_gap":  {
+                                                             "row":  "0",
+                                                             "size":  0,
+                                                             "column":  "0",
+                                                             "unit":  "px",
+                                                             "isLinked":  true
+                                                         },
+                                            "flex_wrap":  "",
+                                            "gap":  {
+                                                        "row":  "0",
+                                                        "size":  0,
+                                                        "column":  "0",
+                                                        "unit":  "px",
+                                                        "isLinked":  true
+                                                    },
+                                            "flex_direction":  "row"
+                                        }
+                       },
+                       {
+                           "element_id":  "df23374",
+                           "settings":  {
+                                            "width":  {
+                                                          "size":  16,
+                                                          "sizes":  [
+
+                                                                    ],
+                                                          "unit":  "%"
+                                                      },
+                                            "content_width":  "full",
+                                            "margin":  {
+                                                           "left":  "0",
+                                                           "bottom":  "0",
+                                                           "top":  "0",
+                                                           "right":  "0",
+                                                           "isLinked":  true,
+                                                           "unit":  "px"
+                                                       },
+                                            "flex_justify_content":  "",
+                                            "_element_width":  "initial",
+                                            "width_mobile":  {
+                                                                 "size":  70,
+                                                                 "sizes":  [
+
+                                                                           ],
+                                                                 "unit":  "%"
+                                                             },
+                                            "padding":  {
+                                                            "left":  "0",
+                                                            "bottom":  "0",
+                                                            "top":  "0",
+                                                            "right":  "0",
+                                                            "isLinked":  true,
+                                                            "unit":  "px"
+                                                        },
+                                            "width_tablet":  {
+                                                                 "size":  50,
+                                                                 "sizes":  [
+
+                                                                           ],
+                                                                 "unit":  "%"
+                                                             },
+                                            "_flex_size":  "none",
+                                            "flex_align_items":  "",
+                                            "_element_custom_width":  ""
+                                        }
+                       },
+                       {
+                           "element_id":  "7cd3aa7",
+                           "settings":  {
+                                            "_margin":  {
+                                                            "left":  "0",
+                                                            "bottom":  "0",
+                                                            "top":  "0",
+                                                            "right":  "0",
+                                                            "isLinked":  true,
+                                                            "unit":  "px"
+                                                        },
+                                            "width":  {
+                                                          "size":  140,
+                                                          "sizes":  [
+
+                                                                    ],
+                                                          "unit":  "px"
+                                                      },
+                                            "align":  "left",
+                                            "margin":  {
+                                                           "left":  "0",
+                                                           "bottom":  "0",
+                                                           "top":  "0",
+                                                           "right":  "0",
+                                                           "isLinked":  true,
+                                                           "unit":  "px"
+                                                       },
+                                            "width_mobile":  {
+                                                                 "size":  100,
+                                                                 "sizes":  [
+
+                                                                           ],
+                                                                 "unit":  "px"
+                                                             },
+                                            "width_tablet":  {
+                                                                 "size":  130,
+                                                                 "sizes":  [
+
+                                                                           ],
+                                                                 "unit":  "px"
+                                                             },
+                                            "_padding":  {
+                                                             "left":  "0",
+                                                             "bottom":  "0",
+                                                             "top":  "0",
+                                                             "right":  "0",
+                                                             "isLinked":  true,
+                                                             "unit":  "px"
+                                                         },
+                                            "image":  {
+                                                          "alt":  "Solar Repair Pros Dallas Fort Worth official logo",
+                                                          "size":  "full",
+                                                          "url":  "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-repair-pros-official-logo-header.png",
+                                                          "id":  6840,
+                                                          "source":  "library"
+                                                      }
+                                        }
+                       },
+                       {
+                           "element_id":  "d55e28e",
+                           "settings":  {
+                                            "flex_direction":  "row",
+                                            "padding":  {
+                                                            "left":  "0",
+                                                            "bottom":  "0",
+                                                            "top":  "0",
+                                                            "right":  "0",
+                                                            "isLinked":  true,
+                                                            "unit":  "px"
+                                                        },
+                                            "width_mobile":  {
+                                                                 "size":  20,
+                                                                 "sizes":  [
+
+                                                                           ],
+                                                                 "unit":  "%"
+                                                             },
+                                            "flex_wrap":  "",
+                                            "column_gap":  {
+                                                               "size":  30,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "px"
+                                                           },
+                                            "content_width":  "full",
+                                            "margin":  {
+                                                           "left":  "0",
+                                                           "bottom":  "0",
+                                                           "top":  "0",
+                                                           "right":  "0",
+                                                           "isLinked":  true,
+                                                           "unit":  "px"
+                                                       },
+                                            "_element_custom_width":  "",
+                                            "width_tablet":  {
+                                                                 "size":  85,
+                                                                 "sizes":  [
+
+                                                                           ],
+                                                                 "unit":  "%"
+                                                             },
+                                            "_element_width":  "",
+                                            "flex_justify_content":  "space-between",
+                                            "gap":  {
+                                                        "row":  "30",
+                                                        "size":  30,
+                                                        "column":  "30",
+                                                        "unit":  "px",
+                                                        "isLinked":  true
+                                                    },
+                                            "row_gap":  {
+                                                            "size":  30,
+                                                            "sizes":  [
+
+                                                                      ],
+                                                            "unit":  "px"
+                                                        },
+                                            "_flex_size":  "",
+                                            "align":  "flex-end",
+                                            "flex_gap":  {
+                                                             "row":  "30",
+                                                             "size":  30,
+                                                             "column":  "30",
+                                                             "unit":  "px",
+                                                             "isLinked":  true
+                                                         },
+                                            "flex_align_items":  "center",
+                                            "width":  {
+                                                          "size":  "",
+                                                          "sizes":  [
+
+                                                                    ],
+                                                          "unit":  "%"
+                                                      }
+                                        }
+                       },
+                       {
+                           "element_id":  "fcb90ea",
+                           "settings":  {
+                                            "align_items":  "center",
+                                            "_element_custom_width":  {
+                                                                          "size":  76.179,
+                                                                          "sizes":  [
+
+                                                                                    ],
+                                                                          "unit":  "%"
+                                                                      },
+                                            "_flex_size":  "none",
+                                            "content_width":  "full",
+                                            "padding_horizontal_menu_item":  {
+                                                                                 "size":  1,
+                                                                                 "sizes":  [
+
+                                                                                           ],
+                                                                                 "unit":  "rem"
+                                                                             },
+                                            "text_align":  "center",
+                                            "menu_typography_font_size":  {
+                                                                              "size":  17,
+                                                                              "sizes":  [
+
+                                                                                        ],
+                                                                              "unit":  "px"
+                                                                          },
+                                            "_element_width":  "initial"
+                                        }
+                       },
+                       {
+                           "element_id":  "8d2ccd4",
+                           "settings":  {
+                                            "typography_font_size":  {
+                                                                         "size":  17,
+                                                                         "sizes":  [
+
+                                                                                   ],
+                                                                         "unit":  "px"
+                                                                     },
+                                            "align":  "right",
+                                            "text":  "CONTACT US",
+                                            "custom_css":  "",
+                                            "typography_font_weight":  "500",
+                                            "_element_width":  "",
+                                            "margin":  {
+                                                           "left":  "0",
+                                                           "bottom":  "0",
+                                                           "top":  "0",
+                                                           "right":  "0",
+                                                           "isLinked":  true,
+                                                           "unit":  "px"
+                                                       },
+                                            "text_padding":  {
+                                                                 "left":  "20",
+                                                                 "bottom":  "14",
+                                                                 "top":  "14",
+                                                                 "right":  "20",
+                                                                 "isLinked":  false,
+                                                                 "unit":  "px"
+                                                             },
+                                            "_flex_size":  "",
+                                            "icon_indent":  {
+                                                                "size":  1,
+                                                                "sizes":  [
+
+                                                                          ],
+                                                                "unit":  "rem"
+                                                            },
+                                            "_element_custom_width":  "",
+                                            "_margin":  {
+                                                            "left":  "0",
+                                                            "bottom":  "0",
+                                                            "top":  "0",
+                                                            "right":  "0",
+                                                            "isLinked":  true,
+                                                            "unit":  "px"
+                                                        }
+                                        }
+                       }
+                   ]
+}

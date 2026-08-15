@@ -1,0 +1,34 @@
+﻿{
+  "post_id": 6606,
+  "operations": [
+    {
+      "element_id": "780caa5",
+      "settings": {
+        "ekit_heading_title": "How The H2O Plumbers Team Works With Customers",
+        "ekit_heading_sub_title": "OUR WORK ETHIC",
+        "ekit_heading_extra_title": "<p>Good service is often felt in the small details: arriving prepared, explaining the fault clearly and respecting the property while the work is underway.</p>"
+      }
+    },
+    {
+      "element_id": "68b1cf1",
+      "settings": {
+        "title_text": "Practical Fault Finding",
+        "description_text": "The team looks at symptoms, access and property layout before deciding what work makes sense, especially when leaks or drainage faults are not obvious."
+      }
+    },
+    {
+      "element_id": "84bec0c",
+      "settings": {
+        "title_text": "Respectful Work Areas",
+        "description_text": "Tools, access points and fittings are handled with care so the plumbing work feels organised, not like unnecessary disruption through the whole property."
+      }
+    },
+    {
+      "element_id": "7b4adf7",
+      "settings": {
+        "title_text": "Plain Next Steps",
+        "description_text": "Customers are told what was found, what was done and what may need attention later, without turning every callout into a sales pitch."
+      }
+    }
+  ]
+}

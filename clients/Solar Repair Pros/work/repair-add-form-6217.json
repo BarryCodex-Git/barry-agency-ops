@@ -1,0 +1,27 @@
+﻿{
+  "post_id":6217,
+  "parent_id":"ea1dc98",
+  "position":1,
+  "form_name":"Solar Repair Pros Website Enquiry",
+  "form_fields":[
+    {"field_type":"select","field_label":"Choose Service*","placeholder":"Choose Service*","required":"yes","width":"100","field_options":"- Choose Service -|\nSolar Panel Repairs\nSolar System Inspections\nSolar Battery Add-ons\nElectrical Panel Upgrades\nEV Charger Installs\nOther Solar or Electrical Help"},
+    {"field_type":"text","field_label":"Name","placeholder":"Name","required":"yes","width":"100"},
+    {"field_type":"email","field_label":"Email","placeholder":"Email","required":"yes","width":"100"},
+    {"field_type":"tel","field_label":"Phone","placeholder":"Phone","required":"yes","width":"100"},
+    {"field_type":"text","field_label":"Address","placeholder":"Enter Full Address*","required":"yes","width":"100"}
+  ],
+  "button_text":"Call Me Back",
+  "button_size":"md",
+  "button_width":"100",
+  "email_to":"info@solarrepairdfw.com",
+  "email_subject":"New Solar Repair Pros Website Enquiry",
+  "email_from":"wordpress@dev2.mynewwebsite.co.za",
+  "email_from_name":"Solar Repair Pros Website",
+  "submit_actions":["save-to-database","email","redirect"],
+  "redirect_to":"https://dev2.mynewwebsite.co.za/thank-you/",
+  "button_background_color":"#F27A1D",
+  "button_text_color":"#FFFFFF",
+  "button_typography_font_family":"Montserrat",
+  "button_typography_font_weight":"800"
+}
+

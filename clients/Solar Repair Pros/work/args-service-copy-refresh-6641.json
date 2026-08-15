@@ -1,0 +1,33 @@
+{
+  "post_id": 6641,
+  "operations": [
+    {
+      "element_id": "802454d",
+      "settings": {
+        "editor": "<p>A home EV charger should fit the vehicle, parking location, daily driving routine, electrical panel and any solar or battery plans already in motion. Solar Repair Pros helps Dallas-Fort Worth owners plan EV charger installs around the property they actually have.</p>"
+      }
+    },
+    {
+      "element_id": "457a26c",
+      "settings": { "title": "EV Charger Install Planning for Dallas-Fort Worth Homes" }
+    },
+    {
+      "element_id": "fff9bce",
+      "settings": {
+        "editor": "<p>The fastest charger is not always the smartest charger. Available panel capacity, nightly charging time, vehicle limits, parking position and possible load management should all be considered before selecting equipment.</p>"
+      }
+    },
+    {
+      "element_id": "da5063d",
+      "settings": {
+        "editor": "<p>EV charging often connects to panel capacity, solar production and future battery plans. Looking at these services together helps Dallas-Fort Worth owners avoid installing a charger that creates a new electrical problem.</p>"
+      }
+    },
+    {
+      "element_id": "4a4e458",
+      "settings": {
+        "editor": "<p>Practical answers before choosing home EV charging equipment, outlet location, charger size or electrical panel work in Dallas-Fort Worth.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "post_id": 2747,
+  "operations": [
+    {
+      "element_id": "c2ea8eb",
+      "settings": {
+        "image": {
+          "id": 6862,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-repair-process-background-1920x1080-1.png",
+          "alt": "Solar technician reviewing solar system data beside home equipment in Dallas-Fort Worth",
+          "source": "library",
+          "size": "full"
+        },
+        "image_size": "full"
+      }
+    },
+    {
+      "element_id": "7ba8b6e",
+      "settings": {
+        "title_color": "#FFFFFF",
+        "description_color": "#FFFFFF",
+        "_background_color": "#0B254D",
+        "_border_color": "#F27A1D"
+      }
+    },
+    {
+      "element_id": "a93a92e",
+      "settings": {
+        "title_color": "#FFFFFF",
+        "description_color": "#FFFFFF",
+        "_background_color": "#0B254D",
+        "_border_color": "#F27A1D"
+      }
+    },
+    {
+      "element_id": "7ddb1cc",
+      "settings": {
+        "title_color": "#FFFFFF",
+        "description_color": "#FFFFFF",
+        "_background_color": "#0B254D",
+        "_border_color": "#F27A1D"
+      }
+    }
+  ]
+}

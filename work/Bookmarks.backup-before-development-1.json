@@ -1,0 +1,210 @@
+{
+   "checksum": "c519118920d72ca3b26e0ac77235964a",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13425660481448111",
+               "date_last_used": "0",
+               "guid": "230f1c02-4c0d-4579-9789-c6cef658caf6",
+               "id": "6",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ChatGPT",
+               "type": "url",
+               "url": "https://chatgpt.com/"
+            }, {
+               "date_added": "13425670202320372",
+               "date_last_used": "0",
+               "guid": "233cb6fb-a54a-4bd6-b14e-b4de3de4bbf8",
+               "id": "7",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Usage - OpenAI API",
+               "type": "url",
+               "url": "https://platform.openai.com/usage"
+            }, {
+               "date_added": "13425660504218128",
+               "date_last_used": "0",
+               "guid": "586d2fc4-d4db-42b2-8826-8fc6f11fa262",
+               "id": "8",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Claude",
+               "type": "url",
+               "url": "https://claude.ai/new"
+            } ],
+            "date_added": "13425660472283201",
+            "date_last_used": "0",
+            "date_modified": "13425670202320372",
+            "guid": "9a77c38e-e7e0-411b-83ad-a9247a19813a",
+            "id": "5",
+            "name": "My AI Tools",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13425661278563465",
+               "date_last_used": "0",
+               "guid": "33aeb5bb-a39a-4396-ae8c-36d75ea853a9",
+               "id": "10",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Ubersuggest",
+               "type": "url",
+               "url": "https://app.neilpatel.com/en/new-dashboard"
+            } ],
+            "date_added": "13425660585988537",
+            "date_last_used": "0",
+            "date_modified": "13425661278563465",
+            "guid": "bb1cdf71-3cc2-46f6-b4fc-bef9ac9585e2",
+            "id": "9",
+            "name": "SEO Resources",
+            "type": "folder"
+         }, {
+            "children": [  ],
+            "date_added": "13425753448856457",
+            "date_last_used": "0",
+            "date_modified": "13425821633001197",
+            "guid": "9d30e158-6540-42a4-8f83-97d035ad8398",
+            "id": "11",
+            "name": "Internal Websites",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13425754286805447",
+                  "date_last_used": "13425769276911924",
+                  "guid": "f3e08db5-823f-43d1-82e4-63b84dc9f543",
+                  "id": "12",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "my new website - wp admin",
+                  "type": "url",
+                  "url": "https://mynewwebsite.co.za/wp-admin"
+               }, {
+                  "date_added": "13425821684200296",
+                  "date_last_used": "0",
+                  "guid": "7d90a54f-97e8-4ac6-9912-0002095f3f27",
+                  "id": "21",
+                  "meta_info": {
+                     "power_bookmark_meta": ""
+                  },
+                  "name": "my new website - website",
+                  "type": "url",
+                  "url": "https://mynewwebsite.co.za/"
+               } ],
+               "date_added": "13425821633001050",
+               "date_last_used": "0",
+               "date_modified": "13425821684200296",
+               "guid": "57ac17d4-e593-4948-9b62-0ba52ef50a1e",
+               "id": "20",
+               "name": "My New Website",
+               "type": "folder"
+            } ],
+            "date_added": "13425821575086768",
+            "date_last_used": "0",
+            "date_modified": "13425822085063818",
+            "guid": "76e90e69-9b3e-4a4a-8f1c-24408442c0f5",
+            "id": "18",
+            "name": "DEV Websites",
+            "type": "folder"
+         }, {
+            "children": [  ],
+            "date_added": "13425821586728388",
+            "date_last_used": "0",
+            "date_modified": "13425821586728388",
+            "guid": "4f6e1ddf-093d-44b4-95e0-c83f917e0e84",
+            "id": "19",
+            "name": "Client Websites",
+            "type": "folder"
+         }, {
+            "children": [  ],
+            "date_added": "13425821715268337",
+            "date_last_used": "0",
+            "date_modified": "13425821715268337",
+            "guid": "998c1340-b6fd-4387-9f90-b5b359b6e797",
+            "id": "22",
+            "name": "Stryker Websites",
+            "type": "folder"
+         } ],
+         "date_added": "13425758767854132",
+         "date_last_used": "0",
+         "date_modified": "13425821715268566",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13370600384771397",
+            "date_last_used": "0",
+            "guid": "355e1b34-4c7f-4443-a7fc-7d6bab7e4f62",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to Install GMapsScraper Chrome Extension?",
+            "type": "url",
+            "url": "https://gmapsscraper.com/how-to-install-GMapsScraper-chrome-extension"
+         }, {
+            "date_added": "13370604751876360",
+            "date_last_used": "0",
+            "guid": "fc1e95e3-6f3e-4545-9f62-8a820d293c59",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Email List Validation - Clean up email lists | AppSumo",
+            "type": "url",
+            "url": "https://appsumo.com/products/email-list-validation/?utm_source=google&utm_medium=cpc&utm_campaign=GS-Buy-Prospect-Evergreen-Select-Dynamic-Opportunity-Null-Null&utm_adset=148401958989&utm_content=657525697837&utm_term=&loc_i=&loc_p=21222&network=g&dvc=c&utm_placement=))&gad_source=1&gclid=CjwKCAjwooq3BhB3EiwAYqYoEkkYfaC7PbeSCuyuUHR4qX5-h3cdmnjupzseRgyygNV2JNnD_uY-hxoCY-EQAvD_BwE"
+         }, {
+            "date_added": "13370604759121406",
+            "date_last_used": "0",
+            "guid": "76f511be-05e6-4311-bc1c-f3812ea91278",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Stop wasting money on spam emails. Improve Your Email Marketing",
+            "type": "url",
+            "url": "https://emaillistvalidation.com/pricing.html"
+         }, {
+            "date_added": "13370604794536205",
+            "date_last_used": "0",
+            "guid": "6019d9ba-2e54-4a3d-a13c-5aefeb728eb8",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "scraper",
+            "type": "url",
+            "url": "https://mapsscraper.com/pricing"
+         } ],
+         "date_added": "13425758767854132",
+         "date_last_used": "0",
+         "date_modified": "13370604794536205",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13425758767854132",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CnAKUAiIgQISSiAAkgE2CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCfnja18gVAYAEfnja18gVAYAKUoRbF8gVAYA6gEMCKTstNEGEOjN65EDEgAqGEl0eFQ3R1dKclQrMHNIbVVZUkVXcVE9PUgDEusBCBQS5gEKHENzeUZzQ04vOW1RL0ZaQVB2VGhjWngreWtYRT0SZlo6QURxdEFaeVVEc2FuVGpkSzd1TmphUmdmanNXM3RvZjRsbW1MSDNmNXBZNklJWU5ZUXVFRG5CcmlHU3BiVTRWejZKLzNSSVl4N2FINGprR0tsNk1EZklEUUVobWpJcDhXRVE9PRgAIAIoAjCZzZ6eiISVAzjpw/eE7DNAyI+ThewzShxxUGNlNTI0MmpURFViZTVlYXIwejh3YUJJN1k9Wh4iHFRtcnFxNm5XM1E3SzZadWF2RmRGdUtLWDltYz1lAAAAABLsAQgTEucBChxEalVJdjNDWExWajlJelNiekJPbklPM01QeHM9EmZaOkFEcXRBWnlVRHNhblRqZEs3dU5qYVJnZmpzVzM1MjNQNnhhWGNvQWlnUzB0NFdMdHMrQytia2l1U0NGL3hlQnp4VjNOVW0wU0kwbkVWb3BVRCtpWlJXRldWczc4a3UvQlZBPT0YACABKAEwmcG1sIaElQM4qNr0hOwzQKja9ITsM0ocL3lNeVhPMnI1dURRREtwNkdZYXJhQTlxc2lVPVofIh3uOVM4d0JRcjE5YTdaQ2pTb0llMG9uSTVtZzRZPWUAAAAAEuwBCBUS5wEKHGxFdHJsOXRlMFVJaDlsR25TbjBrcWtlc25TOD0SZlo6QURxdEFaeVVEc2FuVGpkSzd1TmphUmdmanNXM29yOVhxdmZhR1czejBzSEkvTnU4Y0pNNWsvN3I2MlpudzUwYm1hR2hXc05MNEVSRjZpNEoxUVNoU04wM3dPMElVN0toZHc9PRgAIAMoAzCak7XajISVAzjo0/qE7DNAv67chewzShw2RUFROEt5ZVQ2QU1CQVc3dE9welV4bWJ0RjA9Wh8iHbBFbTV6ZkVIc3NiaHEveVV6ZXpJSHF6Y2FFazQ9ZQAAAAAS7AEIDhLnAQocUHp5VkNOd3BiUHp5S1ZpYTFoaXdaVHU1THV3PRJmWjpBRHF0QVp5VURzYW5UamRLN3VOamFSZ2Zqc1czTFZoNm5HYUIvcGJFMVhUYmIzeDYzQzVHeWZ1c0xkZVRjWFduNlVXcWYvWk5jYm43aEdnVzZoNXJ3c0V2eGlhQWJ6T0dHZz09GAAgACgAMKSc75etlYwDONWIhebaMkDViIXm2jJKHGRua21Cem1YNnBrTjBlVS83K0JQQUxSVXZDdz1aHyIdsUs2dURRbGRpbjBkTWRocllQZThabzhDNVIwMD1l7EOH1xLsAQgQEucBChxmQ1RKdGRMY2hRM2hZL3FmcFRRb2tVSy9EN1k9EmZaOkFEcXRBWnlVRHNhblRqZEs3dU5qYVJnZmpzVzN4amdpblhvdC9CS0R2K1EyekxEcDBQTE1iaVBneE80KzdoT3d3MitmYUZuWm9LcXpnbWpaVTNUdXp0cGh6SkVLVGdRSFZ3PT0YACAAKAAwpJzvl62VjAM41YiF5toyQNWIhebaMkocbmVMcEFBUWdhcG4wQjMwL3JrOERMS0xtVHJZPVofIh3sanh0Z3duTTJMakxQZWxNOStMeE1TZVFaTFJ3PWXpkLHpEuwBCBIS5wEKHEozdUk2YTh1cFduZmp5dXIxRkhRY1lyOXJiRT0SZlo6QURxdEFaeVVEc2FuVGpkSzd1TmphUmdmanNXM0dvdjlIcUFtM1FDUzlNUEhUYXFyWStwdTdvbmtCTjdKamdtR3FNKzNsVzlIYXZ3VTA4WTk5Yk56NnhPVVZSVVdrcm8xaEE9PRgAIAEoATDysPqqhoSVAziu//OE7DNArv/zhOwzShw1Y0did0MwKzJIR1dkRHBFL0VBaTVlZVpMT2s9Wh8iHdx3MVY3WXN5TnVYWEU0VjNnTy9GRElWNWljSTg9ZQAAAAAS6wEIDRLmAQocYVd0NjMxQzYvZ0xVcE9qQWtmeWFZVWR5MUNRPRJmWjpBRHF0QVp5VURzYW5UamRLN3VOamFSZ2Zqc1czUk9NcHJhZ0ZRRGpRRjNWQ2RxZHduaDF0clI1dGtYRm54VklNTXkzenpJb2FuNk9Kc3VsUFJqTk0yTVE1dWgzdWtISjVvZz09GAAgACgAMKSc75etlYwDONWIhebaMkDViIXm2jJKHDkwSnJhcTR2anNaUGF4anBnaXRlelVUOTVVWT1aHiIcYkxlMFl1b1NBWlAwYjA1eiswUkFaOCtrZVVRPWVN5KxlEusBCAwS5gEKHDg5WFBXMFZuZnAwc0NPczQ0OEhWVE5qK3JVbz0SZlo6QURxdEFaeVVEc2FuVGpkSzd1TmphUmdmanNXM2RsaC9PT2Q0anpBQzVNZHRjOUlRVElYZGpKSVJIRUpDa3cxamgyN29BNkJEb1BoU2pLaXVxanN6dEhFazc1MENvVi93UUE9PRgAIAMoAzDg05LWhoSVAzjVhenk6zNAtsT5hOwzShwrQmtrUWdENDN5eEVzVnNYMFhDaGJ2Q2xtdU09Wh4iHGF6ZGdQbFJPbllZd2VIOFBFTVFGRmFMbUV0ST1lAAAAABLDAQgDEr4BChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EmZaOkFEcXRBWnhuKzRCQkcwUTBJYXh1RVZGVXl2SGJMOGxoNzYxeVh2blRVUlE5OFRYU3V6cG9BMXpNY0lpVE01WCtaWDUvRUtMK0szVDZ2aWVVdkhKZU5mUHlsaDN0KzZzOEhnPT0YACAAKAAwjZK6l62VjAM4AEAAShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABLrAQgIEuYBChw4emFtTUI3NHE3M2pYL2YzR1hhWUdZcHBqeUk9EmZaOkFEcXRBWnlVRHNhblRqZEs3dU5qYVJnZmpzVzNzME0yMzEwTlc5eXV3eHBLc0g0YnI2VytjalVIV2toekdLQVBIbm16bnlydWxlT1R3SXlhSmd1WWhWSnJ3NXR2ay8xMWVRPT0YACAAKAAwu7Wmqa7/lAM4moGNuOszQJqBjbjrM0ocaTFadWtULzlCMVNmQUxmaUpKeU9pN1dNTnhNPVoeIhxybkJmK2JucHJjRDlSdkJKTTlpYXhWSExvcU09ZQn0chIS7AEIDxLnAQocSVdoakcrbWp0NGZtRXpoWmp3TWJhNW1wblY0PRJmWjpBRHF0QVp5VURzYW5UamRLN3VOamFSZ2Zqc1czSnNKTEhQVUxTa2h3MytrTllqRC9nczBub1ZFVzNEMEVKMXE0c3hVYm5SMkxLVDRxQmZrMS9VcWRrd3VoajhmY205bFVWQT09GAAgACgAMKSc75etlYwDONWIhebaMkDViIXm2jJKHERyZ1JybEgvR08vNm5nUFBGeThBTmllenQxTT1aHyId2EJnL0ZVTkE1MmZWRkN6SmQvcTd0MW1qWDdUbz1lpKQ9kBLsAQgWEucBChxoUDRhcExSY0NSaFhUNnd0cnhDTUZJNkRVeHM9EmZaOkFEcXRBWnlVRHNhblRqZEs3dU5qYVJnZmpzVzNVYjNweFBVUHAwd1l4dnNMZGVUeC9WMlNGY0FiT09hLzZjWHlKVzJ4Q3R2NE1SUnpxUCtHaHprcStYYkpRaHNoc0plTGtnPT0YACABKAEwpvXa7YaElQM4xMb8hOwzQMTG/ITsM0ocdzIydlhlT2ZDcFlHM3B1SHpaVFY2aXZVcjNjPVofIh33ek1mNVdjTzhmK0t2QW0xTDVudlpSeDNkUENjPWUAAAAAEsMBCAISvgEKHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SZlo6QURxdEFaeEoxMXNrbDNpdDlFNjN2dmRsZzBEaG5BK0ZZSWlPaXF3cTZsOEcxbURDVDJteVhGSVVxQUdlclM0UWJ6SUloUTlLd0REdWE4Z3RHK0hLYW5TTk9XeGNZVzVQcUE9PRgAIAAoADCNkrqXrZWMAzgAQABKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEuwBCAsS5wEKHHpXK3o1eTZPckJOMnBkazg2c1hVbkFESnN0ND0SZlo6QURxdEFaeVVEc2FuVGpkSzd1TmphUmdmanNXM3dyQnpaWWYrWk1lRXNjM0NpNEx2SnMvV3ptQkVZb3VmT3ltbFBwT0QxQk5rT3hUNG8wL2JoVE9vSjVJVDhTblBBbVQrM1E9PRgAIAAoADChkI/GiIKVAziY87Xk6zNAmPO15OszShxPNzJvMUNVMWdiMHIzVnV3d2RtRDFnOXRLelE9Wh8iHbhwTWZjTXFiV0VGUEVVSjhYcDJqMmJXbVRzM1E9ZQAAAAAS6wEIChLmAQocNm83czFSNmVEVldqalZDRzlraHEwNDFHTkdnPRJmWjpBRHF0QVp5VURzYW5UamRLN3VOamFSZ2Zqc1czVWJkelhQeEc4VVVzNGhNb2xRZnR5eGQzZGxlT2QrRFE3aDh6Q0x3LzBvNnNJWGVrd1crdm11TGhpbGZwMms0cjBHYVgvQT09GAAgACgAMOHW2fax/5QDOOOivLjrM0Djory46zNKHE1XMm9jZHBFRlVvUk1DVWYraUlWVFo1emlsQT1aHiIccWZvZ0dSRnhiVWlUVlVQNW04WGJoMnpvZnZzPWVz48kWEusBCAUS5gEKHEpVbUpPQm01dytERWpvVE0wdktuY3piampoUT0SZlo6QURxdEFaeVVEc2FuVGpkSzd1TmphUmdmanNXM1o5dFNDczdkNVBTQmFuTU4zVDJKVWhFM2trMjZlRWpqVHZjSDVSdEpOaWRNd1lOclpzMWZodUlaVUU1NC9sZ0dyMStoTEE9PRgAIAAoADCR3sCXrv+UAzjdh4u46zNA3YeLuOszShxmZFlVVFFkdUUyZUhPd0dKUnVsclNBcmxmU1k9Wh4iHGl5OUNKWjl0c2szNGZsR2FYMElnVUFhQXpHWT1lAAAAABLsAQgHEucBChxZTjQ4MjdlM3BZM000bFJWWjJFMUlyZE5jcG89EmZaOkFEcXRBWnlVRHNhblRqZEs3dU5qYVJnZmpzVzNkejdBaFEzWGd4WlY4V2w1NGlWQTBXT2Nidk5VZjlaN1JKN3lLakt1UU9QRm9ScFpmVnVvcDZWWmFwNXNFQVNPNWZkRE1RPT0YACAAKAAwga3eutL/lAM40PfcvOszQND33LzrM0ocUk5pNUVYYmUrcjIvVVdBRFBNL3BuaUxaK0RZPVofIh1uVVAwVHByQTB4MndJNUN6ZDNMOFJESHEvNTRJPWV8yqStEusBCAkS5gEKHGJOS3F4WVBWMTFtYWJwQWhxbnUweENVbmFtcz0SZlo6QURxdEFaeVVEc2FuVGpkSzd1TmphUmdmanNXM1I5VENuclhXRkgyb0NtOG1iWnA2NXk1SGNhKzBqLy9sSEdoU3BabjVCNjA2V0Z1RG1kK3hFUkdSek1sVlM5b2NPRHkwMWc9PRgAIAAoADDEldDNrv+UAziEgJK46zNAhICSuOszShxqbS8vSlI1V2NjYU1PUml2ejNDUEZZTUtBL1E9Wh4iHHEyN2RxMzNlYXJDSXhmMHpSSDRocHBYSkF5UT1lAAAAABLrAQgGEuYBChxaMk5KdW5hNGZOMlNmMzRXTFJUck9jYVhoWkk9EmZaOkFEcXRBWnlVRHNhblRqZEs3dU5qYVJnZmpzVzM4VTE0bmxWZ21wV3hwR1ExWlVWcjF1V1BLMXdHY0cxVEVIa2JZWWVUNUl5OVlFcW8xTHpZbUVMZlQrRTI5RCtZYXZuVkVnPT0YACAAKAAw+7jyna7/lAM4qM+LuOszQKjPi7jrM0ocVThyYjFSNU5LZGptRWt4eWJPQTNPN0crbVBnPVoeIhxrL3NYRVdnTjNOSjFRa1hqKzV6TGlpMHVCYzA9ZYal2MgSqwEIARKmAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp4SG5Sckx3NmJWaTR0KzhBTllIckp2Ymd4b1dYQmZCbStpVXZJYyszYmY0MHB5a2VpcnN6U0NDbGhwTEtIcVhrbjNWUWFvGAAgACgAMI2SupetlYwDOABAAEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAAwATgA",
+   "version": 1
+}

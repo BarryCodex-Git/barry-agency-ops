@@ -1,0 +1,17 @@
+{
+  "post_id": 6639,
+  "operations": [
+    {
+      "element_id": "bc590b7",
+      "settings": {
+        "editor": "<p>Battery advice should start with the existing solar system, not with a battery model or sales pitch. Inverter type, available capacity, backup goals and daily energy use all shape the right storage conversation. This section helps Dallas-Fort Worth homeowners define the job before comparing solar battery add-on options.</p>"
+      }
+    },
+    {
+      "element_id": "fc91ddc",
+      "settings": {
+        "editor": "<p>A battery should be sized for the job it needs to do, not for a vague idea of backup power. Whole-home expectations and essential-load plans can lead to very different equipment choices. This section explains why load lists, outage duration and inverter limits matter before a Dallas-Fort Worth owner commits to storage.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": 6710,
+  "slug": "george",
+  "link": "https://dev1.mynewwebsite.co.za/service-areas/george/",
+  "media": {
+    "square": {
+      "id": 6708,
+      "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-plumber-george-location-hub-square-1.webp",
+      "alt": "George service area for H2O Plumbers local plumbing help"
+    },
+    "background": {
+      "id": 6709,
+      "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-plumber-george-location-hub-background-1.webp",
+      "alt": "Plumber George service area with Outeniqua Mountain views"
+    }
+  }
+}

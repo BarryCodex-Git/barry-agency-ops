@@ -1,0 +1,21 @@
+{
+    "method":  "tools/call",
+    "params":  {
+                   "arguments":  {
+                                     "post_id":  6425,
+                                     "parent_id":  "34688a2",
+                                     "position":  -1,
+                                     "widget_type":  "wp-widget-recent-posts",
+                                     "settings":  {
+                                                      "_title":  "Blog Sidebar Recent Posts",
+                                                      "show_date":  "yes",
+                                                      "title":  "Recent Posts",
+                                                      "number":  5,
+                                                      "css_classes":  "barry-field barry-blog-sidebar-recent-posts"
+                                                  }
+                                 },
+                   "name":  "elementor-mcp-add-widget"
+               },
+    "id":  5,
+    "jsonrpc":  "2.0"
+}

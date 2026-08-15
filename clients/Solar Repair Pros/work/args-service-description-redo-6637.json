@@ -1,0 +1,17 @@
+{
+  "post_id": 6637,
+  "operations": [
+    {
+      "element_id": "2faafed",
+      "settings": {
+        "editor": "<p>A failed installer leaves homeowners guessing who to call, what the app warnings mean, and whether the system is safe to keep running. Before parts are replaced, the repair needs to be traced back to the visible symptoms, monitoring history and equipment setup. That gives you a clearer path from “something is wrong” to a repair decision you can understand.</p>"
+      }
+    },
+    {
+      "element_id": "99cd4df",
+      "settings": {
+        "editor": "<p>A drop in production can come from more than one place, and the wrong assumption can get expensive. Shade, heat, wiring, optimizer behaviour, inverter faults and monitoring issues can all point in different directions. A focused repair assessment helps separate normal variation from a problem that needs professional attention.</p>"
+      }
+    }
+  ]
+}

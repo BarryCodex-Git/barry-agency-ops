@@ -1,0 +1,225 @@
+﻿{
+    "post_id":  2805,
+    "operations":  [
+                       {
+                           "element_id":  "74a3309",
+                           "settings":  {
+                                            "border_width":  {
+                                                                 "left":  "0",
+                                                                 "bottom":  "0",
+                                                                 "top":  "4",
+                                                                 "right":  "0",
+                                                                 "isLinked":  false,
+                                                                 "unit":  "px"
+                                                             },
+                                            "gap":  {
+                                                        "size":  30,
+                                                        "sizes":  [
+
+                                                                  ],
+                                                        "unit":  "px"
+                                                    },
+                                            "background_color":  "#F7F9FC",
+                                            "padding":  {
+                                                            "left":  "20",
+                                                            "bottom":  "76",
+                                                            "top":  "76",
+                                                            "right":  "20",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "border_border":  "solid",
+                                            "background_background":  "classic",
+                                            "border_color":  "#F27A1D",
+                                            "_animation":  "fadeInUp"
+                                        }
+                       },
+                       {
+                           "element_id":  "494944d",
+                           "settings":  {
+                                            "box_shadow_box_shadow_type":  "yes",
+                                            "_animation_delay":  80,
+                                            "border_radius":  {
+                                                                  "left":  "22",
+                                                                  "bottom":  "22",
+                                                                  "top":  "22",
+                                                                  "right":  "22",
+                                                                  "isLinked":  true,
+                                                                  "unit":  "px"
+                                                              },
+                                            "background_color":  "#FFFFFF",
+                                            "padding":  {
+                                                            "left":  "30",
+                                                            "bottom":  "34",
+                                                            "top":  "34",
+                                                            "right":  "30",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "box_shadow_box_shadow":  {
+                                                                          "vertical":  16,
+                                                                          "color":  "rgba(11,37,77,0.12)",
+                                                                          "spread":  0,
+                                                                          "blur":  34,
+                                                                          "horizontal":  0
+                                                                      },
+                                            "background_background":  "classic",
+                                            "_animation":  "fadeInUp"
+                                        }
+                       },
+                       {
+                           "element_id":  "8a09197",
+                           "settings":  {
+                                            "box_shadow_box_shadow_type":  "yes",
+                                            "_animation_delay":  140,
+                                            "border_radius":  {
+                                                                  "left":  "22",
+                                                                  "bottom":  "22",
+                                                                  "top":  "22",
+                                                                  "right":  "22",
+                                                                  "isLinked":  true,
+                                                                  "unit":  "px"
+                                                              },
+                                            "background_color":  "#FFFFFF",
+                                            "padding":  {
+                                                            "left":  "30",
+                                                            "bottom":  "34",
+                                                            "top":  "34",
+                                                            "right":  "30",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "box_shadow_box_shadow":  {
+                                                                          "vertical":  16,
+                                                                          "color":  "rgba(11,37,77,0.12)",
+                                                                          "spread":  0,
+                                                                          "blur":  34,
+                                                                          "horizontal":  0
+                                                                      },
+                                            "background_background":  "classic",
+                                            "_animation":  "fadeInUp"
+                                        }
+                       },
+                       {
+                           "element_id":  "5ff9ff8",
+                           "settings":  {
+                                            "box_shadow_box_shadow_type":  "yes",
+                                            "_animation_delay":  200,
+                                            "border_radius":  {
+                                                                  "left":  "22",
+                                                                  "bottom":  "22",
+                                                                  "top":  "22",
+                                                                  "right":  "22",
+                                                                  "isLinked":  true,
+                                                                  "unit":  "px"
+                                                              },
+                                            "background_color":  "#FFFFFF",
+                                            "padding":  {
+                                                            "left":  "30",
+                                                            "bottom":  "34",
+                                                            "top":  "34",
+                                                            "right":  "30",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "box_shadow_box_shadow":  {
+                                                                          "vertical":  16,
+                                                                          "color":  "rgba(11,37,77,0.12)",
+                                                                          "spread":  0,
+                                                                          "blur":  34,
+                                                                          "horizontal":  0
+                                                                      },
+                                            "background_background":  "classic",
+                                            "_animation":  "fadeInUp"
+                                        }
+                       },
+                       {
+                           "element_id":  "9baf34f",
+                           "settings":  {
+                                            "_animation_delay":  260,
+                                            "_animation":  "fadeInRight"
+                                        }
+                       },
+                       {
+                           "element_id":  "82cf11c",
+                           "settings":  {
+                                            "title":  "Explore The Site",
+                                            "typography_font_weight":  "900",
+                                            "title_color":  "#0B254D"
+                                        }
+                       },
+                       {
+                           "element_id":  "181408b",
+                           "settings":  {
+                                            "title":  "Repair Services",
+                                            "typography_font_weight":  "900",
+                                            "title_color":  "#0B254D"
+                                        }
+                       },
+                       {
+                           "element_id":  "8db9458",
+                           "settings":  {
+                                            "width_mobile":  {
+                                                                 "size":  220,
+                                                                 "sizes":  [
+
+                                                                           ],
+                                                                 "unit":  "px"
+                                                             },
+                                            "width":  {
+                                                          "size":  310,
+                                                          "sizes":  [
+
+                                                                    ],
+                                                          "unit":  "px"
+                                                      },
+                                            "width_tablet":  {
+                                                                 "size":  250,
+                                                                 "sizes":  [
+
+                                                                           ],
+                                                                 "unit":  "px"
+                                                             }
+                                        }
+                       },
+                       {
+                           "element_id":  "c373bf4",
+                           "settings":  {
+                                            "html":  "\u003cdiv style=\"background:linear-gradient(135deg,#ffffff 0%,#f4f7fb 100%);border-left:6px solid #F27A1D;border-radius:22px;padding:30px;color:#0B254D;box-shadow:0 16px 34px rgba(11,37,77,.10);\"\u003e\u003cdiv style=\"font-size:13px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;color:#F27A1D;margin-bottom:10px;\"\u003eDallas-Fort Worth\u003c/div\u003e\u003ch3 style=\"margin:0 0 14px;font-size:28px;line-height:1.15;color:#0B254D;\"\u003eService Area\u003c/h3\u003e\u003cp style=\"margin:0 0 18px;font-size:18px;line-height:1.45;\"\u003eSolar Repair Pros helps DFW homeowners when their installer disappeared, support stopped or the system needs a clear repair path.\u003c/p\u003e\u003ca href=\"mailto:info@solarrepairdfw.com\" style=\"display:inline-block;background:#F27A1D;color:#fff;text-decoration:none;font-weight:900;border-radius:999px;padding:12px 18px;\"\u003eEmail Us\u003c/a\u003e\u003c/div\u003e"
+                                        }
+                       },
+                       {
+                           "element_id":  "b7f5710",
+                           "settings":  {
+                                            "border_width":  {
+                                                                 "left":  "0",
+                                                                 "bottom":  "0",
+                                                                 "top":  "3",
+                                                                 "right":  "0",
+                                                                 "isLinked":  false,
+                                                                 "unit":  "px"
+                                                             },
+                                            "border_border":  "solid",
+                                            "border_color":  "#F27A1D",
+                                            "background_background":  "classic",
+                                            "background_color":  "#0B254D",
+                                            "padding":  {
+                                                            "left":  "20",
+                                                            "bottom":  "22",
+                                                            "top":  "22",
+                                                            "right":  "20",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        }
+                                        }
+                       },
+                       {
+                           "element_id":  "8c7ae3b",
+                           "settings":  {
+                                            "title":  "© 2026 Solar Repair Pros. Dallas-Fort Worth solar repair support.",
+                                            "typography_font_weight":  "800",
+                                            "title_color":  "#FFFFFF"
+                                        }
+                       }
+                   ]
+}

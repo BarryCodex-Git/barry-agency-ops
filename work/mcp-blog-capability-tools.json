@@ -1,0 +1,1393 @@
+﻿[
+    {
+        "name":  "elementor-mcp-list-widgets",
+        "description":  "Returns all registered Elementor widget types with their names, titles, icons, categories, and keywords. Optionally filter by widget category.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "category":  {
+                                                                "type":  "string",
+                                                                "description":  "Filter widgets by category slug."
+                                                            }
+                                           }
+                        }
+    },
+    {
+        "name":  "elementor-mcp-get-widget-schema",
+        "description":  "Returns the full JSON Schema for a widget type\u0027s settings, describing all available controls and their types. Use this to discover what settings a widget accepts before creating or updating it.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "widget_type":  {
+                                                                   "type":  "string",
+                                                                   "description":  "The widget type name, e.g. \"heading\", \"button\", \"image\"."
+                                                               }
+                                           },
+                            "required":  [
+                                             "widget_type"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-get-element-settings",
+        "description":  "Returns the current settings for a specific element on a page. Provide the post ID and element ID to retrieve all control values for that element.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The WordPress post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The Elementor element ID."
+                                                              }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-find-element",
+        "description":  "Searches elements on a page by type, widget type, or settings content. Returns matching element IDs, types, and a settings preview.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID to search."
+                                                           },
+                                               "widget_type":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Filter by widget type (e.g. \"heading\", \"button\"). Leave empty for all."
+                                                               },
+                                               "element_type":  {
+                                                                    "type":  "string",
+                                                                    "enum":  [
+                                                                                 "container",
+                                                                                 "widget"
+                                                                             ],
+                                                                    "description":  "Filter by element type."
+                                                                },
+                                               "search_text":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Search for text content in settings values (case-insensitive)."
+                                                               },
+                                               "setting_key":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Filter by setting key existence (e.g. \"title_color\")."
+                                                               },
+                                               "setting_value":  {
+                                                                     "type":  "string",
+                                                                     "description":  "Filter by setting value (requires setting_key)."
+                                                                 }
+                                           },
+                            "required":  [
+                                             "post_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-list-pages",
+        "description":  "Returns all WordPress pages and posts that are built with Elementor. Optionally filter by post type and status.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_type":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Filter by post type (e.g. \"page\", \"post\"). Default: any."
+                                                             },
+                                               "status":  {
+                                                              "type":  "string",
+                                                              "description":  "Filter by post status (e.g. \"publish\", \"draft\"). Default: any."
+                                                          }
+                                           }
+                        }
+    },
+    {
+        "name":  "elementor-mcp-list-templates",
+        "description":  "Returns all saved Elementor templates from the template library. Optionally filter by template type (page, section, container).",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "template_type":  {
+                                                                     "type":  "string",
+                                                                     "description":  "Filter by template type (e.g. \"page\", \"section\", \"container\")."
+                                                                 }
+                                           }
+                        }
+    },
+    {
+        "name":  "elementor-mcp-create-page",
+        "description":  "Creates a new WordPress page with Elementor enabled. Optionally provide initial element content.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "title":  {
+                                                             "type":  "string",
+                                                             "description":  "Page title."
+                                                         },
+                                               "status":  {
+                                                              "type":  "string",
+                                                              "enum":  [
+                                                                           "draft",
+                                                                           "publish"
+                                                                       ],
+                                                              "description":  "Post status. Default: draft."
+                                                          },
+                                               "post_type":  {
+                                                                 "type":  "string",
+                                                                 "enum":  [
+                                                                              "page",
+                                                                              "post"
+                                                                          ],
+                                                                 "description":  "Post type. Default: page."
+                                                             },
+                                               "template":  {
+                                                                "type":  "string",
+                                                                "description":  "Elementor template slug."
+                                                            },
+                                               "content":  {
+                                                               "type":  "array",
+                                                               "items":  {
+                                                                             "type":  "object"
+                                                                         },
+                                                               "description":  "Initial element tree."
+                                                           }
+                                           },
+                            "required":  [
+                                             "title"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-import-template",
+        "description":  "Imports a JSON template structure into a page at an optional position.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "template_json":  {
+                                                                     "type":  "array",
+                                                                     "description":  "Elementor JSON element structure to import.",
+                                                                     "items":  {
+                                                                                   "type":  "object"
+                                                                               }
+                                                                 },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position. -1 = append."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "template_json"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-widget",
+        "description":  "Adds any Elementor widget to a container. Use get-widget-schema to discover the available settings for each widget type.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container element ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position. -1 = append."
+                                                            },
+                                               "widget_type":  {
+                                                                   "type":  "string",
+                                                                   "description":  "The widget type name (e.g. \"heading\", \"button\", \"image\")."
+                                                               },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Widget-specific settings."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id",
+                                             "widget_type"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-widget",
+        "description":  "Updates settings on an existing widget. Settings are merged (partial update).",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The widget element ID."
+                                                              },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Partial settings to merge."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id",
+                                             "settings"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-testimonial",
+        "description":  "Adds a testimonial widget with quote, author name, job title, and image.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "testimonial_content":  {
+                                                                           "type":  "string",
+                                                                           "description":  "Testimonial/quote text."
+                                                                       },
+                                               "testimonial_image":  {
+                                                                         "type":  "object",
+                                                                         "description":  "Author image object with url and optional id."
+                                                                     },
+                                               "testimonial_name":  {
+                                                                        "type":  "string",
+                                                                        "description":  "Author name."
+                                                                    },
+                                               "testimonial_job":  {
+                                                                       "type":  "string",
+                                                                       "description":  "Author job title/role."
+                                                                   },
+                                               "testimonial_image_position":  {
+                                                                                  "type":  "string",
+                                                                                  "enum":  [
+                                                                                               "aside",
+                                                                                               "top"
+                                                                                           ],
+                                                                                  "description":  "Image position. Default: aside."
+                                                                              }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id",
+                                             "testimonial_content",
+                                             "testimonial_name"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-posts-grid",
+        "description":  "Adds an Elementor Pro posts grid widget to display a grid of posts.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "posts_post_type":  {
+                                                                       "type":  "string",
+                                                                       "enum":  [
+                                                                                    "post",
+                                                                                    "page",
+                                                                                    "any"
+                                                                                ],
+                                                                       "description":  "Post type to query."
+                                                                   },
+                                               "posts_per_page":  {
+                                                                      "type":  "integer",
+                                                                      "description":  "Number of posts to show."
+                                                                  },
+                                               "columns":  {
+                                                               "type":  "integer",
+                                                               "description":  "Number of grid columns."
+                                                           },
+                                               "pagination_type":  {
+                                                                       "type":  "string",
+                                                                       "enum":  [
+                                                                                    "numbers",
+                                                                                    "prev_next",
+                                                                                    "numbers_and_prev_next",
+                                                                                    "load_more_on_click"
+                                                                                ],
+                                                                       "description":  "Pagination type."
+                                                                   }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-blockquote",
+        "description":  "Adds a styled blockquote widget with quote text, author, tweet button, colors, border, typography. Accepts responsive suffixes and advanced controls. All other settings pass through; get-widget-schema for the full list.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "blockquote_content":  {
+                                                                          "type":  "string",
+                                                                          "description":  "Quote/blockquote text."
+                                                                      },
+                                               "author_name":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Author/attribution name."
+                                                               },
+                                               "blockquote_skin":  {
+                                                                       "type":  "string",
+                                                                       "enum":  [
+                                                                                    "border",
+                                                                                    "quotation",
+                                                                                    "boxed",
+                                                                                    "clean"
+                                                                                ],
+                                                                       "description":  "Skin variant. Default: border."
+                                                                   },
+                                               "alignment":  {
+                                                                 "type":  "string",
+                                                                 "enum":  [
+                                                                              "left",
+                                                                              "center",
+                                                                              "right"
+                                                                          ],
+                                                                 "description":  "Text alignment."
+                                                             },
+                                               "tweet_button":  {
+                                                                    "type":  "string",
+                                                                    "enum":  [
+                                                                                 "yes"
+                                                                             ],
+                                                                    "description":  "Show tweet button."
+                                                                }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id",
+                                             "blockquote_content"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-lottie",
+        "description":  "Adds a Lottie animation widget. Supports triggers, loop, speed, renderer, sizing, link, viewport settings, opacity, CSS filters. Accepts responsive suffixes and advanced controls. All other settings pass through; get-widget-schema for the full list.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "source":  {
+                                                              "type":  "string",
+                                                              "enum":  [
+                                                                           "media_file",
+                                                                           "external_url"
+                                                                       ],
+                                                              "description":  "Source type. Default: external_url."
+                                                          },
+                                               "source_external_url":  {
+                                                                           "type":  "string",
+                                                                           "description":  "External Lottie JSON URL."
+                                                                       },
+                                               "source_json":  {
+                                                                   "type":  "object",
+                                                                   "description":  "Media library file: {url, id}."
+                                                               },
+                                               "trigger":  {
+                                                               "type":  "string",
+                                                               "enum":  [
+                                                                            "arriving_to_viewport",
+                                                                            "on_click",
+                                                                            "on_hover",
+                                                                            "bind_to_scroll",
+                                                                            "none"
+                                                                        ],
+                                                               "description":  "Animation trigger. Default: arriving_to_viewport."
+                                                           },
+                                               "loop":  {
+                                                            "type":  "string",
+                                                            "enum":  [
+                                                                         "yes"
+                                                                     ],
+                                                            "description":  "Loop animation. Default: yes."
+                                                        }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-loop-grid",
+        "description":  "Adds a loop grid widget that displays posts/pages/CPTs using a loop template (Pro). All other settings pass through; get-widget-schema for the full list.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "_skin":  {
+                                                             "type":  "string",
+                                                             "enum":  [
+                                                                          "post",
+                                                                          "post_taxonomy"
+                                                                      ],
+                                                             "description":  "Template type. Default: post."
+                                                         },
+                                               "template_id":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Loop template ID."
+                                                               },
+                                               "columns":  {
+                                                               "type":  "number",
+                                                               "description":  "Number of columns. Default: 3."
+                                                           },
+                                               "columns_tablet":  {
+                                                                      "type":  "number",
+                                                                      "description":  "Columns on tablet. Default: 2."
+                                                                  },
+                                               "columns_mobile":  {
+                                                                      "type":  "number",
+                                                                      "description":  "Columns on mobile. Default: 1."
+                                                                  }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-loop-carousel",
+        "description":  "Adds a loop carousel widget that displays posts in a carousel using a loop template (Pro). All other settings pass through; get-widget-schema for the full list.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "_skin":  {
+                                                             "type":  "string",
+                                                             "enum":  [
+                                                                          "post",
+                                                                          "post_taxonomy"
+                                                                      ],
+                                                             "description":  "Template type. Default: post."
+                                                         },
+                                               "template_id":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Loop template ID."
+                                                               },
+                                               "posts_per_page":  {
+                                                                      "type":  "number",
+                                                                      "description":  "Number of slides. Default: 6."
+                                                                  },
+                                               "slides_to_show":  {
+                                                                      "type":  "string",
+                                                                      "enum":  [
+                                                                                   "1",
+                                                                                   "2",
+                                                                                   "3",
+                                                                                   "4",
+                                                                                   "5",
+                                                                                   "6",
+                                                                                   "7",
+                                                                                   "8"
+                                                                               ],
+                                                                      "description":  "Slides on display. Default: 3."
+                                                                  },
+                                               "slides_to_show_tablet":  {
+                                                                             "type":  "string",
+                                                                             "description":  "Slides on tablet. Default: 2."
+                                                                         }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-portfolio",
+        "description":  "Adds an Elementor Pro portfolio widget to display a filterable grid of posts or custom post types. All other settings pass through; get-widget-schema for the full list.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "columns":  {
+                                                               "type":  "integer",
+                                                               "description":  "Number of columns. Default: 3."
+                                                           },
+                                               "posts_per_page":  {
+                                                                      "type":  "integer",
+                                                                      "description":  "Number of posts to display. Default: 6."
+                                                                  },
+                                               "show_filter_bar":  {
+                                                                       "type":  "string",
+                                                                       "enum":  [
+                                                                                    "yes",
+                                                                                    "no"
+                                                                                ],
+                                                                       "description":  "Show category filter bar. Default: no."
+                                                                   },
+                                               "masonry":  {
+                                                               "type":  "string",
+                                                               "enum":  [
+                                                                            "yes",
+                                                                            "no"
+                                                                        ],
+                                                               "description":  "Enable masonry layout. Default: no."
+                                                           },
+                                               "show_title":  {
+                                                                  "type":  "string",
+                                                                  "enum":  [
+                                                                               "yes",
+                                                                               "no"
+                                                                           ],
+                                                                  "description":  "Show post title overlay. Default: yes."
+                                                              }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-author-box",
+        "description":  "Adds an Elementor Pro author box widget displaying the post author\u0027s avatar, name, bio, and a link to their posts. All other settings pass through; get-widget-schema for the full list.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "show_avatar":  {
+                                                                   "type":  "string",
+                                                                   "enum":  [
+                                                                                "yes",
+                                                                                "no"
+                                                                            ],
+                                                                   "description":  "Show author avatar. Default: yes."
+                                                               },
+                                               "avatar_size":  {
+                                                                   "type":  "integer",
+                                                                   "description":  "Avatar size in pixels. Default: 96."
+                                                               },
+                                               "show_name":  {
+                                                                 "type":  "string",
+                                                                 "enum":  [
+                                                                              "yes",
+                                                                              "no"
+                                                                          ],
+                                                                 "description":  "Show author name. Default: yes."
+                                                             },
+                                               "author_name_tag":  {
+                                                                       "type":  "string",
+                                                                       "enum":  [
+                                                                                    "h1",
+                                                                                    "h2",
+                                                                                    "h3",
+                                                                                    "h4",
+                                                                                    "h5",
+                                                                                    "h6",
+                                                                                    "div",
+                                                                                    "span",
+                                                                                    "p"
+                                                                                ],
+                                                                       "description":  "HTML tag for the author name. Default: h3."
+                                                                   },
+                                               "show_biography":  {
+                                                                      "type":  "string",
+                                                                      "enum":  [
+                                                                                   "yes",
+                                                                                   "no"
+                                                                               ],
+                                                                      "description":  "Show author biography. Default: yes."
+                                                                  }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-login",
+        "description":  "Adds an Elementor Pro login form widget with configurable fields, labels, remember me, lost password link, and post-login redirect. All other settings pass through; get-widget-schema for the full list.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "show_labels":  {
+                                                                   "type":  "string",
+                                                                   "enum":  [
+                                                                                "yes",
+                                                                                "no"
+                                                                            ],
+                                                                   "description":  "Show field labels. Default: yes."
+                                                               },
+                                               "show_remember_me":  {
+                                                                        "type":  "string",
+                                                                        "enum":  [
+                                                                                     "yes",
+                                                                                     "no"
+                                                                                 ],
+                                                                        "description":  "Show \"Remember Me\" checkbox. Default: yes."
+                                                                    },
+                                               "show_lost_password":  {
+                                                                          "type":  "string",
+                                                                          "enum":  [
+                                                                                       "yes",
+                                                                                       "no"
+                                                                                   ],
+                                                                          "description":  "Show \"Lost Password\" link. Default: yes."
+                                                                      },
+                                               "button_text":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Submit button label. Default: Log In."
+                                                               },
+                                               "button_size":  {
+                                                                   "type":  "string",
+                                                                   "enum":  [
+                                                                                "xs",
+                                                                                "sm",
+                                                                                "md",
+                                                                                "lg",
+                                                                                "xl"
+                                                                            ],
+                                                                   "description":  "Button size preset. Default: sm."
+                                                               }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-search",
+        "description":  "Adds a search widget with live results support. All other settings pass through; get-widget-schema for the full list.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "search_input_placeholder_text":  {
+                                                                                     "type":  "string",
+                                                                                     "description":  "Placeholder text for the search input. Default: Search..."
+                                                                                 },
+                                               "submit_trigger":  {
+                                                                      "type":  "string",
+                                                                      "enum":  [
+                                                                                   "button",
+                                                                                   "auto"
+                                                                               ],
+                                                                      "description":  "Search trigger method. Default: button."
+                                                                  },
+                                               "submit_button_text":  {
+                                                                          "type":  "string",
+                                                                          "description":  "Submit button label. Default: Search."
+                                                                      },
+                                               "live_results":  {
+                                                                    "type":  "string",
+                                                                    "enum":  [
+                                                                                 "yes",
+                                                                                 "no"
+                                                                             ],
+                                                                    "description":  "Enable live search results dropdown. Default: no."
+                                                                },
+                                               "number_of_items":  {
+                                                                       "type":  "integer",
+                                                                       "description":  "Max results to show. Default: 5."
+                                                                   }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-save-as-template",
+        "description":  "Saves a page or a specific element as a reusable Elementor template.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The source post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "Specific element ID to save. Omit to save the entire page."
+                                                              },
+                                               "title":  {
+                                                             "type":  "string",
+                                                             "description":  "Template title."
+                                                         },
+                                               "template_type":  {
+                                                                     "type":  "string",
+                                                                     "enum":  [
+                                                                                  "page",
+                                                                                  "section",
+                                                                                  "container"
+                                                                              ],
+                                                                     "description":  "Template type. Default: page."
+                                                                 }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "title"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-apply-template",
+        "description":  "Applies a saved Elementor template to a page at a given position, inserting its elements with fresh IDs.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The target post/page ID."
+                                                           },
+                                               "template_id":  {
+                                                                   "type":  "integer",
+                                                                   "description":  "The template post ID to apply."
+                                                               },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID. Empty for top-level."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position. -1 = append."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "template_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-create-theme-template",
+        "description":  "Creates a new Elementor Pro theme builder template (header, footer, single, archive, 404, etc.).",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "title":  {
+                                                             "type":  "string",
+                                                             "description":  "Template title."
+                                                         },
+                                               "template_type":  {
+                                                                     "type":  "string",
+                                                                     "enum":  [
+                                                                                  "header",
+                                                                                  "footer",
+                                                                                  "single",
+                                                                                  "single-post",
+                                                                                  "single-page",
+                                                                                  "archive",
+                                                                                  "search-results",
+                                                                                  "error-404",
+                                                                                  "loop-item"
+                                                                              ],
+                                                                     "description":  "Theme template type."
+                                                                 }
+                                           },
+                            "required":  [
+                                             "title",
+                                             "template_type"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-set-template-conditions",
+        "description":  "Sets display conditions for a theme builder template (e.g., Entire Site, specific pages, post types).",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The template post ID."
+                                                           },
+                                               "conditions":  {
+                                                                  "type":  "array",
+                                                                  "description":  "Array of condition rules. Each is an array like [\"include\", \"general\"] for Entire Site, or [\"include\", \"singular\", \"post\"] for all posts.",
+                                                                  "items":  {
+                                                                                "type":  "array",
+                                                                                "items":  {
+                                                                                              "type":  "string"
+                                                                                          }
+                                                                            }
+                                                              }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "conditions"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-list-dynamic-tags",
+        "description":  "Lists all available Elementor Pro dynamic tags with their names, groups, and categories.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "group":  {
+                                                             "type":  "string",
+                                                             "description":  "Filter by tag group (e.g., \"post\", \"site\", \"author\", \"media\", \"action\", \"woocommerce\"). Omit for all."
+                                                         }
+                                           }
+                        }
+    },
+    {
+        "name":  "elementor-mcp-set-dynamic-tag",
+        "description":  "Sets a dynamic tag on a specific setting of an element. This makes the setting value dynamic (e.g., title becomes post title).",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The page/post ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The element ID to modify."
+                                                              },
+                                               "setting_key":  {
+                                                                   "type":  "string",
+                                                                   "description":  "The setting key to make dynamic (e.g., \"title\", \"url\", \"image\")."
+                                                               },
+                                               "tag_name":  {
+                                                                "type":  "string",
+                                                                "description":  "The dynamic tag name (e.g., \"post-title\", \"site-title\", \"post-featured-image\")."
+                                                            },
+                                               "tag_settings":  {
+                                                                    "type":  "object",
+                                                                    "description":  "Optional settings for the dynamic tag."
+                                                                }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id",
+                                             "setting_key",
+                                             "tag_name"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-create-popup",
+        "description":  "Creates a new Elementor Pro popup template.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "title":  {
+                                                             "type":  "string",
+                                                             "description":  "Popup title."
+                                                         }
+                                           },
+                            "required":  [
+                                             "title"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-set-popup-settings",
+        "description":  "Configures popup triggers, timing, and display conditions for an Elementor Pro popup.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The popup post ID."
+                                                           },
+                                               "triggers":  {
+                                                                "type":  "object",
+                                                                "description":  "Trigger settings: { \"on_page_load\": {\"enabled\": true, \"delay\": 3}, \"on_scroll\": {\"enabled\": true, \"direction\": \"down\", \"offset\": 50}, \"on_click\": {\"enabled\": true, \"times\": 1}, \"on_exit_intent\": {\"enabled\": true}, \"on_inactivity\": {\"enabled\": true, \"time\": 30} }."
+                                                            },
+                                               "conditions":  {
+                                                                  "type":  "array",
+                                                                  "description":  "Display conditions, same format as set-template-conditions.",
+                                                                  "items":  {
+                                                                                "type":  "array",
+                                                                                "items":  {
+                                                                                              "type":  "string"
+                                                                                          }
+                                                                            }
+                                                              },
+                                               "timing":  {
+                                                              "type":  "object",
+                                                              "description":  "Timing rules: { \"devices\": [\"desktop\",\"tablet\",\"mobile\"], \"show_after_x_page_views\": 0, \"show_after_x_sessions\": 0, \"show_up_to_x_times\": 0, \"url_contains\": \"\", \"url_not_contains\": \"\" }."
+                                                          }
+                                           },
+                            "required":  [
+                                             "post_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-build-page",
+        "description":  "Creates a complete Elementor page from a declarative structure in a single call. Supports nested containers and any widget types. IMPORTANT LAYOUT RULES: (1) For side-by-side columns, use a parent container with flex_direction=row — children are auto-set to content_width=full with equal percentage widths (e.g. 2 children = 50%, 3 = 33.33%). (2) NEVER set flex_wrap or _flex_size in settings — these cause layout overflow. The tool handles layout automatically. (3) Background colors: set background_background=classic and background_color=#hex on containers. (4) Background images: set background_background=classic, background_image={url,id}, background_size=cover. (5) Background overlay: background_overlay_background=classic, background_overlay_color=#hex, background_overlay_opacity={size:0.7,unit:px}. (6) Text alignment: text_align on text/heading widgets. (7) Use search-images and sideload-image tools to get real images before building.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "title":  {
+                                                             "type":  "string",
+                                                             "description":  "Page title."
+                                                         },
+                                               "status":  {
+                                                              "type":  "string",
+                                                              "enum":  [
+                                                                           "draft",
+                                                                           "publish"
+                                                                       ],
+                                                              "description":  "Post status. Default: draft."
+                                                          },
+                                               "post_type":  {
+                                                                 "type":  "string",
+                                                                 "enum":  [
+                                                                              "page",
+                                                                              "post"
+                                                                          ],
+                                                                 "description":  "Post type. Default: page."
+                                                             },
+                                               "page_settings":  {
+                                                                     "type":  "object",
+                                                                     "description":  "Page-level Elementor settings (background, padding, etc.)."
+                                                                 },
+                                               "structure":  {
+                                                                 "type":  "array",
+                                                                 "description":  "Declarative element tree. Each item has type (container|widget), settings, and optionally children (for containers) or widget_type (for widgets).",
+                                                                 "items":  {
+                                                                               "type":  "object",
+                                                                               "properties":  {
+                                                                                                  "type":  {
+                                                                                                               "type":  "string",
+                                                                                                               "enum":  [
+                                                                                                                            "container",
+                                                                                                                            "widget"
+                                                                                                                        ]
+                                                                                                           },
+                                                                                                  "widget_type":  {
+                                                                                                                      "type":  "string"
+                                                                                                                  },
+                                                                                                  "settings":  {
+                                                                                                                   "type":  "object"
+                                                                                                               },
+                                                                                                  "children":  {
+                                                                                                                   "type":  "array",
+                                                                                                                   "items":  {
+                                                                                                                                 "type":  "object"
+                                                                                                                             }
+                                                                                                               }
+                                                                                              },
+                                                                               "required":  [
+                                                                                                "type"
+                                                                                            ]
+                                                                           }
+                                                             }
+                                           },
+                            "required":  [
+                                             "title",
+                                             "structure"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-search-images",
+        "description":  "Searches Openverse (WordPress.org) for Creative Commons licensed images. Returns image URLs, thumbnails, licensing info, and attribution. Use the returned URLs with sideload-image or add-stock-image.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "query":  {
+                                                             "type":  "string",
+                                                             "description":  "Search keywords (e.g. \"mountain landscape\", \"modern office\")."
+                                                         },
+                                               "page":  {
+                                                            "type":  "integer",
+                                                            "description":  "Page number. Default: 1."
+                                                        },
+                                               "page_size":  {
+                                                                 "type":  "integer",
+                                                                 "description":  "Results per page (1-20). Default: 5."
+                                                             },
+                                               "license":  {
+                                                               "type":  "string",
+                                                               "enum":  [
+                                                                            "by",
+                                                                            "by-sa",
+                                                                            "by-nc",
+                                                                            "cc0",
+                                                                            "pdm"
+                                                                        ],
+                                                               "description":  "Filter by Creative Commons license type."
+                                                           },
+                                               "source":  {
+                                                              "type":  "string",
+                                                              "description":  "Filter by source (e.g. \"flickr\", \"wikimedia\", \"wordpress\")."
+                                                          },
+                                               "aspect_ratio":  {
+                                                                    "type":  "string",
+                                                                    "enum":  [
+                                                                                 "tall",
+                                                                                 "wide",
+                                                                                 "square"
+                                                                             ],
+                                                                    "description":  "Filter by aspect ratio. Use \"wide\" for landscape images (recommended for hero banners, cards, and most page layouts). Use \"tall\" for portrait/sidebar images. Use \"square\" for avatars and thumbnails."
+                                                                },
+                                               "size":  {
+                                                            "type":  "string",
+                                                            "enum":  [
+                                                                         "small",
+                                                                         "medium",
+                                                                         "large"
+                                                                     ],
+                                                            "description":  "Filter by image size."
+                                                        },
+                                               "category":  {
+                                                                "type":  "string",
+                                                                "enum":  [
+                                                                             "photograph",
+                                                                             "illustration",
+                                                                             "digitized_artwork"
+                                                                         ],
+                                                                "description":  "Filter by image category."
+                                                            }
+                                           },
+                            "required":  [
+                                             "query"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-sideload-image",
+        "description":  "Downloads an external image URL into the WordPress Media Library and returns the local attachment ID and URL. Use this after search-images to import a chosen image.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "url":  {
+                                                           "type":  "string",
+                                                           "description":  "The external image URL to download."
+                                                       },
+                                               "title":  {
+                                                             "type":  "string",
+                                                             "description":  "Attachment title. Falls back to the filename."
+                                                         },
+                                               "alt_text":  {
+                                                                "type":  "string",
+                                                                "description":  "Alt text for the image."
+                                                            },
+                                               "caption":  {
+                                                               "type":  "string",
+                                                               "description":  "Image caption."
+                                                           },
+                                               "attribution":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Attribution text for Creative Commons images. Stored as the attachment caption/excerpt."
+                                                               }
+                                           },
+                            "required":  [
+                                             "url"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-stock-image",
+        "description":  "Searches Openverse for an image, downloads it to the Media Library, and adds it as an image widget to the page — all in one step. Defaults to landscape (wide) images for consistent layouts. Combines search-images + sideload-image + add-image.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container element ID."
+                                                             },
+                                               "query":  {
+                                                             "type":  "string",
+                                                             "description":  "Image search keywords (e.g. \"hero banner technology\", \"team photo office\")."
+                                                         },
+                                               "index":  {
+                                                             "type":  "integer",
+                                                             "description":  "Which search result to use (0 = best match). Default: 0."
+                                                         },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position within parent. -1 = append (default)."
+                                                            },
+                                               "image_size":  {
+                                                                  "type":  "string",
+                                                                  "enum":  [
+                                                                               "thumbnail",
+                                                                               "medium",
+                                                                               "medium_large",
+                                                                               "large",
+                                                                               "full"
+                                                                           ],
+                                                                  "description":  "Image size preset. Default: full."
+                                                              },
+                                               "align":  {
+                                                             "type":  "string",
+                                                             "enum":  [
+                                                                          "left",
+                                                                          "center",
+                                                                          "right"
+                                                                      ],
+                                                             "description":  "Image alignment."
+                                                         },
+                                               "caption":  {
+                                                               "type":  "string",
+                                                               "description":  "Caption override. Defaults to Openverse attribution."
+                                                           },
+                                               "aspect_ratio":  {
+                                                                    "type":  "string",
+                                                                    "enum":  [
+                                                                                 "wide",
+                                                                                 "tall",
+                                                                                 "square",
+                                                                                 "any"
+                                                                             ],
+                                                                    "description":  "Image aspect ratio filter. Default: wide (landscape). Use \"wide\" for hero banners and card images, \"tall\" for sidebar/portrait, \"square\" for thumbnails, \"any\" for no filter."
+                                                                },
+                                               "alt_text":  {
+                                                                "type":  "string",
+                                                                "description":  "Alt text override. Defaults to the image title."
+                                                            },
+                                               "link_to":  {
+                                                               "type":  "string",
+                                                               "enum":  [
+                                                                            "none",
+                                                                            "file",
+                                                                            "custom"
+                                                                        ],
+                                                               "description":  "Link behavior. Default: none."
+                                                           }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id",
+                                             "query"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-list-media",
+        "description":  "Lists and searches images already in the WordPress Media Library. Use this to find a site\u0027s own uploaded photos (e.g. a client\u0027s product or job-site images) before reaching for Openverse stock. The optional \"search\" matches the title, alt text, caption, and description. Returns attachment IDs and URLs you can pass straight to add-image / add-widget.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "search":  {
+                                                              "type":  "string",
+                                                              "description":  "Keyword to match against the attachment title, alt text, caption, and description. Omit to list everything."
+                                                          },
+                                               "mime_type":  {
+                                                                 "type":  "string",
+                                                                 "description":  "MIME type filter. Accepts a top-level type (\"image\") or a specific type (\"image/jpeg\", \"image/png\"). Use \"any\" for all media types. Default: image."
+                                                             },
+                                               "page":  {
+                                                            "type":  "integer",
+                                                            "description":  "Page number (1-based). Default: 1."
+                                                        },
+                                               "per_page":  {
+                                                                "type":  "integer",
+                                                                "description":  "Results per page (1-100). Default: 20."
+                                                            },
+                                               "orderby":  {
+                                                               "type":  "string",
+                                                               "enum":  [
+                                                                            "date",
+                                                                            "title"
+                                                                        ],
+                                                               "description":  "Sort field. Default: date (newest first)."
+                                                           },
+                                               "order":  {
+                                                             "type":  "string",
+                                                             "enum":  [
+                                                                          "desc",
+                                                                          "asc"
+                                                                      ],
+                                                             "description":  "Sort direction. Default: desc."
+                                                         }
+                                           }
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-atomic-widget",
+        "description":  "Adds any Elementor 4.0+ atomic widget to a container. Settings must use the $$type prop format. For simpler usage, prefer the convenience tools (add-atomic-heading, etc.).",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container element ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position. -1 = append."
+                                                            },
+                                               "widget_type":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Atomic widget type name (e.g. e-heading, e-button)."
+                                                               },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Widget settings with $$type-wrapped values."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id",
+                                             "widget_type"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-atomic-widget",
+        "description":  "Updates settings on an existing Elementor 4.0+ atomic widget. Performs a partial merge — only provided keys are changed.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The element ID to update."
+                                                              },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Partial settings to merge ($$type-wrapped values)."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id",
+                                             "settings"
+                                         ]
+                        }
+    }
+]

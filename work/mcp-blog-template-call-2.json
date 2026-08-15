@@ -1,0 +1,350 @@
+{
+    "method":  "tools/call",
+    "params":  {
+                   "arguments":  {
+                                     "post_id":  6432,
+                                     "template_json":  [
+                                                           {
+                                                               "elements":  [
+                                                                                {
+                                                                                    "elements":  [
+                                                                                                     {
+                                                                                                         "widgetType":  "post-info",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "spterms1",
+                                                                                                         "settings":  {
+                                                                                                                          "css_classes":  "barry-field barry-copy blog-single-meta",
+                                                                                                                          "typography_typography":  "custom",
+                                                                                                                          "typography_font_size":  {
+                                                                                                                                                       "unit":  "px",
+                                                                                                                                                       "size":  14
+                                                                                                                                                   },
+                                                                                                                          "date_format":  "F j, Y",
+                                                                                                                          "typography_font_family":  "Open Sans",
+                                                                                                                          "terms_prefix":  "",
+                                                                                                                          "_title":  "Blog Single Meta"
+                                                                                                                      }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "widgetType":  "theme-post-title",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "sptitle1",
+                                                                                                         "settings":  {
+                                                                                                                          "typography_font_size":  {
+                                                                                                                                                       "unit":  "px",
+                                                                                                                                                       "size":  46
+                                                                                                                                                   },
+                                                                                                                          "typography_font_family":  "Montserrat",
+                                                                                                                          "css_classes":  "barry-field barry-heading blog-single-title",
+                                                                                                                          "header_size":  "h1",
+                                                                                                                          "_title":  "Blog Single Title",
+                                                                                                                          "typography_font_weight":  "700",
+                                                                                                                          "typography_typography":  "custom",
+                                                                                                                          "title_color":  "#000000"
+                                                                                                                      }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "widgetType":  "theme-post-excerpt",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "spexcerpt",
+                                                                                                         "settings":  {
+                                                                                                                          "css_classes":  "barry-field barry-copy blog-single-excerpt",
+                                                                                                                          "typography_font_family":  "Open Sans",
+                                                                                                                          "typography_typography":  "custom",
+                                                                                                                          "text_color":  "#111111",
+                                                                                                                          "typography_font_size":  {
+                                                                                                                                                       "unit":  "px",
+                                                                                                                                                       "size":  18
+                                                                                                                                                   },
+                                                                                                                          "_title":  "Blog Single Excerpt"
+                                                                                                                      }
+                                                                                                     }
+                                                                                                 ],
+                                                                                    "elType":  "container",
+                                                                                    "id":  "spcol01",
+                                                                                    "settings":  {
+                                                                                                     "_title":  "Blog Single Hero Copy Column",
+                                                                                                     "content_width":  "full",
+                                                                                                     "width":  {
+                                                                                                                   "unit":  "%",
+                                                                                                                   "size":  55
+                                                                                                               }
+                                                                                                 }
+                                                                                },
+                                                                                {
+                                                                                    "elements":  [
+                                                                                                     {
+                                                                                                         "widgetType":  "theme-post-featured-image",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "spimage1",
+                                                                                                         "settings":  {
+                                                                                                                          "_title":  "Blog Single Featured Image",
+                                                                                                                          "border_radius":  {
+                                                                                                                                                "left":  "8",
+                                                                                                                                                "bottom":  "8",
+                                                                                                                                                "top":  "8",
+                                                                                                                                                "right":  "8",
+                                                                                                                                                "isLinked":  true,
+                                                                                                                                                "unit":  "px"
+                                                                                                                                            },
+                                                                                                                          "image_size":  "full",
+                                                                                                                          "css_classes":  "barry-field barry-image blog-single-featured-image"
+                                                                                                                      }
+                                                                                                     }
+                                                                                                 ],
+                                                                                    "elType":  "container",
+                                                                                    "id":  "spcol02",
+                                                                                    "settings":  {
+                                                                                                     "_title":  "Blog Single Hero Image Column",
+                                                                                                     "content_width":  "full",
+                                                                                                     "width":  {
+                                                                                                                   "unit":  "%",
+                                                                                                                   "size":  45
+                                                                                                               }
+                                                                                                 }
+                                                                                }
+                                                                            ],
+                                                               "elType":  "container",
+                                                               "id":  "sphero1",
+                                                               "settings":  {
+                                                                                "content_width":  "boxed",
+                                                                                "flex_gap":  {
+                                                                                                 "unit":  "px",
+                                                                                                 "size":  32
+                                                                                             },
+                                                                                "padding":  {
+                                                                                                "left":  "1",
+                                                                                                "bottom":  "4",
+                                                                                                "top":  "4",
+                                                                                                "right":  "1",
+                                                                                                "isLinked":  false,
+                                                                                                "unit":  "rem"
+                                                                                            },
+                                                                                "css_classes":  "barry-section barry-blog-single-section barry-blog-single-hero",
+                                                                                "flex_direction":  "row",
+                                                                                "_title":  "Blog Single Hero",
+                                                                                "_element_id":  "blog-single-hero",
+                                                                                "background_color":  "#E8F4FF",
+                                                                                "background_background":  "classic"
+                                                                            }
+                                                           },
+                                                           {
+                                                               "elements":  [
+                                                                                {
+                                                                                    "elements":  [
+                                                                                                     {
+                                                                                                         "widgetType":  "table-of-contents",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "sptoc1",
+                                                                                                         "settings":  {
+                                                                                                                          "marker_view":  "numbers",
+                                                                                                                          "_title":  "Blog Single Table Of Contents",
+                                                                                                                          "container_title":  "In this article",
+                                                                                                                          "exclude_headings_by_selector":  "",
+                                                                                                                          "css_classes":  "barry-field blog-single-table-of-contents"
+                                                                                                                      }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "widgetType":  "theme-post-content",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "spcontent",
+                                                                                                         "settings":  {
+                                                                                                                          "css_classes":  "barry-field barry-copy blog-single-post-content",
+                                                                                                                          "text_color":  "#111111",
+                                                                                                                          "typography_typography":  "custom",
+                                                                                                                          "typography_font_family":  "Open Sans",
+                                                                                                                          "typography_font_size":  {
+                                                                                                                                                       "unit":  "px",
+                                                                                                                                                       "size":  17
+                                                                                                                                                   },
+                                                                                                                          "_title":  "Blog Single Post Content"
+                                                                                                                      }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "widgetType":  "post-navigation",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "spnav1",
+                                                                                                         "settings":  {
+                                                                                                                          "css_classes":  "barry-field blog-single-post-navigation",
+                                                                                                                          "_title":  "Blog Single Post Navigation"
+                                                                                                                      }
+                                                                                                     }
+                                                                                                 ],
+                                                                                    "elType":  "container",
+                                                                                    "id":  "spmain1",
+                                                                                    "settings":  {
+                                                                                                     "_title":  "Blog Single Main Column",
+                                                                                                     "content_width":  "full",
+                                                                                                     "width":  {
+                                                                                                                   "unit":  "%",
+                                                                                                                   "size":  68
+                                                                                                               },
+                                                                                                     "css_classes":  "barry-container blog-single-main-column"
+                                                                                                 }
+                                                                                },
+                                                                                {
+                                                                                    "elements":  [
+                                                                                                     {
+                                                                                                         "widgetType":  "heading",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "spsidetitle",
+                                                                                                         "settings":  {
+                                                                                                                          "typography_font_family":  "Montserrat",
+                                                                                                                          "title_color":  "#000000",
+                                                                                                                          "header_size":  "h3",
+                                                                                                                          "css_classes":  "barry-field barry-heading blog-single-sidebar-heading",
+                                                                                                                          "typography_typography":  "custom",
+                                                                                                                          "_title":  "Blog Single Sidebar Heading",
+                                                                                                                          "typography_font_size":  {
+                                                                                                                                                       "unit":  "px",
+                                                                                                                                                       "size":  24
+                                                                                                                                                   },
+                                                                                                                          "title":  "More Plumbing Advice",
+                                                                                                                          "typography_font_weight":  "700"
+                                                                                                                      }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "widgetType":  "search",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "spsearch",
+                                                                                                         "settings":  {
+                                                                                                                          "_title":  "Blog Single Search",
+                                                                                                                          "submit_button_text":  "Search",
+                                                                                                                          "live_results":  "yes",
+                                                                                                                          "search_input_placeholder_text":  "Search articles",
+                                                                                                                          "css_classes":  "barry-field blog-single-search"
+                                                                                                                      }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "widgetType":  "wp-widget-categories",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "spcats",
+                                                                                                         "settings":  {
+                                                                                                                          "hierarchical":  "yes",
+                                                                                                                          "_title":  "Blog Single Categories",
+                                                                                                                          "title":  "Categories",
+                                                                                                                          "count":  "yes",
+                                                                                                                          "css_classes":  "barry-field blog-single-categories"
+                                                                                                                      }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "widgetType":  "wp-widget-recent-posts",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "sprecent",
+                                                                                                         "settings":  {
+                                                                                                                          "_title":  "Blog Single Recent Posts",
+                                                                                                                          "show_date":  "yes",
+                                                                                                                          "title":  "Recent Posts",
+                                                                                                                          "number":  5,
+                                                                                                                          "css_classes":  "barry-field blog-single-recent-posts"
+                                                                                                                      }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "widgetType":  "author-box",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "spauthor",
+                                                                                                         "settings":  {
+                                                                                                                          "_title":  "Blog Single Author Box",
+                                                                                                                          "show_avatar":  "yes",
+                                                                                                                          "show_biography":  "yes",
+                                                                                                                          "css_classes":  "barry-field blog-single-author-box"
+                                                                                                                      }
+                                                                                                     }
+                                                                                                 ],
+                                                                                    "elType":  "container",
+                                                                                    "id":  "spside1",
+                                                                                    "settings":  {
+                                                                                                     "content_width":  "full",
+                                                                                                     "css_classes":  "barry-container blog-single-sidebar",
+                                                                                                     "width":  {
+                                                                                                                   "unit":  "%",
+                                                                                                                   "size":  32
+                                                                                                               },
+                                                                                                     "border_radius":  {
+                                                                                                                           "left":  "8",
+                                                                                                                           "bottom":  "8",
+                                                                                                                           "top":  "8",
+                                                                                                                           "right":  "8",
+                                                                                                                           "isLinked":  true,
+                                                                                                                           "unit":  "px"
+                                                                                                                       },
+                                                                                                     "padding":  {
+                                                                                                                     "left":  "1.5",
+                                                                                                                     "bottom":  "1.5",
+                                                                                                                     "top":  "1.5",
+                                                                                                                     "right":  "1.5",
+                                                                                                                     "isLinked":  false,
+                                                                                                                     "unit":  "rem"
+                                                                                                                 },
+                                                                                                     "background_color":  "#E8F4FF",
+                                                                                                     "_title":  "Blog Single Sidebar",
+                                                                                                     "background_background":  "classic"
+                                                                                                 }
+                                                                                }
+                                                                            ],
+                                                               "elType":  "container",
+                                                               "id":  "spbody1",
+                                                               "settings":  {
+                                                                                "css_classes":  "barry-section barry-blog-single-section barry-blog-single-content",
+                                                                                "content_width":  "boxed",
+                                                                                "padding":  {
+                                                                                                "left":  "1",
+                                                                                                "bottom":  "5",
+                                                                                                "top":  "4",
+                                                                                                "right":  "1",
+                                                                                                "isLinked":  false,
+                                                                                                "unit":  "rem"
+                                                                                            },
+                                                                                "flex_direction":  "row",
+                                                                                "flex_gap":  {
+                                                                                                 "unit":  "px",
+                                                                                                 "size":  32
+                                                                                             },
+                                                                                "_element_id":  "blog-single-content",
+                                                                                "_title":  "Blog Single Content Section"
+                                                                            }
+                                                           }
+                                                       ],
+                                     "position":  -1
+                                 },
+                   "name":  "elementor-mcp-import-template"
+               },
+    "id":  2,
+    "jsonrpc":  "2.0"
+}

@@ -1,0 +1,17 @@
+{
+  "post_id": 6641,
+  "operations": [
+    {
+      "element_id": "a563cf2",
+      "settings": {
+        "editor": "<p>Charging plans should start at the electrical panel because the available capacity shapes the whole installation. Vehicle needs, parking position, cable reach and daily routine all affect the best charger setup. This section helps Dallas-Fort Worth homeowners match charging power to the property instead of choosing equipment in isolation.</p>"
+      }
+    },
+    {
+      "element_id": "f434e37",
+      "settings": {
+        "editor": "<p>Efficient charging is about recovering the range the household actually needs, not simply installing the highest-amp charger possible. Daily mileage, available charging time, circuit capacity and cable reach all shape the right recommendation. This section explains why sizing matters before a Dallas-Fort Worth EV charger install is planned.</p>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "commercial-plumbing": {
+    "square": {
+      "id": 6679,
+      "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-commercial-plumbing-garden-route-service-square-1.webp",
+      "alt": "H2O Plumbers commercial plumbing service in the Garden Route"
+    },
+    "background": {
+      "id": 6680,
+      "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-commercial-plumbing-garden-route-service-background-1.webp",
+      "alt": "H2O Plumbers commercial plumbing support for Garden Route homes and businesses"
+    }
+  },
+  "water-pressure-problems": {
+    "square": {
+      "id": 6682,
+      "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-water-pressure-problems-garden-route-service-square-1.webp",
+      "alt": "H2O Plumbers water pressure problems service in the Garden Route"
+    },
+    "background": {
+      "id": 6683,
+      "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/07/h2o-plumbers-water-pressure-problems-garden-route-service-background-1.webp",
+      "alt": "H2O Plumbers water pressure problems support for Garden Route homes and businesses"
+    }
+  }
+}

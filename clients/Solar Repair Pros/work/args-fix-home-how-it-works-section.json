@@ -1,0 +1,108 @@
+{
+  "post_id": 2747,
+  "operations": [
+    {
+      "element_id": "d186ff3",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#0B254D",
+        "background_image": {
+          "id": 6862,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-repair-process-background-1920x1080-1.png",
+          "alt": "Solar technician reviewing solar system data beside home equipment in Dallas-Fort Worth",
+          "source": "library",
+          "size": "full"
+        },
+        "background_video_link": "",
+        "background_video_fallback": {
+          "id": 6862,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-repair-process-background-1920x1080-1.png",
+          "alt": "Solar technician reviewing solar system data beside home equipment in Dallas-Fort Worth",
+          "source": "library",
+          "size": "full"
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "#0B254D",
+        "background_overlay_opacity": {
+          "unit": "px",
+          "size": 0.78,
+          "sizes": []
+        }
+      }
+    },
+    {
+      "element_id": "c5ceaef",
+      "settings": {
+        "title": "HOW IT WORKS",
+        "title_color": "#0B254D",
+        "_background_color": "#FFFFFF",
+        "_border_color": "#F27A1D"
+      }
+    },
+    {
+      "element_id": "b66725b",
+      "settings": {
+        "ekit_heading_title": "From Confusion to a Clear Repair Plan",
+        "ekit_heading_extra_title": "<p>When installer support is gone, the process should feel simple: explain what happened, review the system, and give the owner a practical next step.</p>",
+        "ekit_heading_title_color": "#FFFFFF",
+        "ekit_heading_extra_title_color": "#FFFFFF",
+        "ekit_heading_seperator_color": "#F27A1D",
+        "ekit_heading_sub_title": ""
+      }
+    },
+    {
+      "element_id": "7ba8b6e",
+      "settings": {
+        "selected_icon": {
+          "value": "fas fa-comments",
+          "library": "fa-solid"
+        },
+        "primary_color": "#F27A1D",
+        "secondary_color": "#FFF4EA",
+        "title_text": "Tell Us What Happened",
+        "description_text": "Share the installer history, alerts, photos, monitoring screenshots, and what changed. The first step is understanding the story, not guessing.",
+        "title_color": "#0B254D",
+        "description_color": "#10294F",
+        "_background_color": "#FFFFFF",
+        "_border_color": "#F27A1D"
+      }
+    },
+    {
+      "element_id": "a93a92e",
+      "settings": {
+        "selected_icon": {
+          "value": "fas fa-search",
+          "library": "fa-solid"
+        },
+        "primary_color": "#F27A1D",
+        "secondary_color": "#FFF4EA",
+        "title_text": "We Review the System",
+        "description_text": "We look at visible condition, production clues, equipment compatibility, roof concerns, and electrical constraints before recommending the next move.",
+        "title_color": "#0B254D",
+        "description_color": "#10294F",
+        "_background_color": "#FFFFFF",
+        "_border_color": "#F27A1D"
+      }
+    },
+    {
+      "element_id": "7ddb1cc",
+      "settings": {
+        "selected_icon": {
+          "value": "fas fa-route",
+          "library": "fa-solid"
+        },
+        "primary_color": "#F27A1D",
+        "secondary_color": "#FFF4EA",
+        "title_text": "Get a Practical Next Step",
+        "description_text": "You get plain guidance on repair, inspection, battery planning, panel work, or EV charging so you can decide with confidence.",
+        "title_color": "#0B254D",
+        "description_color": "#10294F",
+        "_background_color": "#FFFFFF",
+        "_border_color": "#F27A1D"
+      }
+    }
+  ]
+}

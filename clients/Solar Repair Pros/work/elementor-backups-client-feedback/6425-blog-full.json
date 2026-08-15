@@ -1,0 +1,262 @@
+﻿{
+    "id":  6425,
+    "date":  "2026-06-17T07:02:24",
+    "date_gmt":  "2026-06-17T12:02:24",
+    "guid":  {
+                 "rendered":  "https://dev2.mynewwebsite.co.za/blog/",
+                 "raw":  "https://dev2.mynewwebsite.co.za/blog/"
+             },
+    "modified":  "2026-06-20T12:41:32",
+    "modified_gmt":  "2026-06-20T17:41:32",
+    "password":  "",
+    "slug":  "blog",
+    "status":  "publish",
+    "type":  "page",
+    "link":  "https://dev2.mynewwebsite.co.za/blog/",
+    "title":  {
+                  "raw":  "Blog",
+                  "rendered":  "Blog"
+              },
+    "content":  {
+                    "raw":  "\u003ch1\u003eSolar Advice From Solar Repair Pros\u003c/h1\u003e\t\t\t\t\n\t\t\u003cp\u003ePractical guidance on solar panel condition, repair warning signs, battery planning and connected electrical decisions for Dallas-Fort Worth property owners.\u003c/p\u003e\t\t\n\t\t\t\t\t\u003ch3\u003eFind Solar Articles\u003c/h3\u003e\t\t\t\t\n\t\t\t\t\t\t\t\u003csearch role=\"search\"\u003e\n\t\t\t\u003cform action=\"https://dev2.mynewwebsite.co.za\" method=\"get\"\u003e\n\t\t\t\t\u003clabel for=\"search-35ebaf6\"\u003e\n\t\t\t\t\t\tSearch\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\u003c/label\u003e\n\t\t\t\t\t\u003cinput id=\"search-35ebaf6\" placeholder=\"Search plumbing articles\" type=\"search\" name=\"s\" value=\"\" autocomplete=\"off\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-controls=\"results-35ebaf6\" aria-haspopup=\"listbox\"\u003e\n\t\t\t\t\t\u003csvg aria-hidden=\"true\" viewBox=\"0 0 352 512\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cpath d=\"M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z\"\u003e\u003c/path\u003e\u003c/svg\u003e\t\t\t\t\t\t\t\t\t\t\u003coutput id=\"results-35ebaf6\" aria-live=\"polite\" aria-atomic=\"true\" aria-label=\"Results for search\" tabindex=\"0\"\u003e\n\t\t\t\t\t\t\t\t\t\t\t\u003c/output\u003e\n\t\t\t\t\u003cbutton type=\"submit\"\u003e\n\t\t\t\t\t\tSearch\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\u003c/button\u003e\n\t\t\t\t\u003cinput type=\"hidden\" name=\"e_search_props\" value=\"35ebaf6-\"\u003e\n\t\t\t\u003c/form\u003e\n\t\t\u003c/search\u003e",
+                    "rendered":  "\u003ch1\u003eSolar Advice From Solar Repair Pros\u003c/h1\u003e\n\u003cp\u003ePractical guidance on solar panel condition, repair warning signs, battery planning and connected electrical decisions for Dallas-Fort Worth property owners.\u003c/p\u003e\n\u003ch3\u003eFind Solar Articles\u003c/h3\u003e\n\u003cp\u003e\t\t\t\t\t\t\t\u003csearch role=\"search\"\u003e\u003c/p\u003e\n\u003cform action=\"https://dev2.mynewwebsite.co.za\" method=\"get\"\u003e\n\t\t\t\t\u003clabel for=\"search-35ebaf6\"\u003e\u003cbr /\u003e\n\t\t\t\t\t\tSearch\u003cbr /\u003e\n\t\t\t\t\t\t\t\t\t\u003c/label\u003e\u003cbr /\u003e\n\t\t\t\t\t\u003cinput id=\"search-35ebaf6\" placeholder=\"Search plumbing articles\" type=\"search\" name=\"s\" value=\"\" autocomplete=\"off\" role=\"combobox\" aria-autocomplete=\"list\" aria-expanded=\"false\" aria-controls=\"results-35ebaf6\" aria-haspopup=\"listbox\"\u003e\u003cbr /\u003e\n\t\t\t\t\t\u003csvg aria-hidden=\"true\" viewBox=\"0 0 352 512\" xmlns=\"http://www.w3.org/2000/svg\"\u003e\u003cpath d=\"M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z\"\u003e\u003c/path\u003e\u003c/svg\u003e\t\t\t\t\t\t\t\t\t\t\u003coutput id=\"results-35ebaf6\" aria-live=\"polite\" aria-atomic=\"true\" aria-label=\"Results for search\" tabindex=\"0\"\u003e\u003cbr /\u003e\n\t\t\t\t\t\t\t\t\t\t\t\u003c/output\u003e\u003cbr /\u003e\n\t\t\t\t\u003cbutton type=\"submit\"\u003e\u003cbr /\u003e\n\t\t\t\t\t\tSearch\u003cbr /\u003e\n\t\t\t\t\t\t\t\t\t\u003c/button\u003e\u003cbr /\u003e\n\t\t\t\t\u003cinput type=\"hidden\" name=\"e_search_props\" value=\"35ebaf6-\"\u003e\u003cbr /\u003e\n\t\t\t\u003c/form\u003e\n\u003cp\u003e\t\t\u003c/search\u003e\u003c/p\u003e\n",
+                    "protected":  false,
+                    "block_version":  0
+                },
+    "excerpt":  {
+                    "raw":  "",
+                    "rendered":  "\u003cp\u003eSolar Advice From Solar Repair Pros Practical guidance on solar panel condition, repair warning signs, battery planning and connected electrical decisions for Dallas-Fort Worth property owners. Find Solar Articles Search Search\u003c/p\u003e\n",
+                    "protected":  false
+                },
+    "author":  6,
+    "featured_media":  0,
+    "parent":  0,
+    "menu_order":  0,
+    "comment_status":  "closed",
+    "ping_status":  "closed",
+    "template":  "",
+    "meta":  {
+                 "footnotes":  "",
+                 "_elementor_edit_mode":  "builder",
+                 "_elementor_template_type":  "wp-page",
+                 "_elementor_data":  "[{\"id\":\"982a57c\",\"elType\":\"container\",\"settings\":{\"css_classes\":\"barry-section barry-blog-page-section barry-blog-hero\",\"flex_align_items\":\"center\",\"padding\":{\"left\":\"10\",\"bottom\":\"3\",\"top\":\"4\",\"right\":\"10\",\"isLinked\":false,\"unit\":\"rem\"},\"background_background\":\"classic\",\"background_color\":\"#15325E\",\"_element_id\":\"blog-hero\",\"_title\":\"Blog Hero Section\",\"eae_slider_delay\":\"5000\",\"gradient_color_list\":[{\"eae_animated_gradient_color\":\"#00a6d8\",\"_id\":\"75f7af9\"},{\"eae_animated_gradient_color\":\"#b800c9\",\"_id\":\"5e58fb7\"},{\"eae_animated_gradient_color\":\"#e57600\",\"_id\":\"32eb576\"}],\"padding_mobile\":{\"unit\":\"rem\",\"top\":\"4\",\"right\":\"1\",\"bottom\":\"4\",\"left\":\"1\",\"isLinked\":false},\"background_position\":\"center center\",\"background_size\":\"cover\",\"background_attachment\":\"scroll\",\"background_overlay_background\":\"classic\",\"background_image\":{\"alt\":\"Solar repair technician testing rooftop solar panel connections in Dallas-Fort Worth\",\"size\":\"full\",\"url\":\"https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/solar-repair-pros-solar-repair-dallas-fort-worth-hero-ai-01.webp\",\"id\":6604,\"source\":\"library\"},\"background_overlay_opacity\":{\"size\":0.72,\"sizes\":[],\"unit\":\"px\"},\"background_overlay_color\":\"#15325E\",\"background_repeat\":\"no-repeat\",\"background_video_link\":\"\"},\"elements\":[{\"id\":\"3b3cb57\",\"elType\":\"widget\",\"settings\":{\"typography_font_family\":\"Montserrat\",\"align\":\"center\",\"header_size\":\"h1\",\"css_classes\":\"barry-field barry-heading blog-hero-heading\",\"typography_typography\":\"custom\",\"title_color\":\"#FFFFFF\",\"_title\":\"Blog Hero Heading\",\"typography_font_size\":{\"unit\":\"px\",\"size\":48},\"title\":\"Solar Advice From Solar Repair Pros\",\"typography_font_weight\":\"700\",\"typography_font_size_mobile\":{\"unit\":\"px\",\"size\":36,\"sizes\":[]}},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"097ba41\",\"elType\":\"widget\",\"settings\":{\"typography_font_size\":{\"unit\":\"px\",\"size\":18},\"typography_typography\":\"custom\",\"css_classes\":\"barry-field barry-copy blog-hero-copy\",\"text_color\":\"#FFFFFF\",\"align\":\"center\",\"_title\":\"Blog Hero Copy\",\"typography_font_family\":\"Open Sans\",\"editor\":\"\\u003cp\\u003ePractical guidance on solar panel condition, repair warning signs, battery planning and connected electrical decisions for Dallas-Fort Worth property owners.\\u003c/p\\u003e\"},\"elements\":[],\"widgetType\":\"text-editor\"},{\"id\":\"42fd0f4\",\"elType\":\"widget\",\"settings\":{\"html\":\"\\u003cscript type=\\\"application/ld+json\\\" data-barry-schema=\\\"final-review\\\"\\u003e{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Blog\\\",\\\"@id\\\":\\\"https://dev2.mynewwebsite.co.za/blog/#blog\\\",\\\"name\\\":\\\"Solar Repair Pros Solar Advice\\\",\\\"description\\\":\\\"Practical solar repair and connected electrical guidance for Dallas-Fort Worth property owners.\\\",\\\"url\\\":\\\"https://dev2.mynewwebsite.co.za/blog/\\\",\\\"publisher\\\":{\\\"@id\\\":\\\"https://dev2.mynewwebsite.co.za/#organization\\\"}}\\u003c/script\\u003e\",\"css_classes\":\"barry-schema-jsonld\"},\"elements\":[],\"widgetType\":\"html\"}],\"isInner\":false},{\"id\":\"148b9be\",\"elType\":\"container\",\"settings\":{\"css_classes\":\"barry-section barry-blog-page-section barry-blog-content\",\"padding\":{\"left\":\"1\",\"bottom\":\"5\",\"top\":\"4\",\"right\":\"1\",\"isLinked\":false,\"unit\":\"rem\"},\"flex_direction\":\"row\",\"flex_gap\":{\"unit\":\"px\",\"size\":32},\"_element_id\":\"blog-content\",\"_title\":\"Blog Content Section\",\"eae_slider_delay\":\"5000\",\"gradient_color_list\":[{\"eae_animated_gradient_color\":\"#00a6d8\",\"_id\":\"9f7ed2e\"},{\"eae_animated_gradient_color\":\"#b800c9\",\"_id\":\"aca1b3d\"},{\"eae_animated_gradient_color\":\"#e57600\",\"_id\":\"470ef19\"}],\"flex_direction_mobile\":\"row\"},\"elements\":[{\"id\":\"6e863df\",\"elType\":\"container\",\"settings\":{\"content_width\":\"full\",\"_title\":\"Blog Posts Column\",\"width\":{\"unit\":\"%\",\"size\":70},\"css_classes\":\"barry-container blog-posts-column\",\"flex_align_items\":\"center\",\"eae_slider_delay\":\"5000\",\"gradient_color_list\":[{\"eae_animated_gradient_color\":\"#00a6d8\",\"_id\":\"d2f73ff\"},{\"eae_animated_gradient_color\":\"#b800c9\",\"_id\":\"6019f57\"},{\"eae_animated_gradient_color\":\"#e57600\",\"_id\":\"0767ef0\"}]},\"elements\":[{\"id\":\"69d5bda\",\"elType\":\"widget\",\"settings\":{\"posts_per_page\":6,\"columns\":3,\"pagination_type\":\"numbers\",\"classic_meta_separator\":\"///\",\"classic_read_more_text\":\"Read More »\",\"cards_meta_separator\":\"•\",\"cards_read_more_text\":\"Read More »\",\"full_content_meta_separator\":\"///\",\"classic_title_typography_typography\":\"custom\",\"classic_title_typography_font_family\":\"Montserrat\",\"classic_title_typography_font_weight\":\"700\",\"classic_title_spacing\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"pagination_page_limit\":\"5\",\"pagination_prev_label\":\"\\u0026laquo; Previous\",\"pagination_next_label\":\"Next \\u0026raquo;\",\"text\":\"Load More\",\"load_more_no_posts_custom_message\":\"No more posts to show\"},\"elements\":[],\"widgetType\":\"posts\"}],\"isInner\":true},{\"id\":\"34688a2\",\"elType\":\"container\",\"settings\":{\"content_width\":\"full\",\"css_classes\":\"barry-container blog-sidebar-column\",\"width\":{\"unit\":\"%\",\"size\":30},\"border_radius\":{\"left\":\"8\",\"bottom\":\"8\",\"top\":\"8\",\"right\":\"8\",\"isLinked\":true,\"unit\":\"px\"},\"padding\":{\"left\":\"1.5\",\"bottom\":\"1.5\",\"top\":\"1.5\",\"right\":\"1.5\",\"isLinked\":false,\"unit\":\"rem\"},\"background_color\":\"#E8F4FF\",\"_title\":\"Blog Sidebar Column\",\"background_background\":\"classic\",\"flex_align_items\":\"flex-start\",\"eae_slider_delay\":\"5000\",\"gradient_color_list\":[{\"eae_animated_gradient_color\":\"#00a6d8\",\"_id\":\"962868e\"},{\"eae_animated_gradient_color\":\"#b800c9\",\"_id\":\"16572d5\"},{\"eae_animated_gradient_color\":\"#e57600\",\"_id\":\"4894e0c\"}]},\"elements\":[{\"id\":\"06b6fe2\",\"elType\":\"widget\",\"settings\":{\"typography_font_family\":\"Montserrat\",\"title_color\":\"#000000\",\"header_size\":\"h3\",\"css_classes\":\"barry-field barry-heading blog-sidebar-heading\",\"typography_typography\":\"custom\",\"_title\":\"Blog Sidebar Heading\",\"typography_font_size\":{\"unit\":\"px\",\"size\":24},\"title\":\"Find Solar Articles\",\"typography_font_weight\":\"700\"},\"elements\":[],\"widgetType\":\"heading\"},{\"id\":\"35ebaf6\",\"elType\":\"widget\",\"settings\":{\"search_input_placeholder_text\":\"Search plumbing articles\",\"submit_trigger\":\"button\",\"submit_button_text\":\"Search\",\"live_results\":\"yes\",\"number_of_items\":5,\"nothing_found_message_text\":\"It seems we can’t find what you’re looking for.\",\"pagination_prev_label\":\"Previous\",\"pagination_next_label\":\"Next\"},\"elements\":[],\"widgetType\":\"search\"},{\"id\":\"d029c80\",\"elType\":\"widget\",\"settings\":{\"hierarchical\":\"yes\",\"_title\":\"Blog Sidebar Categories\",\"title\":\"Categories\",\"count\":\"yes\",\"css_classes\":\"barry-field barry-blog-sidebar-categories\"},\"elements\":[],\"widgetType\":\"wp-widget-categories\"},{\"id\":\"e32783f\",\"elType\":\"widget\",\"settings\":{\"_title\":\"Blog Sidebar Recent Posts\",\"show_date\":\"yes\",\"title\":\"Recent Posts\",\"number\":5,\"css_classes\":\"barry-field barry-blog-sidebar-recent-posts\"},\"elements\":[],\"widgetType\":\"wp-widget-recent-posts\"}],\"isInner\":true}],\"isInner\":false}]",
+                 "_elementor_page_settings":  {
+                                                  "hide_title":  "yes"
+                                              },
+                 "_elementor_conditions":  [
+
+                                           ]
+             },
+    "permalink_template":  "https://dev2.mynewwebsite.co.za/%pagename%/",
+    "generated_slug":  "blog",
+    "class_list":  [
+                       "post-6425",
+                       "page",
+                       "type-page",
+                       "status-publish",
+                       "hentry"
+                   ],
+    "yoast_head":  "\u003c!-- This site is optimized with the Yoast SEO plugin v27.8 - https://yoast.com/product/yoast-seo-wordpress/ --\u003e\n\u003ctitle\u003eSolar Advice Dallas Fort Worth | Solar Repair Pros\u003c/title\u003e\n\u003cmeta name=\"description\" content=\"Practical solar repair advice for Dallas-Fort Worth owners, covering maintenance, warning signs, batteries and electrical planning.\" /\u003e\n\u003cmeta name=\"robots\" content=\"noindex, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" /\u003e\n\u003cmeta property=\"og:locale\" content=\"en_US\" /\u003e\n\u003cmeta property=\"og:type\" content=\"article\" /\u003e\n\u003cmeta property=\"og:title\" content=\"Solar Advice for Dallas-Fort Worth Property Owners\" /\u003e\n\u003cmeta property=\"og:description\" content=\"Practical guidance on solar maintenance, repair warning signs, battery planning and connected electrical decisions.\" /\u003e\n\u003cmeta property=\"og:url\" content=\"https://dev2.mynewwebsite.co.za/blog/\" /\u003e\n\u003cmeta property=\"og:site_name\" content=\"Solar Repair Pros\" /\u003e\n\u003cmeta property=\"article:modified_time\" content=\"2026-06-20T17:41:32+00:00\" /\u003e\n\u003cmeta property=\"og:image\" content=\"https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/solar-repair-pros-social-sharing-final.png\" /\u003e\n\t\u003cmeta property=\"og:image:width\" content=\"1730\" /\u003e\n\t\u003cmeta property=\"og:image:height\" content=\"909\" /\u003e\n\t\u003cmeta property=\"og:image:type\" content=\"image/png\" /\u003e\n\u003cmeta name=\"twitter:card\" content=\"summary_large_image\" /\u003e\n\u003cmeta name=\"twitter:title\" content=\"Solar Advice for Dallas-Fort Worth Property Owners\" /\u003e\n\u003cmeta name=\"twitter:description\" content=\"Practical solar repair and electrical planning guidance from Solar Repair Pros.\" /\u003e\n\u003cmeta name=\"twitter:image\" content=\"https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/solar-repair-pros-social-sharing-final.png\" /\u003e\n\u003cmeta name=\"twitter:label1\" content=\"Est. reading time\" /\u003e\n\t\u003cmeta name=\"twitter:data1\" content=\"2 minutes\" /\u003e\n\u003cscript type=\"application/ld+json\" class=\"yoast-schema-graph\"\u003e{\"@context\":\"https:\\/\\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/blog\\/\",\"url\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/blog\\/\",\"name\":\"Solar Advice Dallas Fort Worth | Solar Repair Pros\",\"isPartOf\":{\"@id\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/#website\"},\"datePublished\":\"2026-06-17T12:02:24+00:00\",\"dateModified\":\"2026-06-20T17:41:32+00:00\",\"description\":\"Practical solar repair advice for Dallas-Fort Worth owners, covering maintenance, warning signs, batteries and electrical planning.\",\"breadcrumb\":{\"@id\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/blog\\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\\/\\/dev2.mynewwebsite.co.za\\/blog\\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/blog\\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blog\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/#website\",\"url\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/\",\"name\":\"H2O Plumbers\",\"description\":\"Solar repair, panel servicing, battery add-ons, electrical panel upgrades and EV charger installs across Dallas-Fort Worth.\",\"publisher\":{\"@id\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/#organization\"},\"alternateName\":\"H2O Plumbers Garden Route\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Organization\",\"@id\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/#organization\",\"name\":\"Solar Repair Pros\",\"alternateName\":\"H2O Plumbers Garden Route\",\"url\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/\",\"logo\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/#\\/schema\\/logo\\/image\\/\",\"url\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/wp-content\\/uploads\\/2026\\/06\\/Solar-Repair-Pros-Logo-small.png\",\"contentUrl\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/wp-content\\/uploads\\/2026\\/06\\/Solar-Repair-Pros-Logo-small.png\",\"width\":1303,\"height\":410,\"caption\":\"Solar Repair Pros\"},\"image\":{\"@id\":\"https:\\/\\/dev2.mynewwebsite.co.za\\/#\\/schema\\/logo\\/image\\/\"}}]}\u003c/script\u003e\n\u003c!-- / Yoast SEO plugin. --\u003e",
+    "yoast_head_json":  {
+                            "title":  "Solar Advice Dallas Fort Worth | Solar Repair Pros",
+                            "description":  "Practical solar repair advice for Dallas-Fort Worth owners, covering maintenance, warning signs, batteries and electrical planning.",
+                            "robots":  {
+                                           "index":  "noindex",
+                                           "follow":  "follow",
+                                           "max-snippet":  "max-snippet:-1",
+                                           "max-image-preview":  "max-image-preview:large",
+                                           "max-video-preview":  "max-video-preview:-1"
+                                       },
+                            "og_locale":  "en_US",
+                            "og_type":  "article",
+                            "og_title":  "Solar Advice for Dallas-Fort Worth Property Owners",
+                            "og_description":  "Practical guidance on solar maintenance, repair warning signs, battery planning and connected electrical decisions.",
+                            "og_url":  "https://dev2.mynewwebsite.co.za/blog/",
+                            "og_site_name":  "Solar Repair Pros",
+                            "article_modified_time":  "2026-06-20T17:41:32+00:00",
+                            "og_image":  [
+                                             {
+                                                 "width":  1730,
+                                                 "height":  909,
+                                                 "url":  "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/solar-repair-pros-social-sharing-final.png",
+                                                 "type":  "image/png"
+                                             }
+                                         ],
+                            "twitter_card":  "summary_large_image",
+                            "twitter_title":  "Solar Advice for Dallas-Fort Worth Property Owners",
+                            "twitter_description":  "Practical solar repair and electrical planning guidance from Solar Repair Pros.",
+                            "twitter_image":  "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/solar-repair-pros-social-sharing-final.png",
+                            "twitter_misc":  {
+                                                 "Est. reading time":  "2 minutes"
+                                             },
+                            "schema":  {
+                                           "@context":  "https://schema.org",
+                                           "@graph":  [
+                                                          {
+                                                              "@type":  "WebPage",
+                                                              "@id":  "https://dev2.mynewwebsite.co.za/blog/",
+                                                              "url":  "https://dev2.mynewwebsite.co.za/blog/",
+                                                              "name":  "Solar Advice Dallas Fort Worth | Solar Repair Pros",
+                                                              "isPartOf":  {
+                                                                               "@id":  "https://dev2.mynewwebsite.co.za/#website"
+                                                                           },
+                                                              "datePublished":  "2026-06-17T12:02:24+00:00",
+                                                              "dateModified":  "2026-06-20T17:41:32+00:00",
+                                                              "description":  "Practical solar repair advice for Dallas-Fort Worth owners, covering maintenance, warning signs, batteries and electrical planning.",
+                                                              "breadcrumb":  {
+                                                                                 "@id":  "https://dev2.mynewwebsite.co.za/blog/#breadcrumb"
+                                                                             },
+                                                              "inLanguage":  "en-US",
+                                                              "potentialAction":  [
+                                                                                      {
+                                                                                          "@type":  "ReadAction",
+                                                                                          "target":  [
+                                                                                                         "https://dev2.mynewwebsite.co.za/blog/"
+                                                                                                     ]
+                                                                                      }
+                                                                                  ]
+                                                          },
+                                                          {
+                                                              "@type":  "BreadcrumbList",
+                                                              "@id":  "https://dev2.mynewwebsite.co.za/blog/#breadcrumb",
+                                                              "itemListElement":  [
+                                                                                      {
+                                                                                          "@type":  "ListItem",
+                                                                                          "position":  1,
+                                                                                          "name":  "Home",
+                                                                                          "item":  "https://dev2.mynewwebsite.co.za/"
+                                                                                      },
+                                                                                      {
+                                                                                          "@type":  "ListItem",
+                                                                                          "position":  2,
+                                                                                          "name":  "Blog"
+                                                                                      }
+                                                                                  ]
+                                                          },
+                                                          {
+                                                              "@type":  "WebSite",
+                                                              "@id":  "https://dev2.mynewwebsite.co.za/#website",
+                                                              "url":  "https://dev2.mynewwebsite.co.za/",
+                                                              "name":  "H2O Plumbers",
+                                                              "description":  "Solar repair, panel servicing, battery add-ons, electrical panel upgrades and EV charger installs across Dallas-Fort Worth.",
+                                                              "publisher":  {
+                                                                                "@id":  "https://dev2.mynewwebsite.co.za/#organization"
+                                                                            },
+                                                              "alternateName":  "H2O Plumbers Garden Route",
+                                                              "potentialAction":  [
+                                                                                      {
+                                                                                          "@type":  "SearchAction",
+                                                                                          "target":  {
+                                                                                                         "@type":  "EntryPoint",
+                                                                                                         "urlTemplate":  "https://dev2.mynewwebsite.co.za/?s={search_term_string}"
+                                                                                                     },
+                                                                                          "query-input":  {
+                                                                                                              "@type":  "PropertyValueSpecification",
+                                                                                                              "valueRequired":  true,
+                                                                                                              "valueName":  "search_term_string"
+                                                                                                          }
+                                                                                      }
+                                                                                  ],
+                                                              "inLanguage":  "en-US"
+                                                          },
+                                                          {
+                                                              "@type":  "Organization",
+                                                              "@id":  "https://dev2.mynewwebsite.co.za/#organization",
+                                                              "name":  "Solar Repair Pros",
+                                                              "alternateName":  "H2O Plumbers Garden Route",
+                                                              "url":  "https://dev2.mynewwebsite.co.za/",
+                                                              "logo":  {
+                                                                           "@type":  "ImageObject",
+                                                                           "inLanguage":  "en-US",
+                                                                           "@id":  "https://dev2.mynewwebsite.co.za/#/schema/logo/image/",
+                                                                           "url":  "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/Solar-Repair-Pros-Logo-small.png",
+                                                                           "contentUrl":  "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/Solar-Repair-Pros-Logo-small.png",
+                                                                           "width":  1303,
+                                                                           "height":  410,
+                                                                           "caption":  "Solar Repair Pros"
+                                                                       },
+                                                              "image":  {
+                                                                            "@id":  "https://dev2.mynewwebsite.co.za/#/schema/logo/image/"
+                                                                        }
+                                                          }
+                                                      ]
+                                       }
+                        },
+    "_links":  {
+                   "self":  [
+                                {
+                                    "href":  "https://dev2.mynewwebsite.co.za/wp-json/wp/v2/pages/6425",
+                                    "targetHints":  {
+                                                        "allow":  [
+                                                                      "GET",
+                                                                      "POST",
+                                                                      "PUT",
+                                                                      "PATCH",
+                                                                      "DELETE"
+                                                                  ]
+                                                    }
+                                }
+                            ],
+                   "collection":  [
+                                      {
+                                          "href":  "https://dev2.mynewwebsite.co.za/wp-json/wp/v2/pages"
+                                      }
+                                  ],
+                   "about":  [
+                                 {
+                                     "href":  "https://dev2.mynewwebsite.co.za/wp-json/wp/v2/types/page"
+                                 }
+                             ],
+                   "author":  [
+                                  {
+                                      "embeddable":  true,
+                                      "href":  "https://dev2.mynewwebsite.co.za/wp-json/wp/v2/users/6"
+                                  }
+                              ],
+                   "replies":  [
+                                   {
+                                       "embeddable":  true,
+                                       "href":  "https://dev2.mynewwebsite.co.za/wp-json/wp/v2/comments?post=6425"
+                                   }
+                               ],
+                   "version-history":  [
+                                           {
+                                               "count":  14,
+                                               "href":  "https://dev2.mynewwebsite.co.za/wp-json/wp/v2/pages/6425/revisions"
+                                           }
+                                       ],
+                   "predecessor-version":  [
+                                               {
+                                                   "id":  6716,
+                                                   "href":  "https://dev2.mynewwebsite.co.za/wp-json/wp/v2/pages/6425/revisions/6716"
+                                               }
+                                           ],
+                   "wp:attachment":  [
+                                         {
+                                             "href":  "https://dev2.mynewwebsite.co.za/wp-json/wp/v2/media?parent=6425"
+                                         }
+                                     ],
+                   "wp:action-publish":  [
+                                             {
+                                                 "href":  "https://dev2.mynewwebsite.co.za/wp-json/wp/v2/pages/6425"
+                                             }
+                                         ],
+                   "wp:action-unfiltered-html":  [
+                                                     {
+                                                         "href":  "https://dev2.mynewwebsite.co.za/wp-json/wp/v2/pages/6425"
+                                                     }
+                                                 ],
+                   "wp:action-assign-author":  [
+                                                   {
+                                                       "href":  "https://dev2.mynewwebsite.co.za/wp-json/wp/v2/pages/6425"
+                                                   }
+                                               ],
+                   "curies":  [
+                                  {
+                                      "name":  "wp",
+                                      "href":  "https://api.w.org/{rel}",
+                                      "templated":  true
+                                  }
+                              ]
+               }
+}

@@ -1,0 +1,65 @@
+{
+  "post_id": 2747,
+  "operations": [
+    {
+      "element_id": "7ba8b6e",
+      "settings": {
+        "primary_color": "#F27A1D",
+        "secondary_color": "#FFF4EA",
+        "title_color": "#0B254D",
+        "description_color": "#10294F",
+        "_background_color": "#FFFFFF",
+        "_border_color": "#F27A1D",
+        "__globals__": {
+          "primary_color": "",
+          "secondary_color": "",
+          "title_color": "",
+          "description_color": "",
+          "_border_color": "",
+          "_background_color": "",
+          "hover_title_color": ""
+        }
+      }
+    },
+    {
+      "element_id": "a93a92e",
+      "settings": {
+        "primary_color": "#F27A1D",
+        "secondary_color": "#FFF4EA",
+        "title_color": "#0B254D",
+        "description_color": "#10294F",
+        "_background_color": "#FFFFFF",
+        "_border_color": "#F27A1D",
+        "__globals__": {
+          "primary_color": "",
+          "secondary_color": "",
+          "title_color": "",
+          "description_color": "",
+          "_border_color": "",
+          "_background_color": "",
+          "hover_title_color": ""
+        }
+      }
+    },
+    {
+      "element_id": "7ddb1cc",
+      "settings": {
+        "primary_color": "#F27A1D",
+        "secondary_color": "#FFF4EA",
+        "title_color": "#0B254D",
+        "description_color": "#10294F",
+        "_background_color": "#FFFFFF",
+        "_border_color": "#F27A1D",
+        "__globals__": {
+          "primary_color": "",
+          "secondary_color": "",
+          "title_color": "",
+          "description_color": "",
+          "_border_color": "",
+          "_background_color": "",
+          "hover_title_color": ""
+        }
+      }
+    }
+  ]
+}

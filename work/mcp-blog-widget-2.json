@@ -1,0 +1,17 @@
+{
+    "method":  "tools/call",
+    "params":  {
+                   "arguments":  {
+                                     "position":  -1,
+                                     "columns":  3,
+                                     "post_id":  6425,
+                                     "parent_id":  "6e863df",
+                                     "posts_post_type":  "post",
+                                     "pagination_type":  "numbers",
+                                     "posts_per_page":  6
+                                 },
+                   "name":  "elementor-mcp-add-posts-grid"
+               },
+    "id":  2,
+    "jsonrpc":  "2.0"
+}

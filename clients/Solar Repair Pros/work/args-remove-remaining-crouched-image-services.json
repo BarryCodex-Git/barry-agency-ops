@@ -1,0 +1,31 @@
+{
+  "post_id": 6217,
+  "operations": [
+    {
+      "element_id": "a721b20",
+      "settings": {
+        "image": {
+          "id": 6868,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-repair-installer-disappeared-consultation-1000x1000-1.png",
+          "alt": "Solar technician explaining inverter and monitoring issues to a Dallas-Fort Worth homeowner",
+          "source": "library",
+          "size": "full"
+        },
+        "image_size": "full"
+      }
+    },
+    {
+      "element_id": "96be893",
+      "settings": {
+        "image": {
+          "id": 6709,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/solar-repair-pros-technician-tablet-square-1000.jpg",
+          "alt": "Solar technician reviewing system information at a Dallas-Fort Worth home",
+          "source": "library",
+          "size": "full"
+        },
+        "image_size": "full"
+      }
+    }
+  ]
+}

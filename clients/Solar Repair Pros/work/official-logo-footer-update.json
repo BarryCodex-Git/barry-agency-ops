@@ -1,0 +1,45 @@
+﻿{
+    "post_id":  2805,
+    "operations":  [
+                       {
+                           "element_id":  "8db9458",
+                           "settings":  {
+                                            "width":  {
+                                                          "size":  250,
+                                                          "sizes":  [
+
+                                                                    ],
+                                                          "unit":  "px"
+                                                      },
+                                            "link":  {
+                                                         "custom_attributes":  "",
+                                                         "url":  "https://dev2.mynewwebsite.co.za/",
+                                                         "is_external":  "",
+                                                         "nofollow":  ""
+                                                     },
+                                            "width_tablet":  {
+                                                                 "size":  220,
+                                                                 "sizes":  [
+
+                                                                           ],
+                                                                 "unit":  "px"
+                                                             },
+                                            "align":  "left",
+                                            "image":  {
+                                                          "alt":  "Solar Repair Pros Dallas Fort Worth official logo",
+                                                          "size":  "full",
+                                                          "url":  "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-repair-pros-official-logo-large.png",
+                                                          "id":  6841,
+                                                          "source":  "library"
+                                                      },
+                                            "width_mobile":  {
+                                                                 "size":  190,
+                                                                 "sizes":  [
+
+                                                                           ],
+                                                                 "unit":  "px"
+                                                             }
+                                        }
+                       }
+                   ]
+}

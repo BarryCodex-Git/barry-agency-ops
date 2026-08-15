@@ -1,0 +1,214 @@
+{
+    "method":  "tools/call",
+    "params":  {
+                   "arguments":  {
+                                     "post_id":  6434,
+                                     "template_json":  [
+                                                           {
+                                                               "elements":  [
+                                                                                {
+                                                                                    "widgetType":  "theme-archive-title",
+                                                                                    "elements":  [
+
+                                                                                                 ],
+                                                                                    "elType":  "widget",
+                                                                                    "id":  "artitle1",
+                                                                                    "settings":  {
+                                                                                                     "typography_font_family":  "Montserrat",
+                                                                                                     "align":  "center",
+                                                                                                     "header_size":  "h1",
+                                                                                                     "css_classes":  "barry-field barry-heading blog-archive-title",
+                                                                                                     "typography_typography":  "custom",
+                                                                                                     "title_color":  "#FFFFFF",
+                                                                                                     "_title":  "Blog Archive Title",
+                                                                                                     "typography_font_size":  {
+                                                                                                                                  "unit":  "px",
+                                                                                                                                  "size":  46
+                                                                                                                              },
+                                                                                                     "typography_font_weight":  "700"
+                                                                                                 }
+                                                                                }
+                                                                            ],
+                                                               "elType":  "container",
+                                                               "id":  "arhero1",
+                                                               "settings":  {
+                                                                                "content_width":  "boxed",
+                                                                                "css_classes":  "barry-section barry-blog-archive-section barry-blog-archive-hero",
+                                                                                "padding":  {
+                                                                                                "left":  "1",
+                                                                                                "bottom":  "4",
+                                                                                                "top":  "4",
+                                                                                                "right":  "1",
+                                                                                                "isLinked":  false,
+                                                                                                "unit":  "rem"
+                                                                                            },
+                                                                                "background_color":  "#1060B0",
+                                                                                "_title":  "Blog Archive Hero",
+                                                                                "flex_align_items":  "center",
+                                                                                "_element_id":  "blog-archive-hero",
+                                                                                "background_background":  "classic"
+                                                                            }
+                                                           },
+                                                           {
+                                                               "elements":  [
+                                                                                {
+                                                                                    "elements":  [
+                                                                                                     {
+                                                                                                         "widgetType":  "archive-posts",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "arposts1",
+                                                                                                         "settings":  {
+                                                                                                                          "_title":  "Blog Archive Posts",
+                                                                                                                          "pagination_type":  "numbers",
+                                                                                                                          "posts_per_page":  "9",
+                                                                                                                          "columns":  "3",
+                                                                                                                          "css_classes":  "barry-field blog-archive-posts"
+                                                                                                                      }
+                                                                                                     }
+                                                                                                 ],
+                                                                                    "elType":  "container",
+                                                                                    "id":  "armain1",
+                                                                                    "settings":  {
+                                                                                                     "_title":  "Blog Archive Posts Column",
+                                                                                                     "content_width":  "full",
+                                                                                                     "width":  {
+                                                                                                                   "unit":  "%",
+                                                                                                                   "size":  70
+                                                                                                               },
+                                                                                                     "css_classes":  "barry-container blog-archive-posts-column"
+                                                                                                 }
+                                                                                },
+                                                                                {
+                                                                                    "elements":  [
+                                                                                                     {
+                                                                                                         "widgetType":  "heading",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "arsidetitle",
+                                                                                                         "settings":  {
+                                                                                                                          "typography_font_family":  "Montserrat",
+                                                                                                                          "title_color":  "#000000",
+                                                                                                                          "header_size":  "h3",
+                                                                                                                          "css_classes":  "barry-field barry-heading blog-archive-sidebar-heading",
+                                                                                                                          "typography_typography":  "custom",
+                                                                                                                          "_title":  "Blog Archive Sidebar Heading",
+                                                                                                                          "typography_font_size":  {
+                                                                                                                                                       "unit":  "px",
+                                                                                                                                                       "size":  24
+                                                                                                                                                   },
+                                                                                                                          "title":  "Browse Articles",
+                                                                                                                          "typography_font_weight":  "700"
+                                                                                                                      }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "widgetType":  "search",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "arsearch",
+                                                                                                         "settings":  {
+                                                                                                                          "_title":  "Blog Archive Search",
+                                                                                                                          "submit_button_text":  "Search",
+                                                                                                                          "live_results":  "yes",
+                                                                                                                          "search_input_placeholder_text":  "Search articles",
+                                                                                                                          "css_classes":  "barry-field blog-archive-search"
+                                                                                                                      }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "widgetType":  "wp-widget-categories",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "arcats",
+                                                                                                         "settings":  {
+                                                                                                                          "hierarchical":  "yes",
+                                                                                                                          "_title":  "Blog Archive Categories",
+                                                                                                                          "title":  "Categories",
+                                                                                                                          "count":  "yes",
+                                                                                                                          "css_classes":  "barry-field blog-archive-categories"
+                                                                                                                      }
+                                                                                                     },
+                                                                                                     {
+                                                                                                         "widgetType":  "wp-widget-recent-posts",
+                                                                                                         "elements":  [
+
+                                                                                                                      ],
+                                                                                                         "elType":  "widget",
+                                                                                                         "id":  "arrecent",
+                                                                                                         "settings":  {
+                                                                                                                          "_title":  "Blog Archive Recent Posts",
+                                                                                                                          "show_date":  "yes",
+                                                                                                                          "title":  "Recent Posts",
+                                                                                                                          "number":  5,
+                                                                                                                          "css_classes":  "barry-field blog-archive-recent-posts"
+                                                                                                                      }
+                                                                                                     }
+                                                                                                 ],
+                                                                                    "elType":  "container",
+                                                                                    "id":  "arside1",
+                                                                                    "settings":  {
+                                                                                                     "content_width":  "full",
+                                                                                                     "css_classes":  "barry-container blog-archive-sidebar",
+                                                                                                     "width":  {
+                                                                                                                   "unit":  "%",
+                                                                                                                   "size":  30
+                                                                                                               },
+                                                                                                     "border_radius":  {
+                                                                                                                           "left":  "8",
+                                                                                                                           "bottom":  "8",
+                                                                                                                           "top":  "8",
+                                                                                                                           "right":  "8",
+                                                                                                                           "isLinked":  true,
+                                                                                                                           "unit":  "px"
+                                                                                                                       },
+                                                                                                     "padding":  {
+                                                                                                                     "left":  "1.5",
+                                                                                                                     "bottom":  "1.5",
+                                                                                                                     "top":  "1.5",
+                                                                                                                     "right":  "1.5",
+                                                                                                                     "isLinked":  false,
+                                                                                                                     "unit":  "rem"
+                                                                                                                 },
+                                                                                                     "background_color":  "#E8F4FF",
+                                                                                                     "_title":  "Blog Archive Sidebar",
+                                                                                                     "background_background":  "classic"
+                                                                                                 }
+                                                                                }
+                                                                            ],
+                                                               "elType":  "container",
+                                                               "id":  "arbody1",
+                                                               "settings":  {
+                                                                                "css_classes":  "barry-section barry-blog-archive-section barry-blog-archive-content",
+                                                                                "content_width":  "boxed",
+                                                                                "padding":  {
+                                                                                                "left":  "1",
+                                                                                                "bottom":  "5",
+                                                                                                "top":  "4",
+                                                                                                "right":  "1",
+                                                                                                "isLinked":  false,
+                                                                                                "unit":  "rem"
+                                                                                            },
+                                                                                "flex_direction":  "row",
+                                                                                "flex_gap":  {
+                                                                                                 "unit":  "px",
+                                                                                                 "size":  32
+                                                                                             },
+                                                                                "_element_id":  "blog-archive-content",
+                                                                                "_title":  "Blog Archive Content Section"
+                                                                            }
+                                                           }
+                                                       ],
+                                     "position":  -1
+                                 },
+                   "name":  "elementor-mcp-import-template"
+               },
+    "id":  3,
+    "jsonrpc":  "2.0"
+}

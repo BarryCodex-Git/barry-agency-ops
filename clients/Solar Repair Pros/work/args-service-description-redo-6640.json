@@ -1,0 +1,17 @@
+{
+  "post_id": 6640,
+  "operations": [
+    {
+      "element_id": "b331af9",
+      "settings": {
+        "editor": "<p>Adding solar equipment, storage or EV charging can expose limits that were not obvious before. A crowded panel, limited service capacity or existing household loads may affect what can be added safely. Reviewing the electrical picture first helps prevent unnecessary upgrades and also prevents under-planning.</p>"
+      }
+    },
+    {
+      "element_id": "a3c85eb",
+      "settings": {
+        "editor": "<p>The panel is where several decisions meet: utility service, existing loads, solar equipment and future charging or storage plans. If that order is not planned properly, one upgrade can create problems for the next one. Clear sequencing helps the electrical work support the whole property plan, not only the immediate request.</p>"
+      }
+    }
+  ]
+}

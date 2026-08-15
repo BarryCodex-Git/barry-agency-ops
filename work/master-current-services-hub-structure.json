@@ -1,0 +1,1018 @@
+{
+  "post_id": 6217,
+  "title": "Services",
+  "type": "wp-page",
+  "structure": [
+    {
+      "id": "8c893f2",
+      "elType": "container",
+      "settings_summary": {
+        "flex_direction": "row"
+      },
+      "elements": [
+        {
+          "id": "fcb3243",
+          "elType": "container",
+          "settings_summary": {
+            "content_width": "full"
+          },
+          "elements": [
+            {
+              "id": "cd5afd7",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings_summary": {
+                "title": "Plumbing Services in the Garden Route",
+                "header_size": "h1"
+              }
+            },
+            {
+              "id": "a028392",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings_summary": {
+                "editor": "<p>H2O Plumbers helps homes and businesses across George, Mossel Bay, Knysna, Oudtshoorn, Wilderness..."
+              }
+            },
+            {
+              "id": "ebf3610",
+              "elType": "container",
+              "settings_summary": {
+                "flex_direction": "row",
+                "content_width": "full"
+              },
+              "elements": [
+                {
+                  "id": "3d49090",
+                  "elType": "widget",
+                  "widgetType": "icon-list"
+                },
+                {
+                  "id": "d686603",
+                  "elType": "widget",
+                  "widgetType": "icon-list"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "594c392",
+          "elType": "container",
+          "settings_summary": {
+            "content_width": "full"
+          },
+          "elements": [
+            {
+              "id": "50db817",
+              "elType": "container",
+              "settings_summary": {
+                "content_width": "full"
+              },
+              "elements": [
+                {
+                  "id": "243d0ce",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings_summary": {
+                    "editor": "<p>Need a Plumber?</p>"
+                  }
+                },
+                {
+                  "id": "fb30028",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings_summary": {
+                    "title": "Contact Us Now!",
+                    "header_size": "p"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "6d03bd9",
+              "elType": "widget",
+              "widgetType": "form"
+            },
+            {
+              "id": "62e1e7e",
+              "elType": "container",
+              "settings_summary": {
+                "flex_direction": "row"
+              },
+              "elements": [
+                {
+                  "id": "03c3c21",
+                  "elType": "widget",
+                  "widgetType": "image",
+                  "settings_summary": {
+                    "image": {
+                      "id": 4919,
+                      "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2024/12/67115003f90caba871b24da3_reviews.webp",
+                      "alt": "",
+                      "source": "library",
+                      "size": ""
+                    },
+                    "link": {
+                      "url": "#",
+                      "is_external": "",
+                      "nofollow": "",
+                      "custom_attributes": ""
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7b48d0e",
+      "elType": "container",
+      "settings_summary": {
+        "flex_direction": "row"
+      },
+      "elements": [
+        {
+          "id": "b93c6bb",
+          "elType": "container",
+          "settings_summary": {
+            "flex_direction": "column",
+            "content_width": "full"
+          },
+          "elements": [
+            {
+              "id": "5b924cb",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings_summary": {
+                "title": "PLUMBING SERVICES",
+                "header_size": "p"
+              }
+            },
+            {
+              "id": "786bc25",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings_summary": {
+                "title": "Practical Plumber Garden Route Services"
+              }
+            },
+            {
+              "id": "92685cf",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings_summary": {
+                "title": "For homes and businesses",
+                "header_size": "h3"
+              }
+            },
+            {
+              "id": "77fee99",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings_summary": {
+                "editor": "<p>From a leaking pipe to planned bathroom plumbing, H2O Plumbers keeps the service clear and practi..."
+              }
+            },
+            {
+              "id": "8f9a71d",
+              "elType": "container",
+              "settings_summary": {
+                "flex_direction": "row",
+                "content_width": "full"
+              },
+              "elements": [
+                {
+                  "id": "e38b892",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings_summary": {
+                    "text": "View Services",
+                    "link": {
+                      "custom_attributes": "",
+                      "url": "#services-hub",
+                      "is_external": "",
+                      "nofollow": ""
+                    }
+                  }
+                },
+                {
+                  "id": "878cc06",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings_summary": {
+                    "text": "072 651 4447",
+                    "link": {
+                      "custom_attributes": "",
+                      "url": "tel:0726514447",
+                      "is_external": "",
+                      "nofollow": ""
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "f6ed073",
+          "elType": "container",
+          "settings_summary": {
+            "content_width": "full"
+          },
+          "elements": [
+            {
+              "id": "596a3e2",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings_summary": {
+                "image": {
+                  "alt": "H2O Plumbers technician speaking with a local customer in the Garden Route",
+                  "size": "full",
+                  "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-why-choose-plumber-garden-route-ai-02.jpg",
+                  "id": 6377,
+                  "source": "library"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5adb476",
+      "elType": "container",
+      "settings_summary": {
+        "flex_direction": "row"
+      },
+      "elements": [
+        {
+          "id": "1cf0776",
+          "elType": "container",
+          "settings_summary": {
+            "content_width": "full"
+          },
+          "elements": [
+            {
+              "id": "3f319af",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings_summary": {
+                "title": "OUR SERVICES",
+                "header_size": "p"
+              }
+            },
+            {
+              "id": "82ac492",
+              "elType": "widget",
+              "widgetType": "elementskit-heading"
+            },
+            {
+              "id": "677d82d",
+              "elType": "container",
+              "settings_summary": {
+                "flex_direction": "row",
+                "content_width": "full"
+              },
+              "elements": [
+                {
+                  "id": "1d6f89b",
+                  "elType": "container",
+                  "settings_summary": {
+                    "content_width": "full"
+                  },
+                  "elements": [
+                    {
+                      "id": "76a6001",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings_summary": {
+                        "image": {
+                          "alt": "General plumbing repair under a sink by H2O Plumbers in the Garden Route",
+                          "size": "full",
+                          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-general-plumbing-garden-route-ai-02.jpg",
+                          "id": 6371,
+                          "source": "library"
+                        }
+                      }
+                    },
+                    {
+                      "id": "0d7fdcc",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings_summary": {
+                        "title": "General Plumbing",
+                        "header_size": "h3"
+                      }
+                    },
+                    {
+                      "id": "2b5782a",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings_summary": {
+                        "editor": "<p>General plumbing covers everyday repairs, installations and fault finding for homes and businesse..."
+                      }
+                    },
+                    {
+                      "id": "628c228",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings_summary": {
+                        "text": "View service",
+                        "link": {
+                          "custom_attributes": "",
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "b8b1452",
+                  "elType": "container",
+                  "settings_summary": {
+                    "content_width": "full"
+                  },
+                  "elements": [
+                    {
+                      "id": "ef1b9bd",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings_summary": {
+                        "image": {
+                          "alt": "H2O Plumbers team using leak detection equipment at a George property",
+                          "size": "full",
+                          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-leak-detection-george-ai-02.jpg",
+                          "id": 6372,
+                          "source": "library"
+                        },
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      }
+                    },
+                    {
+                      "id": "a97eb9f",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings_summary": {
+                        "title": "Leak Detection",
+                        "header_size": "h3"
+                      }
+                    },
+                    {
+                      "id": "fa787d7",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings_summary": {
+                        "editor": "<p>Leak detection helps find hidden water leaks before they cause bigger damage. H2O Plumbers uses p..."
+                      }
+                    },
+                    {
+                      "id": "ca08deb",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings_summary": {
+                        "text": "View service",
+                        "link": {
+                          "custom_attributes": "",
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "8c6b5d1",
+                  "elType": "container",
+                  "settings_summary": {
+                    "content_width": "full"
+                  },
+                  "elements": [
+                    {
+                      "id": "4dc0823",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings_summary": {
+                        "image": {
+                          "alt": "Blocked drain clearing at an outdoor inspection chamber in the Garden Route",
+                          "size": "full",
+                          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-blocked-drains-garden-route-ai-02.jpg",
+                          "id": 6373,
+                          "source": "library"
+                        },
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      }
+                    },
+                    {
+                      "id": "16b393a",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings_summary": {
+                        "title": "Blocked Drains",
+                        "header_size": "h3"
+                      }
+                    },
+                    {
+                      "id": "1b0fce8",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings_summary": {
+                        "editor": "<p>Blocked drains need the right tools and a careful approach. H2O Plumbers clears drain blockages f..."
+                      }
+                    },
+                    {
+                      "id": "651e4c3",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings_summary": {
+                        "text": "View service",
+                        "link": {
+                          "custom_attributes": "",
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "1e4c95d",
+                  "elType": "container",
+                  "settings_summary": {
+                    "content_width": "full"
+                  },
+                  "elements": [
+                    {
+                      "id": "e4135fd",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings_summary": {
+                        "image": {
+                          "alt": "Core drilling equipment used for plumbing pipe access in George",
+                          "size": "full",
+                          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-core-drilling-george-ai-02.jpg",
+                          "id": 6374,
+                          "source": "library"
+                        },
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      }
+                    },
+                    {
+                      "id": "28e3e7a",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings_summary": {
+                        "title": "Core Drilling",
+                        "header_size": "h3"
+                      }
+                    },
+                    {
+                      "id": "e72db25",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings_summary": {
+                        "editor": "<p>Core drilling creates clean, accurate openings for plumbing pipework, drainage and service access..."
+                      }
+                    },
+                    {
+                      "id": "eb092d5",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings_summary": {
+                        "text": "View service",
+                        "link": {
+                          "custom_attributes": "",
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "270d644",
+                  "elType": "container",
+                  "settings_summary": {
+                    "content_width": "full"
+                  },
+                  "elements": [
+                    {
+                      "id": "35a0be0",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings_summary": {
+                        "image": {
+                          "alt": "Drain hydro jetting hose and equipment clearing a blocked drain in the Garden Route",
+                          "size": "full",
+                          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-drain-hydro-jetting-garden-route-ai-02.jpg",
+                          "id": 6375,
+                          "source": "library"
+                        },
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      }
+                    },
+                    {
+                      "id": "18b4101",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings_summary": {
+                        "title": "Drain Hydro Jetting",
+                        "header_size": "h3"
+                      }
+                    },
+                    {
+                      "id": "b1f4573",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings_summary": {
+                        "editor": "<p>Drain hydro jetting uses high-pressure water to clear stubborn buildup inside drainage lines. H2O..."
+                      }
+                    },
+                    {
+                      "id": "02dd18c",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings_summary": {
+                        "text": "View service",
+                        "link": {
+                          "custom_attributes": "",
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "4d5bfbc",
+                  "elType": "container",
+                  "settings_summary": {
+                    "content_width": "full"
+                  },
+                  "elements": [
+                    {
+                      "id": "f792308",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings_summary": {
+                        "image": {
+                          "alt": "Bathroom renovation plumbing work by H2O Plumbers in the Garden Route",
+                          "size": "full",
+                          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-bathroom-renovation-garden-route-ai-01.jpg",
+                          "id": 6409,
+                          "source": "library"
+                        },
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      }
+                    },
+                    {
+                      "id": "d02fa3b",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings_summary": {
+                        "title": "Bathroom Renovation",
+                        "header_size": "h3"
+                      }
+                    },
+                    {
+                      "id": "26dffda",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings_summary": {
+                        "editor": "<p>Bathroom renovation plumbing needs careful planning before finishes go in. H2O Plumbers assists w..."
+                      }
+                    },
+                    {
+                      "id": "199c939",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings_summary": {
+                        "text": "View service",
+                        "link": {
+                          "custom_attributes": "",
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "a710001",
+                  "elType": "container",
+                  "settings_summary": {
+                    "content_width": "full"
+                  },
+                  "elements": [
+                    {
+                      "id": "a710002",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings_summary": {
+                        "image": {
+                          "alt": "Toilet installation plumbing service by H2O Plumbers in the Garden Route",
+                          "size": "full",
+                          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-toilet-installations-garden-route-ai-01.jpg",
+                          "id": 6410,
+                          "source": "library"
+                        },
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      }
+                    },
+                    {
+                      "id": "a710003",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings_summary": {
+                        "title": "Toilet Installations",
+                        "header_size": "h3"
+                      }
+                    },
+                    {
+                      "id": "a710004",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings_summary": {
+                        "editor": "<p>Toilet installations should be secure, level and connected correctly. H2O Plumbers helps with new..."
+                      }
+                    },
+                    {
+                      "id": "a710005",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings_summary": {
+                        "text": "View service",
+                        "link": {
+                          "custom_attributes": "",
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "a720001",
+                  "elType": "container",
+                  "settings_summary": {
+                    "content_width": "full"
+                  },
+                  "elements": [
+                    {
+                      "id": "a720002",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings_summary": {
+                        "image": {
+                          "alt": "French drain installation for drainage problems in the Garden Route",
+                          "size": "full",
+                          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-french-drains-garden-route-ai-01.jpg",
+                          "id": 6411,
+                          "source": "library"
+                        },
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      }
+                    },
+                    {
+                      "id": "a720003",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings_summary": {
+                        "title": "French Drains",
+                        "header_size": "h3"
+                      }
+                    },
+                    {
+                      "id": "a720004",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings_summary": {
+                        "editor": "<p>French drains help move groundwater away from problem areas around homes and properties. H2O Plum..."
+                      }
+                    },
+                    {
+                      "id": "a720005",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings_summary": {
+                        "text": "View service",
+                        "link": {
+                          "custom_attributes": "",
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "a730001",
+                  "elType": "container",
+                  "settings_summary": {
+                    "content_width": "full"
+                  },
+                  "elements": [
+                    {
+                      "id": "a730002",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings_summary": {
+                        "image": {
+                          "alt": "Pipe relining equipment for plumber services in the Garden Route",
+                          "size": "full",
+                          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-pipe-relining-garden-route-ai-01.jpg",
+                          "id": 6412,
+                          "source": "library"
+                        },
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      }
+                    },
+                    {
+                      "id": "a730003",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings_summary": {
+                        "title": "Pipe Relining",
+                        "header_size": "h3"
+                      }
+                    },
+                    {
+                      "id": "a730004",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings_summary": {
+                        "editor": "<p>Pipe relining can repair suitable damaged pipe sections without full excavation. H2O Plumbers hel..."
+                      }
+                    },
+                    {
+                      "id": "a730005",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings_summary": {
+                        "text": "View service",
+                        "link": {
+                          "custom_attributes": "",
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": "a740001",
+                  "elType": "container",
+                  "settings_summary": {
+                    "content_width": "full"
+                  },
+                  "elements": [
+                    {
+                      "id": "a740002",
+                      "elType": "widget",
+                      "widgetType": "image",
+                      "settings_summary": {
+                        "image": {
+                          "alt": "Burst pipe repair by H2O Plumbers in the Garden Route",
+                          "size": "full",
+                          "url": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-burst-pipe-repair-garden-route-ai-01.jpg",
+                          "id": 6413,
+                          "source": "library"
+                        },
+                        "link": {
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": "",
+                          "custom_attributes": ""
+                        }
+                      }
+                    },
+                    {
+                      "id": "a740003",
+                      "elType": "widget",
+                      "widgetType": "heading",
+                      "settings_summary": {
+                        "title": "Burst Pipe Repair",
+                        "header_size": "h3"
+                      }
+                    },
+                    {
+                      "id": "a740004",
+                      "elType": "widget",
+                      "widgetType": "text-editor",
+                      "settings_summary": {
+                        "editor": "<p>Burst pipe repair needs quick, practical attention to limit water damage and restore supply. H2O ..."
+                      }
+                    },
+                    {
+                      "id": "a740005",
+                      "elType": "widget",
+                      "widgetType": "button",
+                      "settings_summary": {
+                        "text": "View service",
+                        "link": {
+                          "custom_attributes": "",
+                          "url": "#",
+                          "is_external": "",
+                          "nofollow": ""
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "118ced8",
+              "elType": "container",
+              "settings_summary": {
+                "content_width": "full"
+              },
+              "elements": [
+                {
+                  "id": "cf26d49",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings_summary": {
+                    "text": "Call Us Now",
+                    "link": {
+                      "custom_attributes": "",
+                      "url": "tel:0726514447",
+                      "is_external": "",
+                      "nofollow": ""
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5379a55",
+      "elType": "container",
+      "elements": [
+        {
+          "id": "a273c38",
+          "elType": "widget",
+          "widgetType": "menu-anchor"
+        },
+        {
+          "id": "bfe2683",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings_summary": {
+            "title": "GOT QUESTIONS?",
+            "header_size": "p"
+          }
+        },
+        {
+          "id": "fa6a362",
+          "elType": "widget",
+          "widgetType": "elementskit-heading"
+        },
+        {
+          "id": "9b703bb",
+          "elType": "widget",
+          "widgetType": "nested-accordion",
+          "elements": [
+            {
+              "id": "07bf7ec",
+              "elType": "container",
+              "settings_summary": {
+                "content_width": "full"
+              },
+              "elements": [
+                {
+                  "id": "77c725d",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings_summary": {
+                    "editor": "<p>You can call or WhatsApp H2O Plumbers on 072 651 4447, or send an enquiry through the website for..."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "f670e8d",
+              "elType": "container",
+              "settings_summary": {
+                "content_width": "full"
+              },
+              "elements": [
+                {
+                  "id": "52b33c5",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings_summary": {
+                    "editor": "<p>H2O Plumbers can assist with general plumbing, leak detection, blocked drains, core drilling, dra..."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "7828241",
+              "elType": "container",
+              "settings_summary": {
+                "content_width": "full"
+              },
+              "elements": [
+                {
+                  "id": "4b3d608",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings_summary": {
+                    "editor": "<p>Yes. H2O Plumbers works with both residential and business customers across the Garden Route. The..."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "51dd10c",
+              "elType": "container",
+              "elements": [
+                {
+                  "id": "3c037e4",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings_summary": {
+                    "editor": "<p>Yes. Leak detection, blocked drain clearing and burst pipe repair are core plumbing services. If ..."
+                  }
+                }
+              ]
+            },
+            {
+              "id": "e2d6a31",
+              "elType": "container",
+              "settings_summary": {
+                "content_width": "full"
+              },
+              "elements": [
+                {
+                  "id": "8c303b5",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings_summary": {
+                    "editor": "<p>H2O Plumbers serves the wider Garden Route, including George, Mossel Bay, Knysna, Oudtshoorn, Wil..."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

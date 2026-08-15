@@ -1,0 +1,12 @@
+{
+    "method":  "tools/call",
+    "params":  {
+                   "arguments":  {
+                                     "template_type":  "single-post",
+                                     "title":  "Barry Blog Single Post"
+                                 },
+                   "name":  "elementor-mcp-create-theme-template"
+               },
+    "id":  2,
+    "jsonrpc":  "2.0"
+}

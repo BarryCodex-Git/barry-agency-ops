@@ -1,0 +1,50 @@
+﻿[
+    {
+        "page":  "home",
+        "post_id":  2747,
+        "old_image_or_old_process_matches":  0,
+        "export":  "C:\\Users\\USER\\Documents\\Codex\\Barry\\clients\\Solar Repair Pros\\work\\export-live-home-postfix.json"
+    },
+    {
+        "page":  "services",
+        "post_id":  6217,
+        "old_image_or_old_process_matches":  0,
+        "export":  "C:\\Users\\USER\\Documents\\Codex\\Barry\\clients\\Solar Repair Pros\\work\\export-live-services-postfix.json"
+    },
+    {
+        "page":  "service-areas",
+        "post_id":  6414,
+        "old_image_or_old_process_matches":  0,
+        "export":  "C:\\Users\\USER\\Documents\\Codex\\Barry\\clients\\Solar Repair Pros\\work\\export-live-service-areas-postfix.json"
+    },
+    {
+        "page":  "repairs",
+        "post_id":  6637,
+        "old_image_or_old_process_matches":  0,
+        "export":  "C:\\Users\\USER\\Documents\\Codex\\Barry\\clients\\Solar Repair Pros\\work\\export-live-repairs-postfix.json"
+    },
+    {
+        "page":  "servicing",
+        "post_id":  6638,
+        "old_image_or_old_process_matches":  0,
+        "export":  "C:\\Users\\USER\\Documents\\Codex\\Barry\\clients\\Solar Repair Pros\\work\\export-live-servicing-postfix.json"
+    },
+    {
+        "page":  "battery",
+        "post_id":  6639,
+        "old_image_or_old_process_matches":  0,
+        "export":  "C:\\Users\\USER\\Documents\\Codex\\Barry\\clients\\Solar Repair Pros\\work\\export-live-battery-postfix.json"
+    },
+    {
+        "page":  "panel",
+        "post_id":  6640,
+        "old_image_or_old_process_matches":  0,
+        "export":  "C:\\Users\\USER\\Documents\\Codex\\Barry\\clients\\Solar Repair Pros\\work\\export-live-panel-postfix.json"
+    },
+    {
+        "page":  "ev",
+        "post_id":  6641,
+        "old_image_or_old_process_matches":  0,
+        "export":  "C:\\Users\\USER\\Documents\\Codex\\Barry\\clients\\Solar Repair Pros\\work\\export-live-ev-postfix.json"
+    }
+]

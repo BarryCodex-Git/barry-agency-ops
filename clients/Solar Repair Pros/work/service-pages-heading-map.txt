@@ -1,0 +1,141 @@
+
+=== map-services.json 6217 Services ===
+HEAD 341e4ab heading {'title': 'Solar Services in Dallas-Fort Worth', 'header_size': 'h1'}
+HEAD 73275af heading {'title': 'Contact Us Now!', 'header_size': 'p'}
+HEAD 4f83e41 heading {'title': 'SERVICE OVERVIEW', 'header_size': 'p'}
+HEAD 983e8d1 heading {'title': 'Repair, Maintenance and Electrical Upgrade Support for DFW Properties'}
+HEAD f5747b2 heading {'title': 'Start with the system, property and goal', 'header_size': 'h3'}
+HEAD 29282ca heading {'title': 'OUR SERVICES', 'header_size': 'p'}
+HEAD db048eb elementskit-heading {}
+HEAD c6b4fa0 heading {'title': 'Solar Panel Repairs', 'header_size': 'h3'}
+HEAD d8d6dba heading {'title': 'Solar Panel Servicing', 'header_size': 'h3'}
+HEAD ff87f20 heading {'title': 'Solar Battery Add-ons', 'header_size': 'h3'}
+HEAD 2e40b22 heading {'title': 'Electrical Panel Upgrades', 'header_size': 'h3'}
+HEAD c812c1e heading {'title': 'EV Charger Installs', 'header_size': 'h3'}
+HEAD bbf6739 heading {'title': 'SERVICES FAQS', 'header_size': 'p'}
+HEAD dd4cd83 elementskit-heading {}
+
+=== map-service-areas.json 6414 Service Areas ===
+HEAD fc977e9 heading {'title': 'Solar Repair Service Areas Across Dallas-Fort Worth', 'header_size': 'h1'}
+HEAD df877be heading {'title': 'Contact Us Now!', 'header_size': 'p'}
+HEAD 664c729 heading {'title': 'DFW COVERAGE', 'header_size': 'p'}
+HEAD 7a8ba3d heading {'title': 'Solar and Electrical Service Coverage Built Around North Texas Properties'}
+HEAD 7cf8109 heading {'title': 'Share the property city and ZIP code when enquiring', 'header_size': 'h3'}
+HEAD 4eddfd7 heading {'title': 'DALLAS-FORT WORTH', 'header_size': 'p'}
+HEAD 9b64a27 elementskit-heading {}
+HEAD cb6f656 heading {'title': 'Dallas', 'header_size': 'h3'}
+HEAD 81f8a72 heading {'title': 'Fort Worth', 'header_size': 'h3'}
+HEAD 520119a heading {'title': 'Arlington', 'header_size': 'h3'}
+HEAD 8c88c5b heading {'title': 'Plano', 'header_size': 'h3'}
+HEAD 5b7a946 heading {'title': 'Frisco', 'header_size': 'h3'}
+HEAD cb768c2 heading {'title': 'McKinney', 'header_size': 'h3'}
+HEAD 90673bd heading {'title': 'Irving', 'header_size': 'h3'}
+HEAD fd7c91b heading {'title': 'Garland', 'header_size': 'h3'}
+HEAD 6f3ba53 heading {'title': 'Denton', 'header_size': 'h3'}
+HEAD 59e7340 heading {'title': 'Grapevine', 'header_size': 'h3'}
+HEAD f5eac2a heading {'title': 'Southlake', 'header_size': 'h3'}
+HEAD c082538 heading {'title': 'Flower Mound', 'header_size': 'h3'}
+HEAD 91c0f06 heading {'title': 'SERVICE COVERAGE', 'header_size': 'p'}
+HEAD 3990dae elementskit-heading {}
+HEAD 7360a30 heading {'title': 'Dallas', 'header_size': 'h3'}
+HEAD f951be5 heading {'title': 'Fort Worth', 'header_size': 'h3'}
+HEAD 83244ee heading {'title': 'Arlington', 'header_size': 'h3'}
+HEAD 78ab686 heading {'title': 'Plano', 'header_size': 'h3'}
+HEAD 23bf726 heading {'title': 'Frisco', 'header_size': 'h3'}
+HEAD ba9ea13 heading {'title': 'SERVICE AREA FAQS', 'header_size': 'p'}
+HEAD 5d92fce elementskit-heading {}
+
+=== map-repairs.json 6637 Solar Panel Repairs in Dallas-Fort Worth ===
+HEAD ce48512 heading {'title': 'Solar Repair After Your Installer Is Gone', 'header_size': 'h1'}
+HEAD c626729 heading {'title': 'Contact Us Now!', 'header_size': 'p'}
+HEAD 755edb0 heading {'title': 'REPAIR WARNING SIGNS', 'header_size': 'p'}
+HEAD 786be42 heading {'title': 'When Solar Problems Need a Real Answer'}
+HEAD bcf73bb heading {'title': 'WHEN SUPPORT DISAPPEARS', 'header_size': 'p'}
+HEAD 6862c6b heading {'title': 'Your Solar Company Is Gone. Your System Still Needs Answers.'}
+HEAD 1af5557 heading {'title': 'We help you move from confusion to a practical repair plan.', 'header_size': 'h3'}
+HEAD c8bdb08 heading {'title': 'WHY DIAGNOSIS MATTERS', 'header_size': 'p'}
+HEAD b6673d3 heading {'title': 'A Production Problem Is Not Always a Failed Panel'}
+HEAD f1a5ee7 heading {'title': 'Avoid replacing parts on assumption alone', 'header_size': 'h3'}
+HEAD 3d1abd1 heading {'title': 'RELATED SERVICES', 'header_size': 'p'}
+HEAD cfc9480 heading {'title': 'Services That Often Connect to Solar Panel Repairs'}
+HEAD 7b6fa5a heading {'title': 'GOOD TO KNOW', 'header_size': 'p'}
+GOOD_NODE 7b6fa5a parent 295d59a heading {'title': 'GOOD TO KNOW', 'header_size': 'p'}
+HEAD 6b7bb2d heading {'title': 'Monitoring Data Helps, but Physical Faults Still Need Safe Assessment'}
+HEAD 5d4df7e heading {'title': 'SOLAR PANEL REPAIR FAQS', 'header_size': 'p'}
+HEAD 8e3d597 heading {'title': 'Questions About Solar Panel Repairs Before Booking'}
+
+=== map-servicing.json 6638 Solar Panel Servicing in Dallas-Fort Worth ===
+HEAD 88c1b96 heading {'title': 'Solar System Inspections in Dallas-Fort Worth', 'header_size': 'h1'}
+HEAD c164e62 heading {'title': 'Contact Us Now!', 'header_size': 'p'}
+HEAD 5484259 heading {'title': 'SERVICE WARNING SIGNS', 'header_size': 'p'}
+HEAD 2fa534d heading {'title': 'When You Need More Than a Guess'}
+HEAD cdba4bc heading {'title': 'SERVICE APPROACH', 'header_size': 'p'}
+HEAD ae9298e heading {'title': 'Inspection Reports for Unsupported Solar Systems'}
+HEAD bb0bcfc heading {'title': 'Record the condition, compare the information, explain the next step', 'header_size': 'h3'}
+HEAD e3508bf heading {'title': 'WHY CHECKS HELP', 'header_size': 'p'}
+HEAD 0ebf3da heading {'title': 'Servicing Gives Future Repair Decisions Better Context'}
+HEAD 90ff354 heading {'title': 'A useful baseline is more valuable than a vague clean bill of health', 'header_size': 'h3'}
+HEAD a3c11d1 heading {'title': 'RELATED SERVICES', 'header_size': 'p'}
+HEAD 9c05e8b heading {'title': 'Connected Solar and Electrical Services'}
+HEAD c6e9818 heading {'title': 'GOOD TO KNOW', 'header_size': 'p'}
+GOOD_NODE c6e9818 parent 7622499 heading {'title': 'GOOD TO KNOW', 'header_size': 'p'}
+HEAD 08a9cee heading {'title': 'Solar Performance Should Be Compared With Weather, Shade and System History'}
+HEAD 2c72504 heading {'title': 'SOLAR PANEL SERVICING FAQS', 'header_size': 'p'}
+HEAD 2461f16 heading {'title': 'Questions About Solar Panel Servicing'}
+
+=== map-battery.json 6639 Solar Battery Add-ons in Dallas-Fort Worth ===
+HEAD 2fea2c0 heading {'title': 'Battery Planning When Installer Support Is Gone', 'header_size': 'h1'}
+HEAD 363face heading {'title': 'Contact Us Now!', 'header_size': 'p'}
+HEAD c2bac24 heading {'title': 'BATTERY PLANNING QUESTIONS', 'header_size': 'p'}
+HEAD 84b0bc9 heading {'title': 'Questions to Answer Before Buying Storage'}
+HEAD 5ef6a83 heading {'title': 'BATTERY PLANNING', 'header_size': 'p'}
+HEAD eadc2b5 heading {'title': 'Battery Advice That Starts With Your Existing System'}
+HEAD b7d0920 heading {'title': 'Define the job before comparing equipment', 'header_size': 'h3'}
+HEAD fb909fc heading {'title': 'WHY SIZING MATTERS', 'header_size': 'p'}
+HEAD e69a1b9 heading {'title': 'A Battery Should Be Sized for the Intended Job'}
+HEAD 5bbc798 heading {'title': 'Whole-home expectations and essential-load plans are not the same', 'header_size': 'h3'}
+HEAD db7e36d heading {'title': 'RELATED SERVICES', 'header_size': 'p'}
+HEAD 2384bdf heading {'title': 'Connected Solar and Electrical Services'}
+HEAD 051795e heading {'title': 'GOOD TO KNOW', 'header_size': 'p'}
+GOOD_NODE 051795e parent 09a6183 heading {'title': 'GOOD TO KNOW', 'header_size': 'p'}
+HEAD 50f73a5 heading {'title': 'Backup Expectations Need a Clear List of Loads and Operating Time'}
+HEAD dbc3400 heading {'title': 'SOLAR BATTERY ADD-ONS FAQS', 'header_size': 'p'}
+HEAD 253b523 heading {'title': 'Questions About Solar Battery Add-ons'}
+
+=== map-panel.json 6640 Electrical Panel Upgrades in Dallas-Fort Worth ===
+HEAD 475d9f9 heading {'title': 'Panel Upgrades for Solar, Battery and EV Plans', 'header_size': 'h1'}
+HEAD c1ec1b6 heading {'title': 'Contact Us Now!', 'header_size': 'p'}
+HEAD 7e6c269 heading {'title': 'PANEL UPGRADE INDICATORS', 'header_size': 'p'}
+HEAD 3a3bdf2 heading {'title': 'When Solar Plans Run Into Panel Limits'}
+HEAD 09e6908 heading {'title': 'PANEL PLANNING', 'header_size': 'p'}
+HEAD 3258d2b heading {'title': 'Electrical Planning Before Equipment Is Added'}
+HEAD f528629 heading {'title': 'Confirm the need before replacing equipment', 'header_size': 'h3'}
+HEAD 975d5ae heading {'title': 'WHY PLANNING MATTERS', 'header_size': 'p'}
+HEAD 58a3423 heading {'title': 'Panel Work Sits Between the Utility and New Equipment'}
+HEAD c0412f0 heading {'title': 'The upgrade sequence can matter as much as the equipment choice', 'header_size': 'h3'}
+HEAD dcff74f heading {'title': 'RELATED SERVICES', 'header_size': 'p'}
+HEAD 05b042c heading {'title': 'Connected Solar and Electrical Services'}
+HEAD 79ba3f5 heading {'title': 'GOOD TO KNOW', 'header_size': 'p'}
+GOOD_NODE 79ba3f5 parent a942300 heading {'title': 'GOOD TO KNOW', 'header_size': 'p'}
+HEAD fac5572 heading {'title': 'Panel Space and Electrical Capacity Are Different Questions'}
+HEAD 615eddd heading {'title': 'ELECTRICAL PANEL UPGRADES FAQS', 'header_size': 'p'}
+HEAD 64f700a heading {'title': 'Questions About Electrical Panel Upgrades'}
+
+=== map-ev.json 6641 EV Charger Installs in Dallas-Fort Worth ===
+HEAD 90c860b heading {'title': 'EV Charger Installs That Fit the Property', 'header_size': 'h1'}
+HEAD 0a06f8b heading {'title': 'Contact Us Now!', 'header_size': 'p'}
+HEAD fbac881 heading {'title': 'EV CHARGER PLANNING', 'header_size': 'p'}
+HEAD 457a26c heading {'title': 'What Shapes a Useful Home Charging Setup'}
+HEAD a0e839a heading {'title': 'CHARGER PLANNING', 'header_size': 'p'}
+HEAD 3f86010 heading {'title': 'Charging Plans That Start at the Panel'}
+HEAD 81fcc87 heading {'title': 'Match charging power to the property and routine', 'header_size': 'h3'}
+HEAD 75e90ee heading {'title': 'WHY SIZING MATTERS', 'header_size': 'p'}
+HEAD df8fcd9 heading {'title': 'Useful Charging Is About Recovered Range, Not Just Maximum Amps'}
+HEAD 562665b heading {'title': 'A practical overnight target may avoid unnecessary electrical work', 'header_size': 'h3'}
+HEAD aed52a5 heading {'title': 'RELATED SERVICES', 'header_size': 'p'}
+HEAD e6fbf06 heading {'title': 'Connected Solar and Electrical Services'}
+HEAD 1ec155d heading {'title': 'GOOD TO KNOW', 'header_size': 'p'}
+GOOD_NODE 1ec155d parent 006b7e4 heading {'title': 'GOOD TO KNOW', 'header_size': 'p'}
+HEAD 7d2a5cb heading {'title': 'Home Charging Power Should Match the Vehicle and the Available Time'}
+HEAD b2450b4 heading {'title': 'EV CHARGER INSTALLS FAQS', 'header_size': 'p'}
+HEAD bd15c35 heading {'title': 'Questions About EV Charger Installs'}

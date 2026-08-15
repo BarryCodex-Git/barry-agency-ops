@@ -1,0 +1,35 @@
+{
+  "post_id": 6641,
+  "operations": [
+    {
+      "element_id": "90c860b",
+      "settings": {
+        "title": "EV Charger Installs That Fit the Property"
+      }
+    },
+    {
+      "element_id": "802454d",
+      "settings": {
+        "editor": "<p>A home EV charger should fit the vehicle, parking location, electrical panel, and any solar or battery plans already on the property. Solar Repair Pros helps owners plan charging without overloading the home or overbuying equipment.</p>"
+      }
+    },
+    {
+      "element_id": "457a26c",
+      "settings": {
+        "title": "What Shapes a Useful Home Charging Setup"
+      }
+    },
+    {
+      "element_id": "fff9bce",
+      "settings": {
+        "editor": "<p>The fastest charger is not always the smartest charger. Available capacity, nightly charging time, cable route, parking position, and future solar plans all shape the right installation.</p>"
+      }
+    },
+    {
+      "element_id": "3f86010",
+      "settings": {
+        "title": "Charging Plans That Start at the Panel"
+      }
+    }
+  ]
+}

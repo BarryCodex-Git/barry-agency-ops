@@ -1,0 +1,62 @@
+{
+  "post_id": 2747,
+  "operations": [
+    {
+      "element_id": "d186ff3",
+      "settings": {
+        "background_image": {
+          "id": 6874,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-repair-process-background-1920x1080-1.webp",
+          "alt": "Solar technician reviewing solar system data beside home equipment in Dallas-Fort Worth",
+          "source": "library",
+          "size": "full"
+        },
+        "background_video_fallback": {
+          "id": 6874,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-repair-process-background-1920x1080-1.webp",
+          "alt": "Solar technician reviewing solar system data beside home equipment in Dallas-Fort Worth",
+          "source": "library",
+          "size": "full"
+        }
+      }
+    },
+    {
+      "element_id": "f6e6b0b",
+      "settings": {
+        "background_video_fallback": {
+          "id": 6874,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-repair-process-background-1920x1080-1.webp",
+          "alt": "Solar technician reviewing solar system data beside home equipment in Dallas-Fort Worth",
+          "source": "library",
+          "size": "full"
+        }
+      }
+    },
+    {
+      "element_id": "c2ea8eb",
+      "settings": {
+        "image": {
+          "id": 6873,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-repair-installer-disappeared-consultation-1000x1000-1.webp",
+          "alt": "Solar technician explaining inverter and monitoring issues to a Dallas-Fort Worth homeowner",
+          "source": "library",
+          "size": "full"
+        },
+        "image_size": "full"
+      }
+    },
+    {
+      "element_id": "510a4a8",
+      "settings": {
+        "image": {
+          "id": 6873,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/solar-repair-installer-disappeared-consultation-1000x1000-1.webp",
+          "alt": "Solar technician explaining inverter and monitoring issues to a Dallas-Fort Worth homeowner",
+          "source": "library",
+          "size": "full"
+        },
+        "image_size": "full"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":590,"method":"tools/call","params":{"name":"elementor-mcp-update-element","arguments":{"post_id":6584,"element_id":"48d0162","settings":{"text":"Email Us","link":{"url":"mailto:info@solarrepairdfw.com","is_external":"","nofollow":"","custom_attributes":""}}}}}

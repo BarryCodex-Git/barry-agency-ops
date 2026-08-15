@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":2,"result":{"content":[{"type":"text","text":"Elementor rejected the element data: Elementor\\Elements_Manager::get_element(): Argument #1 ($el_type) must be of type string, null given, called in \/home\/mynewwebsite\/dev2.mynewwebsite.co.za\/wp-content\/plugins\/elementor\/includes\/managers\/elements.php on line 79"}],"isError":true}}

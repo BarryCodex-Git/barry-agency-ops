@@ -1,0 +1,49 @@
+{
+  "post_id": 2747,
+  "operations": [
+    {
+      "element_id": "0b6d202",
+      "settings": {
+        "title": "Did Your Solar Company Disappear?"
+      }
+    },
+    {
+      "element_id": "e20747f",
+      "settings": {
+        "editor": "<p>If your installer went out of business, your warranty support disappeared, or your solar panels are not working, Solar Repair Pros helps Dallas-Fort Worth owners get clear answers and a practical repair path.</p>"
+      }
+    },
+    {
+      "element_id": "3ec3bec",
+      "settings": {
+        "icon_list": [
+          {
+            "text": "Lost Support?",
+            "_id": "trust1",
+            "settings": []
+          }
+        ],
+        "_background_color": "#F27A1D",
+        "text_color": "#FFFFFF",
+        "icon_color": "#FFFFFF",
+        "_border_color": "#FFFFFF"
+      }
+    },
+    {
+      "element_id": "44788de",
+      "settings": {
+        "icon_list": [
+          {
+            "text": "We Can Help",
+            "_id": "trust2",
+            "settings": []
+          }
+        ],
+        "_background_color": "#F27A1D",
+        "text_color": "#FFFFFF",
+        "icon_color": "#FFFFFF",
+        "_border_color": "#FFFFFF"
+      }
+    }
+  ]
+}

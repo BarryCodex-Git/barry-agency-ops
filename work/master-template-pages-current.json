@@ -1,0 +1,50 @@
+[
+  {
+    "id": 6425,
+    "title": "Blog",
+    "slug": "blog",
+    "status": "publish",
+    "parent": 0,
+    "link": "https://dev1.mynewwebsite.co.za/blog/"
+  },
+  {
+    "id": 6414,
+    "title": "Service Areas",
+    "slug": "service-areas",
+    "status": "publish",
+    "parent": 0,
+    "link": "https://dev1.mynewwebsite.co.za/service-areas/"
+  },
+  {
+    "id": 6217,
+    "title": "Services",
+    "slug": "services",
+    "status": "publish",
+    "parent": 0,
+    "link": "https://dev1.mynewwebsite.co.za/services/"
+  },
+  {
+    "id": 6077,
+    "title": "Blocked Drains Garden Route",
+    "slug": "blocked-drains-garden-route",
+    "status": "publish",
+    "parent": 0,
+    "link": "https://dev1.mynewwebsite.co.za/blocked-drains-garden-route/"
+  },
+  {
+    "id": 4582,
+    "title": "Thank You",
+    "slug": "thank-you",
+    "status": "publish",
+    "parent": 0,
+    "link": "https://dev1.mynewwebsite.co.za/thank-you/"
+  },
+  {
+    "id": 2747,
+    "title": "Home",
+    "slug": "home",
+    "status": "publish",
+    "parent": 0,
+    "link": "https://dev1.mynewwebsite.co.za/"
+  }
+]

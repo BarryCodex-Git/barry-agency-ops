@@ -1,0 +1,183 @@
+{
+    "post_id":  6637,
+    "operations":  [
+                       {
+                           "element_id":  "ce48512",
+                           "settings":  {
+                                            "typography_font_size":  {
+                                                                         "size":  62,
+                                                                         "sizes":  [
+
+                                                                                   ],
+                                                                         "unit":  "px"
+                                                                     },
+                                            "text_shadow_text_shadow_type":  "yes",
+                                            "typography_letter_spacing":  {
+                                                                              "size":  -1.2,
+                                                                              "sizes":  [
+
+                                                                                        ],
+                                                                              "unit":  "px"
+                                                                          },
+                                            "typography_line_height_mobile":  {
+                                                                                  "size":  1.05,
+                                                                                  "sizes":  [
+
+                                                                                            ],
+                                                                                  "unit":  "em"
+                                                                              },
+                                            "typography_font_family":  "Montserrat",
+                                            "typography_font_size_mobile":  {
+                                                                                "size":  38,
+                                                                                "sizes":  [
+
+                                                                                          ],
+                                                                                "unit":  "px"
+                                                                            },
+                                            "typography_typography":  "custom",
+                                            "title_color":  "#FFFFFF",
+                                            "text_shadow_text_shadow":  {
+                                                                            "vertical":  5,
+                                                                            "color":  "#F27A1D",
+                                                                            "blur":  0,
+                                                                            "horizontal":  5
+                                                                        },
+                                            "typography_font_size_tablet":  {
+                                                                                "size":  52,
+                                                                                "sizes":  [
+
+                                                                                          ],
+                                                                                "unit":  "px"
+                                                                            },
+                                            "typography_line_height":  {
+                                                                           "size":  0.98,
+                                                                           "sizes":  [
+
+                                                                                     ],
+                                                                           "unit":  "em"
+                                                                       },
+                                            "typography_font_weight":  "900"
+                                        }
+                       },
+                       {
+                           "element_id":  "786be42",
+                           "settings":  {
+                                            "typography_line_height_mobile":  {
+                                                                                  "size":  1.2,
+                                                                                  "sizes":  [
+
+                                                                                            ],
+                                                                                  "unit":  "em"
+                                                                              },
+                                            "typography_line_height":  {
+                                                                           "size":  1.2,
+                                                                           "sizes":  [
+
+                                                                                     ],
+                                                                           "unit":  "em"
+                                                                       },
+                                            "typography_typography":  "custom"
+                                        }
+                       },
+                       {
+                           "element_id":  "6862c6b",
+                           "settings":  {
+                                            "typography_line_height_mobile":  {
+                                                                                  "size":  1.2,
+                                                                                  "sizes":  [
+
+                                                                                            ],
+                                                                                  "unit":  "em"
+                                                                              },
+                                            "typography_line_height":  {
+                                                                           "size":  1.2,
+                                                                           "sizes":  [
+
+                                                                                     ],
+                                                                           "unit":  "em"
+                                                                       },
+                                            "typography_typography":  "custom"
+                                        }
+                       },
+                       {
+                           "element_id":  "b6673d3",
+                           "settings":  {
+                                            "typography_line_height_mobile":  {
+                                                                                  "size":  1.2,
+                                                                                  "sizes":  [
+
+                                                                                            ],
+                                                                                  "unit":  "em"
+                                                                              },
+                                            "typography_line_height":  {
+                                                                           "size":  1.2,
+                                                                           "sizes":  [
+
+                                                                                     ],
+                                                                           "unit":  "em"
+                                                                       },
+                                            "typography_typography":  "custom"
+                                        }
+                       },
+                       {
+                           "element_id":  "cfc9480",
+                           "settings":  {
+                                            "typography_line_height_mobile":  {
+                                                                                  "size":  1.2,
+                                                                                  "sizes":  [
+
+                                                                                            ],
+                                                                                  "unit":  "em"
+                                                                              },
+                                            "typography_line_height":  {
+                                                                           "size":  1.2,
+                                                                           "sizes":  [
+
+                                                                                     ],
+                                                                           "unit":  "em"
+                                                                       },
+                                            "typography_typography":  "custom"
+                                        }
+                       },
+                       {
+                           "element_id":  "6b7bb2d",
+                           "settings":  {
+                                            "typography_line_height_mobile":  {
+                                                                                  "size":  1.2,
+                                                                                  "sizes":  [
+
+                                                                                            ],
+                                                                                  "unit":  "em"
+                                                                              },
+                                            "typography_line_height":  {
+                                                                           "size":  1.2,
+                                                                           "sizes":  [
+
+                                                                                     ],
+                                                                           "unit":  "em"
+                                                                       },
+                                            "typography_typography":  "custom"
+                                        }
+                       },
+                       {
+                           "element_id":  "8e3d597",
+                           "settings":  {
+                                            "typography_line_height_mobile":  {
+                                                                                  "size":  1.2,
+                                                                                  "sizes":  [
+
+                                                                                            ],
+                                                                                  "unit":  "em"
+                                                                              },
+                                            "typography_line_height":  {
+                                                                           "size":  1.2,
+                                                                           "sizes":  [
+
+                                                                                     ],
+                                                                           "unit":  "em"
+                                                                       },
+                                            "typography_typography":  "custom"
+                                        }
+                       }
+                   ]
+}

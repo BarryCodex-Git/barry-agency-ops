@@ -1,0 +1,174 @@
+{
+    "id":  6447,
+    "date":  "2026-06-17T12:33:43",
+    "date_gmt":  "2026-06-17T12:33:43",
+    "guid":  {
+                 "rendered":  "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1.png",
+                 "raw":  "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1.png"
+             },
+    "modified":  "2026-06-17T12:33:43",
+    "modified_gmt":  "2026-06-17T12:33:43",
+    "slug":  "h2o-plumbers-logo-1",
+    "status":  "inherit",
+    "type":  "attachment",
+    "link":  "https://dev1.mynewwebsite.co.za/h2o-plumbers-logo-1/",
+    "title":  {
+                  "raw":  "h2o-plumbers-logo-1",
+                  "rendered":  "h2o-plumbers-logo-1"
+              },
+    "author":  6,
+    "featured_media":  0,
+    "comment_status":  "open",
+    "ping_status":  "closed",
+    "template":  "",
+    "meta":  [
+
+             ],
+    "permalink_template":  "https://dev1.mynewwebsite.co.za/?attachment_id=6447",
+    "generated_slug":  "h2o-plumbers-logo-1",
+    "class_list":  [
+                       "post-6447",
+                       "attachment",
+                       "type-attachment",
+                       "status-inherit",
+                       "hentry"
+                   ],
+    "description":  {
+                        "raw":  "",
+                        "rendered":  "\u003cp class=\"attachment\"\u003e\u003ca href=\u0027https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1.png\u0027\u003e\u003cimg fetchpriority=\"high\" decoding=\"async\" width=\"300\" height=\"284\" src=\"https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1-300x284.png\" class=\"attachment-medium size-medium\" alt=\"\" srcset=\"https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1-300x284.png 300w, https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1-1024x968.png 1024w, https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1-768x726.png 768w, https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1.png 1302w\" sizes=\"(max-width: 300px) 100vw, 300px\" /\u003e\u003c/a\u003e\u003c/p\u003e\n"
+                    },
+    "caption":  {
+                    "raw":  "",
+                    "rendered":  ""
+                },
+    "alt_text":  "",
+    "media_type":  "image",
+    "mime_type":  "image/png",
+    "media_details":  {
+                          "width":  1302,
+                          "height":  1231,
+                          "file":  "2026/06/h2o-plumbers-logo-1.png",
+                          "filesize":  125980,
+                          "sizes":  {
+                                        "medium":  {
+                                                       "file":  "h2o-plumbers-logo-1-300x284.png",
+                                                       "width":  300,
+                                                       "height":  284,
+                                                       "filesize":  17106,
+                                                       "mime_type":  "image/png",
+                                                       "source_url":  "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1-300x284.png"
+                                                   },
+                                        "large":  {
+                                                      "file":  "h2o-plumbers-logo-1-1024x968.png",
+                                                      "width":  1024,
+                                                      "height":  968,
+                                                      "filesize":  96674,
+                                                      "mime_type":  "image/png",
+                                                      "source_url":  "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1-1024x968.png"
+                                                  },
+                                        "thumbnail":  {
+                                                          "file":  "h2o-plumbers-logo-1-150x150.png",
+                                                          "width":  150,
+                                                          "height":  150,
+                                                          "filesize":  8057,
+                                                          "mime_type":  "image/png",
+                                                          "source_url":  "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1-150x150.png"
+                                                      },
+                                        "medium_large":  {
+                                                             "file":  "h2o-plumbers-logo-1-768x726.png",
+                                                             "width":  768,
+                                                             "height":  726,
+                                                             "filesize":  62127,
+                                                             "mime_type":  "image/png",
+                                                             "source_url":  "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1-768x726.png"
+                                                         },
+                                        "full":  {
+                                                     "file":  "h2o-plumbers-logo-1.png",
+                                                     "width":  1302,
+                                                     "height":  1231,
+                                                     "mime_type":  "image/png",
+                                                     "source_url":  "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1.png"
+                                                 }
+                                    },
+                          "image_meta":  {
+                                             "aperture":  "0",
+                                             "credit":  "",
+                                             "camera":  "",
+                                             "caption":  "",
+                                             "created_timestamp":  "0",
+                                             "copyright":  "",
+                                             "focal_length":  "0",
+                                             "iso":  "0",
+                                             "shutter_speed":  "0",
+                                             "title":  "",
+                                             "orientation":  "0",
+                                             "keywords":  [
+
+                                                          ],
+                                             "alt":  ""
+                                         }
+                      },
+    "post":  null,
+    "source_url":  "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-logo-1.png",
+    "missing_image_sizes":  [
+
+                            ],
+    "filename":  "h2o-plumbers-logo-1.png",
+    "filesize":  125980,
+    "exif_orientation":  1,
+    "_links":  {
+                   "self":  [
+                                {
+                                    "href":  "https://dev1.mynewwebsite.co.za/wp-json/wp/v2/media/6447",
+                                    "targetHints":  {
+                                                        "allow":  [
+                                                                      "GET",
+                                                                      "POST",
+                                                                      "PUT",
+                                                                      "PATCH",
+                                                                      "DELETE"
+                                                                  ]
+                                                    }
+                                }
+                            ],
+                   "collection":  [
+                                      {
+                                          "href":  "https://dev1.mynewwebsite.co.za/wp-json/wp/v2/media"
+                                      }
+                                  ],
+                   "about":  [
+                                 {
+                                     "href":  "https://dev1.mynewwebsite.co.za/wp-json/wp/v2/types/attachment"
+                                 }
+                             ],
+                   "author":  [
+                                  {
+                                      "embeddable":  true,
+                                      "href":  "https://dev1.mynewwebsite.co.za/wp-json/wp/v2/users/6"
+                                  }
+                              ],
+                   "replies":  [
+                                   {
+                                       "embeddable":  true,
+                                       "href":  "https://dev1.mynewwebsite.co.za/wp-json/wp/v2/comments?post=6447"
+                                   }
+                               ],
+                   "wp:action-unfiltered-html":  [
+                                                     {
+                                                         "href":  "https://dev1.mynewwebsite.co.za/wp-json/wp/v2/media/6447"
+                                                     }
+                                                 ],
+                   "wp:action-assign-author":  [
+                                                   {
+                                                       "href":  "https://dev1.mynewwebsite.co.za/wp-json/wp/v2/media/6447"
+                                                   }
+                                               ],
+                   "curies":  [
+                                  {
+                                      "name":  "wp",
+                                      "href":  "https://api.w.org/{rel}",
+                                      "templated":  true
+                                  }
+                              ]
+               }
+}

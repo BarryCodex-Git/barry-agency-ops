@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":201,"method":"tools/call","params":{"name":"elementor-mcp-update-global-colors","arguments":{"colors":[{"_id":"primary","title":"Primary","color":"#15325E"},{"_id":"secondary","title":"Secondary","color":"#ed5e22"},{"_id":"text","title":"Text","color":"#000000"},{"_id":"accent","title":"Accent","color":"#ed5e22"}]}}}

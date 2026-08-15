@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":33,"method":"tools/call","params":{"name":"elementor-mcp-reorder-elements","arguments":{"post_id":6077,"container_id":"","element_ids":["8c893f2","ee19534","4358662","386642a","26c91ca","d877100","a1fe463","5379a55"]}}}

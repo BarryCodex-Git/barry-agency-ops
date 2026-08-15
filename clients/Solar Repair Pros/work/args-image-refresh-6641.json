@@ -1,0 +1,18 @@
+{
+    "post_id":  6641,
+    "operations":  [
+                       {
+                           "element_id":  "7f92d95",
+                           "settings":  {
+                                            "image":  {
+                                                          "id":  6951,
+                                                          "url":  "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/07/ev-charger-install-planning-dfw-home-1000x1000-1.webp",
+                                                          "alt":  "Technician planning a home EV charger installation in Dallas-Fort Worth",
+                                                          "source":  "library",
+                                                          "size":  "full"
+                                                      },
+                                            "image_size":  "full"
+                                        }
+                       }
+                   ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<methodCall>
+  <methodName>wp.editPost</methodName>
+  <params>
+    <param><value><int>1</int></value></param>
+    <param><value><string>barry</string></value></param>
+    <param><value><string>ZqMh tekF Mg2M hq5P aevn 0kLB</string></value></param>
+    <param><value><int>6414</int></value></param>
+    <param><value><struct><member><name>custom_fields</name><value><array><data><value><struct><member><name>key</name><value><string>_yoast_wpseo_title</string></value></member><member><name>value</name><value><string>Plumber Service Areas Garden Route | H2O Plumbers</string></value></member></struct></value>
+<value><struct><member><name>key</name><value><string>_yoast_wpseo_metadesc</string></value></member><member><name>value</name><value><string>View H2O Plumbers service areas across George, Mossel Bay, Knysna, Oudtshoorn, Wilderness and nearby Garden Route suburbs.</string></value></member></struct></value>
+<value><struct><member><name>key</name><value><string>_yoast_wpseo_focuskw</string></value></member><member><name>value</name><value><string>plumber service areas Garden Route</string></value></member></struct></value>
+<value><struct><member><name>key</name><value><string>_yoast_wpseo_opengraph-title</string></value></member><member><name>value</name><value><string>H2O Plumbers Service Areas in the Garden Route</string></value></member></struct></value>
+<value><struct><member><name>key</name><value><string>_yoast_wpseo_opengraph-description</string></value></member><member><name>value</name><value><string>Local plumbing service coverage across George, Mossel Bay, Knysna, Oudtshoorn, Wilderness and nearby Garden Route areas.</string></value></member></struct></value>
+<value><struct><member><name>key</name><value><string>_yoast_wpseo_opengraph-image</string></value></member><member><name>value</name><value><string>https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg</string></value></member></struct></value>
+<value><struct><member><name>key</name><value><string>_yoast_wpseo_opengraph-image-id</string></value></member><member><name>value</name><value><string>6395</string></value></member></struct></value></data></array></value></member></struct></value></param>
+  </params>
+</methodCall>

@@ -1,0 +1,152 @@
+{
+  "pages": [
+    {
+      "slug": "general-plumbing-garden-route",
+      "status": 200,
+      "webpCount": 19,
+      "jpgCount": 0,
+      "yoastTitle": "General Plumbing Garden Route | H2O Plumbers",
+      "ogImage": null
+    },
+    {
+      "slug": "leak-detection-garden-route",
+      "status": 200,
+      "webpCount": 19,
+      "jpgCount": 0,
+      "yoastTitle": "Leak Detection Garden Route | H2O Plumbers",
+      "ogImage": null
+    },
+    {
+      "slug": "blocked-drains-garden-route",
+      "status": 200,
+      "webpCount": 19,
+      "jpgCount": 1,
+      "yoastTitle": "Blocked Drains Garden Route | H2O Plumbers",
+      "ogImage": "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-blocked-drains-garden-route-ai-02.jpg"
+    },
+    {
+      "slug": "core-drilling-garden-route",
+      "status": 200,
+      "webpCount": 19,
+      "jpgCount": 0,
+      "yoastTitle": "Core Drilling Garden Route | H2O Plumbers",
+      "ogImage": null
+    },
+    {
+      "slug": "drain-hydro-jetting-garden-route",
+      "status": 200,
+      "webpCount": 19,
+      "jpgCount": 0,
+      "yoastTitle": "Drain Hydro Jetting Garden Route | H2O Plumbers",
+      "ogImage": null
+    },
+    {
+      "slug": "bathroom-renovation-garden-route",
+      "status": 200,
+      "webpCount": 19,
+      "jpgCount": 0,
+      "yoastTitle": "Bathroom Renovation Garden Route | H2O Plumbers",
+      "ogImage": null
+    },
+    {
+      "slug": "toilet-installations-garden-route",
+      "status": 200,
+      "webpCount": 19,
+      "jpgCount": 0,
+      "yoastTitle": "Toilet Installations Garden Route | H2O Plumbers",
+      "ogImage": null
+    },
+    {
+      "slug": "french-drains-garden-route",
+      "status": 200,
+      "webpCount": 19,
+      "jpgCount": 0,
+      "yoastTitle": "French Drains Garden Route | H2O Plumbers",
+      "ogImage": null
+    },
+    {
+      "slug": "pipe-relining-garden-route",
+      "status": 200,
+      "webpCount": 19,
+      "jpgCount": 0,
+      "yoastTitle": "Pipe Relining Garden Route | H2O Plumbers",
+      "ogImage": null
+    },
+    {
+      "slug": "burst-pipe-repair-garden-route",
+      "status": 200,
+      "webpCount": 19,
+      "jpgCount": 0,
+      "yoastTitle": "Burst Pipe Repair Garden Route | H2O Plumbers",
+      "ogImage": null
+    },
+    {
+      "slug": "commercial-plumbing-garden-route",
+      "status": 200,
+      "webpCount": 19,
+      "jpgCount": 0,
+      "yoastTitle": "Commercial Plumbing Garden Route | H2O Plumbers",
+      "ogImage": null
+    },
+    {
+      "slug": "water-pressure-problems-garden-route",
+      "status": 200,
+      "webpCount": 19,
+      "jpgCount": 0,
+      "yoastTitle": "Water Pressure Problems Garden Route | H2O Plumbers",
+      "ogImage": null
+    }
+  ],
+  "hubHas12Links": true,
+  "mainMenuChildCount": 12,
+  "mainMenuChildren": [
+    {
+      "title": "Bathroom Renovation",
+      "url": "/services/bathroom-renovation-garden-route/"
+    },
+    {
+      "title": "Toilet Installations",
+      "url": "/services/toilet-installations-garden-route/"
+    },
+    {
+      "title": "French Drains",
+      "url": "/services/french-drains-garden-route/"
+    },
+    {
+      "title": "Pipe Relining",
+      "url": "/services/pipe-relining-garden-route/"
+    },
+    {
+      "title": "Burst Pipe Repair",
+      "url": "/services/burst-pipe-repair-garden-route/"
+    },
+    {
+      "title": "Commercial Plumbing",
+      "url": "/services/commercial-plumbing-garden-route/"
+    },
+    {
+      "title": "Water Pressure Problems",
+      "url": "/services/water-pressure-problems-garden-route/"
+    },
+    {
+      "title": "General Plumbing",
+      "url": "/services/general-plumbing-garden-route/"
+    },
+    {
+      "title": "Leak Detection",
+      "url": "/services/leak-detection-garden-route/"
+    },
+    {
+      "title": "Blocked Drains",
+      "url": "/services/blocked-drains-garden-route/"
+    },
+    {
+      "title": "Core Drilling",
+      "url": "/services/core-drilling-garden-route/"
+    },
+    {
+      "title": "Drain Hydro Jetting",
+      "url": "/services/drain-hydro-jetting-garden-route/"
+    }
+  ]
+}

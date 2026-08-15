@@ -1,0 +1,602 @@
+[
+  {
+    "id": "cd5afd7",
+    "widget": "heading",
+    "path": "/8c893f2/fcb3243/cd5afd7",
+    "settings": {
+      "title": "Reliable Plumbing Help Across the Garden Route"
+    }
+  },
+  {
+    "id": "a028392",
+    "widget": "text-editor",
+    "path": "/8c893f2/fcb3243/a028392",
+    "settings": {
+      "editor": "<p>The H2O Plumbers Garden Route team helps homes, businesses, guesthouses and rental properties with everyday plumbing, leak detection, blocked drains, core drilling and drain hydro jetting across George, Mossel Bay, Knysna, Oudtshoorn and nearby areas.</p>"
+    }
+  },
+  {
+    "id": "243d0ce",
+    "widget": "text-editor",
+    "path": "/8c893f2/594c392/50db817/243d0ce",
+    "settings": {
+      "editor": "<p>Need a Plumber?</p>"
+    }
+  },
+  {
+    "id": "fb30028",
+    "widget": "heading",
+    "path": "/8c893f2/594c392/50db817/fb30028",
+    "settings": {
+      "title": "Contact Us Now!"
+    }
+  },
+  {
+    "id": "800515f",
+    "widget": "global",
+    "path": "/8c893f2/594c392/800515f",
+    "settings": {
+      "button_text": "Call Me Back"
+    }
+  },
+  {
+    "id": "cb7266c",
+    "widget": "heading",
+    "path": "/322fb14/31bf6d4/cb7266c",
+    "settings": {
+      "title": "WHY CHOOSE US"
+    }
+  },
+  {
+    "id": "ad60050",
+    "widget": "heading",
+    "path": "/322fb14/31bf6d4/ad60050",
+    "settings": {
+      "title": "Practical Plumbing Support From a Local Garden Route Team"
+    }
+  },
+  {
+    "id": "48c4d42",
+    "widget": "text-editor",
+    "path": "/322fb14/31bf6d4/48c4d42",
+    "settings": {
+      "editor": "<p>Plumbing work should feel clear before anyone starts opening walls, clearing drains or changing fittings. H2O Plumbers focuses on practical fault finding, plain communication and neat service for homes, rental properties, guesthouses and businesses across the Garden Route.</p>"
+    }
+  },
+  {
+    "id": "16ef677",
+    "widget": "global",
+    "path": "/322fb14/31bf6d4/eb86f5a/16ef677",
+    "settings": {
+      "text": "072 651 4447",
+      "selected_icon": {
+        "value": "fas fa-phone-alt",
+        "library": "fa-solid"
+      }
+    }
+  },
+  {
+    "id": "7b7da30",
+    "widget": "global",
+    "path": "/322fb14/31bf6d4/eb86f5a/7b7da30",
+    "settings": {
+      "text": "WhatsApp Us",
+      "selected_icon": {
+        "value": "icon icon-whatsapp-1",
+        "library": "ekiticons"
+      }
+    }
+  },
+  {
+    "id": "39eba42",
+    "widget": "heading",
+    "path": "/b036eef/10ed2a9/39eba42",
+    "settings": {
+      "title": "WHY CHOOSE US"
+    }
+  },
+  {
+    "id": "d2d0889",
+    "widget": "heading",
+    "path": "/b036eef/10ed2a9/d2d0889",
+    "settings": {
+      "title": "Practical Plumbing Support From a Local Garden Route Team"
+    }
+  },
+  {
+    "id": "90d1208",
+    "widget": "text-editor",
+    "path": "/b036eef/10ed2a9/90d1208",
+    "settings": {
+      "editor": "<p>Plumbing work should feel clear before anyone starts opening walls, clearing drains or changing fittings. H2O Plumbers focuses on practical fault finding, plain communication and neat service for homes, rental properties, guesthouses and businesses across the Garden Route.</p>"
+    }
+  },
+  {
+    "id": "0d6ef74",
+    "widget": "global",
+    "path": "/b036eef/10ed2a9/1c0e013/0d6ef74",
+    "settings": {
+      "text": "072 651 4447",
+      "selected_icon": {
+        "value": "fas fa-phone-alt",
+        "library": "fa-solid"
+      }
+    }
+  },
+  {
+    "id": "39d3891",
+    "widget": "global",
+    "path": "/b036eef/10ed2a9/1c0e013/39d3891",
+    "settings": {
+      "text": "WhatsApp Us",
+      "selected_icon": {
+        "value": "icon icon-whatsapp-1",
+        "library": "ekiticons"
+      }
+    }
+  },
+  {
+    "id": "386797f",
+    "widget": "heading",
+    "path": "/e7a018d/386797f",
+    "settings": {
+      "title": "<b>OUR PROCESS</b>"
+    }
+  },
+  {
+    "id": "5f330f0",
+    "widget": "elementskit-heading",
+    "path": "/e7a018d/5f330f0",
+    "settings": {
+      "ekit_heading_title": "How H2O Plumbers Handles Each Job From First Call to Final Check",
+      "ekit_heading_sub_title": "Time has changed"
+    }
+  },
+  {
+    "id": "5ce4f31",
+    "widget": "icon-box",
+    "path": "/e7a018d/e4093f0/34d4191/5ce4f31",
+    "settings": {
+      "selected_icon": {
+        "value": "fas fa-clipboard-list",
+        "library": "fa-solid"
+      }
+    }
+  },
+  {
+    "id": "ade04b8",
+    "widget": "icon-box",
+    "path": "/e7a018d/e4093f0/34d4191/ade04b8",
+    "settings": {
+      "selected_icon": {
+        "value": "fas fa-pencil-alt",
+        "library": "fa-solid"
+      }
+    }
+  },
+  {
+    "id": "7d7f2f1",
+    "widget": "icon-box",
+    "path": "/e7a018d/e4093f0/34d4191/7d7f2f1",
+    "settings": {
+      "selected_icon": {
+        "value": "fas fa-tools",
+        "library": "fa-solid"
+      }
+    }
+  },
+  {
+    "id": "c3f8626",
+    "widget": "button",
+    "path": "/e7a018d/dfff9d2/c3f8626",
+    "settings": {
+      "text": "Call Us Now",
+      "selected_icon": {
+        "value": "icon icon-right-arrow",
+        "library": "ekiticons"
+      }
+    }
+  },
+  {
+    "id": "ae23633",
+    "widget": "heading",
+    "path": "/5dda721/ae23633",
+    "settings": {
+      "title": "COMMON PROBLEMS"
+    }
+  },
+  {
+    "id": "60de8a3",
+    "widget": "elementskit-heading",
+    "path": "/5dda721/60de8a3",
+    "settings": {
+      "ekit_heading_title": "Common Plumbing Problems H2O Plumbers Helps With",
+      "ekit_heading_sub_title": "Time has changed"
+    }
+  },
+  {
+    "id": "fbe534b",
+    "widget": "icon-box",
+    "path": "/5dda721/54b32e9/fbe534b",
+    "settings": {
+      "selected_icon": {
+        "value": "fas fa-tint",
+        "library": "fa-solid"
+      }
+    }
+  },
+  {
+    "id": "7365a61",
+    "widget": "icon-box",
+    "path": "/5dda721/54b32e9/7365a61",
+    "settings": {
+      "selected_icon": {
+        "value": "fas fa-water",
+        "library": "fa-solid"
+      }
+    }
+  },
+  {
+    "id": "5a32a4d",
+    "widget": "icon-box",
+    "path": "/5dda721/54b32e9/5a32a4d",
+    "settings": {
+      "selected_icon": {
+        "value": "fas fa-tools",
+        "library": "fa-solid"
+      }
+    }
+  },
+  {
+    "id": "f7ae970",
+    "widget": "icon-box",
+    "path": "/5dda721/54b32e9/f7ae970",
+    "settings": {
+      "selected_icon": {
+        "value": "fas fa-tachometer-alt",
+        "library": "fa-solid"
+      }
+    }
+  },
+  {
+    "id": "dad2408",
+    "widget": "heading",
+    "path": "/8cdc84b/dad2408",
+    "settings": {
+      "title": "TESTIMONIALS"
+    }
+  },
+  {
+    "id": "deb445d",
+    "widget": "elementskit-heading",
+    "path": "/8cdc84b/deb445d",
+    "settings": {
+      "ekit_heading_title": "What Garden Route Customers Say About H2O Plumbers",
+      "ekit_heading_sub_title": "Time has changed"
+    }
+  },
+  {
+    "id": "d3267a8",
+    "widget": "heading",
+    "path": "/8cdc84b/2a24202/0f13815/d3267a8",
+    "settings": {
+      "title": "Dummy Review 1"
+    }
+  },
+  {
+    "id": "6968c98",
+    "widget": "text-editor",
+    "path": "/8cdc84b/2a24202/0f13815/6968c98",
+    "settings": {
+      "editor": "<p>\"This is dummy review copy for layout review only. It will be replaced with an approved Google review or real customer testimonial before the website is treated as client-ready.\"</p>"
+    }
+  },
+  {
+    "id": "45c72f6",
+    "widget": "heading",
+    "path": "/8cdc84b/2a24202/4f470fe/45c72f6",
+    "settings": {
+      "title": "Dummy Review 2"
+    }
+  },
+  {
+    "id": "c78390a",
+    "widget": "text-editor",
+    "path": "/8cdc84b/2a24202/4f470fe/c78390a",
+    "settings": {
+      "editor": "<p>\"This placeholder shows how a short customer review will sit inside the testimonial card. Final wording must come from an approved review source, not invented feedback.\"</p>"
+    }
+  },
+  {
+    "id": "9e64e2b",
+    "widget": "heading",
+    "path": "/8cdc84b/2a24202/54d15ba/9e64e2b",
+    "settings": {
+      "title": "Dummy Review 3"
+    }
+  },
+  {
+    "id": "b146dae",
+    "widget": "text-editor",
+    "path": "/8cdc84b/2a24202/54d15ba/b146dae",
+    "settings": {
+      "editor": "<p>\"This dummy testimonial keeps the section structure visible while the Google reviews are pending. Replace it with a verified review once the review source is confirmed.\"</p>"
+    }
+  },
+  {
+    "id": "8c6cd38",
+    "widget": "heading",
+    "path": "/aa69916/5a5ede9/8c6cd38",
+    "settings": {
+      "title": "<b>SERVICE GUARANTEES</b>"
+    }
+  },
+  {
+    "id": "780caa5",
+    "widget": "elementskit-heading",
+    "path": "/aa69916/5a5ede9/780caa5",
+    "settings": {
+      "ekit_heading_title": "Service Standards That Matter Once Work Starts",
+      "ekit_heading_sub_title": "Time has changed"
+    }
+  },
+  {
+    "id": "68b1cf1",
+    "widget": "icon-box",
+    "path": "/aa69916/5a5ede9/4253d55/09ca1e1/68b1cf1",
+    "settings": {
+      "selected_icon": {
+        "library": "fa-solid",
+        "value": "fas fa-map-marker-alt"
+      }
+    }
+  },
+  {
+    "id": "84bec0c",
+    "widget": "icon-box",
+    "path": "/aa69916/5a5ede9/4253d55/c8b6dd9/84bec0c",
+    "settings": {
+      "selected_icon": {
+        "library": "fa-solid",
+        "value": "fas fa-shield-alt"
+      }
+    }
+  },
+  {
+    "id": "7b4adf7",
+    "widget": "icon-box",
+    "path": "/aa69916/5a5ede9/4253d55/696607e/7b4adf7",
+    "settings": {
+      "selected_icon": {
+        "library": "fa-solid",
+        "value": "fas fa-user-check"
+      }
+    }
+  },
+  {
+    "id": "bfe2683",
+    "widget": "heading",
+    "path": "/5379a55/bfe2683",
+    "settings": {
+      "title": "GOT QUESTIONS?"
+    }
+  },
+  {
+    "id": "fa6a362",
+    "widget": "elementskit-heading",
+    "path": "/5379a55/fa6a362",
+    "settings": {
+      "ekit_heading_title": "Questions Homeowners and Businesses Often Ask",
+      "ekit_heading_sub_title": "Time has changed"
+    }
+  },
+  {
+    "id": "77c725d",
+    "widget": "text-editor",
+    "path": "/5379a55/9b703bb/07bf7ec/77c725d",
+    "settings": {
+      "editor": "<p>Before booking, note where the problem starts, how long it has been happening and whether more than one tap, drain or fixture is affected. These details help H2O Plumbers understand whether it sounds like a leak, blockage, fixture fault or pressure issue.</p>"
+    }
+  },
+  {
+    "id": "52b33c5",
+    "widget": "text-editor",
+    "path": "/5379a55/9b703bb/f670e8d/52b33c5",
+    "settings": {
+      "editor": "<p>Leak detection is worth arranging when you notice damp walls, wet cupboards, mould smells, unexplained water use, pressure drops or a meter that moves while taps are closed. Those signs can point to a hidden pipe leak that should be traced before more damage develops.</p>"
+    }
+  },
+  {
+    "id": "4b3d608",
+    "widget": "text-editor",
+    "path": "/5379a55/9b703bb/7828241/4b3d608",
+    "settings": {
+      "editor": "<p>A drain that keeps blocking may have grease build-up, root entry, pipe damage, poor fall or a deeper obstruction in the line. Repeated chemical clearing can hide the problem for a short time, but it usually does not deal with the cause.</p>"
+    }
+  },
+  {
+    "id": "3c037e4",
+    "widget": "text-editor",
+    "path": "/5379a55/9b703bb/51dd10c/3c037e4",
+    "settings": {
+      "editor": "<p>Drain hydro jetting is useful when ordinary drain clearing does not remove the build-up properly. High-pressure water can help clean grease, sludge, debris and some root-related obstruction from the inside of the pipe so flow is restored more thoroughly.</p>"
+    }
+  },
+  {
+    "id": "8c303b5",
+    "widget": "text-editor",
+    "path": "/5379a55/9b703bb/e2d6a31/8c303b5",
+    "settings": {
+      "editor": "<p>Yes. H2O Plumbers works with residential and commercial clients across the Garden Route, including homes, offices, rental properties, guesthouses and business premises. The team helps with general plumbing, leak detection, blocked drains, core drilling support and drain hydro jetting.</p>"
+    }
+  },
+  {
+    "id": "97fa801",
+    "widget": "heading",
+    "path": "/adfae7c/48f6af6/97fa801",
+    "settings": {
+      "title": "SERVICE AREAS"
+    }
+  },
+  {
+    "id": "f2a9f85",
+    "widget": "elementskit-heading",
+    "path": "/adfae7c/48f6af6/f2a9f85",
+    "settings": {
+      "ekit_heading_title": "H2O Plumbers Garden Route Service Areas",
+      "ekit_heading_sub_title": "Time has changed"
+    }
+  },
+  {
+    "id": "09cb4b3",
+    "widget": "heading",
+    "path": "/adfae7c/48f6af6/61f3182/7dbe426/09cb4b3",
+    "settings": {
+      "title": "George"
+    }
+  },
+  {
+    "id": "31d1f8a",
+    "widget": "text-editor",
+    "path": "/adfae7c/48f6af6/61f3182/7dbe426/31d1f8a",
+    "settings": {
+      "editor": "<p>George homes and businesses can call H2O Plumbers for everyday plumbing, leak detection, blocked drains and drainage support. From residential repairs to commercial maintenance, the focus stays on clear communication and neat work.</p>"
+    }
+  },
+  {
+    "id": "93ac44f",
+    "widget": "button",
+    "path": "/adfae7c/48f6af6/61f3182/7dbe426/93ac44f",
+    "settings": {
+      "text": "Plumber in George",
+      "selected_icon": {
+        "value": "icon icon-right-arrow",
+        "library": "ekiticons"
+      }
+    }
+  },
+  {
+    "id": "aff157d",
+    "widget": "heading",
+    "path": "/adfae7c/48f6af6/61f3182/a051f98/aff157d",
+    "settings": {
+      "title": "Mossel Bay"
+    }
+  },
+  {
+    "id": "d3236a3",
+    "widget": "text-editor",
+    "path": "/adfae7c/48f6af6/61f3182/a051f98/d3236a3",
+    "settings": {
+      "editor": "<p>In Mossel Bay, H2O Plumbers assists with hidden leak checks, general plumbing repairs, blocked drain clearing and planned pipework. The team keeps the process practical for coastal homes, rentals and business properties.</p>"
+    }
+  },
+  {
+    "id": "ea47b59",
+    "widget": "button",
+    "path": "/adfae7c/48f6af6/61f3182/a051f98/ea47b59",
+    "settings": {
+      "text": "Plumber in Mossel Bay",
+      "selected_icon": {
+        "value": "icon icon-right-arrow",
+        "library": "ekiticons"
+      }
+    }
+  },
+  {
+    "id": "4972953",
+    "widget": "heading",
+    "path": "/adfae7c/48f6af6/61f3182/02c8e9d/4972953",
+    "settings": {
+      "title": "Knysna"
+    }
+  },
+  {
+    "id": "a63d7d3",
+    "widget": "text-editor",
+    "path": "/adfae7c/48f6af6/61f3182/02c8e9d/a63d7d3",
+    "settings": {
+      "editor": "<p>Knysna properties often need careful plumbing support because access, moisture and coastal conditions can affect how problems show. H2O Plumbers helps with leak detection, drainage issues and general repairs for homes, guesthouses and businesses.</p>"
+    }
+  },
+  {
+    "id": "70458e2",
+    "widget": "button",
+    "path": "/adfae7c/48f6af6/61f3182/02c8e9d/70458e2",
+    "settings": {
+      "text": "Plumber in Knysna",
+      "selected_icon": {
+        "value": "icon icon-right-arrow",
+        "library": "ekiticons"
+      }
+    }
+  },
+  {
+    "id": "c117667",
+    "widget": "heading",
+    "path": "/adfae7c/48f6af6/61f3182/fdb2a19/c117667",
+    "settings": {
+      "title": "Oudtshoorn"
+    }
+  },
+  {
+    "id": "77d1277",
+    "widget": "text-editor",
+    "path": "/adfae7c/48f6af6/61f3182/fdb2a19/77d1277",
+    "settings": {
+      "editor": "<p>Oudtshoorn clients can contact H2O Plumbers for pipe repairs, fixture faults, blocked drains and service access work. The team brings practical tools and clear advice for residential and commercial plumbing needs.</p>"
+    }
+  },
+  {
+    "id": "61068aa",
+    "widget": "button",
+    "path": "/adfae7c/48f6af6/61f3182/fdb2a19/61068aa",
+    "settings": {
+      "text": "Plumber in Oudtshoorn",
+      "selected_icon": {
+        "value": "icon icon-right-arrow",
+        "library": "ekiticons"
+      }
+    }
+  },
+  {
+    "id": "d342891",
+    "widget": "heading",
+    "path": "/adfae7c/48f6af6/61f3182/f86aec5/d342891",
+    "settings": {
+      "title": "Wilderness"
+    }
+  },
+  {
+    "id": "17e30e4",
+    "widget": "text-editor",
+    "path": "/adfae7c/48f6af6/61f3182/f86aec5/17e30e4",
+    "settings": {
+      "editor": "<p>Wilderness properties can get help with general plumbing, leak checks, drain problems and hydro jetting where needed. H2O Plumbers keeps the work straightforward, tidy and suited to the local service area.</p>"
+    }
+  },
+  {
+    "id": "db116d2",
+    "widget": "button",
+    "path": "/adfae7c/48f6af6/61f3182/f86aec5/db116d2",
+    "settings": {
+      "text": "Plumber in Wilderness",
+      "selected_icon": {
+        "value": "icon icon-right-arrow",
+        "library": "ekiticons"
+      }
+    }
+  },
+  {
+    "id": "43cf741",
+    "widget": "button",
+    "path": "/adfae7c/48f6af6/348bf72/43cf741",
+    "settings": {
+      "text": "More Service Areas",
+      "selected_icon": {
+        "value": "icon icon-right-arrow",
+        "library": "ekiticons"
+      }
+    }
+  }
+]

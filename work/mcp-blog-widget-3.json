@@ -1,0 +1,18 @@
+{
+    "method":  "tools/call",
+    "params":  {
+                   "arguments":  {
+                                     "parent_id":  "34688a2",
+                                     "number_of_items":  5,
+                                     "submit_trigger":  "button",
+                                     "search_input_placeholder_text":  "Search plumbing articles",
+                                     "submit_button_text":  "Search",
+                                     "post_id":  6425,
+                                     "live_results":  "yes",
+                                     "position":  -1
+                                 },
+                   "name":  "elementor-mcp-add-search"
+               },
+    "id":  3,
+    "jsonrpc":  "2.0"
+}

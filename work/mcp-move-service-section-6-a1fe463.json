@@ -1,0 +1,1 @@
+{"jsonrpc":"2.0","id":46,"method":"tools/call","params":{"name":"elementor-mcp-move-element","arguments":{"post_id":6077,"element_id":"a1fe463","target_parent_id":"","position":6}}}

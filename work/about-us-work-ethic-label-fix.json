@@ -1,0 +1,37 @@
+﻿{
+  "post_id": 6606,
+  "operations": [
+    {
+      "element_id": "780caa5",
+      "settings": {
+        "_title": "About Work Ethic Heading",
+        "css_classes": "barry-field barry-heading about-work-ethic-heading",
+        "_css_classes": "barry-field barry-heading about-work-ethic-heading"
+      }
+    },
+    {
+      "element_id": "68b1cf1",
+      "settings": {
+        "_title": "About Work Ethic Card - Practical Fault Finding",
+        "css_classes": "barry-field barry-icon-box about-work-ethic-card",
+        "_css_classes": "barry-field barry-icon-box about-work-ethic-card"
+      }
+    },
+    {
+      "element_id": "84bec0c",
+      "settings": {
+        "_title": "About Work Ethic Card - Respectful Work Areas",
+        "css_classes": "barry-field barry-icon-box about-work-ethic-card",
+        "_css_classes": "barry-field barry-icon-box about-work-ethic-card"
+      }
+    },
+    {
+      "element_id": "7b4adf7",
+      "settings": {
+        "_title": "About Work Ethic Card - Plain Next Steps",
+        "css_classes": "barry-field barry-icon-box about-work-ethic-card",
+        "_css_classes": "barry-field barry-icon-box about-work-ethic-card"
+      }
+    }
+  ]
+}

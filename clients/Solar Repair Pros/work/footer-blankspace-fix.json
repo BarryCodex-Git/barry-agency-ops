@@ -1,0 +1,95 @@
+﻿{
+    "post_id":  2805,
+    "operations":  [
+                       {
+                           "element_id":  "74a3309",
+                           "settings":  {
+                                            "gap":  {
+                                                        "size":  22,
+                                                        "sizes":  [
+
+                                                                  ],
+                                                        "unit":  "px"
+                                                    },
+                                            "justify_content":  "center",
+                                            "align_items":  "stretch",
+                                            "min_height":  {
+                                                               "size":  0,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "px"
+                                                           },
+                                            "padding":  {
+                                                            "left":  "20",
+                                                            "bottom":  "42",
+                                                            "top":  "42",
+                                                            "right":  "20",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        },
+                                            "height":  "default"
+                                        }
+                       },
+                       {
+                           "element_id":  "494944d",
+                           "settings":  {
+                                            "padding":  {
+                                                            "left":  "24",
+                                                            "bottom":  "24",
+                                                            "top":  "24",
+                                                            "right":  "24",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        }
+                                        }
+                       },
+                       {
+                           "element_id":  "8a09197",
+                           "settings":  {
+                                            "padding":  {
+                                                            "left":  "24",
+                                                            "bottom":  "24",
+                                                            "top":  "24",
+                                                            "right":  "24",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        }
+                                        }
+                       },
+                       {
+                           "element_id":  "5ff9ff8",
+                           "settings":  {
+                                            "padding":  {
+                                                            "left":  "24",
+                                                            "bottom":  "24",
+                                                            "top":  "24",
+                                                            "right":  "24",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        }
+                                        }
+                       },
+                       {
+                           "element_id":  "b7f5710",
+                           "settings":  {
+                                            "min_height":  {
+                                                               "size":  0,
+                                                               "sizes":  [
+
+                                                                         ],
+                                                               "unit":  "px"
+                                                           },
+                                            "height":  "default",
+                                            "padding":  {
+                                                            "left":  "20",
+                                                            "bottom":  "18",
+                                                            "top":  "18",
+                                                            "right":  "20",
+                                                            "isLinked":  false,
+                                                            "unit":  "px"
+                                                        }
+                                        }
+                       }
+                   ]
+}

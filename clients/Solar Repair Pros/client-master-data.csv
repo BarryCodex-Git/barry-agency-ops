@@ -1,0 +1,25 @@
+Field,Value,Notes
+Client Name,Solar Repair Pros,
+Company Name,Solar Repair Pros,
+Website URL,https://dev2.mynewwebsite.co.za/,
+WordPress Login URL Or Bookmark,https://dev2.mynewwebsite.co.za/wp-admin/,
+Barry WordPress Username,barry,Do not store password here
+Password Location,secrets/development-2-elementor-mcp.json,Windows DPAPI encrypted
+Main Service,Solar repair,
+Primary Location,"Dallas-Fort Worth, TX",
+Primary Services,"Solar Panel Repairs; Solar Panel Servicing; Solar Battery Add-ons; Electrical Panel Upgrades; EV Charger Installs",
+Additional Services,None supplied,
+Phone,804-928-2768,
+Email,info@solarrepairdfw.com,
+WhatsApp,Not applicable,
+Proposed Form Recipient,info@solarrepairdfw.com,Requires approval before changing form settings
+Logo File Path,Solar Repair Pros Logo small.png,
+Favicon Source,Use logo,
+Master Source,https://mynewwebsite.co.za/,
+Target Domain,dev2.mynewwebsite.co.za,
+Permalink Setting,Pretty URLs active,Dashboard setting not independently confirmed
+Primary Brand Color,#15325E,Candidate extracted from logo
+Secondary Brand Color,#ed5e22,User approved
+Text Color,#000000,Barry standard
+Primary SEO Keyphrase,Solar Repair in Dallas Fort Worth,
+Review Status,Pre-check passed,

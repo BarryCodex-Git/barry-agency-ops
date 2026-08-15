@@ -1,0 +1,128 @@
+{
+  "post_id": 2747,
+  "operations": [
+    {
+      "element_id": "f07529f",
+      "settings": {
+        "title": "HOW WE HELP",
+        "title_color": "#0B254D",
+        "_background_color": "#F27A1D",
+        "_border_color": "#F27A1D"
+      }
+    },
+    {
+      "element_id": "755294c",
+      "settings": {
+        "ekit_heading_title": "Choose the Right Kind of Solar Help",
+        "ekit_heading_extra_title": "<p>Whether your system needs repair, an independent inspection, battery planning, electrical capacity, or an EV charging circuit, the first step is the same: get a clear explanation before spending more money.</p>",
+        "ekit_heading_title_color": "#0B254D",
+        "ekit_heading_seperator_color": "#F27A1D",
+        "ekit_heading_sub_title": ""
+      }
+    },
+    {
+      "element_id": "510a4a8",
+      "settings": {
+        "image": {
+          "id": 6605,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/solar-repair-pros-solar-panel-diagnostics-dfw-support-ai-01.webp",
+          "alt": "Solar repair technician checking rooftop solar equipment for a Dallas-Fort Worth homeowner",
+          "source": "library",
+          "size": "full"
+        }
+      }
+    },
+    {
+      "element_id": "802107b",
+      "settings": {
+        "editor": "<p>If production dropped, alerts keep returning, or the original installer is gone, we help identify the likely fault and explain the next practical repair step.</p>"
+      }
+    },
+    {
+      "element_id": "aa65912",
+      "settings": {
+        "image": {
+          "id": 6709,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/solar-repair-pros-technician-tablet-square-1000.jpg",
+          "alt": "Solar technician reviewing system information for an inspection report",
+          "source": "library",
+          "size": "full"
+        },
+        "link": {
+          "url": "",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+        }
+      }
+    },
+    {
+      "element_id": "ee78782",
+      "settings": {
+        "editor": "<p>Independent solar system inspections help owners, buyers, sellers, and legal teams understand visible condition, system concerns, and sensible next steps.</p>"
+      }
+    },
+    {
+      "element_id": "0182563",
+      "settings": {
+        "image": {
+          "id": 6707,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/solar-repair-pros-battery-electrical-square-1000.jpg",
+          "alt": "Solar battery and electrical equipment being reviewed for a Dallas-Fort Worth property",
+          "source": "library",
+          "size": "full"
+        },
+        "link": {
+          "url": "",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+        }
+      }
+    },
+    {
+      "element_id": "f2fd9dc",
+      "settings": {
+        "editor": "<p>Battery planning starts with the system you already own, how much backup you expect, and whether the existing inverter and electrical setup can support the plan.</p>"
+      }
+    },
+    {
+      "element_id": "a86c922",
+      "settings": {
+        "image": {
+          "id": 6680,
+          "url": "https://dev2.mynewwebsite.co.za/wp-content/uploads/2026/06/solar-repair-pros-battery-electrical-inspection-dfw-ai-01.png",
+          "alt": "Technician reviewing solar and electrical equipment for panel capacity planning",
+          "source": "library",
+          "size": "full"
+        },
+        "link": {
+          "url": "",
+          "is_external": "",
+          "nofollow": "",
+          "custom_attributes": ""
+        }
+      }
+    },
+    {
+      "element_id": "37ad860",
+      "settings": {
+        "editor": "<p>Panel upgrades are planned around real capacity needs, not assumptions. We help clarify whether solar, battery, or EV charging work needs electrical changes first.</p>"
+      }
+    },
+    {
+      "element_id": "d24a459",
+      "settings": {
+        "editor": "<p>Home EV charging should match the vehicle, parking location, daily mileage, and panel capacity so the installation is practical from day one.</p>"
+      }
+    },
+    {
+      "element_id": "e84e5f6",
+      "settings": {
+        "text": "View All Solar Help",
+        "background_color": "#F27A1D",
+        "button_text_color": "#FFFFFF"
+      }
+    }
+  ]
+}

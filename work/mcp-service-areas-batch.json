@@ -1,0 +1,358 @@
+{
+    "method":  "tools/call",
+    "params":  {
+                   "arguments":  {
+                                     "post_id":  2747,
+                                     "operations":  [
+                                                        {
+                                                            "element_id":  "adfae7c",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Areas Section",
+                                                                             "_element_id":  "home-service-areas",
+                                                                             "_css_classes":  "barry-section barry-home-section barry-service-areas",
+                                                                             "css_classes":  "barry-section barry-home-section barry-service-areas"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "48f6af6",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Areas Inner"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "97fa801",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Areas Eyebrow",
+                                                                             "title":  "SERVICE AREAS",
+                                                                             "_css_classes":  "barry-field barry-heading home-service-areas-eyebrow",
+                                                                             "css_classes":  "barry-field barry-heading home-service-areas-eyebrow"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "f2a9f85",
+                                                            "settings":  {
+                                                                             "ekit_heading_title":  "Plumbing Services Across the Garden Route",
+                                                                             "_title":  "Home Service Areas Heading",
+                                                                             "ekit_heading_extra_title":  "\u003cp\u003eH2O Plumbers works across George, Mossel Bay, Knysna, Oudtshoorn, Wilderness and nearby Garden Route areas, helping homes and businesses with practical plumbing, leak detection, blocked drains, core drilling and drain hydro jetting.\u003c/p\u003e",
+                                                                             "_css_classes":  "barry-field barry-heading home-service-areas-heading",
+                                                                             "css_classes":  "barry-field barry-heading home-service-areas-heading"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "61f3182",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Areas Cards Row",
+                                                                             "_css_classes":  "barry-card-row home-service-areas-cards",
+                                                                             "css_classes":  "barry-card-row home-service-areas-cards"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "7dbe426",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area Card 01",
+                                                                             "_css_classes":  "barry-service-area-card home-service-area-card home-service-area-card-01",
+                                                                             "css_classes":  "barry-service-area-card home-service-area-card home-service-area-card-01"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "2cbee7d",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 01 Image",
+                                                                             "image":  {
+                                                                                           "alt":  "George and the Outeniqua Mountains for plumber services in George",
+                                                                                           "size":  "full",
+                                                                                           "url":  "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-george-service-area-ai-01.jpg",
+                                                                                           "id":  6395,
+                                                                                           "source":  "library"
+                                                                                       },
+                                                                             "_css_classes":  "barry-field barry-image home-service-area-card-image",
+                                                                             "css_classes":  "barry-field barry-image home-service-area-card-image"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "09cb4b3",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 01 Title",
+                                                                             "title":  "George",
+                                                                             "_css_classes":  "barry-field barry-heading home-service-area-card-title",
+                                                                             "css_classes":  "barry-field barry-heading home-service-area-card-title"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "31d1f8a",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 01 Copy",
+                                                                             "editor":  "\u003cp\u003eH2O Plumbers helps homes and businesses in George with practical plumbing, leak detection, blocked drains, core drilling and drain hydro jetting. From everyday repairs to urgent drainage issues, the team keeps the work clear, neat and locally responsive.\u003c/p\u003e",
+                                                                             "_css_classes":  "barry-field barry-copy home-service-area-card-copy",
+                                                                             "css_classes":  "barry-field barry-copy home-service-area-card-copy"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "93ac44f",
+                                                            "settings":  {
+                                                                             "text":  "Plumber in George",
+                                                                             "_title":  "Home Service Area 01 CTA",
+                                                                             "link":  {
+                                                                                          "custom_attributes":  "",
+                                                                                          "url":  "#",
+                                                                                          "is_external":  "",
+                                                                                          "nofollow":  ""
+                                                                                      },
+                                                                             "_css_classes":  "barry-field barry-cta home-service-area-card-cta",
+                                                                             "css_classes":  "barry-field barry-cta home-service-area-card-cta"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "a051f98",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area Card 02",
+                                                                             "_css_classes":  "barry-service-area-card home-service-area-card home-service-area-card-02",
+                                                                             "css_classes":  "barry-service-area-card home-service-area-card home-service-area-card-02"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "400d819",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 02 Image",
+                                                                             "image":  {
+                                                                                           "alt":  "Mossel Bay coastline for plumber services in Mossel Bay",
+                                                                                           "size":  "full",
+                                                                                           "url":  "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-mossel-bay-service-area-ai-01.jpg",
+                                                                                           "id":  6396,
+                                                                                           "source":  "library"
+                                                                                       },
+                                                                             "_css_classes":  "barry-field barry-image home-service-area-card-image",
+                                                                             "css_classes":  "barry-field barry-image home-service-area-card-image"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "aff157d",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 02 Title",
+                                                                             "title":  "Mossel Bay",
+                                                                             "_css_classes":  "barry-field barry-heading home-service-area-card-title",
+                                                                             "css_classes":  "barry-field barry-heading home-service-area-card-title"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "d3236a3",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 02 Copy",
+                                                                             "editor":  "\u003cp\u003eFor properties in Mossel Bay, H2O Plumbers supports general plumbing repairs, hidden leak checks, blocked drain clearing and planned plumbing work. The service stays practical and straightforward, with clear communication before work starts.\u003c/p\u003e",
+                                                                             "_css_classes":  "barry-field barry-copy home-service-area-card-copy",
+                                                                             "css_classes":  "barry-field barry-copy home-service-area-card-copy"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "ea47b59",
+                                                            "settings":  {
+                                                                             "text":  "Plumber in Mossel Bay",
+                                                                             "_title":  "Home Service Area 02 CTA",
+                                                                             "link":  {
+                                                                                          "custom_attributes":  "",
+                                                                                          "url":  "#",
+                                                                                          "is_external":  "",
+                                                                                          "nofollow":  ""
+                                                                                      },
+                                                                             "_css_classes":  "barry-field barry-cta home-service-area-card-cta",
+                                                                             "css_classes":  "barry-field barry-cta home-service-area-card-cta"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "02c8e9d",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area Card 03",
+                                                                             "_css_classes":  "barry-service-area-card home-service-area-card home-service-area-card-03",
+                                                                             "css_classes":  "barry-service-area-card home-service-area-card home-service-area-card-03"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "f8fe57c",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 03 Image",
+                                                                             "image":  {
+                                                                                           "alt":  "Knysna Lagoon and Heads for plumber services in Knysna",
+                                                                                           "size":  "full",
+                                                                                           "url":  "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-knysna-service-area-ai-01.jpg",
+                                                                                           "id":  6397,
+                                                                                           "source":  "library"
+                                                                                       },
+                                                                             "_css_classes":  "barry-field barry-image home-service-area-card-image",
+                                                                             "css_classes":  "barry-field barry-image home-service-area-card-image"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "4972953",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 03 Title",
+                                                                             "title":  "Knysna",
+                                                                             "_css_classes":  "barry-field barry-heading home-service-area-card-title",
+                                                                             "css_classes":  "barry-field barry-heading home-service-area-card-title"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "a63d7d3",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 03 Copy",
+                                                                             "editor":  "\u003cp\u003eH2O Plumbers assists Knysna homes, guesthouses and businesses with plumbing repairs, leak detection and drainage problems. The team focuses on careful fault finding, tidy work areas and solutions that suit local coastal properties.\u003c/p\u003e",
+                                                                             "_css_classes":  "barry-field barry-copy home-service-area-card-copy",
+                                                                             "css_classes":  "barry-field barry-copy home-service-area-card-copy"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "70458e2",
+                                                            "settings":  {
+                                                                             "text":  "Plumber in Knysna",
+                                                                             "_title":  "Home Service Area 03 CTA",
+                                                                             "link":  {
+                                                                                          "custom_attributes":  "",
+                                                                                          "url":  "#",
+                                                                                          "is_external":  "",
+                                                                                          "nofollow":  ""
+                                                                                      },
+                                                                             "_css_classes":  "barry-field barry-cta home-service-area-card-cta",
+                                                                             "css_classes":  "barry-field barry-cta home-service-area-card-cta"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "fdb2a19",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area Card 04",
+                                                                             "_css_classes":  "barry-service-area-card home-service-area-card home-service-area-card-04",
+                                                                             "css_classes":  "barry-service-area-card home-service-area-card home-service-area-card-04"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "02198d1",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 04 Image",
+                                                                             "image":  {
+                                                                                           "alt":  "Klein Karoo landscape for plumber services in Oudtshoorn",
+                                                                                           "size":  "full",
+                                                                                           "url":  "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-oudtshoorn-service-area-ai-01.jpg",
+                                                                                           "id":  6398,
+                                                                                           "source":  "library"
+                                                                                       },
+                                                                             "_css_classes":  "barry-field barry-image home-service-area-card-image",
+                                                                             "css_classes":  "barry-field barry-image home-service-area-card-image"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "c117667",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 04 Title",
+                                                                             "title":  "Oudtshoorn",
+                                                                             "_css_classes":  "barry-field barry-heading home-service-area-card-title",
+                                                                             "css_classes":  "barry-field barry-heading home-service-area-card-title"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "77d1277",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 04 Copy",
+                                                                             "editor":  "\u003cp\u003eIn Oudtshoorn, H2O Plumbers helps with plumbing repairs, pipework, drain issues and service access where reliable workmanship matters. The team brings practical advice and the right tools for homes and business properties.\u003c/p\u003e",
+                                                                             "_css_classes":  "barry-field barry-copy home-service-area-card-copy",
+                                                                             "css_classes":  "barry-field barry-copy home-service-area-card-copy"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "61068aa",
+                                                            "settings":  {
+                                                                             "text":  "Plumber in Oudtshoorn",
+                                                                             "_title":  "Home Service Area 04 CTA",
+                                                                             "link":  {
+                                                                                          "custom_attributes":  "",
+                                                                                          "url":  "#",
+                                                                                          "is_external":  "",
+                                                                                          "nofollow":  ""
+                                                                                      },
+                                                                             "_css_classes":  "barry-field barry-cta home-service-area-card-cta",
+                                                                             "css_classes":  "barry-field barry-cta home-service-area-card-cta"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "f86aec5",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area Card 05",
+                                                                             "_css_classes":  "barry-service-area-card home-service-area-card home-service-area-card-05",
+                                                                             "css_classes":  "barry-service-area-card home-service-area-card home-service-area-card-05"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "73decc2",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 05 Image",
+                                                                             "image":  {
+                                                                                           "alt":  "Wilderness beach and lagoon for plumber services in Wilderness",
+                                                                                           "size":  "full",
+                                                                                           "url":  "https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/06/h2o-plumbers-plumber-wilderness-service-area-ai-01.jpg",
+                                                                                           "id":  6399,
+                                                                                           "source":  "library"
+                                                                                       },
+                                                                             "_css_classes":  "barry-field barry-image home-service-area-card-image",
+                                                                             "css_classes":  "barry-field barry-image home-service-area-card-image"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "d342891",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 05 Title",
+                                                                             "title":  "Wilderness",
+                                                                             "_css_classes":  "barry-field barry-heading home-service-area-card-title",
+                                                                             "css_classes":  "barry-field barry-heading home-service-area-card-title"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "17e30e4",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Area 05 Copy",
+                                                                             "editor":  "\u003cp\u003eH2O Plumbers serves Wilderness properties with general plumbing, leak detection, blocked drain support and drain hydro jetting where needed. The aim is simple: useful communication, neat work and dependable local plumbing help.\u003c/p\u003e",
+                                                                             "_css_classes":  "barry-field barry-copy home-service-area-card-copy",
+                                                                             "css_classes":  "barry-field barry-copy home-service-area-card-copy"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "db116d2",
+                                                            "settings":  {
+                                                                             "text":  "Plumber in Wilderness",
+                                                                             "_title":  "Home Service Area 05 CTA",
+                                                                             "link":  {
+                                                                                          "custom_attributes":  "",
+                                                                                          "url":  "#",
+                                                                                          "is_external":  "",
+                                                                                          "nofollow":  ""
+                                                                                      },
+                                                                             "_css_classes":  "barry-field barry-cta home-service-area-card-cta",
+                                                                             "css_classes":  "barry-field barry-cta home-service-area-card-cta"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "348bf72",
+                                                            "settings":  {
+                                                                             "_title":  "Home Service Areas CTA Row",
+                                                                             "_css_classes":  "barry-cta-row home-service-areas-cta-row",
+                                                                             "css_classes":  "barry-cta-row home-service-areas-cta-row"
+                                                                         }
+                                                        },
+                                                        {
+                                                            "element_id":  "43cf741",
+                                                            "settings":  {
+                                                                             "text":  "View All Service Areas",
+                                                                             "_title":  "Home Service Areas Primary CTA",
+                                                                             "link":  {
+                                                                                          "custom_attributes":  "",
+                                                                                          "url":  "#",
+                                                                                          "is_external":  "",
+                                                                                          "nofollow":  ""
+                                                                                      },
+                                                                             "_css_classes":  "barry-field barry-cta home-service-areas-primary-cta",
+                                                                             "css_classes":  "barry-field barry-cta home-service-areas-primary-cta"
+                                                                         }
+                                                        }
+                                                    ]
+                                 },
+                   "name":  "elementor-mcp-batch-update"
+               },
+    "id":  3,
+    "jsonrpc":  "2.0"
+}

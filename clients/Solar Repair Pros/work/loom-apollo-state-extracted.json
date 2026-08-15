@@ -1,0 +1,237 @@
+{
+  "ROOT_QUERY": {
+    "__typename": "Query",
+    "getCurrentUser": {
+      "__typename": "UserNotLoggedIn"
+    },
+    "getVideo({\"id\":\"2051731f429445b0ba3964d886f71e50\",\"password\":null})": {
+      "__ref": "RegularUserVideo:2051731f429445b0ba3964d886f71e50"
+    },
+    "fetchVideoTranscript({\"captionsLanguageSelection\":null,\"password\":null,\"videoId\":\"2051731f429445b0ba3964d886f71e50\"})": {
+      "__ref": "VideoTranscriptDetails:019f04ec-e315-7bd2-b450-e1ca51180c3f"
+    }
+  },
+  "Avatar:{\"thumb\":\"https://secure.gravatar.com/avatar/0caddbc1344de08ff8fbe1c351da0b59?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDF-3.png\"}": {
+    "__typename": "Avatar",
+    "name": "https://secure.gravatar.com/avatar/0caddbc1344de08ff8fbe1c351da0b59?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDF-3.png",
+    "large": "https://secure.gravatar.com/avatar/0caddbc1344de08ff8fbe1c351da0b59?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDF-3.png",
+    "thumb": "https://secure.gravatar.com/avatar/0caddbc1344de08ff8fbe1c351da0b59?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDF-3.png",
+    "iosLarge": "https://secure.gravatar.com/avatar/0caddbc1344de08ff8fbe1c351da0b59?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDF-3.png",
+    "iosThumb": "https://secure.gravatar.com/avatar/0caddbc1344de08ff8fbe1c351da0b59?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDF-3.png",
+    "isAtlassianMastered": true
+  },
+  "RegularUser:7736204": {
+    "__typename": "RegularUser",
+    "id": "7736204",
+    "first_name": "Dan",
+    "display_name": "Dan Freshley",
+    "avatars": [
+      {
+        "__ref": "Avatar:{\"thumb\":\"https://secure.gravatar.com/avatar/0caddbc1344de08ff8fbe1c351da0b59?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FDF-3.png\"}"
+      }
+    ],
+    "status": "verified",
+    "profile": null
+  },
+  "RegularUserVideoViewCounts:2051731f429445b0ba3964d886f71e50": {
+    "__typename": "RegularUserVideoViewCounts",
+    "id": "2051731f429445b0ba3964d886f71e50",
+    "total": 7,
+    "distinct": 6,
+    "named": null
+  },
+  "RegularUserVideo:2051731f429445b0ba3964d886f71e50": {
+    "__typename": "RegularUserVideo",
+    "id": "2051731f429445b0ba3964d886f71e50",
+    "defaultThumbnails": {
+      "__typename": "VideoDefaultThumbnailsSources",
+      "default": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8.gif",
+      "static": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8.jpg"
+    },
+    "signedThumbnails": {
+      "__typename": "VideoThumbnailsSources",
+      "animatedPreview": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8.mp4",
+      "default": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8.jpg",
+      "default4X3": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8-4x3.jpg",
+      "defaultPlay": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8-full-play.jpg",
+      "ogFull": null,
+      "full": null,
+      "fullPlay": null,
+      "defaultGif": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8.gif",
+      "defaultGifPlay": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8-full-play.gif"
+    },
+    "nullableRawCdnUrl({\"acceptableMimes\":[\"DASH\"],\"password\":null})": null,
+    "nullableRawCdnUrl({\"acceptableMimes\":[\"M3U8\"],\"password\":null})": {
+      "__typename": "CloudfrontSignedUrlPayload",
+      "url": "https://luna.loom.com/id/2051731f429445b0ba3964d886f71e50/rev/870df589e159af2864db214d6cafe27a7e84275bdd24711eb3d408b75648820a1/resource/hls/playlist.m3u8?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9sdW5hLmxvb20uY29tL2lkLzIwNTE3MzFmNDI5NDQ1YjBiYTM5NjRkODg2ZjcxZTUwL3Jldi84NzBkZjU4OWUxNTlhZjI4NjRkYjIxNGQ2Y2FmZTI3YTdlODQyNzViZGQyNDcxMWViM2Q0MDhiNzU2NDg4MjBhMS9yZXNvdXJjZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg0MTExNTYyfX19XX0_&Signature=Gk5kwPyqCTBB3HWiYEt%7E1av97zaaIT%7Ev0gwRRElhiJ-lSVrQkJ9AtAvF%7E6wxumdlmPr7tHBA6ubILpztIGbr9yh1OZR8G0IUypPZ9SPYQ6O2iFXW8ra4DyVfxtSkUJYFCh-xV82DTTWyI7wuQDpA-LgYDvhu9Fa6d7%7E-pMuYKEv7phV0tPLt7tmvOGtEo%7EFtGJEaKT%7EWbuyTL3tiezKw-QwOUM30ug7CztKWjNQSFMs5o7ELxH6pvk39u3Rt-GLFQ0C1vdUPc-aSEeYJOZrsa13-K%7EKzJHixDI4Nd-4I61ZfPl0M6X-Y6WU6UaNlmtGgaUFQwa1uKmPGWhjRNuae0Q__&Key-Pair-Id=APKAJQIC5BGSW7XXK7FQ",
+      "credentials": {
+        "__typename": "CloudfrontSignedCredentialsPayload",
+        "Policy": "eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9sdW5hLmxvb20uY29tL2lkLzIwNTE3MzFmNDI5NDQ1YjBiYTM5NjRkODg2ZjcxZTUwL3Jldi84NzBkZjU4OWUxNTlhZjI4NjRkYjIxNGQ2Y2FmZTI3YTdlODQyNzViZGQyNDcxMWViM2Q0MDhiNzU2NDg4MjBhMS9yZXNvdXJjZS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzg0MTExNTYyfX19XX0_",
+        "Signature": "Gk5kwPyqCTBB3HWiYEt~1av97zaaIT~v0gwRRElhiJ-lSVrQkJ9AtAvF~6wxumdlmPr7tHBA6ubILpztIGbr9yh1OZR8G0IUypPZ9SPYQ6O2iFXW8ra4DyVfxtSkUJYFCh-xV82DTTWyI7wuQDpA-LgYDvhu9Fa6d7~-pMuYKEv7phV0tPLt7tmvOGtEo~FtGJEaKT~WbuyTL3tiezKw-QwOUM30ug7CztKWjNQSFMs5o7ELxH6pvk39u3Rt-GLFQ0C1vdUPc-aSEeYJOZrsa13-K~KzJHixDI4Nd-4I61ZfPl0M6X-Y6WU6UaNlmtGgaUFQwa1uKmPGWhjRNuae0Q__",
+        "KeyPairId": "APKAJQIC5BGSW7XXK7FQ"
+      }
+    },
+    "active_video_transcript_id": "019f04ec-e315-7bd2-b450-e1ca51180c3f",
+    "archived": false,
+    "chapters": null,
+    "comments_enabled": true,
+    "comments_email_enabled": true,
+    "totalComments": 0,
+    "complete": true,
+    "createdAt": "2026-06-26T17:14:21.287Z",
+    "cta": {
+      "__typename": "CTA",
+      "enabled": false,
+      "url": null,
+      "text": null,
+      "mods": null,
+      "is_auto": false,
+      "approved_at": null
+    },
+    "currentUserCanEdit": false,
+    "currentUserHasWatched": null,
+    "current_user_is_owner": false,
+    "description": null,
+    "download_enabled": true,
+    "downloadable": true,
+    "downloadableBy": "anyone",
+    "email_gate_video_type": "NONE",
+    "stylizedCaptions": false,
+    "viewerCaptionsOn": false,
+    "autoplayEnabled": true,
+    "folder_id": "43cface297144e63ad2896704533c6e8",
+    "folder": null,
+    "hasBackground": false,
+    "hasOverlay": false,
+    "isCommunityLoom": false,
+    "isOnWatchLaterList": false,
+    "isParentOfPersonalizedCopies": false,
+    "personalizationType": null,
+    "videoVariant": "STANDARD",
+    "isMeetingRecording": false,
+    "calendarMeetingGuid": null,
+    "is_protected": false,
+    "isTeamShared": false,
+    "loom_branded_player": true,
+    "name": "Stryker Website Feedback and Copy Updates from Solar Repair Pros - June 26, 2026",
+    "needs_password": false,
+    "organization_idv2": "7740105",
+    "organization": null,
+    "owner_id": 7736204,
+    "owner": {
+      "__ref": "RegularUser:7736204"
+    },
+    "privacy": "public",
+    "processing_information": {
+      "__typename": "ProcessingInformation",
+      "instant_editing_enabled": true,
+      "noise_cancellation_type": true,
+      "replacements": null,
+      "trim_id": null,
+      "trim_ranges": [],
+      "videoUploadMessage": null,
+      "videoUploadValid": true,
+      "trim_progress": null,
+      "split_segment_ttl": null
+    },
+    "record_reply_enabled": true,
+    "s3_id": "2051731f429445b0ba3964d886f71e50",
+    "salesforce_engagement_tracking": false,
+    "show_analytics_to_viewer": true,
+    "show_transcript_to_viewer": true,
+    "spaces": null,
+    "suggested_playback_rate": "none",
+    "use_emojis": true,
+    "use_gif": true,
+    "video_properties": {
+      "__typename": "VideoProperties",
+      "avgBitRate": null,
+      "client": null,
+      "camera_enabled": null,
+      "client_version": null,
+      "countdown": null,
+      "duration": 538,
+      "durationMs": 538417,
+      "externalUpload": true,
+      "format": null,
+      "height": 1080,
+      "ingestion_type": null,
+      "liveRewindTrimmedSections": null,
+      "mediaMetadataRotation": null,
+      "microphone_enabled": null,
+      "os": null,
+      "os_version": null,
+      "recordingClient": null,
+      "recording_type": null,
+      "recording_version": "v7",
+      "screen_type": null,
+      "sdkPartnerIdv2": null,
+      "tab_audio": null,
+      "trim_duration": null,
+      "width": 1920
+    },
+    "playable_duration": 538.416667,
+    "signedDefaultThumbnails": {
+      "__typename": "VideoDefaultThumbnailsSources",
+      "default": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8.gif",
+      "static": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8.jpg"
+    },
+    "source_duration": 538.416667,
+    "thumbnails": {
+      "__typename": "VideoThumbnailsSources",
+      "default": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8.jpg",
+      "default4X3": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8-4x3.jpg",
+      "defaultPlay": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8-full-play.jpg",
+      "ogFull": null,
+      "full": null,
+      "fullPlay": null,
+      "defaultGif": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8.gif",
+      "defaultGifPlay": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8-full-play.gif",
+      "animatedPreview": "https://cdn.loom.com/sessions/thumbnails/2051731f429445b0ba3964d886f71e50-cd38e9f7389e2ff8.mp4"
+    },
+    "videoWorkspaceInfo": {
+      "__typename": "VideoWorkspaceInfo",
+      "plan": "business",
+      "planIncludesAi": false,
+      "siteId": null
+    },
+    "viewerNeedsPermission": false,
+    "viewers_can_weave": false,
+    "views": {
+      "__ref": "RegularUserVideoViewCounts:2051731f429445b0ba3964d886f71e50"
+    },
+    "visibility": "owner",
+    "waveform_generation": "success",
+    "white_label_player": false,
+    "storage": "S3"
+  },
+  "VideoTranscriptDetails:019f04ec-e315-7bd2-b450-e1ca51180c3f": {
+    "__typename": "VideoTranscriptDetails",
+    "idv2": "019f04ec-e315-7bd2-b450-e1ca51180c3f",
+    "video_id": "2051731f429445b0ba3964d886f71e50",
+    "s3_id": "2051731f429445b0ba3964d886f71e50",
+    "version": 2,
+    "transcript_url": "mediametadata/transcription/2051731f429445b0ba3964d886f71e50-2.json",
+    "captions_url": "mediametadata/captions/2051731f429445b0ba3964d886f71e50-2.vtt",
+    "processing_service": "instant_whisper",
+    "transcription_status": "success",
+    "processing_start_time": "2026-06-26T17:16:19.681Z",
+    "processing_end_time": "2026-06-26T17:17:22.116Z",
+    "createdAt": "2026-06-26T17:14:21.331Z",
+    "updatedAt": "2026-06-26T17:17:22.125Z",
+    "source_url": "https://cdn.loom.com/mediametadata/transcription/2051731f429445b0ba3964d886f71e50-2.json?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4ubG9vbS5jb20vbWVkaWFtZXRhZGF0YS90cmFuc2NyaXB0aW9uLzIwNTE3MzFmNDI5NDQ1YjBiYTM5NjRkODg2ZjcxZTUwLTIuanNvbiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4NDAyNTc2Mn19fV19&Key-Pair-Id=APKAJQIC5BGSW7XXK7FQ&Signature=Dem%7EKG0%7EVkUfOx3HgV9tixMWaE5DOJ7IKgGqVJtt2%7EqMCK1DVF5SNpUuMdWb4tpIkj%7E8BjFSGYufYS5OGHPbCL3Ip-qo7xHk6H4SqknTAPHzBQezeAMQspI7Zos3qugsJYFUk3HwXSiln5eFPR%7EvLLyDyfT6Ooq11mINZ4jIqxYR6LaqyNxQHx1tpOw9f%7ExF1jv8TaccuZNavVUp4sh3G5avMD4UxaNfxwLUW49E-lzf3n5GunLO27F4L8W4frMuszKjWzeszXEmZh2WuiliM3M%7E%7EbU%7EQWTgIVuJzcE0uOa7UvOZMzF%7EolrKlAgydjRoZQVDbWixF%7EuOBF7LG1URTQ__",
+    "captions_source_url": "https://cdn.loom.com/mediametadata/captions/2051731f429445b0ba3964d886f71e50-2.vtt?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4ubG9vbS5jb20vbWVkaWFtZXRhZGF0YS9jYXB0aW9ucy8yMDUxNzMxZjQyOTQ0NWIwYmEzOTY0ZDg4NmY3MWU1MC0yLnZ0dCIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc4NDAyNTc2Mn19fV19&Key-Pair-Id=APKAJQIC5BGSW7XXK7FQ&Signature=j9DKywLfy2R%7Eg%7EDYPq1tJq47oFMZeNwCyeQtCv5ZJscEcBatNt-EObDiGhRNnFdB1ndJ65kAzVWjIoEd94iEMFmJM9U899sP2bfhPWPyFNH4619OIba7RXQ6savukYXq0rwE0%7Exwc9O%7E2lXxgcLg2H6%7EEecgJxExG3uC7%7EoMeQETiuWz2VVN523S2Wt85sntusVat9sgip-901sWTjQoJisuRpuhbQb5YoMk-wL8w1hiWoQZ0zK%7E4Ij94xU%7ElwvESgk4JEo3hjkngPqAzjlakrPbP18IoaqkeIMczEGwzoMWoeYmp0g438pMY2gg32HzyGsztOhZUzAzjXG2M2OoJA__",
+    "captionsTranslatedLanguage": "en",
+    "captionsInOriginalLanguage": true,
+    "captionsTranslationInProgress": false,
+    "captionTranslationErrorFallback": true,
+    "filler_words": {
+      "ranges": [],
+      "numFillerWordsInVideoVersion": 2
+    },
+    "silences": {
+      "numSilencesInVideoVersion": 9
+    },
+    "language": "en"
+  }
+}

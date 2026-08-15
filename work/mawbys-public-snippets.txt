@@ -1,0 +1,10 @@
+pe":"ImageObject","inLanguage":"en-US","@id":"https:\/\/dev1.mynewwebsite.co.za\/#\/schema\/logo\/image\/","url":"https:\/\/dev1.mynewwebsite.co.za\/wp-content\/uploads\/2026\/01\/Mawbys-Pool-Service-Logo.png","contentUrl":"https:\/\/dev1.mynewwebsite.co.za\/wp-content\/uploads\/2026\/01\/Mawbys-Pool-Service-Logo.png","width":877,"height":506,"caption":"Mawby's Pool Service"},"image":{"@id":"https:\/\/d
+			<link rel="icon" href="https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/01/cropped-Mawbys-Pool-Service-Logo_New-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/01/cropped-Mawbys-Pool-Service-Logo_New-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/01/cropped-Mawbys-Pool-Service-Logo_New-180x180.png" />
+<meta name="msapplication-TileImage" content="https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/01/cropped-Mawbys-Pool-Service-Logo_New-270x270.png" />
+			<img width="877" height="506" src="https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/01/Mawbys-Pool-Service-Logo.png" class="attachment-full size-full wp-image-6083" alt="" srcset="https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/01/Mawbys-Pool-Service-Logo.png 877w, https://dev1.mynewwebsite.co.za/wp-cont
+ent/uploads/2026/01/Mawbys-Pool-Service-Logo-300x173.png 300w, https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/01/Mawbys-Pool-Service-Logo-768x443.png 768w" sizes="(max-width: 877px) 100vw, 877px" />				</a>
+				<a href="mailto:info@mawbyspools.com" class="elementor-icon" tabindex="-1" aria-label="Email">
+						<a href="mailto:info@mawbyspools.com" >
+			<img width="877" height="506" src="https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/01/Mawbys-Pool-Service-Logo.png" class="attachment-full size-full wp-image-6083" alt="" srcset="https://dev1.mynewwebsite.co.za/wp-content/uploads/2026/01/Mawbys-Pool-Service-Logo.png 877w, https://dev1.mynewwebsite.co.za/wp-cont

@@ -1,0 +1,20 @@
+Field,Value,Notes
+Client Name,Development 1,
+Company Name,n/a,
+Website Type,DEV,
+Domain,dev1.mynewwebsite.co.za,
+Website URL,https://dev1.mynewwebsite.co.za/,
+WordPress Login URL Or Bookmark,https://dev1.mynewwebsite.co.za/wp-admin/,
+Bookmark Folder,DEV Websites,
+Barry WordPress Username,barry,Do not store password here
+Password Location,secrets/barry-wordpress-admin.json,Encrypted local Barry credential
+Main Service,development domain,
+Primary Location,n/a,
+Aliases,dev 1,
+Hosting Provider,,
+Theme Template,n/a,
+Elementor Pro Active,unknown,
+Yoast Active,unknown,
+Logo File Path,n/a,
+Access Status,Dashboard confirmed,
+Review Status,Not reviewed,

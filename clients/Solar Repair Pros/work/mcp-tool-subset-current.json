@@ -1,0 +1,766 @@
+[
+    {
+        "name":  "elementor-mcp-get-page-structure",
+        "description":  "Returns the element tree for an Elementor page, showing all containers, widgets, and their nesting structure. Each element includes its ID, type, widget type (for widgets), and child elements.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The WordPress post/page ID."
+                                                           }
+                                           },
+                            "required":  [
+                                             "post_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-get-element-settings",
+        "description":  "Returns the current settings for a specific element on a page. Provide the post ID and element ID to retrieve all control values for that element.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The WordPress post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The Elementor element ID."
+                                                              }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-find-element",
+        "description":  "Searches elements on a page by type, widget type, or settings content. Returns matching element IDs, types, and a settings preview.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID to search."
+                                                           },
+                                               "widget_type":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Filter by widget type (e.g. \"heading\", \"button\"). Leave empty for all."
+                                                               },
+                                               "element_type":  {
+                                                                    "type":  "string",
+                                                                    "enum":  [
+                                                                                 "container",
+                                                                                 "widget"
+                                                                             ],
+                                                                    "description":  "Filter by element type."
+                                                                },
+                                               "search_text":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Search for text content in settings values (case-insensitive)."
+                                                               },
+                                               "setting_key":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Filter by setting key existence (e.g. \"title_color\")."
+                                                               },
+                                               "setting_value":  {
+                                                                     "type":  "string",
+                                                                     "description":  "Filter by setting value (requires setting_key)."
+                                                                 }
+                                           },
+                            "required":  [
+                                             "post_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-list-templates",
+        "description":  "Returns all saved Elementor templates from the template library. Optionally filter by template type (page, section, container).",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "template_type":  {
+                                                                     "type":  "string",
+                                                                     "description":  "Filter by template type (e.g. \"page\", \"section\", \"container\")."
+                                                                 }
+                                           }
+                        }
+    },
+    {
+        "name":  "elementor-mcp-get-global-settings",
+        "description":  "Returns the active Elementor kit/global settings including colors, typography, spacing, and breakpoints. These are the site-wide design tokens used across all pages.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+
+                                           }
+                        }
+    },
+    {
+        "name":  "elementor-mcp-create-page",
+        "description":  "Creates a new WordPress page with Elementor enabled. Optionally provide initial element content.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "title":  {
+                                                             "type":  "string",
+                                                             "description":  "Page title."
+                                                         },
+                                               "status":  {
+                                                              "type":  "string",
+                                                              "enum":  [
+                                                                           "draft",
+                                                                           "publish"
+                                                                       ],
+                                                              "description":  "Post status. Default: draft."
+                                                          },
+                                               "post_type":  {
+                                                                 "type":  "string",
+                                                                 "enum":  [
+                                                                              "page",
+                                                                              "post"
+                                                                          ],
+                                                                 "description":  "Post type. Default: page."
+                                                             },
+                                               "template":  {
+                                                                "type":  "string",
+                                                                "description":  "Elementor template slug."
+                                                            },
+                                               "content":  {
+                                                               "type":  "array",
+                                                               "items":  {
+                                                                             "type":  "object"
+                                                                         },
+                                                               "description":  "Initial element tree."
+                                                           }
+                                           },
+                            "required":  [
+                                             "title"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-page-settings",
+        "description":  "Updates page-level Elementor settings such as background, padding, custom CSS, and layout options.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Page settings object."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "settings"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-import-template",
+        "description":  "Imports a JSON template structure into a page at an optional position.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "template_json":  {
+                                                                     "type":  "array",
+                                                                     "description":  "Elementor JSON element structure to import.",
+                                                                     "items":  {
+                                                                                   "type":  "object"
+                                                                               }
+                                                                 },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position. -1 = append."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "template_json"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-export-page",
+        "description":  "Exports a page\u0027s full Elementor data as a JSON structure that can be imported elsewhere.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           }
+                                           },
+                            "required":  [
+                                             "post_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-container",
+        "description":  "Updates settings on an existing container. Settings are merged (partial update). Supports all container controls: flex_direction, flex_justify_content, flex_align_items, flex_wrap, flex_align_content, gap, content_width, min_height, overflow, html_tag, container_type, grid controls, background (set background_background=classic first), border (set border_border=solid first), border_radius, box_shadow, padding, margin, position, z_index, animation, shape dividers, etc. (The unprefixed justify_content / align_items / align_content are accepted and remapped to the flex_-prefixed keys.)",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The container element ID."
+                                                              },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Partial settings to merge into the container."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id",
+                                             "settings"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-element",
+        "description":  "Updates settings on any element (container or widget). Settings are merged (partial update). Works for all element types — no need to know if the target is a container or widget.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The element ID (container or widget)."
+                                                              },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Partial settings to merge into the element."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id",
+                                             "settings"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-batch-update",
+        "description":  "Updates multiple elements in a single save operation. Each operation specifies an element_id and settings to merge. Much more efficient than calling update-element multiple times.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "operations":  {
+                                                                  "type":  "array",
+                                                                  "description":  "Array of update operations.",
+                                                                  "items":  {
+                                                                                "type":  "object",
+                                                                                "properties":  {
+                                                                                                   "element_id":  {
+                                                                                                                      "type":  "string",
+                                                                                                                      "description":  "Element ID to update."
+                                                                                                                  },
+                                                                                                   "settings":  {
+                                                                                                                    "type":  "object",
+                                                                                                                    "description":  "Settings to merge."
+                                                                                                                }
+                                                                                               },
+                                                                                "required":  [
+                                                                                                 "element_id",
+                                                                                                 "settings"
+                                                                                             ]
+                                                                            }
+                                                              }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "operations"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-duplicate-element",
+        "description":  "Duplicates an element (including all children) with fresh IDs. The duplicate is placed immediately after the original.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The element ID to duplicate."
+                                                              }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-widget",
+        "description":  "Updates settings on an existing widget. Settings are merged (partial update).",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The widget element ID."
+                                                              },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Partial settings to merge."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id",
+                                             "settings"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-add-media-carousel",
+        "description":  "Adds a media carousel widget for images/video with multiple skins (Pro). All other settings pass through; get-widget-schema for the full list.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "Page ID."
+                                                           },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position; -1 appends."
+                                                            },
+                                               "skin":  {
+                                                            "type":  "string",
+                                                            "enum":  [
+                                                                         "carousel",
+                                                                         "slideshow",
+                                                                         "coverflow"
+                                                                     ],
+                                                            "description":  "Carousel skin. Default: carousel."
+                                                        },
+                                               "slides":  {
+                                                              "type":  "array",
+                                                              "description":  "Array of slide items with image/video.",
+                                                              "items":  {
+                                                                            "type":  "object",
+                                                                            "properties":  {
+                                                                                               "image":  {
+                                                                                                             "type":  "object",
+                                                                                                             "description":  "{ \"url\": \"...\", \"id\": 0 }"
+                                                                                                         },
+                                                                                               "type":  {
+                                                                                                            "type":  "string",
+                                                                                                            "description":  "Slide type: image or video."
+                                                                                                        }
+                                                                                           }
+                                                                        }
+                                                          },
+                                               "effect":  {
+                                                              "type":  "string",
+                                                              "enum":  [
+                                                                           "slide",
+                                                                           "fade",
+                                                                           "cube"
+                                                                       ],
+                                                              "description":  "Transition effect. Default: slide."
+                                                          },
+                                               "slides_per_view":  {
+                                                                       "type":  "string",
+                                                                       "description":  "Slides visible at once."
+                                                                   },
+                                               "slides_to_scroll":  {
+                                                                        "type":  "string",
+                                                                        "description":  "Slides to scroll per step."
+                                                                    }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "parent_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-save-as-template",
+        "description":  "Saves a page or a specific element as a reusable Elementor template.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The source post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "Specific element ID to save. Omit to save the entire page."
+                                                              },
+                                               "title":  {
+                                                             "type":  "string",
+                                                             "description":  "Template title."
+                                                         },
+                                               "template_type":  {
+                                                                     "type":  "string",
+                                                                     "enum":  [
+                                                                                  "page",
+                                                                                  "section",
+                                                                                  "container"
+                                                                              ],
+                                                                     "description":  "Template type. Default: page."
+                                                                 }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "title"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-apply-template",
+        "description":  "Applies a saved Elementor template to a page at a given position, inserting its elements with fresh IDs.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The target post/page ID."
+                                                           },
+                                               "template_id":  {
+                                                                   "type":  "integer",
+                                                                   "description":  "The template post ID to apply."
+                                                               },
+                                               "parent_id":  {
+                                                                 "type":  "string",
+                                                                 "description":  "Parent container ID. Empty for top-level."
+                                                             },
+                                               "position":  {
+                                                                "type":  "integer",
+                                                                "description":  "Insert position. -1 = append."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "template_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-create-theme-template",
+        "description":  "Creates a new Elementor Pro theme builder template (header, footer, single, archive, 404, etc.).",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "title":  {
+                                                             "type":  "string",
+                                                             "description":  "Template title."
+                                                         },
+                                               "template_type":  {
+                                                                     "type":  "string",
+                                                                     "enum":  [
+                                                                                  "header",
+                                                                                  "footer",
+                                                                                  "single",
+                                                                                  "single-post",
+                                                                                  "single-page",
+                                                                                  "archive",
+                                                                                  "search-results",
+                                                                                  "error-404",
+                                                                                  "loop-item"
+                                                                              ],
+                                                                     "description":  "Theme template type."
+                                                                 }
+                                           },
+                            "required":  [
+                                             "title",
+                                             "template_type"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-set-template-conditions",
+        "description":  "Sets display conditions for a theme builder template (e.g., Entire Site, specific pages, post types).",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The template post ID."
+                                                           },
+                                               "conditions":  {
+                                                                  "type":  "array",
+                                                                  "description":  "Array of condition rules. Each is an array like [\"include\", \"general\"] for Entire Site, or [\"include\", \"singular\", \"post\"] for all posts.",
+                                                                  "items":  {
+                                                                                "type":  "array",
+                                                                                "items":  {
+                                                                                              "type":  "string"
+                                                                                          }
+                                                                            }
+                                                              }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "conditions"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-create-popup",
+        "description":  "Creates a new Elementor Pro popup template.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "title":  {
+                                                             "type":  "string",
+                                                             "description":  "Popup title."
+                                                         }
+                                           },
+                            "required":  [
+                                             "title"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-set-popup-settings",
+        "description":  "Configures popup triggers, timing, and display conditions for an Elementor Pro popup.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The popup post ID."
+                                                           },
+                                               "triggers":  {
+                                                                "type":  "object",
+                                                                "description":  "Trigger settings: { \"on_page_load\": {\"enabled\": true, \"delay\": 3}, \"on_scroll\": {\"enabled\": true, \"direction\": \"down\", \"offset\": 50}, \"on_click\": {\"enabled\": true, \"times\": 1}, \"on_exit_intent\": {\"enabled\": true}, \"on_inactivity\": {\"enabled\": true, \"time\": 30} }."
+                                                            },
+                                               "conditions":  {
+                                                                  "type":  "array",
+                                                                  "description":  "Display conditions, same format as set-template-conditions.",
+                                                                  "items":  {
+                                                                                "type":  "array",
+                                                                                "items":  {
+                                                                                              "type":  "string"
+                                                                                          }
+                                                                            }
+                                                              },
+                                               "timing":  {
+                                                              "type":  "object",
+                                                              "description":  "Timing rules: { \"devices\": [\"desktop\",\"tablet\",\"mobile\"], \"show_after_x_page_views\": 0, \"show_after_x_sessions\": 0, \"show_up_to_x_times\": 0, \"url_contains\": \"\", \"url_not_contains\": \"\" }."
+                                                          }
+                                           },
+                            "required":  [
+                                             "post_id"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-global-colors",
+        "description":  "Updates the site-wide color palette in the Elementor kit. Provide an array of color objects with id, title, and color (hex).",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "colors":  {
+                                                              "type":  "array",
+                                                              "description":  "Array of color definitions.",
+                                                              "items":  {
+                                                                            "type":  "object",
+                                                                            "properties":  {
+                                                                                               "_id":  {
+                                                                                                           "type":  "string",
+                                                                                                           "description":  "Unique color ID (e.g. \"primary\")."
+                                                                                                       },
+                                                                                               "title":  {
+                                                                                                             "type":  "string",
+                                                                                                             "description":  "Human-readable title."
+                                                                                                         },
+                                                                                               "color":  {
+                                                                                                             "type":  "string",
+                                                                                                             "description":  "Color value in hex format (e.g. \"#FF5733\")."
+                                                                                                         }
+                                                                                           },
+                                                                            "required":  [
+                                                                                             "_id",
+                                                                                             "title",
+                                                                                             "color"
+                                                                                         ]
+                                                                        }
+                                                          }
+                                           },
+                            "required":  [
+                                             "colors"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-global-typography",
+        "description":  "Updates the site-wide typography settings in the Elementor kit.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "typography":  {
+                                                                  "type":  "array",
+                                                                  "description":  "Array of typography definitions.",
+                                                                  "items":  {
+                                                                                "type":  "object",
+                                                                                "properties":  {
+                                                                                                   "_id":  {
+                                                                                                               "type":  "string",
+                                                                                                               "description":  "Unique typography ID (e.g. \"primary\")."
+                                                                                                           },
+                                                                                                   "title":  {
+                                                                                                                 "type":  "string",
+                                                                                                                 "description":  "Human-readable title."
+                                                                                                             },
+                                                                                                   "typography_font_family":  {
+                                                                                                                                  "type":  "string",
+                                                                                                                                  "description":  "Font family name."
+                                                                                                                              },
+                                                                                                   "typography_font_size":  {
+                                                                                                                                "type":  "object",
+                                                                                                                                "description":  "Font size with size and unit."
+                                                                                                                            },
+                                                                                                   "typography_font_weight":  {
+                                                                                                                                  "type":  "string",
+                                                                                                                                  "description":  "Font weight (100-900, normal, bold)."
+                                                                                                                              },
+                                                                                                   "typography_line_height":  {
+                                                                                                                                  "type":  "object",
+                                                                                                                                  "description":  "Line height with size and unit."
+                                                                                                                              },
+                                                                                                   "typography_letter_spacing":  {
+                                                                                                                                     "type":  "object",
+                                                                                                                                     "description":  "Letter spacing with size and unit."
+                                                                                                                                 }
+                                                                                               },
+                                                                                "required":  [
+                                                                                                 "_id",
+                                                                                                 "title"
+                                                                                             ]
+                                                                            }
+                                                              }
+                                           },
+                            "required":  [
+                                             "typography"
+                                         ]
+                        }
+    },
+    {
+        "name":  "elementor-mcp-list-media",
+        "description":  "Lists and searches images already in the WordPress Media Library. Use this to find a site\u0027s own uploaded photos (e.g. a client\u0027s product or job-site images) before reaching for Openverse stock. The optional \"search\" matches the title, alt text, caption, and description. Returns attachment IDs and URLs you can pass straight to add-image / add-widget.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "search":  {
+                                                              "type":  "string",
+                                                              "description":  "Keyword to match against the attachment title, alt text, caption, and description. Omit to list everything."
+                                                          },
+                                               "mime_type":  {
+                                                                 "type":  "string",
+                                                                 "description":  "MIME type filter. Accepts a top-level type (\"image\") or a specific type (\"image/jpeg\", \"image/png\"). Use \"any\" for all media types. Default: image."
+                                                             },
+                                               "page":  {
+                                                            "type":  "integer",
+                                                            "description":  "Page number (1-based). Default: 1."
+                                                        },
+                                               "per_page":  {
+                                                                "type":  "integer",
+                                                                "description":  "Results per page (1-100). Default: 20."
+                                                            },
+                                               "orderby":  {
+                                                               "type":  "string",
+                                                               "enum":  [
+                                                                            "date",
+                                                                            "title"
+                                                                        ],
+                                                               "description":  "Sort field. Default: date (newest first)."
+                                                           },
+                                               "order":  {
+                                                             "type":  "string",
+                                                             "enum":  [
+                                                                          "desc",
+                                                                          "asc"
+                                                                      ],
+                                                             "description":  "Sort direction. Default: desc."
+                                                         }
+                                           }
+                        }
+    },
+    {
+        "name":  "elementor-mcp-upload-svg-icon",
+        "description":  "Uploads an SVG icon to the WordPress Media Library and returns an Elementor icon object ready to use with any widget that accepts icons (icon, icon-box, button, etc.). Accepts either an external SVG URL or raw SVG markup. The returned icon object has the format: { \"value\": { \"id\": 123, \"url\": \"...\" }, \"library\": \"svg\" }. Use this value for the selected_icon setting in icon/icon-box widgets, or the selected_icon setting in button widgets.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "svg_url":  {
+                                                               "type":  "string",
+                                                               "description":  "External URL to an SVG file to download and import. Use this OR svg_content, not both."
+                                                           },
+                                               "svg_content":  {
+                                                                   "type":  "string",
+                                                                   "description":  "Raw SVG markup string (e.g. \"\u003csvg viewBox=\u00270 0 24 24\u0027\u003e\u003cpath d=\u0027M12 ...\u0027/\u003e\u003c/svg\u003e\"). Use this OR svg_url, not both."
+                                                               },
+                                               "title":  {
+                                                             "type":  "string",
+                                                             "description":  "Title for the SVG in the Media Library. Falls back to filename or \"Custom SVG Icon\"."
+                                                         }
+                                           }
+                        }
+    },
+    {
+        "name":  "elementor-mcp-update-atomic-widget",
+        "description":  "Updates settings on an existing Elementor 4.0+ atomic widget. Performs a partial merge — only provided keys are changed.",
+        "inputSchema":  {
+                            "type":  "object",
+                            "properties":  {
+                                               "post_id":  {
+                                                               "type":  "integer",
+                                                               "description":  "The post/page ID."
+                                                           },
+                                               "element_id":  {
+                                                                  "type":  "string",
+                                                                  "description":  "The element ID to update."
+                                                              },
+                                               "settings":  {
+                                                                "type":  "object",
+                                                                "description":  "Partial settings to merge ($$type-wrapped values)."
+                                                            }
+                                           },
+                            "required":  [
+                                             "post_id",
+                                             "element_id",
+                                             "settings"
+                                         ]
+                        }
+    }
+]

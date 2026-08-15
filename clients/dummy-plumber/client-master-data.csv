@@ -1,0 +1,23 @@
+Field,Value,Notes
+Client Name,Dummy Plumber,
+Company Name,Dummy Plumber Co.,
+Website URL,https://mynewwebsite.co.za,
+WordPress Login URL Or Bookmark,Internal Websites bookmark for mynewwebsite.co.za,
+Barry WordPress Username,barry,Do not store password here
+Password Location,Approved Barry WordPress credentials supplied by user; do not store password in files,
+Main Service,blocked drain cleaning,
+Primary Location,Johannesburg,
+Secondary Services,"Emergency plumbing; Burst pipe repairs; Geyser repairs",
+Logo File Path,logo.jpg,
+Favicon Source,Use logo,
+Master Template Name,clean master theme,
+Master Template File,../../elementor/templates/Stryker Clean Theme With Service Page Ready.wpress,
+Provided Migration Plugin File,../../elementor/plugins/,
+Plugin From Library,WP Migrate,
+Permalink Setting,Post Name,
+Primary Brand Color,,Generated from logo
+Secondary Brand Color,,Generated from logo
+Hero H1,Blocked Drain Cleaning in Johannesburg,Dummy setup content only
+Hero Paragraph,"Fast, reliable blocked drain cleaning for homes and businesses in Johannesburg. Dummy Plumber Co. is ready to help with practical plumbing support when you need it.",Dummy setup content only
+Homepage Publish Status,Not started,
+Review Status,Not reviewed,

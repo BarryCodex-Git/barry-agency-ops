@@ -1,0 +1,33 @@
+{
+  "post_id": 6640,
+  "operations": [
+    {
+      "element_id": "2b83f4e",
+      "settings": {
+        "editor": "<p>When an unsupported solar system needs repairs, battery storage or EV charging, the electrical panel can become part of the decision. Solar Repair Pros helps Dallas-Fort Worth owners understand whether panel capacity, breaker space, condition or load planning needs attention before equipment is added.</p>"
+      }
+    },
+    {
+      "element_id": "3a3bdf2",
+      "settings": { "title": "Electrical Panel Upgrade Planning for Solar, Battery and EV Loads" }
+    },
+    {
+      "element_id": "4496445",
+      "settings": {
+        "editor": "<p>A new solar, storage or charging project does not automatically mean the panel must be replaced. The existing service rating, available space, household loads and proposed equipment should be reviewed before a costly electrical panel upgrade is recommended.</p>"
+      }
+    },
+    {
+      "element_id": "9f370ac",
+      "settings": {
+        "editor": "<p>Panel capacity can affect solar repairs, battery add-ons and EV charger installs. Coordinating these services helps Dallas-Fort Worth owners understand the electrical path before buying or replacing equipment.</p>"
+      }
+    },
+    {
+      "element_id": "a9cf273",
+      "settings": {
+        "editor": "<p>What Dallas-Fort Worth property owners should clarify before adding solar equipment, battery storage, EV charging or larger electrical loads to an existing panel.</p>"
+      }
+    }
+  ]
+}
