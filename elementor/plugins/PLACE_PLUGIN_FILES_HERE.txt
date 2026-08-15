@@ -1,0 +1,3 @@
+Place the provided All-in-One WP Migration plugin .zip file in this folder.
+
+Do not commit paid or licensed plugin files to a public GitHub repository.

@@ -1,0 +1,230 @@
+# SOP: New Client Homepage Build
+
+Use this SOP when converting the first full Home page for a new client using the agency master Elementor template.
+
+This is an Elementor template conversion SOP. Do not create or replace the Home page with WordPress block editor content, custom standalone HTML/CSS, or a non-Elementor fallback page.
+
+For a full new-client build, this SOP is followed by:
+
+- `elementor/SOPs/new-client-services-hub-page-build.md`
+- `elementor/SOPs/new-client-service-areas-page-build.md`
+
+## Goal
+
+Convert the approved Elementor Home page into a polished, SEO-friendly, conversion-focused client Home page from intake data while preserving the master layout and Elementor editability.
+
+## Required Inputs
+
+- Website/domain to use
+- Company name
+- Main service category
+- Five main Home page services
+- Additional services for later Service Pages
+- Primary location
+- Primary Home Page service areas
+- Additional service areas for later hub/spoke pages, if available
+- Primary service area regions for the Service Areas page
+- Secondary services
+- Target customer
+- Client folder path, if available
+- Brand voice
+- Primary CTA
+- Phone/email/contact details, if approved for use
+- Logo/brand colors, if available
+- Images, if available
+- AI Images folder and brand guide/example folder, if available
+- Competitors/example sites, if available
+- Google Business Profile or Google Maps link, if available
+
+## Process
+
+1. Confirm the target website exists in `website-directory.md`.
+2. Confirm WordPress access is passed.
+3. Confirm MCP readiness is passed.
+4. Confirm the Home page target is the imported Elementor master Home page.
+   - Confirm Elementor data exists before editing.
+   - Do not use the WordPress block editor or normal page content body as the visible Home page.
+   - If the Elementor Home page is missing or broken, stop and ask for a re-import or explicit repair approval.
+5. If intake is missing, ask the user for `content/templates/client-homepage-intake.md`.
+6. If a client folder path is provided, inspect it for logo files, client images, notes, intake data, and AI image references.
+   - Check `assets/AI Images/`.
+   - Check `assets/AI Images/brand guide/`.
+   - Read `assets/AI Images/brand-image-rules.md` if it exists.
+   - Never source images from the client's existing or previous website. That website is context-only.
+   - Check for approved generated images and `image-plan.md`.
+7. If a logo is found, derive the Elementor System Colors from the logo unless the user supplied preferred colours.
+   - Apply the palette to Elementor global colors.
+   - Confirm the visible global palette changes in Elementor/site CSS, not only individual widgets.
+   - Specifically verify Elementor Site Settings > Global Colors > System Colors: `Primary`, `Secondary`, `Text`, and `Accent`.
+   - `Primary` must be the most prominent usable colour from the logo.
+   - `Secondary` must be the next most prominent usable logo colour. If the logo has only one usable colour, use a suitable variation or contrasting shade of the primary.
+   - `Text` must always be black: `#000000`.
+   - Do not leave old template values in System Colors while adding the correct colours only under Custom Colors.
+   - Check hard-coded section, button, card, form, footer, and hover colors that may still show the old template palette.
+   - Do not leave old brand colors visible after a new-client homepage build.
+   - Update and verify the Elementor kit/site logo, WordPress site logo, header logo widgets, footer logo widgets, favicon/site icon where appropriate, and Yoast site representation.
+   - Do not leave old template/client logos visible in the public header, footer, favicon, schema, or social metadata.
+8. Read the Home page structure through MCP.
+9. Read the master template map and labelling standard.
+10. Read `elementor/SOPs/navigation-hero-footer-rules.md`.
+11. Before changing top-level containers, background modes, global colours, headers, footers, maps, custom HTML, or form/template widgets, export the current Elementor page/template JSON or confirm a current rollback point.
+12. Identify replaceable Home page fields:
+   - hero heading
+   - hero copy
+   - primary CTA
+   - service overview
+   - service cards
+   - trust/why choose section
+   - process section
+   - testimonial/review section
+   - FAQ section
+   - service areas section
+   - final CTA
+13. Draft the homepage content.
+    - Use the five main Home page services for the five Home service cards.
+    - Preserve additional services for later Service Pages unless the user asks otherwise.
+    - Keep hero trust/check bubbles as two-word trust signals, not service names.
+    - Keep both hero bubbles similar in character length.
+    - Replace the inherited hero-form prompt with a client-relevant phrase of no more than three words that remains on one line on mobile. Use the same prompt across the website; do not leave `Need a Plumber?` on a non-plumbing build.
+    - Keep the form-bottom logo compact and readable against the form background. When the standard logo has dark lettering on a dark form, create and use an approved white-letter transparent variant.
+    - Target 35-40 words for Home service card descriptions where the design allows.
+    - Keep H3 headings short and scannable.
+    - Give H2 headings enough detail and include the focus keyphrase or variants naturally.
+    - Write FAQ answers with useful local-service detail and natural focus-keyphrase variants.
+    - Keep the testimonials/reviews section as real reviews or a verified Google Reviews widget; do not turn it into generic service-promise copy.
+    - If reviews are not approved or available, use a clearly labelled pending-review placeholder instead of invented quotes or fake-looking Google cards.
+    - Fully populate trust, service-standard and “why choose” sections for the end customer. When verified certifications, guarantees or awards were not supplied, use honest general trust signals and useful process expectations without inventing claims or mentioning the absence of credentials.
+    - Visually confirm every icon box renders its icon and that coloured-section eyebrow/bubble text is bold and remains one line on mobile.
+    - Populate the Service Areas section from the intake. Use the primary Home Page service areas for visible cards.
+    - Write Service Areas copy for local relevance and SEO, but keep it useful and natural.
+    - Treat Service Areas cards as future hub/spoke entry points. Do not create broken final links unless the service-area pages already exist or the user approves the URL plan.
+13. Prepare Yoast SEO fields.
+    - Use `seo/skills/local-business-schema/SKILL.md` to create or correct the global business, WebSite and Home WebPage graph while the Home page is built.
+    - Establish the canonical business `@id` in the client `schema-plan.md`; all later page schema must reference it.
+    - Validate the rendered Home JSON-LD and remove inherited client entities before marking Home complete.
+14. Prepare image plan and alt text.
+    - Use client images first.
+    - Before generating AI images, follow `images/SOPs/ai-client-image-generation.md`.
+    - Use `assets/AI Images/brand guide/` examples as the main style/reference set when present.
+    - Use approved AI images already in `assets/AI Images/` as client style references.
+    - Read `assets/AI Images/brand-image-rules.md` before prompting if it exists.
+    - If an existing client website/example site is supplied, inspect it for client-owned or better-matched brand images before using generic stock.
+    - Match each service-card image to that specific service.
+    - Use actual 1000x1000 square source/upload image files for process, why choose, trust, paired-content, service support, and similar inline support-image widget slots unless the template explicitly documents another ratio.
+    - Do not use non-square files in square content image widgets and rely on CSS, Elementor object-fit, masks, or visual cropping to hide the mismatch.
+    - If a suitable image is landscape or portrait, crop/export a dedicated 1000x1000 square version before uploading or placing it.
+    - Do not replace inline support-image widgets when the instruction is only about section background images.
+    - For blue section backgrounds, hero backgrounds, overlay backgrounds, and other top-level background images, use actual 1920x1080 landscape `.webp` assets unless a documented template slot explicitly requires another landscape size.
+    - Background/overlay images must be compressed before upload. Target under 350 KB; 500 KB is the hard upper limit only when needed for acceptable visual quality.
+    - Do not use square, portrait, PNG screenshot, or multi-megabyte files for background/overlay sections.
+    - Do not rely on Elementor cover mode, CSS background-size, overlays, masks, or cropping to hide a wrong-ratio or oversized background asset.
+    - If background images look stretched, zoomed, blurry, or poorly cropped, create or source a new wide background asset rather than replacing square inline images.
+    - For Service Areas cards, use local skyline, landscape, landmark, coastline, town, suburb, or regional images. Do not use plumber action images for these cards unless the user specifically asks.
+    - Name Service Areas images with natural `{service + location}` SEO targeting, such as `[client]-[service]-[location]-service-area-ai-01.webp`.
+    - Write Service Areas alt text as honest local descriptions using the service and location naturally.
+    - For footer map slots, use the client's exact Google Business Profile/Maps link only when provided or confidently matched to brand and location. Otherwise replace the map with a clean service-area element.
+    - Footer Service Areas must list only the primary service area regions from intake.
+14. Apply the standard menu structure from `navigation-hero-footer-rules.md`.
+15. Apply content through Elementor MCP.
+    - Separate content updates from structural/style updates.
+    - Do not batch high-risk top-level container/background/template changes with normal text/image changes.
+    - Verify the published page after each high-risk update group.
+    - Do not clear, blank, bypass, or replace the Elementor Home page as a shortcut.
+    - Do not publish block editor fallback content over the Elementor Home page.
+    - Use Elementor's native section/container/widget controls for styling and alignment. Do not use custom CSS, injected CSS, pseudo-content, inline style hacks, JavaScript or snippets for normal layout, spacing, typography, button, form, header, footer, or responsive fixes.
+16. Apply labels/classes to any new or modified elements.
+17. Open the published Home page in Chrome.
+18. Check desktop view visually.
+19. Note any mobile/tablet checks still required.
+20. If the user requested the full new-client build, continue to the Services Hub page SOP.
+21. If the user requested the full new-client build, continue to the Service Areas Hub page SOP.
+22. Update website setup status.
+
+## High-Risk Elementor Change Rules
+
+Treat these as high risk:
+
+- top-level section/container background mode changes
+- video/slideshow/background image changes on top-level sections
+- Elementor global colour changes
+- header/footer template edits
+- footer map or custom HTML edits
+- form/global widget edits
+
+Rules:
+
+- Export the page/template before making the change.
+- Make one high-risk group at a time.
+- Do not write blank video/media fields into existing Elementor settings.
+- Do not solve alignment or design problems with custom CSS/code shortcuts. Use Elementor controls for width, flex, align, justify, wrap, gap, padding, margin, typography, colours, borders, shadows, backgrounds, hover states and responsive settings.
+- Prefer changing image widgets instead of changing a complex section background when the requested change is an inline image change.
+- Keep image-widget changes and background-image changes scoped separately. Square inline image widgets must use actual 1000x1000 square source files; 1920x1080 compressed WebP files are for section backgrounds only.
+- After each high-risk group, open the public page before continuing.
+- If the page fails to open, stop immediately and roll back the last high-risk group.
+
+## Default Home Page Section Plan
+
+Preserve the existing agency master template section order unless the user requests a restructure.
+
+If a new build needs a fallback order, use:
+
+1. Hero: service + location value proposition
+2. Trust strip: quick credibility points
+3. Services overview
+4. Main service/service category explanation
+5. Why choose us
+6. Process/how it works
+7. Service area/local relevance
+8. Testimonials/reviews
+9. FAQs
+10. Service Areas
+11. Final CTA
+
+## Content Standard
+
+- Human and useful first
+- SEO-friendly second
+- Clear CTA throughout
+- Rotate CTA language where appropriate, using options like `Get a Quote`, `Contact Us`, `Book a Call`, or a context-specific service CTA.
+- Short paragraphs
+- Specific services and locations
+- No filler promises
+- No exaggerated claims unless supplied by user
+- Do not write like a sales pitch.
+- Tone should feel relevant, local, authentic, and human-written.
+
+## Completion Criteria
+
+The Home page build is complete when:
+
+- main content is replaced
+- hero is client-specific
+- service sections match intake
+- service area section matches intake and uses local area images
+- images are relevant or clearly marked pending
+- support images fit their containers and required aspect ratios
+- content/support image widgets that require square images use actual square 1000x1000 source files, not visually cropped landscape/portrait files
+- hero/background/overlay images use actual 1920x1080 landscape WebP files, compressed before upload and not multi-megabyte PNGs
+- testimonial/review section uses real approved reviews, a verified Google review widget, or a clearly labelled pending-review state
+- Yoast SEO fields are prepared/applied
+- changed elements follow labelling standard
+- page remains editable in Elementor and has not been replaced by block editor content
+- published page opens for visual review
+- status files are updated
+
+## Full New-Client Build Continuation
+
+Unless the user specifically says to build only the Home page, a new-client setup should continue after the Home page with:
+
+1. Services Hub page:
+   - Use the five primary Home Page services first.
+   - Add all additional services from intake.
+   - Give every service one card.
+   - Use/reuse relevant service images and SEO image metadata.
+   - Check the AI Images folder and brand guide before generating missing service images.
+2. Service Areas Hub page:
+   - Use primary service area regions from intake.
+   - Barry researches 8-12 high-value sub-locations per region unless the user supplies exact suburbs.
+   - Save the final region/sub-location map in the client folder.
+   - Treat this as preparation for later hub-and-spoke SEO, not automatic bulk page creation.
+   - Use local place images for regions; check AI Images examples and approved style first.

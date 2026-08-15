@@ -1,0 +1,3 @@
+Place the clean master theme/template import file in this folder.
+
+Do not commit private or licensed template files to a public GitHub repository.

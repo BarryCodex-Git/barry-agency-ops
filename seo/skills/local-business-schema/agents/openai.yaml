@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Business Schema"
+  short_description: "Build and verify local-service schema graphs"
+  default_prompt: "Use $local-business-schema to plan, inject, and validate schema while building this local-service website."

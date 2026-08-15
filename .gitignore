@@ -1,0 +1,43 @@
+# Secrets and credentials
+secrets/
+.codex/config.toml
+*.env
+access-notes.md
+access.md
+clients/*/access.md
+clients/*/access-notes.md
+clients/*/private/
+clients/*/exports/
+
+# Local working output and temporary automation data
+work/
+outputs/
+tmp-*
+*-request.json
+*-response.txt
+*-headers.txt
+*.log
+
+# Client-specific bulky/private assets stay local by default.
+clients/*
+!clients/_template/
+!clients/_template/**
+
+# Large imports, backups, media, and generated site artifacts
+*.wpress
+*.zip
+*.tar
+*.gz
+*.7z
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.svg
+*.mp4
+*.mov
+*.avi
+*.pdf
+*.docx
+*.xlsx

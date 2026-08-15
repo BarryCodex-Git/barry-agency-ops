@@ -1,0 +1,23 @@
+Field,Value,Notes
+Client Name,,
+Company Name,,
+Website URL,,
+WordPress Login URL Or Bookmark,,
+Barry WordPress Username,barry,Do not store password here
+Password Location,,Use approved password manager or user-provided task context
+Main Service,,
+Primary Location,,
+Secondary Services,,
+Logo File Path,assets/logo/,
+Favicon Source,Use logo,
+Master Template Name,clean master theme,
+Master Template File,../../elementor/templates/,
+Provided Migration Plugin File,../../elementor/plugins/,
+Plugin From Library,WP Migrate,
+Permalink Setting,Post Name,
+Primary Brand Color,,Generated from logo
+Secondary Brand Color,,Generated from logo
+Hero H1,,Dummy setup content only
+Hero Paragraph,,Dummy setup content only
+Homepage Publish Status,Not started,
+Review Status,Not reviewed,
