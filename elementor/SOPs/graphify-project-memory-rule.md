@@ -49,12 +49,16 @@ For small code-only changes, `graphify update .` may be enough.
 
 For SOP/document changes, a full Graphify extraction may require an approved LLM backend key. Do not store that key in GitHub files.
 
-For Barry, the preferred backend variable is `OPENAI_API_KEY`, stored as a secure local or cloud environment secret.
+Barry must avoid paid Graphify API usage by default. Do not run Graphify commands that require OpenAI, Gemini, Anthropic, Kimi, DeepSeek, or another paid/hosted LLM backend unless the user explicitly approves that cost for the current task.
+
+For no-cost use, Barry may use Graphify's local/code-only features where they are useful. Barry may also keep the project Graphify skill installed so future graph use is ready.
+
+If the user later approves paid graph extraction, the preferred backend variable is `OPENAI_API_KEY`, stored as a secure local or cloud environment secret.
 
 Local setup helper:
 
-- `scripts/set-graphify-openai-key.ps1` sets the key for a session or Windows user environment.
-- `scripts/build-graphify-barry-graph.ps1` builds the Barry graph after the key is available.
+- `scripts/set-graphify-openai-key.ps1` sets the key for a session or Windows user environment, only after user approval.
+- `scripts/build-graphify-barry-graph.ps1` builds the Barry graph after the key is available and paid extraction is approved.
 
 Do not paste OpenAI keys into normal chats, SOP files, client notes, commits, screenshots, or GitHub files.
 

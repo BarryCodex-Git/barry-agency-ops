@@ -1,4 +1,12 @@
+param(
+    [switch]$ApprovedPaidExtraction
+)
+
 $ErrorActionPreference = "Stop"
+
+if (-not $ApprovedPaidExtraction) {
+    throw "This Graphify build can use paid OpenAI API tokens. Re-run with -ApprovedPaidExtraction only after explicit user approval."
+}
 
 $graphify = Join-Path $env:APPDATA "Python\Python312\Scripts\graphify.exe"
 if (-not (Test-Path $graphify)) {
@@ -14,4 +22,3 @@ if (-not $env:OPENAI_API_KEY) {
 & $graphify . --wiki
 
 Write-Host "Barry Graphify graph built in graphify-out/."
-
