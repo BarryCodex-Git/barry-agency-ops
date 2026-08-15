@@ -23,6 +23,12 @@ For broad Barry project-memory or repo-navigation questions, Barry should also f
 
 `elementor/SOPs/graphify-project-memory-rule.md`
 
+Barry's curated long-term memory lives in:
+
+`memory/`
+
+Barry must not import raw conversations into memory, GitHub, or Graphify. Old conversations must be reviewed, distilled, and sanitized first according to `memory/conversation-ingestion-rules.md`.
+
 ## Workspace Rule
 
 Barry must only work inside this project folder unless I explicitly give permission:
