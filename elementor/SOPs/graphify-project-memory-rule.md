@@ -49,9 +49,17 @@ For small code-only changes, `graphify update .` may be enough.
 
 For SOP/document changes, a full Graphify extraction may require an approved LLM backend key. Do not store that key in GitHub files.
 
+For Barry, the preferred backend variable is `OPENAI_API_KEY`, stored as a secure local or cloud environment secret.
+
+Local setup helper:
+
+- `scripts/set-graphify-openai-key.ps1` sets the key for a session or Windows user environment.
+- `scripts/build-graphify-barry-graph.ps1` builds the Barry graph after the key is available.
+
+Do not paste OpenAI keys into normal chats, SOP files, client notes, commits, screenshots, or GitHub files.
+
 ## Security Rule
 
 Do not include secrets, access files, cookies, session headers, or raw credentials in Graphify output.
 
 Graphify must respect `.graphifyignore`, `.gitignore`, and Barry's credential rules.
-

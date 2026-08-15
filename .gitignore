@@ -16,6 +16,9 @@ clients/*/exports/
 *cookie*.txt
 *cookies*.txt
 *.log
+.env
+.env.*
+!.env.example
 
 # Large WordPress site imports stay local. These are uploaded to DEV domains directly.
 *.wpress
