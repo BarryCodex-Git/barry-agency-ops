@@ -26,3 +26,17 @@ Credential references should be replaced with safe labels such as:
 
 `Credential stored in approved secret store`
 
+## First Distillation Pass
+
+Completed on 2026-08-15.
+
+Initial selected lessons were distilled into:
+
+- `sop-lessons.md`
+- `template-lessons.md`
+- `elementor-builder-lessons.md`
+- `client-continuity-index.md`
+- `github-graphify-lessons.md`
+- `incidents-and-avoidance.md`
+
+This first pass used high-level conversation summaries and current SOP correction outcomes. It intentionally avoided raw transcript imports and credential details.

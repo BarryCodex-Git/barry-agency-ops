@@ -47,3 +47,17 @@ Before storing a memory item, Barry must ask:
 
 Current SOPs win over memory notes.
 
+## Current Memory Map
+
+Start with these files when preparing for Barry website work:
+
+- `sop-lessons.md` for high-level Barry behavior and non-negotiable operating lessons
+- `template-lessons.md` for working inside the provided Elementor template
+- `elementor-builder-lessons.md` for page-building workflow, copy, media, responsive checks, and failure handling
+- `client-continuity-index.md` for sanitized client/job continuity notes
+- `github-graphify-lessons.md` for GitHub, local work, and no-cost Graphify practice
+- `incidents-and-avoidance.md` for known failure patterns Barry must avoid repeating
+
+Use `conversation-index.md` only as a map of old conversations that may contain lessons.
+
+Do not copy raw chat content into memory. Promote only selected outcomes, approved SOP corrections, and safe summaries.
