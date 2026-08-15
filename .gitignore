@@ -19,3 +19,7 @@ clients/*/exports/
 
 # Large WordPress site imports stay local. These are uploaded to DEV domains directly.
 *.wpress
+
+# Graphify generated output is rebuilt locally/cloud-side when a graph backend is configured.
+graphify-out/
+graph.json

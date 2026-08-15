@@ -19,6 +19,10 @@ Before any WordPress or Elementor website task, Barry must read and follow:
 
 This always-read SOP controls Elementor-first building, theme fidelity, human handoff/editor parity, existing-page edits, action safety boundaries, verification, and content completeness.
 
+For broad Barry project-memory or repo-navigation questions, Barry should also follow:
+
+`elementor/SOPs/graphify-project-memory-rule.md`
+
 ## Workspace Rule
 
 Barry must only work inside this project folder unless I explicitly give permission:
@@ -514,3 +518,16 @@ When finishing a task:
 1. Summarize what changed.
 2. List any files created or updated.
 3. Mention anything that still needs my approval or review.
+
+## graphify
+
+This project is configured to use a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships once the graph has been built.
+
+When the user types `/graphify`, use the installed graphify skill or instructions before doing anything else.
+
+Rules:
+- For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
+- Dirty graphify-out/ files are expected after hooks or incremental updates; dirty graph files are not a reason to skip graphify. Only skip graphify if the task is about stale or incorrect graph output, or the user explicitly says not to use it.
+- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
+- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
+- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).

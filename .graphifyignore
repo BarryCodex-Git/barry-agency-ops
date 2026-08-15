@@ -1,0 +1,38 @@
+.git/
+.codex/
+secrets/
+graphify-out/
+graph.json
+*.wpress
+*.log
+*-headers.txt
+*session-response.txt
+*session-headers.txt
+*cookie*.txt
+*cookies*.txt
+
+# Keep the first Barry graph focused on operating knowledge.
+# Client media and generated dumps stay available in the repo, but they are not useful
+# for the initial SOP/template memory map.
+clients/**/assets/
+clients/**/Website photos/
+work/
+outputs/
+
+# Large binary/archive formats
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.svg
+*.mp4
+*.mov
+*.avi
+*.pdf
+*.docx
+*.xlsx
+*.zip
+*.7z
+*.tar
+*.gz
