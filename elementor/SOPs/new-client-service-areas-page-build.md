@@ -49,6 +49,7 @@ Convert the approved Elementor Service Areas hub into a location hub page that p
    - placeholder link unless spoke pages already exist
    - a genuine landmark, skyline, streetscape or landscape image relevant to the location group; do not use service-technician or equipment images as location-card substitutes
    - a true 3:2 landscape WebP card asset, normally 1200x800, unless the approved template map documents a different card ratio
+   - a one-to-one match between the card title, destination URL, visible location, filename and alt text
 9. Use existing approved service-area images first.
    - Every primary region and every visible local-area card must have its own place-relevant image. Do not reuse one image for different named locations unless the user explicitly approves a temporary placeholder pass.
    - Keep each location mapped to the same approved image wherever that location appears on the Home page and Service Areas page.
@@ -119,6 +120,8 @@ This approved design freezes the hero, primary-region section and two local-trus
 - The first local-area card on a regional hub must be a prime suburb/local area, not the region overview title. The section H2 must stay in the heading area above the grid.
 - Every local-area card must have matching title, description and button text. Do not allow shifted card data where one suburb title uses another suburb's description or CTA.
 - Each local-area card should use a unique relevant landscape, skyline, estate, suburb, streetscape or landmark image for that specific local area. Do not duplicate the same location image across all cards unless the user explicitly approves a temporary placeholder pass.
+- This unique-place rule applies to every linked card throughout the hierarchy: primary regional hubs, suburb/estate/town/neighbourhood hubs, sub-location cards and service-plus-location spoke cards. Any service card whose link target is location-led is a location card for image-selection purposes.
+- Before publishing links, run a one-to-one matrix audit for `card title -> CTA destination -> visible place -> media filename -> alt text`. Every row must resolve to the same named location.
 - Service-area card imagery represents the named place, not the trade. Never use a service truck, technician, equipment or job-site image as a substitute for a city, suburb, landscape, aerial view or landmark image.
 - Prepare card media as true 3:2 landscape WebP files, normally 1200x800, unless the approved template map documents another card ratio. Do not confuse card media with paired-content/support image widgets, which remain true 1000x1000 square files, or with hero/section backgrounds, which remain true 1920x1080 files.
 - Local-area image filenames must use a natural `[client]-[service]-[location]-service-area-1200x800.webp` pattern. Alt text must honestly describe the visible place and name the correct location; do not force a service keyword into a purely geographic photograph.

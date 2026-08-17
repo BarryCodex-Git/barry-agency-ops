@@ -199,7 +199,8 @@ For full client website builds, use the approved `Barry - Codex` Chrome profile.
 - Use one client-relevant hero-form prompt of no more than three words across the site; verify one-line mobile rendering.
 - Keep every hero paragraph under the H1 to one concise paragraph of 40-50 words. Do not place multi-paragraph About, service, location, or company explanations in the hero.
 - Match all secondary-page hero overlays to the approved Home overlay intensity.
-- Service-area cards must use landmark, skyline, streetscape or landscape imagery.
+- Every linked location card must use a unique image of its exact named place. This includes primary region, suburb, estate, town, neighbourhood, sub-location and service-plus-location spoke cards. The title, CTA destination, filename, visible scene and alt text must all resolve to the same location; never substitute trade, truck, technician, equipment or generic job-site imagery.
+- Reuse the approved image when the same location appears on multiple pages, but never reuse one image for different named locations. Audit the entire linked card grid before sign-off.
 - Every icon box must visibly render an icon, and every related-service card must link to its published service page.
 - Trust/service-standard sections must contain complete customer-facing content. If intake and the old site provide no verified trust facts, use truthful general signals such as clear communication, careful checks, local focus and practical options; never expose drafting notes, “prefill” language or commentary about missing credentials.
 - Standard paired-content and inline support-image slots must use actual purpose-cropped 1000x1000 square source/upload assets. This does not apply to hero/section backgrounds, service-area landmark cards or blog cards, which retain their intended landscape ratios.

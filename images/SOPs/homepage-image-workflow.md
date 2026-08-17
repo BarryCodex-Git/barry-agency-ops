@@ -29,11 +29,12 @@ Select, prepare, and map images that support the homepage content and SEO.
    - Do not rely on Elementor cover mode, CSS background-size, overlays, masks, or visual cropping to hide a wrong-ratio or oversized background asset.
 11. If the user asks to fix stretched, zoomed, or blurry background images, update only the relevant top-level section background assets unless they also ask to change inline image widgets.
 12. Do not replace process, why choose us, why trust us, service-card, or other inline images when the instruction only refers to background images.
-13. Treat Service Areas card images as a dedicated place-image class:
-   - use a unique image of each named location, such as a skyline, landmark, aerial view, streetscape, coast, townscape or regional landscape
+13. Treat every linked location card image as a dedicated place-image class. This includes primary region, suburb, estate, town, neighbourhood, sub-location and service-plus-location spoke cards:
+   - use a unique image of the exact named location, such as a skyline, landmark, aerial view, streetscape, estate entrance, coast, townscape or regional landscape
    - never substitute a truck, technician, equipment or job-site image for a location card
    - prepare consistent 3:2 landscape WebP files, normally 1200x800, unless the approved template map documents another card ratio
-   - reuse the same approved image for the same location on the Home page and main Service Areas page, while never duplicating one image across different named locations
+   - reuse the same approved image for the same location wherever that location card appears, while never duplicating one image across different named locations
+   - verify the card title, CTA destination, visible place, filename and alt text all refer to the same location
    - keep the set visually coherent in colour, lighting and photographic style
 14. Rename images with SEO-friendly filenames. Service-area card filenames use `[client]-[service]-[location]-service-area-1200x800.webp`.
 15. Prepare honest alt text that describes the visible scene and names the correct location naturally.
@@ -44,7 +45,7 @@ Select, prepare, and map images that support the homepage content and SEO.
 20. Before marking the page complete, verify:
    - content/support image files are square where the slot requires square
    - background/overlay image files are 1920x1080 landscape WebP where the slot requires a background
-   - every Service Areas card uses a unique, correctly named 3:2 place image and the Home/Service Areas location mappings match
+   - every linked location card uses a unique, correctly named place image and its title/link/image/alt mapping matches
    - file sizes are web-friendly and not multi-megabyte uploads
 
 ## Avoid

@@ -358,6 +358,29 @@ Hard gate: Barry must not upload or place multi-megabyte generated PNG/JPG backg
 
 Exception: service-area landmark/location cards and blog images may use their documented template ratios, but they must still be compressed and web-friendly.
 
+## Linked Location Card Image Rule
+
+Every card that links to a location-led page must use its own unique image of the exact place named by that card. This applies across the full hub-and-spoke structure, including:
+
+- primary service-region cards
+- suburb, estate, town and neighbourhood cards
+- sub-location cards
+- service-plus-location spoke cards
+- any service card whose CTA destination is a location or service-location page
+
+The image must visibly showcase that specific place through a credible skyline, landmark, aerial view, streetscape, estate entrance, coastline, townscape or regional landscape. Do not use service trucks, technicians, tools, equipment, job-site activity or generic trade imagery as a substitute for the location.
+
+Hard gates:
+
+- one named location equals one unique image; do not reuse one image for different locations
+- the card title, CTA destination, filename, visible place and alt text must all refer to the same location
+- when the same location card appears on more than one page, reuse that location's approved image consistently
+- prepare the asset in the approved card ratio, normally 1200x800 3:2 WebP, unless the template map documents another ratio
+- keep the full card set visually coherent in colour, lighting and photographic style
+- record source, creator and licence for downloaded imagery and preserve required attribution
+
+Do not publish or sign off a linked location-card grid until every visible card passes this one-to-one title/link/image/alt audit. Temporary duplicate or generic placeholders require explicit user approval and must be clearly recorded as pending.
+
 ## Website Copy Quality Rule
 
 Barry must write local service website copy for people first and SEO second.
