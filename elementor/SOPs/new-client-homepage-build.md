@@ -90,6 +90,11 @@ Convert the approved Elementor Home page into a polished, SEO-friendly, conversi
     - Target 35-40 words for Home service card descriptions where the design allows.
     - Keep H3 headings short and scannable.
     - Give H2 headings enough detail and include the focus keyphrase or variants naturally.
+    - Treat the paired Home Page `Why Choose Us` and `Why Trust Us` sections as substantial About Us content. Follow the exact structure, writing roles, density and quality gate in `content/SOPs/homepage-copywriting.md`.
+    - Use one natural exact or close focus-keyphrase H2 across the pair and a useful service/location variation in the other. Do not repeat the exact phrase mechanically.
+    - Give each section a purposeful H3, a useful two-to-three-sentence paragraph and three complete `Label: explanation` list points that tell the client why the detail matters.
+    - Keep the two sections distinct: `Why Choose Us` covers service fit and benefits; `Why Trust Us` covers communication, preparation, access, equipment, scope or realistic expectations.
+    - Use verified client proof when available. When it is not available, use honest process and service details without inventing trust claims.
     - Write FAQ answers with useful local-service detail and natural focus-keyphrase variants.
     - Keep the testimonials/reviews section as real reviews or a verified Google Reviews widget; do not turn it into generic service-promise copy.
     - If reviews are not approved or available, use a clearly labelled pending-review placeholder instead of invented quotes or fake-looking Google cards.

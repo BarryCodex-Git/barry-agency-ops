@@ -78,6 +78,9 @@ For a full new-client website, also duplicate the approved Service Page Template
 - Replace the inherited hero-form prompt with one client-relevant phrase of no more than three words that remains on one line on mobile. Use it consistently on every page with `Contact Us Now!` beneath it.
 - Target 35-40 words for Home service card descriptions where the layout supports it.
 - Keep H3 headings short and scannable.
+- Build the paired Home Page `Why Choose Us` and `Why Trust Us` sections to the full standard in `content/SOPs/homepage-copywriting.md`: descriptive service/location H2s, purposeful H3s, useful two-to-three-sentence paragraphs, and three complete client-facing proof or process points per section.
+- Give the two About Us sections distinct roles. `Why Choose Us` explains service fit and benefits; `Why Trust Us` explains communication, preparation, access, equipment, scope or realistic service expectations.
+- Use verified proof when supplied. Otherwise create confidence with honest process detail and never invent ratings, reviews, credentials, guarantees, awards, years, insurance or response times.
 - Keep the testimonials/reviews section as real approved testimonials, a verified Google Reviews/Trustindex-style widget, or a clearly labelled pending-review state.
 - Do not use generic service standards or invented quotes inside Google-style review cards.
 - Include a Home Service Areas section when the template contains one.

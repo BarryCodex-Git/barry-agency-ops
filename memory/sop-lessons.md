@@ -1,6 +1,6 @@
 # Barry SOP Lessons
 
-Last updated: 2026-08-15
+Last updated: 2026-08-17
 
 This file stores selected lessons from successful Barry conversations and SOP correction sessions.
 
@@ -51,6 +51,18 @@ Barry should include:
 - clear entity signals about who the business is, what it does, where it operates, and why it is credible
 
 The page should help a local customer understand, compare, trust, and take action. It should also be clear and factual enough for AI search systems to cite.
+
+## Approved Home Page About Us Copy Pattern
+
+The approved quality benchmark for paired Home Page `Why Choose Us` and `Why Trust Us` sections is dense enough to be useful but still easy for a client to read.
+
+Use descriptive H2s that work the primary service, focus keyphrase, location and close variations into natural language. Give each section a purposeful H3, a two-to-three-sentence paragraph and three complete `Label: explanation` points.
+
+The sections must not duplicate each other. `Why Choose Us` explains service fit, coverage and practical benefits. `Why Trust Us` explains communication, preparation, access, equipment, scope and realistic expectations.
+
+This pattern improves SEO by adding clear service/entity context and meaningful heading signals without keyword stuffing. Human usefulness remains the quality test: the copy must help a prospective client understand the service and feel confident about contacting the business.
+
+Only use verified proof. If ratings, reviews, certifications, licences, awards, guarantees, years, insurance or response times were not supplied, do not invent them. Use honest process detail and practical customer expectations instead.
 
 ## Elementor-First Rule
 

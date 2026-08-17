@@ -121,6 +121,51 @@ Example:
 
 `<strong>Local service area:</strong> George, Mossel Bay and nearby towns.`
 
+## Home Page About Us Pair: Why Choose Us and Why Trust Us
+
+Treat the paired `Why Choose Us` and `Why Trust Us` sections as substantial Home Page content, not thin filler. Both sections must help a client understand the service, feel confident about the next step, and give search engines enough useful context to understand the business, service and location.
+
+### Required writing pattern
+
+For each section, retain the template structure and write:
+
+1. A short eyebrow such as `WHY CHOOSE US` or `WHY TRUST US`.
+2. A descriptive H2 that naturally uses the Home Page focus keyphrase, a close service variation, the location, or a brand/service variation.
+3. A purposeful H3 that explains the practical customer benefit or trust angle.
+4. A useful paragraph of two or three connected sentences.
+5. Three check-list points using `<strong>Label:</strong> explanation`.
+
+### H2 and H3 standard
+
+- Make each H2 a natural, human-readable phrase or sentence, normally longer and more descriptive than a generic heading such as `Quality Service`.
+- Use the exact focus keyphrase in one H2 only when it reads naturally. Use close service, location or intent variations in the other H2.
+- Do not force the exact keyphrase into both sections or repeat it mechanically.
+- Make each H3 explain a real client benefit, preparation step, service expectation or trust reason. Avoid vague headings such as `We Are the Best` or repeating the H2 in different words.
+- Keep headings easy to scan, but do not shorten them until their meaning becomes thin.
+
+### Paragraph and list standard
+
+- Write for a person deciding whether to contact the business. Explain what happens, what information helps, how the service is planned, or what the client can reasonably expect.
+- Give `Why Choose Us` the service-and-benefit role: why the service suits the client, what is covered, and how the work is planned around the property or need.
+- Give `Why Trust Us` the confidence-and-expectation role: how communication, access, preparation, equipment, scope or next steps are handled.
+- Make each list explanation a complete, useful client-facing sentence, not a fragment or two-word claim.
+- Use verified client proof when available. Otherwise use honest process details, service coverage, preparation guidance and realistic expectations.
+- Never invent years in business, ratings, reviews, certifications, licences, awards, guarantees, insurance, response times or other unsupported trust claims.
+- Avoid AI-sounding abstractions, generic hype, repeated sentence rhythms and empty claims. Prefer concrete service nouns, customer problems, access details, locations and next steps.
+
+### Quality gate
+
+Before approving these sections, confirm:
+
+- the two sections have distinct purposes and do not duplicate the same paragraph
+- at least one H2 naturally supports the Home Page focus keyphrase or primary service and location
+- the second H2 uses a useful close variation rather than keyword repetition
+- both H3s add meaning beyond their H2s
+- both paragraphs are substantial enough to be useful without becoming article-length
+- all six list points explain why the point matters to the client
+- every trust or proof claim is supported by intake data or another approved source
+- the copy reads naturally aloud and does not feel written for a crawler
+
 Testimonials/reviews:
 - The testimonials/reviews section must stay a reviews section, not a substitute service-promise or values section.
 - Use real approved client testimonials or a verified Google Reviews/Trustindex-style widget when available.
