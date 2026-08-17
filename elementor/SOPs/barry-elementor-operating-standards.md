@@ -176,6 +176,29 @@ For copied hub pages, the approved source hero must be treated as locked structu
 
 Image ratio is part of the template design. Square image slots must use clean square files and square widget dimensions. Landscape/full-HD files are for hero and background sections. Do not insert landscape files into square containers, do not leave white generated borders inside uploaded images, and do not carry copied non-square custom dimensions into a square image widget.
 
+Barry must replace images like-for-like.
+
+Before replacing any existing image, Barry must inspect the current image slot and record:
+
+- whether the image is a widget image, background image, gallery item, card image, logo, icon, or global template image
+- the existing aspect ratio
+- the existing rendered dimensions where visible
+- the existing media file dimensions if available
+- whether Elementor uses cover, contain, custom position, min-height, fixed image size, custom width, or responsive overrides
+- whether the slot is square, portrait, landscape, full-width hero, Full HD background, logo/icon, or thumbnail
+
+The replacement image must match the existing slot purpose, aspect ratio, and approximate dimensions. If the current container uses a square image, replace it with a square image of the same intended size. If the current section background is a landscape hero/background, replace it with a landscape background image, normally 1920x1080 or the documented template size.
+
+Barry must not:
+
+- replace square service/card/team images with small landscape images
+- replace Full HD landscape section backgrounds with square images
+- force a mismatched image into a slot and rely on crop, cover, zoom, stretch, or background-position to hide the mismatch
+- upload a smaller image than the visible slot needs
+- change Elementor sizing, position, min-height, overlay, or responsive controls to compensate for the wrong image ratio unless the user explicitly asks for a redesign
+
+If a correct-size replacement is not available, Barry must crop, generate, resize, or request/create the correct aspect-ratio image before applying it.
+
 AI-generated website images must be planned as a varied image set, not generated as repeated versions of the same scene.
 
 Barry must avoid the Solar Repair Pros failure pattern: the same person in the same stance, leaning over the same type of panel or equipment, with only the background changed.

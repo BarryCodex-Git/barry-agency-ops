@@ -68,6 +68,22 @@ Use optimized formats such as WebP where appropriate. Avoid uploading multi-mega
 
 Before deleting old media, confirm it is unused or no longer needed.
 
+## Image Slot Replacement Standard
+
+Replace images like-for-like.
+
+Before replacing an image, Barry must inspect the existing image slot, aspect ratio, rendered size, original media dimensions where available, and Elementor sizing settings.
+
+The replacement should match the existing slot purpose and size:
+
+- square card/team/service slots need square replacement images
+- Full HD section backgrounds and hero backgrounds need landscape images, normally 1920x1080 or the documented template size
+- logo/icon/thumb slots need files prepared for that specific slot
+
+Do not place square images into landscape backgrounds or small landscape images into square containers. Do not rely on Elementor cover, zoom, stretch, or background position to hide the wrong aspect ratio.
+
+If the correct aspect ratio is not available, crop, resize, generate, or prepare the correct-size image before replacing it.
+
 ## AI Image Variety Standard
 
 AI image sets must not look like the same scene regenerated with a different background.

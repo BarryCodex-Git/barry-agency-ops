@@ -35,6 +35,8 @@ Use client images first. If no suitable client images exist, automatically use r
 
 Before generating AI images, inspect the client folder, `assets/AI Images/`, `assets/AI Images/brand guide/`, approved generated images, `image-plan.md`, and `brand-image-rules.md` if present. Use those examples as the image style, branding, local setting, vehicle, uniform and equipment reference.
 
+Before replacing any template image, inspect the existing image slot size and aspect ratio. Replace like-for-like: square slots need square images, section/hero backgrounds need landscape Full HD images where the template expects them, and replacements should match the current container dimensions instead of being forced into place with crop/zoom/stretch.
+
 Before generating or selecting multiple AI images, create a quick image variety plan. Avoid repeating the same person, pose, stance, facial expression, equipment angle or composition with only the background changed. Vary scenarios, team members, expressions, service examples, camera framing, tools, vehicles, local settings and job actions.
 
 Preserve the approved master section order, containers, widgets and image-slot dimensions on every template page unless I specifically ask for a restructure. This is a content, branding and SEO conversion, not a redesign.
@@ -58,7 +60,7 @@ Open the published Home page in Chrome after changes so I can review it.
 4. Ask for missing client intake data.
 5. Draft homepage content.
 6. Prepare SEO fields.
-7. Prepare image plan, including visual variety and duplicate-image checks.
+7. Prepare image plan, including slot size/aspect-ratio matching, visual variety and duplicate-image checks.
 8. Apply Home Page content through Elementor MCP.
 9. Build Services Hub Page if full setup is requested.
 10. Build Service Areas Hub Page if full setup is requested.
