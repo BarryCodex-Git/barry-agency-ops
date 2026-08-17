@@ -74,6 +74,15 @@ The standard problem-intent section is labelled `PROBLEMS WE SOLVE`. Its H2 and 
 
 Apply this standard to Services, Problems We Solve, Process, Why Choose Us, Why Trust Us, FAQs and Service Areas. Each section heading must communicate a distinct purpose, and each introduction must add information rather than restating the heading.
 
+## Contact Button Tracking Labels
+
+Phone and WhatsApp button labels are part of the Google Tag Manager tracking contract, not flexible CTA copy.
+
+- A button with a `tel:` destination must say exactly `Call Us Now`.
+- A button with a WhatsApp destination must say exactly `WhatsApp Us`.
+
+Audit buttons by destination rather than current wording. Preserve the approved links when correcting labels, and do not create service-specific, location-specific or phone-number variations during normal copy or design work.
+
 ## Elementor-First Rule
 
 All visible layout, spacing, typography, styling, content structure, and responsive behavior must be created or edited through Elementor native controls inside the existing WordPress theme/page structure.

@@ -61,7 +61,18 @@ If Elementor MCP cannot insert this as a true Elementor Pro Global Widget, use t
 
 Before sign-off, inspect rendered CTAs rather than settings alone. Every displayed phone number must match the digits in its `tel:` target, every displayed email must match its `mailto:` target, and every no-WhatsApp build must contain no inherited `wa.me` destination. Clear stale Elementor dynamic-tag overrides when they supersede the visible configured link.
 
-Do not change the visible text on global contact buttons once the user has approved them. Button labels are reserved for future Google Tag Manager conversion actions. Only update destination links/contact values when contact details change or the user explicitly asks.
+### Exact Google Tag Manager button labels
+
+These visible labels are reserved for Google Tag Manager text-match triggers:
+
+- Phone-call buttons must display exactly `Call Us Now`.
+- WhatsApp buttons must display exactly `WhatsApp Us`.
+
+The match is case-sensitive and text-sensitive. Do not use a phone number, `Call`, `Phone`, `Call HoneySucker`, `Call for {location}`, `WhatsApp`, punctuation or any other variation on a button with the corresponding destination.
+
+Apply this rule to the Header, Home Page, service pages, service-area pages, CTA pairs, cards, reusable/global widgets and templates, and all future builds. Audit by `tel:` and WhatsApp destination URLs so incorrectly labelled buttons are still found. Change only the visible label when normalising tracking text; preserve the approved destination URL unless a contact-detail change is separately authorised.
+
+Do not change these tracked labels during ordinary copywriting, SEO, design polish or service-specific CTA work. Only change the tracking contract when the user explicitly approves a corresponding Google Tag Manager change.
 
 ## Hero Form Text
 

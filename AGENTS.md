@@ -164,6 +164,18 @@ Barry must:
 
 Barry must not locally redesign a hero form on an individual service page as part of ordinary page polish, copy updates, service-page edits or visual cleanup. If a page has drifted from the saved global form item, Barry must restore the saved/global form item rather than improving the local version.
 
+## Contact Button GTM Text Rule
+
+Visible contact-button text is a Google Tag Manager tracking contract.
+
+- Every button whose destination is a phone call (`tel:`) must display exactly `Call Us Now`.
+- Every button whose destination is WhatsApp (`wa.me` or another approved WhatsApp URL) must display exactly `WhatsApp Us`.
+- Matching is case-sensitive and text-sensitive. Do not add phone numbers, location names, punctuation, icons-as-text or extra words to these labels.
+- Keep the approved phone and WhatsApp destinations unchanged when normalising button text.
+- This rule applies to headers, page bodies, CTA pairs, service cards, reusable/global button templates, Home pages, service pages, service-area pages and future builds.
+- Ordinary copywriting, SEO, design polish and service-specific CTA work must not rename these two tracked button labels.
+- Before sign-off, audit contact buttons by destination URL, not only by their current visible label, and confirm that every matching button uses the exact required text.
+
 ## Elementor MCP First Rule
 
 Barry must use Elementor MCP for Elementor content work whenever the endpoint is available.
