@@ -86,6 +86,18 @@ Use natural focus-keyphrase variations, service terms, business/entity language 
 
 The tracked contact actions remain exact: `Call Us Now` for phone buttons and `WhatsApp Us` for WhatsApp buttons.
 
+## Approved Service Areas Hub Top-Half Pattern
+
+The approved Service Areas hub begins with a flexible, location-led structure that remains valid when the client's coverage changes.
+
+Use a hero H1 such as `Locations We Service Throughout the {Primary Region}`, a paragraph naming the current intake regions and two location-relevant yellow trust bubbles. Hero bubbles and headings must be count-neutral; use language such as `Primary Service Regions`, never `Five Service Regions` or another hard-coded total.
+
+The primary-region section uses the exact eyebrow `PRIMARY SERVICE AREAS` and a count-neutral service-and-location H2. Its cards represent the primary service regions from the current client intake. They are the first regional hub layer and must remain conceptually separate from later suburb/sub-location cards.
+
+After those cards, use two complementary local-trust sections. `{PRIMARY LOCATION} RESIDENTS` establishes a verified local connection and may refer to years of residence only when supplied or confirmed. `LOCAL EXPERTISE` explains how local familiarity improves coverage confirmation, access discussions, preparation and booking clarity. Each section needs a descriptive H2, purposeful H3, two-to-three-sentence paragraph and three complete `Label: explanation` points.
+
+This approved pattern stops before suburb cards and deeper hub-and-spoke implementation. Those elements require a separate planning and approval stage.
+
 ## Contact Button Tracking Labels
 
 Phone and WhatsApp button labels are part of the Google Tag Manager tracking contract, not flexible CTA copy.

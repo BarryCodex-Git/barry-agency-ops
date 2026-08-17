@@ -15,6 +15,7 @@ Convert the approved Elementor Service Areas hub into a location hub page that p
 - Sub-locations inside each primary service area, if supplied
 - Main service category
 - Primary service keyword
+- Verified local-residence, trading-history or local-expertise context supplied by the intake/client
 - Client phone/CTA
 - Approved region images or location image plan
 - AI Images brand guide/example folder, if available
@@ -55,6 +56,48 @@ Convert the approved Elementor Service Areas hub into a location hub page that p
 13. Use `seo/skills/local-business-schema/SKILL.md` to add/verify `CollectionPage`, truthful `ItemList`/`Place` references and `areaServed` relationships. Do not create fake branches or addresses.
 14. Validate the rendered schema and record the page result in `schema-plan.md`.
 15. Open the page for review.
+
+## Approved Main Service Areas Hub Design
+
+The approved top-half design for a new-client Service Areas hub is fixed before suburb cards or deeper hub-and-spoke work begins.
+
+### 1. Location-Led Hero
+
+- Use a natural H1 pattern such as `Locations We Service Throughout the {Primary Region}`.
+- The hero paragraph should name the current primary service regions from the client intake and explain that the visitor can share their suburb, service need and access details to confirm coverage.
+- Add two short yellow trust bubbles beneath the paragraph using the approved hero-pill style.
+- Keep trust-bubble wording location-relevant and count-neutral. Suitable patterns include `Primary Service Regions` and `Local Service Knowledge`.
+- Never write a fixed number of regions into the H1, H2, section description or trust bubbles. The client intake may change, so the headings must remain valid when regions are added or removed.
+
+### 2. Primary Service Areas Section
+
+- Use the exact eyebrow `PRIMARY SERVICE AREAS`.
+- Use a count-neutral H2 pattern such as `Primary {Service Category} Service Areas Across the {Primary Region}`.
+- The cards immediately below this heading represent the primary service regions supplied on the client intake form.
+- Populate the cards from the current intake; do not assume there will always be four, five or another fixed number.
+- Keep this section conceptually separate from suburb/sub-location cards. Primary-region cards are the first regional hub layer; suburb cards are a later spoke-planning layer.
+
+### 3. Local Trust Sections
+
+Place two complementary paired text/image trust sections after the primary-region cards and before FAQs or the later suburb/spoke section.
+
+The first uses the eyebrow `{PRIMARY LOCATION} RESIDENTS` and should explain the business's verified local connection. When the client/intake confirms that the owners or team live in the area, explain naturally that years of local residence help them understand neighbourhood layouts, property access and travel considerations. Do not invent a local-residence or trading-history claim when it has not been verified.
+
+The second uses the exact eyebrow `LOCAL EXPERTISE` and should explain how local familiarity improves the customer experience: clearer coverage confirmation, better access questions, realistic service preparation and a practical next step.
+
+Each trust section must include:
+
+- a descriptive service-and-location H2
+- a purposeful customer-facing H3
+- a human paragraph of two or three connected sentences
+- three complete `Label: explanation` trust points
+- the approved tracked contact actions where the template provides them
+
+Keep their purposes distinct. `{PRIMARY LOCATION} RESIDENTS` establishes the verified local connection; `LOCAL EXPERTISE` explains how that connection improves planning and booking.
+
+### Current Scope Boundary
+
+This approved design freezes the hero, primary-region section and two local-trust sections only. Suburb/sub-location cards, regional child hubs, suburb hubs and service-location spokes must be planned and approved under the next hub-and-spoke stage before they are added or linked.
 
 ## Hub-And-Spoke Rules
 
