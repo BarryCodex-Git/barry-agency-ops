@@ -553,17 +553,25 @@ For website homepage/service-page image selection, SEO filenames, image placemen
 
 ## Standard Workflow
 
-Before starting a client task:
+Before starting a new client project or resuming a client build:
 1. Read this `AGENTS.md` file.
-2. Read the relevant skill.
-3. Read the relevant SOP.
-4. Read the relevant client folder.
-5. Confirm unclear or risky instructions before taking action.
+2. Check the Barry operations repository against its configured GitHub remote:
+   - run a read-only `git status`, `git remote -v`, `git fetch origin`, and branch/divergence check
+   - fast-forward only when the worktree is clean and the update is unambiguous
+   - never overwrite, reset, stash or discard local work automatically; report dirty or divergent state before continuing
+3. When `graphify-out/graph.json` exists, query Graphify for the current rules relevant to the requested page type, content, images, Elementor workflow, SEO and known client-build lessons.
+4. Read the relevant source SOPs and skills directly. Graphify is a routing and relationship aid, not a replacement for the authoritative instruction files.
+5. Read the relevant client folder, intake and image/brand rules.
+6. Confirm unclear or risky instructions before taking action.
+
+This startup sequence is automatic. The user does not need to say `read the SOP`, `check GitHub` or `use Graphify` on each new client.
 
 When finishing a task:
 1. Summarize what changed.
 2. List any files created or updated.
 3. Mention anything that still needs my approval or review.
+4. At the end of a new-client build or major review cycle, run a brief SOP-gap audit: identify any repeated correction, new hard rule or successful reusable pattern that is not yet captured in the authoritative SOPs.
+5. Update memory, Graphify and GitHub only when a real reusable rule changed; do not create process noise for one-off client preferences.
 
 ## graphify
 
@@ -572,6 +580,7 @@ This project is configured to use a knowledge graph at graphify-out/ with god no
 When the user types `/graphify`, use the installed graphify skill or instructions before doing anything else.
 
 Rules:
+- At the start of every new client project, use Graphify automatically to retrieve the current new-client, page-type, image, content, SEO and Elementor rules before making site changes.
 - For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
 - Do not run Graphify extraction that requires a paid/hosted LLM backend unless the user explicitly approves that cost for the current task. If no graph exists, use normal source files and SOPs instead of triggering paid extraction.
 - Dirty graphify-out/ files are expected after hooks or incremental updates; dirty graph files are not a reason to skip graphify. Only skip graphify if the task is about stale or incorrect graph output, or the user explicitly says not to use it.

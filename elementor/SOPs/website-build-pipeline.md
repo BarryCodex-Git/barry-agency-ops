@@ -4,6 +4,20 @@ Use this SOP as Barry's master workflow for converting the approved imported Ele
 
 Before using this pipeline, Barry must read and follow `always-read-elementor-rules.md`, then `barry-elementor-operating-standards.md`. Those operating standards control Elementor-first building, theme fidelity, human handoff/editor parity, existing-page edits, confirmation boundaries, custom-code exceptions, verification, content completeness, and stop conditions.
 
+## Automatic New-Client Startup Gate
+
+The user does not need to remind Barry to read the SOPs or consult the operational knowledge base.
+
+Before inspecting or changing a new client website, Barry must:
+
+1. Check the local Barry operations repository status and configured GitHub remote, fetch the latest remote state, and confirm whether the current branch is synchronized. Fast-forward only when the worktree is clean and there is no ambiguity; never discard or overwrite local work automatically.
+2. Query the existing Graphify graph for the current new-client conversion rules and the specific page, content, image, SEO and Elementor patterns involved in the build.
+3. Open and read the authoritative SOPs and skills returned by the routing rules. Graphify helps locate and connect instructions but never replaces direct SOP reading.
+4. Read the client intake, client folder, credentials/access notes, image plan, brand rules and any approved references.
+5. Confirm the template/theme, required global items and safe editing route before the first mutation.
+
+At the end of the build, run an SOP-gap review. Capture genuinely reusable lessons in the appropriate high-level rule, detailed SOP and memory; refresh Graphify; commit and push approved operational changes to GitHub. Keep one-off client preferences in the client folder rather than turning them into global rules.
+
 ## Non-Negotiable Definition
 
 For Barry, a new-client build is an Elementor template conversion, not a blank website build.

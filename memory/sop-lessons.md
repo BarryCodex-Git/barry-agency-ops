@@ -98,6 +98,10 @@ Primary service-area cards are geographic entry points and must look geographic.
 
 Extend this as a site-wide linked-location-card rule. Every primary region, suburb, estate, town, neighbourhood, sub-location and service-plus-location card must have a unique image of that exact place. Any service card whose CTA opens a location-led page follows the same rule. Audit `title -> link -> visible place -> filename -> alt text` as one row; all five fields must identify the same location. The same location may reuse its approved image across pages, but two different locations may never share an image without explicit temporary-placeholder approval.
 
+## Automatic New-Client Knowledge Startup
+
+New-client work begins with an automatic operational refresh: inspect local Git state, fetch and compare the configured GitHub remote, query Graphify for the relevant current rules, then read the authoritative routed SOPs and client intake directly. The user must not need to repeat `read the SOP`, `check GitHub` or `use Graphify`. Never overwrite dirty or divergent local work to synchronize automatically. Finish major client-build review cycles with a short SOP-gap audit and only promote genuinely reusable lessons into global rules.
+
 After those cards, use two complementary local-trust sections. `{PRIMARY LOCATION} RESIDENTS` establishes a verified local connection and may refer to years of residence only when supplied or confirmed. `LOCAL EXPERTISE` explains how local familiarity improves coverage confirmation, access discussions, preparation and booking clarity. Each section needs a descriptive H2, purposeful H3, two-to-three-sentence paragraph and three complete `Label: explanation` points.
 
 This approved pattern stops before suburb cards and deeper hub-and-spoke implementation. Those elements require a separate planning and approval stage.
