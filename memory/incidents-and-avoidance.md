@@ -45,3 +45,9 @@ Avoidance rule: only selected, sanitized, user-approved lessons become memory.
 Risk: a 1920x1080 hero asset placed in a two-column inline image widget can look acceptable in some cropped states but appears visibly landscape, unbalanced and poor on desktop. A square Elementor frame is not proof that the source file is square.
 
 Avoidance rule: audit the actual media dimensions across all repeated paired text/image sections on Home, Services, Service Areas, About and individual service pages. Inline paired-content sources must be genuine 1000x1000 WebP files. Hero and background assets remain separate 1920x1080 files and must never be reused in these widgets.
+
+## Problem: Saving Pending Previous-Client Menu Items
+
+Risk: WordPress menu items marked `Pending` are unsaved, but clicking `Save Menu` publishes them. Imported-template service names and custom links can therefore reintroduce old-client residue even when the current public menu is clean.
+
+Avoidance rule: audit the complete menu form by label, URL, item type and parent before saving. Remove all inherited items first. If the approved public menu is already correct and unwanted items exist only as pending browser state, discard the unsaved state instead of saving it. Verify the published desktop and mobile navigation after every legitimate menu save.

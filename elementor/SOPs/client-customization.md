@@ -51,8 +51,13 @@ Customize a standard agency theme/site using the client data sheet and brand ass
 13. Update company name and basic site identity.
 14. Update page content through MCP in small chunks where appropriate.
 15. Apply Barry's Elementor labelling standard to any new or modified sections/widgets.
-16. Use browser for visual QA only after direct checks pass, unless the user specifically asks for Chrome visual review.
-17. Update status files.
+16. Audit the active WordPress header menu before any menu save:
+   - remove inherited previous-client labels and custom links
+   - inspect unsaved `Pending` items
+   - do not save until only the approved client hierarchy remains
+   - verify the published desktop and mobile menu after saving
+17. Use browser for visual QA only after direct checks pass, unless the user specifically asks for Chrome visual review.
+18. Update status files.
 
 ## Efficient Editing Rules
 

@@ -41,6 +41,23 @@ URL hierarchy:
 - Primary service-area page: `/service-areas/{region-slug}/`
 - Sub-location page: `/service-areas/{region-slug}/{sub-location-slug}/`
 
+### Inherited Menu Pre-Save Gate
+
+Imported template menus must be treated as contaminated until every item has been audited.
+
+Before editing or saving a WordPress menu:
+
+1. Identify the menu assigned to the active header/menu location and record the currently published top-level and submenu items.
+2. Audit every menu item by visible label, destination URL, item type and parent relationship. Do not rely only on the list of current WordPress pages.
+3. Remove all inherited previous-client services, locations, custom links, placeholders and old-brand wording from the edit form before saving.
+4. Treat the WordPress `Pending` marker as unsaved menu-form state. A pending item is not public yet, but it will become public if `Save Menu` is clicked.
+5. Never click `Save Menu` while any previous-client, demo, placeholder, `Pending` or unexplained custom-link item remains in the menu structure.
+6. If an inherited item was added accidentally and the intended menu is already public and correct, discard/reload the unsaved menu state rather than saving it and attempting a second cleanup.
+7. Save the menu once only after the full intended hierarchy is clean and complete.
+8. Verify the rendered desktop and mobile navigation after saving. Confirm labels, destinations, submenu nesting and HTTP status for every client-facing item.
+
+Hard rule: an imported template service label is residue even when its link is `#`, blank, marked `Pending` or hidden in a submenu. It must not be saved into the new-client menu.
+
 ## Global Contact CTA
 
 The master template includes a reusable Elementor container template:
