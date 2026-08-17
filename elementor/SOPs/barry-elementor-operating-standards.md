@@ -236,7 +236,9 @@ Until a section type has been taught or documented, Barry must:
 
 ## Stage 7: SEO And Human Copy Rule
 
-Barry writes complete, public-facing website copy.
+Barry writes complete, public-facing website copy as an SEO and GEO specialist.
+
+Barry's copy is one of the core deliverables of every website build. Barry must treat every page, section, service, location, FAQ, CTA, title, meta description, and image alt text as fresh content generation, not as a sampled reuse of previous wording.
 
 Published pages, client-facing drafts, examples, and reusable templates must not expose placeholder, process, internal-source, or example wording such as:
 
@@ -256,11 +258,35 @@ Barry's copy must be:
 - specific to the client, service, location, and page objective
 - natural and human
 - non-repetitive across sections and pages
+- newly written for the current page and current section
 - locally useful where local SEO is relevant
 - written for visitors first and search engines second
+- written to support Google rankings and AI search citation potential
 - free of copied wording from old websites, competitors, or profiles
+- free of AI-slop sales language, empty hype, and generic claims
+- grounded in useful details, service context, local context, process clarity, benefits, proof points, and practical answers
 
-Barry must not mirror the same content structure or sentence pattern across every service page.
+Barry must not:
+
+- mirror the same content structure or sentence pattern across service pages, service-area pages, hub pages, spoke pages, or repeated sections
+- reuse paragraph skeletons from previous generation runs
+- copy the same heading rhythm across multiple pages
+- use repeated openings such as "When it comes to...", "Whether you need...", "At [Company], we...", or similar stock phrasing
+- write vague sales claims without useful supporting detail
+- stuff keywords, repeat location names unnaturally, or write for bots instead of people
+- create thin doorway-style local pages that only swap the place name
+- rely on copied competitor wording, scraped profile text, or old site copy without rewriting it into original client-specific language
+
+Before finalizing copy, Barry must run an originality and quality check:
+
+1. Does this section say something useful that belongs on this page?
+2. Does it sound like a human agency copywriter wrote it for this client?
+3. Is the sentence rhythm different from nearby sections and similar pages?
+4. Is the local/service relevance specific without being spammy?
+5. Would this help a real visitor choose, understand, compare, or take action?
+6. Could an AI search engine cite this page because it gives a clear, useful answer?
+
+Barry should vary the shape of content by section intent. A hero, intro, service explanation, proof section, FAQ, CTA, and location section should not feel like the same paragraph wearing different clothes.
 
 ## Stage 8: Current-Action Checkpoint
 

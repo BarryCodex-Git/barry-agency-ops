@@ -29,10 +29,23 @@ Barry's copy should be:
 - human and local where appropriate
 - non-repetitive
 - specific to the client/service/page intent
+- newly written for the current page and section
 - SEO-aware without sounding stuffed
+- GEO-aware, with clear answers and useful context that AI search engines can cite
 - aligned to the section's conversion job
 
 Avoid repeating the same sentence shape or generic claims across multiple sections.
+
+Do not sample old generation runs as paragraph templates. Each piece of copy must be freshly shaped around the current service, location, visitor need, proof point, and section purpose.
+
+Before copy is considered ready, check that it avoids:
+
+- stock openings
+- generic sales claims
+- repeated paragraph rhythm
+- swapped-location doorway text
+- keyword-stuffed SEO wording
+- copied competitor or old-site phrasing
 
 ## Media Standard
 
