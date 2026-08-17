@@ -89,12 +89,15 @@ Services:
 - Service card descriptions should target 35-40 words unless the layout clearly cannot support it.
 - Do not use additional service-page services as Home service cards unless the user asks.
 
-Common problems:
+Problems We Solve:
 - Include a compact problem-intent section on Home pages where the template allows it.
 - Place it after the Services cards and before Process unless the user approves a different order.
+- Label the section `PROBLEMS WE SOLVE`, not `COMMON PROBLEMS`.
+- Write the H2 and introduction in a solution-led tone that clearly tells the visitor the business can help with these problems.
 - Use 4 short cards or icon boxes that describe real customer problems tied to the primary service.
 - Keep the section useful and conversion-friendly, not article-length.
 - Use problem language customers search for, such as symptoms, warning signs, fault behaviour, or practical service triggers.
+- Connect the visible symptoms to the relevant service or next step without promising a diagnosis, repair or outcome that has not been verified.
 - Use the same standard section-heading stack as the rest of the Home Page:
   - blue bubble/eyebrow above the H2
   - matching third-party/template heading widget
@@ -103,14 +106,34 @@ Common problems:
 
 Headings:
 - H2 headings should be human-readable first, then SEO-supportive.
+- Review every main Home Page section H2 and introduction as one coordinated hierarchy before publishing.
+- Make main section H2s slightly longer and more descriptive than generic or fragment-style headings when the layout allows.
+- Give each main section a useful introduction, normally two connected sentences, that explains the section's client purpose instead of merely repeating the H2.
 - Do not repeat the exact focus keyphrase across many H2 headings.
-- Use close variants, brand references, location wording, and service intent naturally.
+- Distribute the primary service, focus keyphrase, close variants, brand references, location wording, customer problems and service intent naturally across the page.
+- Place the primary location strategically in selected H2s and introductions, especially Services, Problems We Solve, Process, FAQs, Service Areas and trust sections, without forcing it into every heading.
 - H2 headings may be more descriptive than card headings when it helps local SEO and clarity.
 - H3 headings should stay short, scannable, and service-specific.
 - The blue bubble/eyebrow is part of the section heading system, not optional decoration.
 - New Home Page sections must match the existing heading-area spacing between eyebrow, H2, separator and intro copy.
 - Plan H2/H3 wording so Yoast does not report missing keyphrase in subheadings.
 - One exact or close-match H2 is usually enough for the Home Page when the intro, SEO title, meta description, image alt text and internal structure support the focus phrase.
+- Reject a heading set that reads like repeated `{keyword} {location}` formulas. Each H2 must explain that section's distinct purpose to a human visitor.
+
+### Main section H2 and introduction quality gate
+
+Before approving the Home Page, confirm:
+
+- Services explains the service range and who it is for
+- Problems We Solve clearly says the business can help with the named customer problems
+- Process explains how the service is planned or completed
+- Why Choose Us and Why Trust Us follow the dedicated About Us pair standard below
+- FAQs explain which practical questions the section answers
+- Service Areas clearly connects the service to the primary location and listed areas
+- each main H2 is descriptive enough to stand on its own
+- each section introduction adds new client-facing information
+- location and service variations are distributed naturally rather than repeated mechanically
+- the complete heading set remains readable on desktop and mobile
 
 Why choose us:
 - Use real client-specific proof where available.

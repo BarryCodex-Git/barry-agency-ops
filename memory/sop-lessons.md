@@ -64,6 +64,16 @@ This pattern improves SEO by adding clear service/entity context and meaningful 
 
 Only use verified proof. If ratings, reviews, certifications, licences, awards, guarantees, years, insurance or response times were not supplied, do not invent them. Use honest process detail and practical customer expectations instead.
 
+## Approved Home Page Section Heading Pattern
+
+The approved Home Page standard is to review all main H2s and section introductions as one coordinated hierarchy. H2s should be slightly longer and more descriptive where the template allows, while introductions should normally contain two connected sentences that explain the section's value to the client.
+
+Distribute the focus keyphrase, primary service, location, close variations, customer problems and service intent naturally. Strategic location use strengthens local relevance, but repeating the same `{service} {location}` construction across every H2 makes the page mechanical and weakens the human reading experience.
+
+The standard problem-intent section is labelled `PROBLEMS WE SOLVE`. Its H2 and introduction must clearly say the business can help with the symptoms or problems shown in the cards. Keep the tone useful and solution-led without promising an unverified diagnosis, repair or outcome.
+
+Apply this standard to Services, Problems We Solve, Process, Why Choose Us, Why Trust Us, FAQs and Service Areas. Each section heading must communicate a distinct purpose, and each introduction must add information rather than restating the heading.
+
 ## Elementor-First Rule
 
 All visible layout, spacing, typography, styling, content structure, and responsive behavior must be created or edited through Elementor native controls inside the existing WordPress theme/page structure.

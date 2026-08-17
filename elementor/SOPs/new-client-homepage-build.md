@@ -90,6 +90,10 @@ Convert the approved Elementor Home page into a polished, SEO-friendly, conversi
     - Target 35-40 words for Home service card descriptions where the design allows.
     - Keep H3 headings short and scannable.
     - Give H2 headings enough detail and include the focus keyphrase or variants naturally.
+    - Review all main section H2s and introductions as one hierarchy. Make them slightly longer and more descriptive where useful, and distribute the primary service, location and close keyphrase variations without repeating the same formula.
+    - Give each main section a useful introduction, normally two connected sentences, that explains its client purpose rather than repeating the heading.
+    - Use `PROBLEMS WE SOLVE` as the standard problem-intent eyebrow. Its H2 and introduction must clearly communicate that the business can help with the named customer problems, while avoiding unsupported diagnosis, repair or outcome promises.
+    - Apply the main section H2 and introduction quality gate in `content/SOPs/homepage-copywriting.md` to Services, Problems We Solve, Process, About Us, FAQs and Service Areas.
     - Treat the paired Home Page `Why Choose Us` and `Why Trust Us` sections as substantial About Us content. Follow the exact structure, writing roles, density and quality gate in `content/SOPs/homepage-copywriting.md`.
     - Use one natural exact or close focus-keyphrase H2 across the pair and a useful service/location variation in the other. Do not repeat the exact phrase mechanically.
     - Give each section a purposeful H3, a useful two-to-three-sentence paragraph and three complete `Label: explanation` list points that tell the client why the detail matters.

@@ -78,6 +78,8 @@ For a full new-client website, also duplicate the approved Service Page Template
 - Replace the inherited hero-form prompt with one client-relevant phrase of no more than three words that remains on one line on mobile. Use it consistently on every page with `Contact Us Now!` beneath it.
 - Target 35-40 words for Home service card descriptions where the layout supports it.
 - Keep H3 headings short and scannable.
+- Review every main Home Page H2 and section introduction as one coordinated SEO and client-reading hierarchy. Use slightly longer descriptive H2s, useful two-sentence introductions, and natural service/location variations without repeating keywords mechanically.
+- Label the standard problem-intent section `PROBLEMS WE SOLVE`. Write its H2 and introduction in a solution-led tone that clearly says the business can help with the named problems, without making unsupported diagnosis or outcome claims.
 - Build the paired Home Page `Why Choose Us` and `Why Trust Us` sections to the full standard in `content/SOPs/homepage-copywriting.md`: descriptive service/location H2s, purposeful H3s, useful two-to-three-sentence paragraphs, and three complete client-facing proof or process points per section.
 - Give the two About Us sections distinct roles. `Why Choose Us` explains service fit and benefits; `Why Trust Us` explains communication, preparation, access, equipment, scope or realistic service expectations.
 - Use verified proof when supplied. Otherwise create confidence with honest process detail and never invent ratings, reviews, credentials, guarantees, awards, years, insurance or response times.
