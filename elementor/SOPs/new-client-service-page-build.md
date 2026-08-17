@@ -41,6 +41,18 @@ Example:
 - Keep only the Services hub at the top level.
 - Add primary service pages as Services submenu items only once the pages exist.
 
+## Active Service Set Changes
+
+When services are added, replaced, hidden or restored, treat the active service set as a site-wide relationship change rather than a card-copy edit.
+
+- Update the Home service cards, Services hub cards, their button links and the image-widget links. An inherited image link can remain wrong even when the visible button is correct.
+- Update the primary navigation and any separate Services menu from the same approved active-service list.
+- Update every `RELATED SERVICES` card so it links only to active published service pages.
+- Update the service selector in the source global hero form and the footer form. Where Elementor stores a synchronized settings copy inside global-widget instances, sync every page instance while preserving `widgetType: global` and the original global template relationship.
+- Verify the rendered public form options; checking only the global template settings is insufficient.
+- If the user says to hide but not delete outgoing service pages, preserve those pages and their Elementor data. Remove their active cards, menu items and internal navigation links without deleting the pages.
+- Finish with a rendered link audit proving that Home, the Services hub, Service Areas and active service pages contain no links to the hidden service URLs.
+
 ## Standard Section Order
 
 1. Service Hero
@@ -204,3 +216,5 @@ The page is ready for review when:
 - Yoast metadata renders correctly
 - no old-template/client metadata remains
 - public page opens for review
+- the active service list matches across cards, menus, related-service links and global form selectors
+- hidden-but-retained service pages have no links from active site navigation or service-card sections
