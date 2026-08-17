@@ -74,6 +74,18 @@ The standard problem-intent section is labelled `PROBLEMS WE SOLVE`. Its H2 and 
 
 Apply this standard to Services, Problems We Solve, Process, Why Choose Us, Why Trust Us, FAQs and Service Areas. Each section heading must communicate a distinct purpose, and each introduction must add information rather than restating the heading.
 
+## Approved Services Hub Post-Card Copy Pattern
+
+The approved Services hub standard includes two complementary service-confidence sections after the service cards.
+
+The first is a professional-service section. It establishes that the visitor has found the appropriate service provider, explains service fit and available options, and helps the visitor prepare to book. The second must be labelled `WHY BOOK US`. It explains the booking decision, removes uncertainty and gives the visitor a clear reason and method to take action.
+
+Both sections use the same quality benchmark as the approved Home Page trust copy: a descriptive service-and-location H2, a purposeful customer-facing H3, a two-to-three-sentence paragraph and three complete `Label: explanation` points. They must be written separately so their explanations and bullet logic do not repeat.
+
+Use natural focus-keyphrase variations, service terms, business/entity language and the primary location where they help the reader. The copy should be confident and conversion-focused, but it must not use unsupported claims such as `best`, `top rated`, `number one`, guarantees, awards or response times. Honest service scope, booking preparation, access planning, communication and next-step guidance are preferred trust signals.
+
+The tracked contact actions remain exact: `Call Us Now` for phone buttons and `WhatsApp Us` for WhatsApp buttons.
+
 ## Contact Button Tracking Labels
 
 Phone and WhatsApp button labels are part of the Google Tag Manager tracking contract, not flexible CTA copy.

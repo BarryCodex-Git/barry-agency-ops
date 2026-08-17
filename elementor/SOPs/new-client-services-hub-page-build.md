@@ -46,23 +46,27 @@ Convert the approved Elementor Services hub into a page that lists the client's 
    - Add the five primary Home Page services first.
    - Add all additional services underneath.
    - Ensure every service has a card.
-11. Reuse approved Home Page service images where they match the same service.
-12. Before generating missing images, inspect `assets/AI Images/`, `assets/AI Images/brand guide/`, `brand-image-rules.md`, approved generated images, and `image-plan.md`.
-13. Generate or source new images only for missing/additional services.
-14. Upload images with SEO filenames and alt text.
-15. Populate a Services-specific FAQ.
-16. Prepare Yoast SEO:
+11. Populate the two post-card service-confidence sections:
+   - The first section must position the business as the professional service choice and help the visitor understand which services are available and how to prepare to book.
+   - The second section must be labelled `WHY BOOK US` and encourage the visitor to take the next step.
+   - Keep their copy, bullets and purpose distinct; do not duplicate one section into the other.
+12. Reuse approved Home Page service images where they match the same service.
+13. Before generating missing images, inspect `assets/AI Images/`, `assets/AI Images/brand guide/`, `brand-image-rules.md`, approved generated images, and `image-plan.md`.
+14. Generate or source new images only for missing/additional services.
+15. Upload images with SEO filenames and alt text.
+16. Populate a Services-specific FAQ.
+17. Prepare Yoast SEO:
    - focus keyphrase
    - SEO title
    - meta description
    - H1/H2 checks
    - image alt text checks
    - rendered public page head verification
-17. Use `seo/skills/local-business-schema/SKILL.md` to add/verify `CollectionPage` and an `ItemList` or service catalogue linked to the published service pages and the canonical provider `@id`.
-18. Validate the rendered schema and record the page result in `schema-plan.md` before completion.
-19. Clear Elementor cache/CSS.
-20. Open the published Services page for review.
-21. Update the service hub map/status notes when the structure changes.
+18. Use `seo/skills/local-business-schema/SKILL.md` to add/verify `CollectionPage` and an `ItemList` or service catalogue linked to the published service pages and the canonical provider `@id`.
+19. Validate the rendered schema and record the page result in `schema-plan.md` before completion.
+20. Clear Elementor cache/CSS.
+21. Open the published Services page for review.
+22. Update the service hub map/status notes when the structure changes.
 
 ## Content Rules
 
@@ -77,6 +81,17 @@ Convert the approved Elementor Services hub into a page that lists the client's 
 - Keep service card H3s short: usually the service name only.
 - Write 35-45 word service card descriptions where the design allows.
 - Mention primary and secondary locations naturally.
+- After the service cards, include two substantial but readable service-confidence sections using the approved Home Page quality standard:
+  - a descriptive H2 that naturally includes the service category, a useful variation and the primary location
+  - a purposeful H3 that explains the customer benefit or next step
+  - a human-facing paragraph of two or three connected sentences
+  - three complete `Label: explanation` bullet points that add practical detail
+- The first post-card section should use a professional-service eyebrow such as `PROFESSIONAL SERVICE`, `PROFESSIONAL SERVICES` or a client-appropriate equivalent. Its copy must establish service fit, explain the available service options and show the visitor how to prepare for a suitable booking.
+- The second post-card section must use the exact eyebrow `WHY BOOK US`. Its H2, H3, paragraph and bullets must encourage action by explaining why the visitor is in the right place, what useful help the business provides and how to book.
+- Keep the two sections complementary rather than repetitive. The professional-service section explains service capability and fit; `WHY BOOK US` explains the booking decision, preparation, access, communication and clear next step.
+- Use confident conversion language without inventing ratings, awards, guarantees, licences, years, response times or claims such as `best`, `top rated` or `number one` unless verified evidence was supplied.
+- Distribute focus-keyphrase terms, service variations, business name and primary location naturally across the H2s, paragraphs and bullets. Do not repeat the same exact keyword construction in every heading or point.
+- End the sections with the approved tracked contact actions. Phone buttons must say exactly `Call Us Now`; WhatsApp buttons must say exactly `WhatsApp Us`.
 - Use short CTA wording such as `View service`, `Call Us Now`, or service-specific CTA text.
 - Do not point service card CTAs to final URLs until the individual service pages exist or the URL plan is approved.
 - Do not edit global contact button text after the buttons are set. Button text may be used later by Google Tag Manager for conversion tracking. Update button links/contact values only through the approved global CTA source or explicit contact-detail process.
@@ -124,6 +139,11 @@ The Services hub page is complete when:
 - page remains an Elementor Services hub page from the approved template structure
 - all primary and additional services from intake are represented
 - every service has a card, relevant image, title, copy and CTA
+- the two post-card service-confidence sections are complete, distinct and client-specific
+- the first post-card section establishes professional service fit with a descriptive H2, purposeful H3, human paragraph and three practical points
+- the second post-card section is labelled `WHY BOOK US` and gives clear, credible reasons and instructions to book
+- post-card headings use service and location language naturally without keyword stuffing or unsupported superiority claims
+- tracked phone and WhatsApp buttons retain the exact labels `Call Us Now` and `WhatsApp Us`
 - Services FAQ is unique and relevant
 - elements follow Barry's labelling standard
 - image filenames and alt text follow SEO rules
