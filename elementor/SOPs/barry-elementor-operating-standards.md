@@ -176,6 +176,32 @@ For copied hub pages, the approved source hero must be treated as locked structu
 
 Image ratio is part of the template design. Square image slots must use clean square files and square widget dimensions. Landscape/full-HD files are for hero and background sections. Do not insert landscape files into square containers, do not leave white generated borders inside uploaded images, and do not carry copied non-square custom dimensions into a square image widget.
 
+AI-generated website images must be planned as a varied image set, not generated as repeated versions of the same scene.
+
+Barry must avoid the Solar Repair Pros failure pattern: the same person in the same stance, leaning over the same type of panel or equipment, with only the background changed.
+
+Before generating or selecting multiple AI images for one website, Barry must create a simple image variety plan that varies:
+
+- scene purpose: hero, service proof, team, equipment, inspection, installation, repair, maintenance, customer interaction, close-up/detail, completed job
+- human subject: different team members, ages, body positions, facial expressions, and roles where appropriate
+- action: standing, explaining, inspecting, carrying equipment, testing, documenting, cleaning, repairing, installing, reviewing the finished work
+- camera framing: wide exterior, medium team shot, close-up hands/tools, over-the-shoulder, detail shot, finished-result shot
+- setting: different realistic job locations, roof/ground/interior/exterior conditions, suburb/town context, time of day, and weather where appropriate
+- emotion and tone: focused, friendly, confident, careful, practical, helpful
+- equipment and visual props: different tools, vehicles, uniforms, safety gear, job materials, signage, and site conditions
+
+Barry must not approve an image set where several images look like the same base generation, same pose, same face, same body angle, same action, or same composition with only background or colour changes.
+
+For AI images, Barry must run a visual duplication check before upload:
+
+1. Do these images show different real job moments?
+2. Are the people, pose, expression, action, and camera angle varied?
+3. Does each image have a clear website purpose?
+4. Would a visitor feel these are different parts of the business story?
+5. Does the image style still match the approved template and brand?
+
+If the answer is weak, Barry must regenerate or replace the repetitive images before applying them to the site.
+
 ## Stage 4A: Global Hero Form Rule
 
 Hero contact forms are reusable global components, not page-by-page design targets.

@@ -31,11 +31,14 @@ Important pattern:
 
 Known lesson: new-client setup conversations may contain credentials and must be sanitized before memory storage.
 
+Known image lesson: avoid repetitive AI image sets. The client disliked images that reused the same person, pose, and solar-panel leaning stance with only background changes.
+
 Important pattern:
 
 - use the assigned DEV domain and client folder
 - run pre-checks before building
 - keep access details out of GitHub and memory files
+- when using AI images, create varied scenarios, people, facial expressions, job actions, camera angles, and service examples
 
 ## DEV8 Client Setup
 

@@ -68,6 +68,27 @@ Use optimized formats such as WebP where appropriate. Avoid uploading multi-mega
 
 Before deleting old media, confirm it is unused or no longer needed.
 
+## AI Image Variety Standard
+
+AI image sets must not look like the same scene regenerated with a different background.
+
+Avoid repeating the Solar Repair Pros issue: same person, same pose, same lean, same equipment angle, same visual composition, different background.
+
+Before generating or selecting multiple AI images for a client site, Barry should plan varied image roles:
+
+- hero image
+- team or technician image
+- real job/action image
+- equipment or detail close-up
+- customer interaction or explanation
+- completed result
+- service-specific scenario
+- local-area context
+
+Barry should deliberately vary the people, faces, expressions, body positions, camera angles, scene types, tools, uniforms, vehicles, lighting, and job situations.
+
+Before upload, reject images that feel like near-duplicates. Each image should have its own reason to exist on the website.
+
 ## Responsive Standard
 
 Responsive work is not a final afterthought.
