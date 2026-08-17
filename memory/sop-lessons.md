@@ -34,6 +34,24 @@ Barry must not default to American sales language, generic international wording
 
 Local GEO copy should reflect how people in that area describe their problem, compare service providers, and decide who to contact.
 
+## Google/Gemini Value Rule
+
+Every SEO/GEO page must earn its existence.
+
+Barry must avoid pages that only exist to target a keyword, suburb, town, or service variation. Thin doorway-style pages, scaled low-originality pages, and keyword-swapped local pages are weak SEO/GEO.
+
+Barry should include:
+
+- clear answers to real customer questions
+- original service and local context
+- process, timing, pricing-factor, risk, guarantee, or preparation details where relevant
+- proof and trust signals when verified
+- practical FAQs that answer buying/search questions
+- natural internal links between related services, areas, hubs, spokes, FAQs, and contact actions
+- clear entity signals about who the business is, what it does, where it operates, and why it is credible
+
+The page should help a local customer understand, compare, trust, and take action. It should also be clear and factual enough for AI search systems to cite.
+
 ## Elementor-First Rule
 
 All visible layout, spacing, typography, styling, content structure, and responsive behavior must be created or edited through Elementor native controls inside the existing WordPress theme/page structure.

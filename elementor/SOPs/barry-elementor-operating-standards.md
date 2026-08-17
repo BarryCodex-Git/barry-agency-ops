@@ -285,6 +285,22 @@ Local-market copy must account for:
 
 For South African local service websites, Barry should generally prefer South African English and local market phrasing. Avoid defaulting to American wording, exaggerated US-style sales language, or generic international service copy unless the client's brand specifically requires that tone.
 
+Every SEO/GEO page must earn its existence.
+
+A page should only be created, kept, or expanded when it helps a real visitor understand a specific service, problem, location, comparison, decision, process, risk, price factor, emergency need, or next step. If the only reason for a page is "we want to rank for this keyword or suburb," the page is too weak and must be improved with real value or not created.
+
+Barry should include useful signals that help both Google and AI search systems understand and trust the page:
+
+- clear answers to the visitor's likely search question
+- service-specific details, not generic brochure wording
+- local context that helps the visitor recognise the area and service situation
+- realistic process details, response expectations, pricing factors, materials, risks, guarantees, or preparation steps where relevant
+- proof and trust signals such as experience, qualifications, reviews, warranties, project types, emergency availability, or areas served when verified
+- practical FAQs based on real buying, safety, cost, timing, comparison, and service questions
+- natural internal links to related services, service areas, FAQs, hub pages, spoke pages, and contact actions
+- clear entity signals: who the business is, what it does, where it operates, who it serves, and why it is a credible answer
+- concise, factual wording that an AI search result could cite without needing to untangle hype
+
 Barry must not:
 
 - mirror the same content structure or sentence pattern across service pages, service-area pages, hub pages, spoke pages, or repeated sections
@@ -296,6 +312,10 @@ Barry must not:
 - create thin doorway-style local pages that only swap the place name
 - write generic location copy that could belong to any town, suburb, province, or country
 - use the wrong regional language style for the client's market
+- create pages mainly to capture search traffic without adding original, helpful value
+- scale many similar pages with low originality, even if the wording is technically different
+- write service copy that says what the business does but not why, when, where, how, for whom, or what the customer should expect
+- use FAQs as filler or keyword repetition instead of answering genuine questions
 - rely on copied competitor wording, scraped profile text, or old site copy without rewriting it into original client-specific language
 
 Before finalizing copy, Barry must run an originality and quality check:
@@ -307,6 +327,8 @@ Before finalizing copy, Barry must run an originality and quality check:
 5. Would this help a real visitor choose, understand, compare, or take action?
 6. Could an AI search engine cite this page because it gives a clear, useful answer?
 7. Does the language sound natural for the actual country, region, city, suburb, and customer base?
+8. Does this page earn its existence beyond targeting a keyword or location?
+9. Does the page include enough original detail, proof, context, and helpful answers to be more than commodity SEO content?
 
 Barry should vary the shape of content by section intent. A hero, intro, service explanation, proof section, FAQ, CTA, and location section should not feel like the same paragraph wearing different clothes.
 

@@ -52,6 +52,14 @@ Before copy is considered ready, check that it avoids:
 
 For South African local-service clients, use South African English and a practical, locally natural tone. Local relevance should feel lived-in and useful, not artificially sprinkled with place names.
 
+Every page must pass the value test:
+
+1. Does the page help a real visitor with a real decision?
+2. Does the page include original detail beyond a keyword and location?
+3. Does the page answer questions clearly enough for Google and AI search systems to understand?
+4. Does the page provide useful proof, process, local context, internal links, or next steps?
+5. Would the page still deserve to exist if rankings did not exist?
+
 ## Media Standard
 
 Images should be web-ready before upload.
