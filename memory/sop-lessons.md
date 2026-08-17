@@ -94,6 +94,8 @@ Use a hero H1 such as `Locations We Service Throughout the {Primary Region}`, a 
 
 The primary-region section uses the exact eyebrow `PRIMARY SERVICE AREAS` and a count-neutral service-and-location H2. Its cards represent the primary service regions from the current client intake. They are the first regional hub layer and must remain conceptually separate from later suburb/sub-location cards.
 
+Primary service-area cards are geographic entry points and must look geographic. Give every named region a unique place-relevant skyline, landmark, aerial, streetscape or landscape image; never use trucks, technicians, equipment or job-site photographs as substitutes. Prepare these card assets as a coherent 3:2 landscape WebP set, normally 1200x800. Reuse the same approved image for the same region on the Home page and main Service Areas page, but never reuse one image for different named regions. Use location-specific filenames and honest visible-scene alt text, and retain source/licence details for sourced images. This card rule is separate from true 1000x1000 paired-content images and true 1920x1080 hero/background images.
+
 After those cards, use two complementary local-trust sections. `{PRIMARY LOCATION} RESIDENTS` establishes a verified local connection and may refer to years of residence only when supplied or confirmed. `LOCAL EXPERTISE` explains how local familiarity improves coverage confirmation, access discussions, preparation and booking clarity. Each section needs a descriptive H2, purposeful H3, two-to-three-sentence paragraph and three complete `Label: explanation` points.
 
 This approved pattern stops before suburb cards and deeper hub-and-spoke implementation. Those elements require a separate planning and approval stage.

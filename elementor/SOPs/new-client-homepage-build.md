@@ -128,9 +128,13 @@ Convert the approved Elementor Home page into a polished, SEO-friendly, conversi
     - Do not use square, portrait, PNG screenshot, or multi-megabyte files for background/overlay sections.
     - Do not rely on Elementor cover mode, CSS background-size, overlays, masks, or cropping to hide a wrong-ratio or oversized background asset.
     - If background images look stretched, zoomed, blurry, or poorly cropped, create or source a new wide background asset rather than replacing square inline images.
-    - For Service Areas cards, use local skyline, landscape, landmark, coastline, town, suburb, or regional images. Do not use plumber action images for these cards unless the user specifically asks.
-    - Name Service Areas images with natural `{service + location}` SEO targeting, such as `[client]-[service]-[location]-service-area-ai-01.webp`.
-    - Write Service Areas alt text as honest local descriptions using the service and location naturally.
+    - For Service Areas cards, use a unique real or approved generated image of the named place: a skyline, city landscape, aerial view, landmark, coastline, town, suburb or recognisable regional scene. Do not use service vehicles, technicians, tools, job-site activity or generic industry imagery as a substitute for place imagery.
+    - Prepare primary Service Areas card media as consistent 3:2 landscape WebP files, normally 1200x800, unless the approved template map documents a different card ratio. This card-media exception does not override the 1000x1000 rule for paired-content/support image widgets or the 1920x1080 rule for hero and section backgrounds.
+    - Give every named location its own image. Do not duplicate one location image across different locations, and keep the set visually coherent in colour, lighting and overall photographic style.
+    - Reuse the same approved image for the same named location on the Home page and main Service Areas page so the visual mapping remains consistent across the site.
+    - Name Service Areas images with natural `{client + service + location}` SEO targeting, such as `[client]-[service]-[location]-service-area-1200x800.webp`.
+    - Write alt text as an honest description of what is visibly shown and include the actual location naturally. Do not add a service keyword that the visible image does not support.
+    - Record downloaded image source, creator and licence in the client asset manifest, and add required attribution metadata before sign-off.
     - For footer map slots, use the client's exact Google Business Profile/Maps link only when provided or confidently matched to brand and location. Otherwise replace the map with a clean service-area element.
     - Footer Service Areas must list only the primary service area regions from intake.
 14. Apply the standard menu structure from `navigation-hero-footer-rules.md`.
@@ -209,7 +213,7 @@ The Home page build is complete when:
 - main content is replaced
 - hero is client-specific
 - service sections match intake
-- service area section matches intake and uses local area images
+- service area section matches intake, uses one unique place-relevant image per named location, and repeats the same location-to-image mapping on the main Service Areas page
 - images are relevant or clearly marked pending
 - support images fit their containers and required aspect ratios
 - content/support image widgets that require square images use actual square 1000x1000 source files, not visually cropped landscape/portrait files

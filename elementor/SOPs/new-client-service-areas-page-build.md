@@ -48,8 +48,11 @@ Convert the approved Elementor Service Areas hub into a location hub page that p
    - CTA using `service + location`
    - placeholder link unless spoke pages already exist
    - a genuine landmark, skyline, streetscape or landscape image relevant to the location group; do not use service-technician or equipment images as location-card substitutes
+   - a true 3:2 landscape WebP card asset, normally 1200x800, unless the approved template map documents a different card ratio
 9. Use existing approved service-area images first.
-   - A small approved set may be reused across nearby sub-locations, but every image must still read as a place/landscape image.
+   - Every primary region and every visible local-area card must have its own place-relevant image. Do not reuse one image for different named locations unless the user explicitly approves a temporary placeholder pass.
+   - Keep each location mapped to the same approved image wherever that location appears on the Home page and Service Areas page.
+   - Keep the complete location image set visually coherent in colour, lighting and photographic style.
 10. Before generating any missing location images, inspect `assets/AI Images/`, `assets/AI Images/brand guide/`, `brand-image-rules.md`, approved generated images, and `image-plan.md`.
 11. Prepare Yoast metadata and verify it in the rendered page head.
 12. Save the service-area and sub-location map in the client folder.
@@ -116,7 +119,10 @@ This approved design freezes the hero, primary-region section and two local-trus
 - The first local-area card on a regional hub must be a prime suburb/local area, not the region overview title. The section H2 must stay in the heading area above the grid.
 - Every local-area card must have matching title, description and button text. Do not allow shifted card data where one suburb title uses another suburb's description or CTA.
 - Each local-area card should use a unique relevant landscape, skyline, estate, suburb, streetscape or landmark image for that specific local area. Do not duplicate the same location image across all cards unless the user explicitly approves a temporary placeholder pass.
-- Local-area image filenames and alt text must target `plumber + suburb + region`, for example `h2o-plumbers-plumber-heather-park-george-service-area.webp`.
+- Service-area card imagery represents the named place, not the trade. Never use a service truck, technician, equipment or job-site image as a substitute for a city, suburb, landscape, aerial view or landmark image.
+- Prepare card media as true 3:2 landscape WebP files, normally 1200x800, unless the approved template map documents another card ratio. Do not confuse card media with paired-content/support image widgets, which remain true 1000x1000 square files, or with hero/section backgrounds, which remain true 1920x1080 files.
+- Local-area image filenames must use a natural `[client]-[service]-[location]-service-area-1200x800.webp` pattern. Alt text must honestly describe the visible place and name the correct location; do not force a service keyword into a purely geographic photograph.
+- Record stock/download source, creator and licence in the client asset manifest, and preserve required attribution in media metadata or another approved attribution location.
 - Regional hub content blocks must not repeat the same square/support image across adjacent two-column sections. Use a distinct service/team image and a distinct location/landscape image where the layout has multiple image blocks.
 - Square image containers must receive true 1000x1000 `.webp` files that fill the rounded image frame edge-to-edge. Do not place landscape images into square containers, do not leave generated white borders/bands inside the file, and do not leave copied non-square custom dimensions such as 1366x1080 on square image widgets.
 - This square rule applies to the main Service Areas page as well as regional and suburb hubs. It specifically includes the opening coverage section and every repeated two-column text/image support section, not only cards or regional-page content blocks.

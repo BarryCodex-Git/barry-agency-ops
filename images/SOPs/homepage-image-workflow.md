@@ -29,14 +29,22 @@ Select, prepare, and map images that support the homepage content and SEO.
    - Do not rely on Elementor cover mode, CSS background-size, overlays, masks, or visual cropping to hide a wrong-ratio or oversized background asset.
 11. If the user asks to fix stretched, zoomed, or blurry background images, update only the relevant top-level section background assets unless they also ask to change inline image widgets.
 12. Do not replace process, why choose us, why trust us, service-card, or other inline images when the instruction only refers to background images.
-13. Rename images with SEO-friendly filenames.
-14. Prepare alt text.
-15. Compress/optimize before upload. Background images must be WebP and within the size target before upload.
-16. Upload or prepare for upload.
-17. Map image to Elementor field/class.
-18. Before marking the page complete, verify:
+13. Treat Service Areas card images as a dedicated place-image class:
+   - use a unique image of each named location, such as a skyline, landmark, aerial view, streetscape, coast, townscape or regional landscape
+   - never substitute a truck, technician, equipment or job-site image for a location card
+   - prepare consistent 3:2 landscape WebP files, normally 1200x800, unless the approved template map documents another card ratio
+   - reuse the same approved image for the same location on the Home page and main Service Areas page, while never duplicating one image across different named locations
+   - keep the set visually coherent in colour, lighting and photographic style
+14. Rename images with SEO-friendly filenames. Service-area card filenames use `[client]-[service]-[location]-service-area-1200x800.webp`.
+15. Prepare honest alt text that describes the visible scene and names the correct location naturally.
+16. For sourced imagery, record the source page, creator and licence in the client asset manifest and preserve required attribution metadata.
+17. Compress/optimize before upload. Background images must be WebP and within the size target before upload.
+18. Upload or prepare for upload.
+19. Map image to Elementor field/class.
+20. Before marking the page complete, verify:
    - content/support image files are square where the slot requires square
    - background/overlay image files are 1920x1080 landscape WebP where the slot requires a background
+   - every Service Areas card uses a unique, correctly named 3:2 place image and the Home/Service Areas location mappings match
    - file sizes are web-friendly and not multi-megabyte uploads
 
 ## Avoid
