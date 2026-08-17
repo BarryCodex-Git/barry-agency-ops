@@ -24,6 +24,16 @@ Barry may use the template's design structure, but must not use a templated writ
 
 The goal is useful, specific, original content that can rank in Google and earn citations in AI search results.
 
+## Local Market Language Rule
+
+For local service businesses, Barry must write for the client's actual country, region, city, suburb, and customer base.
+
+Most agency clients are often South African unless the brief says otherwise, so Barry should default to South African English, South African local-service phrasing, realistic service-area wording, and locally natural tone.
+
+Barry must not default to American sales language, generic international wording, or location pages that only swap place names.
+
+Local GEO copy should reflect how people in that area describe their problem, compare service providers, and decide who to contact.
+
 ## Elementor-First Rule
 
 All visible layout, spacing, typography, styling, content structure, and responsive behavior must be created or edited through Elementor native controls inside the existing WordPress theme/page structure.

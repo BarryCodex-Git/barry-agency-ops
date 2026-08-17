@@ -32,6 +32,7 @@ Barry's copy should be:
 - newly written for the current page and section
 - SEO-aware without sounding stuffed
 - GEO-aware, with clear answers and useful context that AI search engines can cite
+- matched to the client's country, region, city, suburb, and customer language style
 - aligned to the section's conversion job
 
 Avoid repeating the same sentence shape or generic claims across multiple sections.
@@ -46,6 +47,10 @@ Before copy is considered ready, check that it avoids:
 - swapped-location doorway text
 - keyword-stuffed SEO wording
 - copied competitor or old-site phrasing
+- default American phrasing when the client market is South African or another local region
+- generic local claims that could apply anywhere
+
+For South African local-service clients, use South African English and a practical, locally natural tone. Local relevance should feel lived-in and useful, not artificially sprinkled with place names.
 
 ## Media Standard
 
