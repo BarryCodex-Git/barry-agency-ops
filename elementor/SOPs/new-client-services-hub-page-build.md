@@ -121,8 +121,11 @@ Avoid:
 - Generate new images for additional services only when no suitable image exists.
 - Use `assets/AI Images/brand guide/` and approved AI images as the main AI image style reference.
 - Services intro/support images and service-card images that display in square card/support slots must use actual 1000x1000 square source/upload files unless the approved template explicitly documents another ratio.
+- Both post-card service-confidence sections, including `PROFESSIONAL SERVICE` and `WHY BOOK US`, must use genuine 1000x1000 square WebP sources in their paired inline image widgets.
 - Do not use non-square files in square Services hub image widgets and rely on CSS, Elementor object-fit, masks, or visual cropping to hide the mismatch.
+- Never reuse the Services hero/background 1920x1080 asset inside an intro, post-card or other paired-content image widget.
 - If a selected image is landscape or portrait, crop/export a dedicated 1000x1000 square version before upload or placement.
+- Before completion, audit every Services-page inline image widget by its actual uploaded/media dimensions and visually inspect the paired sections on desktop.
 - Services hero, intro background, overlay background, and other top-level background image slots must use actual 1920x1080 landscape `.webp` assets unless a documented template slot explicitly requires another landscape size.
 - Background/overlay images must be compressed before upload. Target under 350 KB; 500 KB is the hard upper limit only when needed for acceptable visual quality.
 - Do not use square, portrait, PNG screenshot, or multi-megabyte files for background/overlay sections.
@@ -148,6 +151,7 @@ The Services hub page is complete when:
 - elements follow Barry's labelling standard
 - image filenames and alt text follow SEO rules
 - square card/support image widgets use actual square 1000x1000 source files where required
+- both post-card paired-content images use verified 1000x1000 WebP source files and display as balanced square images on desktop
 - background/overlay image widgets use actual 1920x1080 landscape compressed WebP files where required
 - Yoast SEO fields are applied and verified in the rendered public page head
 - public page opens and visible content is verified

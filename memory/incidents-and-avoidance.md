@@ -1,6 +1,6 @@
 # Incidents and Avoidance
 
-Last updated: 2026-08-15
+Last updated: 2026-08-17
 
 This file records problems Barry must avoid repeating.
 
@@ -39,3 +39,9 @@ Avoidance rule: never store actual secrets in repo files. Store only safe labels
 Risk: old chats may contain outdated instructions, mistakes, credentials, or half-finished ideas.
 
 Avoidance rule: only selected, sanitized, user-approved lessons become memory.
+
+## Problem: Landscape Assets In Square Paired-Content Sections
+
+Risk: a 1920x1080 hero asset placed in a two-column inline image widget can look acceptable in some cropped states but appears visibly landscape, unbalanced and poor on desktop. A square Elementor frame is not proof that the source file is square.
+
+Avoidance rule: audit the actual media dimensions across all repeated paired text/image sections on Home, Services, Service Areas, About and individual service pages. Inline paired-content sources must be genuine 1000x1000 WebP files. Hero and background assets remain separate 1920x1080 files and must never be reused in these widgets.

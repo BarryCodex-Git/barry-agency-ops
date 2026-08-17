@@ -137,9 +137,11 @@ Every page must have unique local work examples. Do not reuse the same story str
 - Generate new images only when no suitable image exists.
 - Treat inline image widgets and section background images as separate asset types.
 - Standard paired-content and inline service/support image widgets must use actual purpose-cropped 1000x1000 square source/upload assets unless the approved template explicitly defines another ratio.
+- Both standard paired-content image slots on every individual service page must be audited; neither slot may inherit or reuse the page's 1920x1080 hero/background asset.
 - Do not place a landscape or portrait file into a square content image widget and rely on CSS, Elementor object-fit, masks, or visual cropping to make it appear square.
 - If the selected image is not square, crop/export a dedicated 1000x1000 version before upload or placement.
 - Verify source/media dimensions before marking the page complete.
+- Verify all individual service pages as a set before site sign-off so a correct template or one corrected page is not mistaken for compliance across the remaining duplicated pages.
 - The 1000x1000 rule does not apply to hero or section backgrounds, service-area landmark cards, or blog cards; those use their approved landscape ratios.
 - Blue section backgrounds, hero backgrounds, overlay backgrounds and other top-level background images must use actual 1920x1080 landscape `.webp` assets unless a documented template slot explicitly requires another landscape size.
 - Background/overlay images must be compressed before upload. Target under 350 KB; 500 KB is the hard upper limit only when needed for acceptable visual quality.

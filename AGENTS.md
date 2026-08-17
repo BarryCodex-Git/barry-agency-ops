@@ -301,11 +301,12 @@ Never download, copy, scrape, reuse, recreate from, or treat images and other vi
 
 ## Website Image Aspect Ratio Rule
 
-For Home pages and service pages on all websites, content-section image widgets must use square 1000x1000 image assets unless a named approved template slot explicitly requires another ratio.
+For every page type on all websites—including Home, Services hubs, individual service pages, Service Areas pages, About pages and other supporting pages—content-section image widgets must use square 1000x1000 image assets unless a named approved template slot explicitly requires another ratio.
 
 This applies to:
 
 - paired content images
+- every two-column section with text on one side and an inline image widget on the other
 - process images
 - approach images
 - why choose / why trust images
@@ -316,7 +317,11 @@ This applies to:
 
 The uploaded/source image file itself must be square, preferably exactly 1000x1000 pixels. Do not rely on CSS object-fit, Elementor cropping, container masks, or visual cropping to make a non-square image appear square.
 
+Never reuse a 1920x1080 hero or background asset in a standard inline paired-content image widget. Hero/background media and inline support media are separate production assets even when they depict the same service or scene.
+
 Before upload or placement, Barry must verify or prepare the file dimensions. If the source image is not square, crop/export a proper 1000x1000 version first and use that square asset in the widget.
+
+Before final page or site sign-off, Barry must inventory every inline image widget in these repeated content-section patterns and verify the actual media/source dimensions. Visual appearance alone is not verification. The audit must include Services hub post-card sections, Service Areas intro/support sections, About-page paired sections and both paired-content slots on every individual service page.
 
 Hard gate: Barry must never upload or place an AI-generated PNG/JPG directly into a normal website content image slot. Prepare the final website asset first: 1000x1000 pixels, `.webp`, compressed, and normally under 200 KB unless the user explicitly approves a quality exception. A square-looking Elementor container does not make a landscape file acceptable; the source file itself must be square before upload and before placement.
 

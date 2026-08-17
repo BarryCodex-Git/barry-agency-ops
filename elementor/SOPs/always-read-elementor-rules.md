@@ -102,3 +102,12 @@ Do not publish placeholder, internal-source, or example wording such as "client 
 
 If final facts are not verified, write clean public copy that avoids the unverified claim rather than exposing internal notes.
 
+## 8. Square Paired-Content Image Gate
+
+Across every page type, any standard inline image widget used beside text in a two-column content section must use a genuine 1000x1000 square source/upload file unless that exact template slot has a documented approved exception.
+
+This includes Home, Services hub, individual service, Service Areas, About and other pages, and covers professional-service, why book, why choose, why trust, process, approach, coverage, service-support and similar alternating text/image sections.
+
+A landscape hero or background asset must never be placed into one of these inline image widgets. A square-looking frame, Elementor crop, object-fit, mask, fixed height or rounded container does not make a landscape source compliant.
+
+Before page sign-off, audit the source file used by every inline image widget in these section patterns. Confirm the actual uploaded/media dimensions are 1000x1000, the format is WebP and the desktop result is visually square and balanced. If the source is landscape or portrait, replace it with an approved square asset or prepare a dedicated square export before placement.

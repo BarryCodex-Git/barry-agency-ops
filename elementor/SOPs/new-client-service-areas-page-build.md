@@ -32,6 +32,7 @@ Convert the approved Elementor Service Areas hub into a location hub page that p
    - H1/H2/H3 content must be client-specific and based on the intake.
    - Body copy must use the company name, main service category, primary location, primary service areas, and target customer type.
    - This top content area must never remain demo/template wording.
+   - Any inline image beside this intro or another coverage/support text block must use a genuine 1000x1000 square WebP source file. Do not reuse the Service Areas hero/background landscape asset in the inline image widget.
 6. Create one section per primary service area.
    - If sub-locations are not supplied, Barry researches 8-12 high-value sub-locations per region.
    - Prioritise residential suburbs, commercial districts, estates, coastal pockets, high-value smaller towns, and locally relevant areas.
@@ -75,6 +76,8 @@ Convert the approved Elementor Service Areas hub into a location hub page that p
 - Local-area image filenames and alt text must target `plumber + suburb + region`, for example `h2o-plumbers-plumber-heather-park-george-service-area.webp`.
 - Regional hub content blocks must not repeat the same square/support image across adjacent two-column sections. Use a distinct service/team image and a distinct location/landscape image where the layout has multiple image blocks.
 - Square image containers must receive true 1000x1000 `.webp` files that fill the rounded image frame edge-to-edge. Do not place landscape images into square containers, do not leave generated white borders/bands inside the file, and do not leave copied non-square custom dimensions such as 1366x1080 on square image widgets.
+- This square rule applies to the main Service Areas page as well as regional and suburb hubs. It specifically includes the opening coverage section and every repeated two-column text/image support section, not only cards or regional-page content blocks.
+- Before sign-off, audit every inline image widget on the page by actual media dimensions and verify the desktop two-column sections use 1000x1000 WebP sources. Do not approve a page because Elementor happens to crop a landscape source into a square-looking frame.
 - Do not add extra mid-page CTA rows on regional hub pages unless explicitly approved after visual review. Use the existing template CTA positions by default.
 - On regional hubs, service cards must not link back to broad region service pages such as `/services/blocked-drains-garden-route/`. Use temporary placeholder links until the correct service-location spokes are created.
 - Informational icon-box sections on location hubs, such as problem summaries, property-type support cards, trust points, process points or local issue cards, must not link out. Only dedicated service cards, service-area cards, menus and approved CTA buttons should contain hyperlinks.
