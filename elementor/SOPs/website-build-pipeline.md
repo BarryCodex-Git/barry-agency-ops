@@ -126,6 +126,11 @@ Barry's goal is to master design inside the provided template, not to escape the
 - If a large page triggers an MCP memory, sanitation, timeout, or import error, do not retry the same request and do not switch to WordPress page-body/block content. Reduce the batch, switch to single-element MCP updates, send only the changed settings, and continue independent sections where safe. Stop only when targeted MCP updates also fail or the next step requires repair/approval.
 - If a batch hangs, fails, loops, partially writes, or cannot be read back, stop using that batch shape immediately. Re-check the saved state, reduce to one element or one setting group, and continue only through a proven Elementor-native save path.
 - Do not use full-page import/delete/reimport on client pages unless it has already passed on a disposable draft page on the same website.
+- Before creating a page, inventory existing pages and check the intended title, slug, parent and template source. Never create speculative batches of blank pages.
+- Create and validate one intended page first. Confirm its WordPress ID, parent, slug, Elementor structure and global-item relationships before repeating the operation for additional pages.
+- Keep a build ledger of every page ID created during automation and its intended final title, slug and status. The number of created records must equal the approved page list.
+- A failed, duplicate or unused page-creation attempt must not be renamed to `Archived Empty Page`, left as an empty draft, or used as a WordPress-side archive. Preserve reusable source work as a local/template export instead.
+- If removal of an unused page is required, identify the exact page IDs, confirm that they contain no needed content or links, obtain approval for the destructive action, and move them to WordPress Trash so the cleanup is recoverable. Never accumulate empty draft records as a cleanup method.
 - Never clear a live page before the replacement method has been proven on the same site.
 - Never replace an Elementor page with block editor content or custom standalone HTML.
 - Never use WordPress content/body updates as the primary visible output for an Elementor client page.

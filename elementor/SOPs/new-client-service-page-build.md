@@ -85,6 +85,18 @@ If the approved Service Page Template is missing, malformed, or no longer editab
 - Include one useful high-authority external link where relevant, preferably local government, official guidance, or a trusted public resource.
 - Do not add random external links just to satisfy an SEO checklist.
 
+### Helpful Local Knowledge Section
+
+Every individual service page must retain a useful information section after the related-services content. Label it `HELPFUL LOCAL KNOWLEDGE` unless the approved template requires an equivalent client-facing label.
+
+- Give the section a service-specific H2 that naturally includes the service, decision or local concern. Do not reuse one generic heading across every page.
+- Use two short, substantial paragraphs: first explain practical customer guidance, safety, access, planning, compliance or maintenance considerations; then connect the subject to a trustworthy public resource.
+- Include one directly relevant external link to an authoritative source. Prefer the applicable municipality, national government department, regulator, standards body or established public-information source.
+- The external link must improve the reader's understanding. Do not claim that an outbound link automatically improves rankings.
+- Open external resources in a new tab with `rel="noopener"`, and style the link so it is visibly actionable against the section background.
+- Check that the authority page is live and supports the surrounding statement before publishing.
+- Write unique copy for hidden/unlinked service pages as well as menu-visible pages; hidden pages remain part of the site and must meet the same quality standard.
+
 ## Recent Work Completed / Local Work Examples
 
 These sections are key SEO and LLM-citation sections. They must showcase completed-work style examples that connect the page topic to real local areas, suburbs, property types and service problems.
