@@ -106,6 +106,8 @@ When a client changes the active service set, propagate that list through servic
 
 Never turn failed or unused automated WordPress page records into an `Archived Empty Page` collection. Inventory first, create one validated page before batching, track every created ID against the approved page list, and use local/template exports for reusable backups. With explicit approval, verified unused pages should be moved to WordPress Trash for recoverable cleanup instead of being cleared, renamed and left as drafts.
 
+Elementor template duplication can preserve a previous client's contact destination inside `__dynamic__` link metadata even after the visible text and ordinary `link.url` are changed. Every duplicated page must audit and clear or replace those dynamic contact tags, verify exact CTA text and destinations in rendered HTML, and refresh the reusable client template only after the contact and styling sweep passes.
+
 After those cards, use two complementary local-trust sections. `{PRIMARY LOCATION} RESIDENTS` establishes a verified local connection and may refer to years of residence only when supplied or confirmed. `LOCAL EXPERTISE` explains how local familiarity improves coverage confirmation, access discussions, preparation and booking clarity. Each section needs a descriptive H2, purposeful H3, two-to-three-sentence paragraph and three complete `Label: explanation` points.
 
 This approved pattern stops before suburb cards and deeper hub-and-spoke implementation. Those elements require a separate planning and approval stage.

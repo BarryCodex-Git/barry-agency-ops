@@ -97,6 +97,19 @@ Every individual service page must retain a useful information section after the
 - Check that the authority page is live and supports the surrounding statement before publishing.
 - Write unique copy for hidden/unlinked service pages as well as menu-visible pages; hidden pages remain part of the site and must meet the same quality standard.
 
+### Template CTA And Contact Hygiene
+
+Duplicating the approved Service Page Template does not complete the client adaptation. Every duplicated page and the reusable client template must receive a complete CTA/contact audit before publication.
+
+- Update every phone button to the exact visible text `Call Us Now` and the verified current-client `tel:` destination.
+- Update every WhatsApp button to the exact visible text `WhatsApp Us` and the verified current-client WhatsApp destination.
+- Point quote/contact buttons to the approved global contact-form anchor, normally `#contact-form`, unless the site documents another anchor.
+- Inspect both the ordinary Elementor `link.url` value and Elementor `__dynamic__` link metadata. Remove or replace inherited dynamic contact tags because they can override a correct visible/static link with a previous client's number.
+- Search the final Elementor data and rendered HTML for the previous client's phone numbers, WhatsApp destinations, email addresses, form anchors and CTA text. A clean visible label is not sufficient evidence.
+- Verify every rendered `Call Us Now`, `WhatsApp Us`, quote and contact link on desktop and mobile before publishing the page.
+- CTA styling must match the approved client theme. For this template family, secondary phone buttons use the approved white/black treatment and service-section eyebrow labels use the client black/yellow treatment unless the approved theme documents another pattern.
+- Refresh the reusable client Service Page Template after the page pattern is approved so future duplicates inherit the corrected CTA destinations and visual styling.
+
 ## Recent Work Completed / Local Work Examples
 
 These sections are key SEO and LLM-citation sections. They must showcase completed-work style examples that connect the page topic to real local areas, suburbs, property types and service problems.
