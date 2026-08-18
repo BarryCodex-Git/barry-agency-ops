@@ -75,6 +75,10 @@ For every SEO page, prepare:
 - Add FAQs where useful for local-service intent.
 - Use image alt text that describes the image and service context.
 - Fix red or orange Yoast items before handoff unless the user accepts the exception.
+- Treat Yoast traffic lights as diagnostic guidance. Never introduce awkward repetition, false proof, inaccurate terminology or weaker customer copy simply to make a light green.
+- Never publish a new ranking page with a blank focus keyphrase, SEO title or meta description.
+- Maintain a page SEO record and verify both stored Yoast fields and rendered public metadata.
+- Template duplication does not duplicate or complete page-specific Yoast work; apply unique metadata as a separate mandatory step.
 
 ## Safety
 

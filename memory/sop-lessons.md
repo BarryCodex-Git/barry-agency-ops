@@ -108,6 +108,8 @@ Never turn failed or unused automated WordPress page records into an `Archived E
 
 Elementor template duplication can preserve a previous client's contact destination inside `__dynamic__` link metadata even after the visible text and ordinary `link.url` are changed. Every duplicated page must audit and clear or replace those dynamic contact tags, verify exact CTA text and destinations in rendered HTML, and refresh the reusable client template only after the contact and styling sweep passes.
 
+Elementor completion is not Yoast completion. Every new ranking page needs a separate page SEO record, stored focus keyphrase, unique SEO title, meta description, social metadata and rendered-head verification before publication. Green traffic lights are useful diagnostics, but truthful, technically accurate and natural customer copy must not be weakened merely to satisfy a mechanical Yoast check; document justified exceptions instead.
+
 After those cards, use two complementary local-trust sections. `{PRIMARY LOCATION} RESIDENTS` establishes a verified local connection and may refer to years of residence only when supplied or confirmed. `LOCAL EXPERTISE` explains how local familiarity improves coverage confirmation, access discussions, preparation and booking clarity. Each section needs a descriptive H2, purposeful H3, two-to-three-sentence paragraph and three complete `Label: explanation` points.
 
 This approved pattern stops before suburb cards and deeper hub-and-spoke implementation. Those elements require a separate planning and approval stage.

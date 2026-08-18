@@ -207,6 +207,12 @@ For each service page, apply and verify:
 
 Do not mark Yoast complete until the rendered public head is verified.
 
+- Create the service page's SEO record before publication and use a unique `service + primary location` focus keyphrase.
+- Treat Elementor template duplication and Yoast application as separate required operations; a completed Elementor page is not an SEO-complete page.
+- Confirm the stored focus keyphrase through Yoast/custom fields and confirm the SEO title, description and social metadata in rendered output.
+- Block publication when the focus keyphrase, SEO title or meta description is missing unless the user approves a documented exception.
+- Target green lights, but preserve natural language, truthful claims, technical accuracy and customer clarity. Record justified non-green checks rather than degrading the copy.
+
 ## Build-Time Schema
 
 - Use `seo/skills/local-business-schema/SKILL.md` while building every service page.
@@ -239,6 +245,7 @@ The page is ready for review when:
 - repeated service image slots use distinct images, not the same file duplicated
 - background/overlay images are actual 1920x1080 landscape compressed WebP files where required
 - Yoast metadata renders correctly
+- page SEO record exists and the stored focus keyphrase, SEO title and meta description are non-empty
 - no old-template/client metadata remains
 - public page opens for review
 - the active service list matches across cards, menus, related-service links and global form selectors

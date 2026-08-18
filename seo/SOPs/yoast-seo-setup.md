@@ -67,6 +67,44 @@ If Yoast shows a red or orange item after applying content, Barry should fix the
 
 Human writing still comes first. Do not force exact keyphrases into text where it sounds unnatural. Use synonyms and variants where Yoast and readability allow it.
 
+### Green Lights Are A Diagnostic, Not The Editorial Goal
+
+Barry should target green Yoast SEO and readability results, but must never damage truthful, natural client-facing copy merely to change a traffic light.
+
+- The focus keyphrase field enables Yoast's analysis; the field itself is not a public ranking signal.
+- Treat red and orange checks as prompts to investigate, not instructions to insert awkward repetitions, unnecessary transition words, false claims or technically inaccurate synonyms.
+- Fix genuine weaknesses such as a missing keyphrase topic, unclear title, absent description, thin copy, poor headings, missing links or unreadable paragraphs.
+- Record any remaining non-green item and the human-first reason for accepting it. Do not silently ignore it.
+- Truth, search intent, readability, technical accuracy and conversion clarity take precedence over mechanically satisfying every check.
+
+## Mandatory Page SEO Record And Publication Gate
+
+Every ranking page or post Barry creates must have a page SEO record before publication. This includes Home, Services, Service Areas, individual service pages, location pages and blog posts.
+
+The record must include:
+
+- WordPress page/post ID and canonical slug
+- one unique primary focus keyphrase
+- SEO title
+- meta description
+- Open Graph title, description and image
+- X/Twitter title, description and image where supported
+- H1 and opening-paragraph check
+- at least one natural H2/keyphrase-variant check
+- internal and outbound-link check
+- image filename/alt-text check
+- schema/page-type result
+- rendered-head verification result
+- Yoast SEO/readability status or a documented human-first exception
+
+Hard gate:
+
+- Do not publish or hand off a new ranking page while the focus keyphrase, SEO title or meta description is blank.
+- Do not assume an Elementor/template import includes Yoast data. Yoast fields are post metadata and require their own application step.
+- Do not reuse the source template's keyphrase or metadata on a duplicate. Every page needs unique intent-aligned metadata.
+- Compare planned focus keyphrases across the site to prevent accidental duplication and cannibalisation.
+- The publishing workflow must fail closed when the required page SEO record or rendered metadata is missing, unless the user explicitly approves a documented exception.
+
 ## Applying Yoast Fields
 
 Yoast stores page SEO values as WordPress custom fields.
@@ -98,6 +136,8 @@ Important:
 - Avoid creating duplicate Yoast meta rows. Yoast may read the older row first.
 - A successful WordPress REST update is not enough proof for Yoast.
 - The verification source of truth is the public HTML head and Yoast's rendered metadata.
+- Also re-read the admin custom fields to prove that the focus keyphrase is stored; it does not appear in the public HTML head.
+- On staging/development domains, preserve the approved `noindex` setting. Before launch, switch the production site to the approved indexability state and verify robots output, canonical URLs, sitemap inclusion and rendered metadata.
 
 ## Homepage SEO
 
