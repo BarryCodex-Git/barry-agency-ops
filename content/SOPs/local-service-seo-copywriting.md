@@ -242,6 +242,7 @@ Use headings and layout in a way that helps both people and crawlers.
 ### Service Page
 
 - Treat each service page as a ranking page, not a thin brochure page.
+- In the paired split-layout service sections, such as `Our Approach` and `Why Book Us`, keep the main body copy to one purposeful paragraph per section. Use the separate bullet list for supporting detail instead of adding a second paragraph.
 - Explain symptoms, causes, inspection logic, repair logic, customer decisions, and local relevance.
 - Include practical questions and quick answers.
 - Add FAQs that come from the actual service problem, not a reusable template.

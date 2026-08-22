@@ -539,6 +539,8 @@ Barry must verify editor parity:
 
 Barry must check representative desktop, tablet, and mobile widths after visual changes.
 
+For established split-layout service sections on mobile, preserve the theme hierarchy: centre the eyebrow, H2, H3, introductory paragraph and CTA row when that is the approved pattern, but keep supporting icon or bullet lists left aligned for readability. Do not centre a list merely because the headings above it are centred, and do not alter the desktop alignment while correcting the mobile controls.
+
 Barry must not claim a check passed unless it was actually performed.
 
 ## Stage 14: Stop Conditions
