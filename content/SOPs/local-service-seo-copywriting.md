@@ -128,6 +128,18 @@ Avoid:
 - exaggerated guarantees
 - fake proof
 
+### Zero Em-Dash Rule
+
+Em dashes are prohibited in every customer-facing field. This includes headings, paragraphs, cards, bullets, FAQs, CTAs, metadata, alt text and schema copy.
+
+Before publishing or handing over any page, run a literal and rendered-content check for all three forms:
+
+- `—`
+- `&mdash;`
+- `&#8212;`
+
+The required result is zero. Replace each occurrence with a full stop, comma, colon, semicolon or parentheses according to natural sentence flow. Do not perform a blind character swap when the sentence reads better after being rewritten.
+
 ## Human-First Rewrite Rules
 
 For local trades and practical service businesses, Barry must write like the business understands the customer's actual problem before mentioning SEO terms.
@@ -334,6 +346,7 @@ Before publishing or handing over copy, Barry must check:
 - Is the first paragraph clear within five seconds?
 - Are there any awkward grammar issues such as subject-verb mismatch?
 - Are there any AI-sounding filler phrases or repeated keyword patterns?
+- Does the final literal and rendered-copy scan return zero matches for `—`, `&mdash;`, and `&#8212;`?
 - Are all placeholders, internal notes, fake proof, and draft labels removed?
 
 If the answer is weak, rewrite before applying the copy.

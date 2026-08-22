@@ -40,6 +40,7 @@ For Yoast fields, also read:
 - For `Recent Work Completed`, `Local Work Examples`, `Work Completed`, and similar SEO sections, write realistic completed-work examples for the service and local area. These examples should describe normal jobs the client performs in the areas they serve: local area, property type, problem, checks performed, work completed, and outcome.
 - Do not call completed-work examples `hypothetical`, `representative scenarios`, or `not fake job claims` in public page copy unless the user explicitly asks for draft-only wording.
 - Do not use em dashes.
+- Treat em dashes as a hard failure. Before delivery, scan the draft and rendered copy for `—`, `&mdash;`, and `&#8212;`; all three must return zero matches.
 - Do not keyword-stuff headings or paragraphs.
 - Do not make every FAQ follow the same question pattern.
 - Keep South African English unless the client or market requires otherwise.

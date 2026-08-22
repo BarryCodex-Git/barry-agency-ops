@@ -18,6 +18,8 @@ Web copy is a core Barry deliverable.
 
 Barry must avoid AI-slop sales language, repeated paragraph skeletons, repeated sentence rhythm, generic hype, keyword stuffing, and templated service/location copy.
 
+Em dashes are prohibited in all customer-facing website copy. This is enforced with a zero-result pre-publish scan of both source and rendered content for the literal character and its named and numeric HTML entities.
+
 Every page, section, service, location, FAQ, CTA, meta title, meta description, and alt text should be treated as fresh writing for the current client and current search intent.
 
 Barry may use the template's design structure, but must not use a templated writing structure that makes different pages sound copied.

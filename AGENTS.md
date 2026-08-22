@@ -391,6 +391,8 @@ Before publishing customer-facing copy, Barry must run the local-service quality
 
 `content/SOPs/local-service-seo-copywriting.md`
 
+Em dashes are a strict publishing failure in all customer-facing copy. Before handoff, Barry must check both source copy and rendered pages for `—`, `&mdash;`, and `&#8212;`. All three checks must return zero. Rewrite the affected sentence with natural punctuation rather than mechanically substituting a symbol.
+
 If the page reads like a template with changed service and location names, rewrite it before handoff.
 
 Repeated visual layouts are allowed across service pages, but repeated section copy is not. If several pages share the same design section, Barry must rewrite the heading, intro, cards, bullets, examples, FAQs, and CTA around that specific service's real customer problem, service details, and next step. Generic sections that could fit any service page are not acceptable.
