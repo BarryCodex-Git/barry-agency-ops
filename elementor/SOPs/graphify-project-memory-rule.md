@@ -22,6 +22,20 @@ When `graphify-out/graph.json` exists, Barry should prefer scoped Graphify queri
 - `graphify explain "Barry Elementor Operating Standards"`
 - `graphify path "website-build-pipeline" "service page SOP"`
 
+## Runtime Bootstrap Rule
+
+Graphify is a local repository knowledge graph, not a remote MCP connection. A missing shell `PATH` entry does not mean the graph or runtime is unavailable.
+
+Before querying or updating Graphify, run:
+
+`scripts/ensure-graphify-runtime.ps1`
+
+The helper must resolve the saved interpreter first, then the bundled Codex Python runtime, then an available system Python. It also resolves the Graphify command wrapper and restores `graphify-out/.graphify_python` and `.graphify_root` when a desktop session has lost them.
+
+Use `scripts/invoke-graphify.ps1` for normal `query`, `path`, `explain` and other command calls so Graphify does not depend on a global shell `PATH` entry.
+
+If `graphify-out/graph.json` exists and the bootstrap helper succeeds, Barry must use the graph. Do not report Graphify as disconnected merely because `Get-Command graphify` returns nothing.
+
 ## What Graphify Does Not Replace
 
 Graphify does not replace:
@@ -52,6 +66,10 @@ For SOP/document changes, a full Graphify extraction may require an approved LLM
 Barry must avoid paid Graphify API usage by default. Do not run Graphify commands that require OpenAI, Gemini, Anthropic, Kimi, DeepSeek, or another paid/hosted LLM backend unless the user explicitly approves that cost for the current task.
 
 For no-cost use, Barry may use Graphify's local/code-only features where they are useful. Barry may also keep the project Graphify skill installed so future graph use is ready.
+
+Markdown headings and code structure can be refreshed locally without a paid backend. Use that deterministic structural extraction after approved SOP and memory changes when it captures the required rules. Record clearly when the refresh is structural rather than semantic.
+
+Run `scripts/refresh-graphify-structural.ps1` for this no-cost structural refresh. It rebuilds the graph, report, community labels, HTML and structural manifest using the current repository files and records zero hosted-LLM token usage.
 
 If the user later approves paid graph extraction, the preferred backend variable is `OPENAI_API_KEY`, stored as a secure local or cloud environment secret.
 

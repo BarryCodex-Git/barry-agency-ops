@@ -561,7 +561,7 @@ Before starting a new client project or resuming a client build:
    - run a read-only `git status`, `git remote -v`, `git fetch origin`, and branch/divergence check
    - fast-forward only when the worktree is clean and the update is unambiguous
    - never overwrite, reset, stash or discard local work automatically; report dirty or divergent state before continuing
-3. When `graphify-out/graph.json` exists, query Graphify for the current rules relevant to the requested page type, content, images, Elementor workflow, SEO and known client-build lessons.
+3. Run `scripts/ensure-graphify-runtime.ps1`. When `graphify-out/graph.json` exists, query Graphify for the current rules relevant to the requested page type, content, images, Elementor workflow, SEO and known client-build lessons. Use `scripts/invoke-graphify.ps1` so Graphify does not depend on a global shell `PATH` entry.
 4. Read the relevant source SOPs and skills directly. Graphify is a routing and relationship aid, not a replacement for the authoritative instruction files.
 5. Read the relevant client folder, intake and image/brand rules.
 6. Confirm unclear or risky instructions before taking action.
@@ -583,6 +583,7 @@ When the user types `/graphify`, use the installed graphify skill or instruction
 
 Rules:
 - At the start of every new client project, use Graphify automatically to retrieve the current new-client, page-type, image, content, SEO and Elementor rules before making site changes.
+- Treat Graphify as a local repository knowledge graph, not a remote MCP connection. Bootstrap it with `scripts/ensure-graphify-runtime.ps1`; a missing global command path is not permission to skip an existing graph.
 - For codebase questions, first run `graphify query "<question>"` when graphify-out/graph.json exists. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
 - Do not run Graphify extraction that requires a paid/hosted LLM backend unless the user explicitly approves that cost for the current task. If no graph exists, use normal source files and SOPs instead of triggering paid extraction.
 - Dirty graphify-out/ files are expected after hooks or incremental updates; dirty graph files are not a reason to skip graphify. Only skip graphify if the task is about stale or incorrect graph output, or the user explicitly says not to use it.
