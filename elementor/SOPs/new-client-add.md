@@ -50,7 +50,7 @@ Do not:
 - clone/import the master template
 - edit WordPress
 - apply branding
-- build Home/Services/Service Areas pages
+- build Home, Services or Service Areas pages
 - create WordPress block editor pages
 - bypass Elementor or the imported master template
 - generate AI images
@@ -70,9 +70,10 @@ After the user confirms the intake and target domain, run:
 5. Full build workflow if readiness passes:
    - Home Page
    - Services Hub Page
-   - Service Areas Hub Page
    - All primary and additional Service Pages, duplicated from the approved Service Page Template
    - Blog Page, Single Post Template, Post Archive Template, and three real starter posts
+6. Offer the Service Areas Hub as a separate add-on after the standard build is complete.
+   - Do not research sub-locations or populate the full Service Areas page until the user explicitly requests the add-on.
 
 ## Notes
 

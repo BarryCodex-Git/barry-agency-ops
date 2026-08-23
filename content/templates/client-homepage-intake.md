@@ -38,16 +38,16 @@ Additional service areas for later hub/spoke pages:
 4.
 5.
 
-Primary service area regions for Service Areas page:
+Primary service area regions for the Home page and later Service Areas add-on:
 1.
 2.
 3.
 4.
 5.
 
-Sub-location/suburb research rule:
+Service Areas add-on trigger and sub-location research rule:
 
-Barry researches and proposes 8-12 high-value local sub-locations inside each primary service area region unless the user supplies exact suburbs. Use intake regions first, then research residential suburbs, commercial districts, estates, coastal pockets, high-value smaller towns, and locally relevant areas.
+The standard New Client Build records these regions and uses them on the Home page. Barry does not research or populate the full Service Areas hub until the user explicitly requests that separate add-on. During the add-on, Barry researches exactly 12 valuable sub-locations inside each primary region unless the user approves another count. Prioritise established suburban areas, higher-income residential zones, residential estates, gated communities, commercial districts and industrial zones. Exclude townships, informal settlements, numbered extensions, duplicated names and the primary region itself.
 
 Optional user-supplied sub-locations/suburbs inside each service area region:
 

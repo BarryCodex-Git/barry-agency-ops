@@ -4,10 +4,11 @@ Use this SOP when converting the first full Home page for a new client using the
 
 This is an Elementor template conversion SOP. Do not create or replace the Home page with WordPress block editor content, custom standalone HTML/CSS, or a non-Elementor fallback page.
 
-For a full new-client build, this SOP is followed by:
+For a standard New Client Build, this SOP is followed by:
 
 - `elementor/SOPs/new-client-services-hub-page-build.md`
-- `elementor/SOPs/new-client-service-areas-page-build.md`
+
+The full Service Areas hub is a separate add-on. The Home page must still identify and display the approved primary service regions, but Barry must not research or populate the full Service Areas page until the user explicitly requests that add-on.
 
 ## Goal
 
@@ -150,7 +151,7 @@ Convert the approved Elementor Home page into a polished, SEO-friendly, conversi
 18. Check desktop view visually.
 19. Note any mobile/tablet checks still required.
 20. If the user requested the full new-client build, continue to the Services Hub page SOP.
-21. If the user requested the full new-client build, continue to the Service Areas Hub page SOP.
+21. Record the Service Areas page as a separate available add-on. Do not continue into its SOP without an explicit later request.
 22. Update website setup status.
 
 ## High-Risk Elementor Change Rules
@@ -225,7 +226,7 @@ The Home page build is complete when:
 - published page opens for visual review
 - status files are updated
 
-## Full New-Client Build Continuation
+## Standard New-Client Build Continuation
 
 Unless the user specifically says to build only the Home page, a new-client setup should continue after the Home page with:
 
@@ -235,9 +236,11 @@ Unless the user specifically says to build only the Home page, a new-client setu
    - Give every service one card.
    - Use/reuse relevant service images and SEO image metadata.
    - Check the AI Images folder and brand guide before generating missing service images.
-2. Service Areas Hub page:
-   - Use primary service area regions from intake.
-   - Barry researches 8-12 high-value sub-locations per region unless the user supplies exact suburbs.
-   - Save the final region/sub-location map in the client folder.
-   - Treat this as preparation for later hub-and-spoke SEO, not automatic bulk page creation.
-   - Use local place images for regions; check AI Images examples and approved style first.
+2. Individual Service Pages and remaining standard build stages:
+   - Build every approved active service page from the Service Page Template.
+   - Complete the global form, navigation, CTA, SEO, schema, responsive and residue checks required by the main pipeline.
+3. Service Areas add-on handoff:
+   - Confirm that the primary regions are present on the Home page.
+   - Stop before researching sub-locations or populating the full Service Areas hub.
+   - Continue only after an explicit later request such as `Let's build the Service Areas page for this client.`
+   - When requested, use `elementor/SOPs/new-client-service-areas-page-build.md`.

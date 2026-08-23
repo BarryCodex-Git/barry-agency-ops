@@ -4,7 +4,7 @@ Use this SOP after client setup and before page building.
 
 ## Goal
 
-Confirm Barry has everything needed to safely build the Home Page, Services Hub, Service Areas Hub, every primary and additional Service Page, and Blog infrastructure.
+Confirm Barry has everything needed to safely complete the standard New Client Build: Home Page, Services Hub, every primary and additional Service Page, Blog infrastructure, global items, SEO and QA.
 
 ## Readiness Checks
 
@@ -69,7 +69,7 @@ Confirm Barry has everything needed to safely build the Home Page, Services Hub,
 - Five primary Home Page services are confirmed.
 - Additional Services for Services Hub are confirmed.
 - Primary service area regions are confirmed.
-- Barry is ready to research 8-12 sub-locations per service area region if suburbs are not supplied.
+- Primary service regions are ready for the Home page. Sub-location research is deferred until the user explicitly requests the separate Service Areas add-on.
 - Phone, email and WhatsApp are confirmed on separate line items.
 - Phone and WhatsApp are ready to apply to the reusable Contact CTA buttons source.
 - Primary CTA and secondary CTA are confirmed.
@@ -116,6 +116,16 @@ Readiness is blocked when:
 - Imported Elementor pages/templates are missing or have been replaced with block editor pages.
 - Required intake data is missing and cannot be inferred safely.
 - Logo/contact details are missing and the user has not approved placeholders.
+
+## Separate Service Areas Add-On Readiness
+
+When the user later requests the Service Areas add-on, confirm separately that:
+
+- the standard New Client Build is complete or the user has authorised the add-on early
+- the primary service regions are approved
+- the Home page location-to-image mapping is recorded
+- the Elementor Service Areas hub is available
+- Barry can research exactly 12 suitable sub-locations per primary region without repeating the primary region itself
 
 ## Output
 

@@ -307,9 +307,12 @@ Use this as the default content standard for every individual service page built
 
 ### Service Areas Page
 
+- Treat the full Service Areas page as a separate add-on after the standard New Client Build. Do not populate it automatically while building the Home page and Services pages.
 - Treat this page as the location hub for future hub-and-spoke builds.
 - Use primary service regions from intake.
-- Research 8-12 high-value sub-locations per region unless the user supplies exact suburbs.
+- Research exactly 12 high-value sub-locations per region unless the user explicitly approves another count.
+- Never repeat the primary region as a sub-location card. Exclude townships, informal settlements, numbered extensions and exact or near-duplicate place names.
+- Give every sub-location card its own title, useful client-facing description, CTA and one-to-one location image mapping.
 - Keep local copy believable and useful.
 - Do not create bulk spoke pages until the user approves the SEO phase.
 

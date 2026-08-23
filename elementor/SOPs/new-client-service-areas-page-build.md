@@ -1,12 +1,26 @@
-# SOP: New Client Service Areas Page Build
+# SOP: Service Areas Add-On Page Build
 
-Use this SOP when creating the main Service Areas page for a new client.
+Use this SOP only when the user explicitly starts the Service Areas add-on after the standard New Client Build is complete, for example: `Let's build the Service Areas page for this client.`
+
+The standard New Client Build identifies the primary service regions and presents them on the Home page. It does not research, populate or complete the full Service Areas hub. Do not continue into this SOP automatically from the Home page, Services hub or individual service-page workflow.
 
 For new-client builds, the Service Areas page must be the approved Elementor Service Areas hub page from the imported master/template, or a duplicate of an approved Elementor source. Do not create or replace it with WordPress block editor content or custom standalone HTML/CSS.
 
 ## Goal
 
-Convert the approved Elementor Service Areas hub into a location hub page that prepares the client's site for future hub-and-spoke local SEO pages.
+Convert the approved Elementor Service Areas hub into a complete location hub with the approved primary-region and sub-location card structure, ready for later regional hubs and service-location spoke pages.
+
+## Add-On Trigger And Prerequisites
+
+Begin only when:
+
+- the user has explicitly requested the Service Areas add-on
+- the standard New Client Build is complete or the user has deliberately authorised this add-on early
+- the primary service regions from the intake have already been confirmed
+- the Home page primary-region cards and their location-to-image mapping are known
+- the approved Elementor Service Areas page exists and is safe to edit
+
+When the standard New Client Build finishes, report this page as an available add-on. Do not treat the existence of a blank or imported Service Areas template page as permission to populate it.
 
 ## Required Inputs
 
@@ -35,13 +49,17 @@ Convert the approved Elementor Service Areas hub into a location hub page that p
    - This top content area must never remain demo/template wording.
    - Any inline image beside this intro or another coverage/support text block must use a genuine 1000x1000 square WebP source file. Do not reuse the Service Areas hero/background landscape asset in the inline image widget.
 6. Create one section per primary service area.
-   - If sub-locations are not supplied, Barry researches 8-12 high-value sub-locations per region.
-   - Prioritise residential suburbs, commercial districts, estates, coastal pockets, high-value smaller towns, and locally relevant areas.
+   - Research and select exactly 12 valuable sub-locations per primary region unless the user explicitly approves another count.
+   - Use supplied sub-locations where suitable, then complete the set through local research.
+   - Prioritise established suburban areas, higher-income residential zones, large residential estates, gated communities, commercial districts and industrial zones.
+   - Exclude informal settlements, townships, numbered extensions and duplicated or near-duplicated place names.
+   - Never use the primary region itself as a sub-location card. The primary-region cards already form the regional hub layer at the top of the page.
+   - A genuinely distinct place may remain even when its name is related to the region, such as `Pretoria CBD` beneath `Pretoria Central`, but the distinction must be real and useful.
 7. Each primary service area section must include:
    - eyebrow
    - H2 heading
    - description
-   - 8-12 sub-location cards where appropriate
+   - exactly 12 sub-location cards unless the user explicitly approves another count
 8. For each sub-location card, include:
    - location title
    - short local coverage copy
@@ -55,6 +73,8 @@ Convert the approved Elementor Service Areas hub into a location hub page that p
    - Keep each location mapped to the same approved image wherever that location appears on the Home page and Service Areas page.
    - Keep the complete location image set visually coherent in colour, lighting and photographic style.
 10. Before generating any missing location images, inspect `assets/AI Images/`, `assets/AI Images/brand guide/`, `brand-image-rules.md`, approved generated images, and `image-plan.md`.
+    - Generate one representative location image first and obtain user approval before continuing with the remaining location-image set.
+    - After approval, produce the remaining images in an efficient batch while preserving the approved style.
 11. Prepare Yoast metadata and verify it in the rendered page head.
 12. Save the service-area and sub-location map in the client folder.
 13. Use `seo/skills/local-business-schema/SKILL.md` to add/verify `CollectionPage`, truthful `ItemList`/`Place` references and `areaServed` relationships. Do not create fake branches or addresses.
@@ -99,9 +119,9 @@ Each trust section must include:
 
 Keep their purposes distinct. `{PRIMARY LOCATION} RESIDENTS` establishes the verified local connection; `LOCAL EXPERTISE` explains how that connection improves planning and booking.
 
-### Current Scope Boundary
+### Add-On Scope Boundary
 
-This approved design freezes the hero, primary-region section and two local-trust sections only. Suburb/sub-location cards, regional child hubs, suburb hubs and service-location spokes must be planned and approved under the next hub-and-spoke stage before they are added or linked.
+This add-on completes the main Service Areas hub, including the hero, primary-region cards, local-trust sections and exactly 12 researched sub-location cards per primary region. It does not automatically create regional child hubs, suburb hubs or service-location spoke pages. Card links remain approved placeholders until those future pages and their URL structure are authorised.
 
 ## Hub-And-Spoke Rules
 
@@ -118,6 +138,7 @@ This approved design freezes the hero, primary-region section and two local-trus
 - Do not redesign approved repeated sections to solve content-order problems. If copied widget order is wrong, fix the copied widgets while preserving the approved structure, or copy a clean source section again.
 - A regional hub local-area section must keep the uniform heading stack: blue bubble/eyebrow, H2, separator, centred description, then the boxed card grid.
 - The first local-area card on a regional hub must be a prime suburb/local area, not the region overview title. The section H2 must stay in the heading area above the grid.
+- On the main Service Areas page, no sub-location card may duplicate its parent primary region. The primary-region cards at the top of the page already represent those destinations.
 - Every local-area card must have matching title, description and button text. Do not allow shifted card data where one suburb title uses another suburb's description or CTA.
 - Each local-area card should use a unique relevant landscape, skyline, estate, suburb, streetscape or landmark image for that specific local area. Do not duplicate the same location image across all cards unless the user explicitly approves a temporary placeholder pass.
 - This unique-place rule applies to every linked card throughout the hierarchy: primary regional hubs, suburb/estate/town/neighbourhood hubs, sub-location cards and service-plus-location spoke cards. Any service card whose link target is location-led is a location card for image-selection purposes.
@@ -141,6 +162,8 @@ This approved design freezes the hero, primary-region section and two local-trus
 - After any service-location spoke pages are created, Barry must update the parent hub page links immediately. The parent hub service cards, related-service cards, and any relevant spoke/list section must link to the newly created child pages instead of broad service pages or placeholder `#` links.
 - Verify the internal link pass after creation: every new spoke must return HTTP 200, must have the correct parent page, must contain the target location in its copy, and the parent hub must contain links to each new spoke page.
 - Do not invent areas randomly. Use intake data first, then local research for suburbs, business districts, estates, coastal pockets, high-value smaller towns and high-value residential areas.
+- Select exactly 12 useful sub-locations per primary region unless the user explicitly approves another count.
+- Exclude townships, informal settlements, numbered extensions and exact or near-duplicate names. Run a duplicate audit both within each region and across the complete page.
 - Keep location targeting practical and locally believable.
 - Vary local descriptions between regions and sub-locations.
 - Do not reuse the same suburb-card sentence pattern across a region.
@@ -166,5 +189,7 @@ This approved design freezes the hero, primary-region section and two local-trus
 - Sub-location CTA example: `Plumber in Heather Park`.
 - Use natural local copy and avoid keyword stuffing.
 - Save final sub-location lists in the client folder for future SEO planning.
+- Give every sub-location card its own location-specific title, useful client-facing description and CTA. Do not reuse generic copy with only the place name swapped.
+- Keep every sub-location card mapped one-to-one to its title, copy, CTA, future URL, image filename, visible scene and alt text.
 - Use `assets/AI Images/brand guide/` and approved AI images as the main style reference for any generated location images.
 - Use local references only where they are believable and useful.

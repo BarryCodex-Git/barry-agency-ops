@@ -11,7 +11,7 @@ Status: applied to Elementor through Services page structure clone
 
 Barry uses this file to understand, target, and safely update the Service Areas hub page.
 
-This page prepares a hub-and-spoke local SEO structure:
+This page is populated only during the separately requested Service Areas add-on and prepares a hub-and-spoke local SEO structure:
 
 - Service Areas page: main location hub.
 - Primary service area sections: regional hubs.
@@ -54,8 +54,11 @@ Each sub-location card uses:
 - The hero form prompt and heading stay static: `Need a Plumber?` and `Contact Us Now!`.
 - Hero trust bubbles must be two-word trust signals, not service-area or service names.
 - Each primary service area must have its own H2 and description.
-- Each primary service area should list 8-12 sub-locations when enough local targets exist.
-- Sub-locations should favour high-value residential, estate, coastal, central business and commercial areas.
+- Each primary service area should list exactly 12 useful sub-locations unless the user explicitly approves another count.
+- Sub-locations should favour established suburban areas, higher-income residential zones, estates, gated communities, central business areas, commercial districts and industrial zones.
+- Do not use the primary region itself as a sub-location card. Exclude townships, informal settlements, numbered extensions and exact or near-duplicate place names.
+- Every card needs its own location-specific title, client-facing description, CTA and unique place-relevant image.
 - Card CTAs should use natural service + location wording, such as `Plumber in Heather Park`.
 - Card links remain placeholders until the spoke URL structure is approved.
 - Location pages should only be created later if the client signs up for SEO and the keyword plan is approved.
+- The first new location image requires user approval before the remaining image set is generated or sourced.

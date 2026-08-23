@@ -14,14 +14,14 @@ Follow the New Client Homepage Builder workflow.
 For the full new-client setup, build:
 - Home Page first
 - Services Hub Page next
-- Service Areas Hub Page next
 - Every primary and additional Service Page from intake
 - Blog infrastructure and three real starter posts
 
 Use the five primary services on the Home Page.
 Use the five primary services plus all additional services on the Services Hub Page.
-Use the primary service area regions from intake on the Service Areas Hub Page.
-Barry must research 8-12 high-value sub-locations/suburbs per primary service area unless exact suburbs are supplied.
+Use the primary service area regions from intake in the Home Page Service Areas section.
+
+The full Service Areas Hub Page is a separate add-on. Do not research sub-locations or populate that page during the standard New Client Build. Wait for my later explicit prompt to build it.
 
 If any client intake information is missing, ask me for it before writing or applying final content.
 
@@ -63,9 +63,8 @@ Open the published Home page in Chrome after changes so I can review it.
 7. Prepare image plan, including slot size/aspect-ratio matching, visual variety and duplicate-image checks.
 8. Apply Home Page content through Elementor MCP.
 9. Build Services Hub Page if full setup is requested.
-10. Build Service Areas Hub Page if full setup is requested.
-11. Duplicate the approved Elementor service template for every primary and additional service, write unique service-specific content, apply Yoast data, nest each page under Services, and connect menus and internal links.
-12. Build the Blog infrastructure and three real starter posts.
-13. Apply labels/classes.
-14. Open published pages for review.
-15. Report status and approval items.
+10. Duplicate the approved Elementor service template for every primary and additional service, write unique service-specific content, apply Yoast data, nest each page under Services, and connect menus and internal links.
+11. Build the Blog infrastructure and three real starter posts.
+12. Apply labels/classes.
+13. Open published pages for review.
+14. Report status and approval items, including the separately available Service Areas add-on.

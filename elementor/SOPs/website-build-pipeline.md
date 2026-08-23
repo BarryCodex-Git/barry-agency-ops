@@ -79,10 +79,9 @@ Barry's goal is to master design inside the provided template, not to escape the
 13. Run `client-customization.md` if still needed.
 14. For a first Home page build, run `new-client-homepage-build.md`.
 15. For a main Services hub page, run `new-client-services-hub-page-build.md`.
-16. For a Service Areas hub page, run `new-client-service-areas-page-build.md`.
-   - Use the primary service area regions from intake.
-   - Research and propose 8-12 high-value sub-locations per region unless the intake supplies exact suburbs.
-   - Save the final region/sub-location map in the client folder for future hub-and-spoke SEO.
+16. Record the Service Areas hub as a separate add-on. Do not run `new-client-service-areas-page-build.md` during the standard New Client Build.
+   - The standard build still confirms the primary service regions and displays them on the Home page.
+   - Start the Service Areas add-on only after an explicit later request from the user.
 17. Duplicate the approved Elementor Service Page Template and build every primary and additional service page supplied in the intake.
     - Do not redesign, reorder, add or remove template sections unless the user specifically requests a structural change.
     - Rewrite every content field as fresh, service-specific copy; do not mirror paragraph logic across services.
@@ -197,7 +196,8 @@ For full client website builds, use the approved `Barry - Codex` Chrome profile.
 - Do not inspect or test other domains on the same server unless the user explicitly asks for them.
 - Pace MCP, REST, media upload, and browser reload workflows so they do not look like abusive traffic.
 - If requests start timing out or security responses appear, pause and check whether IP whitelisting or firewall rules are needed.
-- A new client build normally includes the Home page, Services hub page, Service Areas hub page, every primary and additional service page from intake, Blog page, Single Post template, Post Archive template, and three real starter blog posts unless the user explicitly limits scope.
+- A standard New Client Build normally includes the Home page, Services hub page, every primary and additional service page from intake, Blog page, Single Post template, Post Archive template, three real starter blog posts, global items, SEO, schema and QA unless the user explicitly limits scope.
+- The full Service Areas hub is a separate add-on. It begins only after an explicit user request once the standard build has established the primary regions on the Home page.
 - The current My New Website master structure is the approved source of truth. The cloned WordPress IDs normally remain:
   - Home page `2747`
   - Services hub `6217`
@@ -209,7 +209,7 @@ For full client website builds, use the approved `Barry - Codex` Chrome profile.
   - Global Contact CTA Buttons template `6575`
 - Home uses the five primary services.
 - Services hub uses the five primary services plus all additional services from intake.
-- Service Areas hub uses primary service area regions from intake; Barry researches sub-locations for each region.
+- The later Service Areas add-on uses the primary regions already confirmed during the standard build and researches exactly 12 suitable sub-locations for each region unless the user explicitly approves another count.
 - Primary service area pages nest under Service Areas, and suburb/spoke pages nest under the relevant primary service area.
 - Blog setup uses intake services, locations, FAQs, common customer questions, and SEO keywords to create genuinely useful starter posts.
 - Use the reusable Contact CTA source for Call and WhatsApp buttons wherever possible; if Elementor MCP cannot insert it as a true global widget, copy from the approved reusable template and keep links/display text synchronized.
