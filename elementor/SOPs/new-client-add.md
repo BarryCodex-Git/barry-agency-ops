@@ -71,7 +71,9 @@ After the user confirms the intake and target domain, run:
    - Home Page
    - Services Hub Page
    - All primary and additional Service Pages, duplicated from the approved Service Page Template
-   - Blog Page, Single Post Template, Post Archive Template, and three real starter posts
+   - About Page
+   - Blog Page, Single Post Template, Post Archive Template, and three published SEO-relevant starter posts
+   - Published `Blog` item in the primary navigation menu
 6. Offer the Service Areas Hub as a separate add-on after the standard build is complete.
    - Do not research sub-locations or populate the full Service Areas page until the user explicitly requests the add-on.
 

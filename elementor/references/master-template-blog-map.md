@@ -64,6 +64,10 @@ Layout rules:
 - Elementor may show placeholder text in the editor/settings summary for dynamic widgets; the public post URL is the source of truth.
 - Visible placeholder Elementor heading/image output on the public post must be treated as a failed template.
 - Verify with an actual public post URL.
+- Show the author name and formatted publication date. Do not show a time-only value in place of the date.
+- Use an editable boxed content width consistent with the approved template. The approved HoneySucker result uses 1350px.
+- Align the main column and sidebar to the top. Disable sidebar flex growth so the sidebar stops after its own widgets.
+- Control hero height with Elementor padding. Do not use a forced minimum height for routine spacing.
 
 ## Post Archive Template
 
@@ -97,3 +101,8 @@ Required widgets:
 - New client builds use the current approved Blog page, Single Post template and Archive template structure as the master reference.
 - The Blog page is a normal Elementor page with a posts grid/sidebar experience.
 - The Theme Builder Single Post and Archive templates must remain active for normal WordPress post/category/archive behaviour.
+- The normal Blog page and Theme Builder Archive template are separate records. Confirm the target before editing.
+- On the Blog page, Single Post template and Archive template, set the content parent to align items at the start and disable flex growth on the sidebar.
+- Each sidebar must end after Search, Categories and Recent Posts instead of stretching to the main content height.
+- Stack the main content and sidebar on tablet/mobile while preserving 100% responsive widths.
+- Add `Blog` once as a published top-level item in the primary navigation, linked to the Blog page.

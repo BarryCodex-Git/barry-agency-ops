@@ -2,6 +2,8 @@
 
 Use this SOP when creating the Blog infrastructure for a new client website.
 
+The Blog build is mandatory in every standard New Client Build. It is completed during the first full build with the Home Page, Services Hub, Service Pages and About Page. It is not a later optional add-on.
+
 For new-client builds, Blog infrastructure must use the approved Elementor Blog page, Elementor Pro Single Post template and Elementor Pro Archive template from the imported master/template, or duplicates of approved Elementor sources. Do not build the Blog page or templates as WordPress block editor pages or custom standalone HTML/CSS.
 
 ## Goal
@@ -33,6 +35,7 @@ Confirm, update, or duplicate from approved Elementor sources:
 6. Featured images and one mid-content image per post
 7. Yoast SEO metadata per post
 8. Visual QA for Blog page, one post, and one category/archive page
+9. A published `Blog` item in the primary website navigation
 
 Use `elementor/references/master-template-blog-map.md` as the current approved Blog structure reference.
 
@@ -57,7 +60,21 @@ Required sections:
    - Main area: latest posts grid.
    - Sidebar: search, categories, and recent posts.
 
+The main Blog page is a normal Elementor page. It is not the Elementor Archive template. Confirm the WordPress record and Elementor ID before editing. Never apply a requested Blog page correction to the Archive template merely because both layouts look similar.
+
 Use Elementor Pro post widgets where possible. Keep the layout clean, readable, and consistent with the core template.
+
+### Approved Blog Page Layout Result
+
+- Use the client theme colours consistently. Remove inherited template blue from headings, links, panels, hover states and archive headers.
+- The sidebar contains dynamic Search, Categories and Recent Posts widgets.
+- Sidebar normal text and links use the theme's readable dark colour. Hover uses the theme accent colour.
+- The posts grid and sidebar sit in a row on desktop and stack into one column on tablet/mobile.
+- The sidebar must stop when its own content ends. It must never stretch to match the posts grid height.
+- Set the Blog content parent container to `Align Items: Start`.
+- Set the Blog sidebar container size so flex growth is disabled. Preserve the approved desktop width and set tablet/mobile width to 100%.
+- Use normal Elementor layout controls. Do not add custom CSS or fixed heights for ordinary sidebar sizing.
+- The Blog hero height must be controlled by Elementor padding. Do not add a fixed or minimum height that makes the padding controls appear unresponsive.
 
 ## Single Post Template
 
@@ -66,7 +83,7 @@ Create a Theme Builder Single Post template for all posts.
 Required elements:
 
 - Post title
-- Post date or post info
+- Post author and publication date
 - Post excerpt or short intro
 - Featured image
 - Post content
@@ -86,6 +103,11 @@ Single Post template rules:
 - Do not leave Elementor placeholder images.
 - Verify on a real public post URL that the dynamic title, featured image, excerpt and content render correctly.
 - When using Elementor dynamic tags, verify the rendered public output, not only the Elementor structure response.
+- Display the author name and a clearly formatted publication date. Do not replace the date with a time-only value.
+- The content and sidebar columns must align to the top. The sidebar must stop after its own content rather than stretching to the article height.
+- Use `Align Items: Start` on the parent content container and disable flex growth on the sidebar container.
+- Use the approved editable boxed content width. The HoneySucker approved result uses 1350px on the Single Post content container.
+- Keep hero sizing editable through normal Elementor padding and width controls. Do not use custom code or a forced minimum height for routine layout.
 
 ## Post Archive Template
 
@@ -100,6 +122,15 @@ Required elements:
 
 Apply the archive template to WordPress archives unless a narrower condition is needed.
 The archive hero must match the Blog and Single Post heroes: approved wide background image, uniform navy overlay and bold readable title.
+
+Archive layout rules:
+
+- The Archive template is separate from the normal Blog page.
+- The archive posts and sidebar align to the top.
+- The sidebar must stop after Search, Categories and Recent Posts. It must not stretch to the archive grid height.
+- Use `Align Items: Start` on the Archive content parent and disable flex growth on the Archive sidebar.
+- Preserve the approved responsive widths and stack the layout on tablet/mobile.
+- Use Elementor controls rather than custom code for these layout rules.
 
 ## Categories
 
@@ -116,7 +147,7 @@ Do not create too many empty categories.
 
 ## Starter Posts
 
-Create three real starter posts for every new setup build unless the user asks to skip blog content.
+Create and publish three real starter posts for every new setup build unless the user explicitly asks to skip blog content.
 
 Rules:
 
@@ -132,6 +163,22 @@ Rules:
 - Use clear H2/H3 structure.
 - Include a natural CTA near the end.
 - Include one featured image and one mid-content image.
+- Give every post a unique focus keyphrase, slug, SEO title and meta description.
+- Add useful internal links to relevant service, service-area and contact pages.
+- Where it genuinely improves the article, include one relevant external link to a trustworthy primary or high-authority source.
+- Never use inherited demo topics, client names, locations, categories or images.
+- Never use em dashes or other prohibited AI-signalling copy patterns.
+
+When the imported template already contains exactly three demo posts, prefer updating those records in place when it is safe and clean. This avoids duplicate posts and unnecessary archived or empty records. Confirm the final titles, slugs, categories, images and Yoast fields after replacement.
+
+## Navigation
+
+- Add `Blog` as a published top-level item in the primary/main navigation menu.
+- Link it to `/blog/` or the confirmed Blog page permalink.
+- Use the exact visible label `Blog`.
+- Confirm it appears in the public desktop and mobile navigation.
+- Add Blog to the footer Quick Links menu when that menu is part of the approved template.
+- Check for an existing Blog item before creating one. Do not create duplicates.
 
 Example post topic types:
 
@@ -187,11 +234,16 @@ Use `seo/skills/local-business-schema/SKILL.md` during the Blog build:
 Check:
 
 - Blog page loads and shows the three posts.
+- All three starter posts are published, not drafts.
 - Single post template is active on at least one post.
 - Archive template is active on at least one category/archive page.
 - Featured images render.
 - Mid-content image renders.
 - Sidebar search/categories/recent posts are visible.
+- Blog, Single Post and Archive sidebars end after their own content and do not stretch down the page.
+- Author and publication date render on a real post. A time-only value is a failed result.
+- Hero padding changes visibly control hero height because no forced minimum height is present.
+- Blog appears once in the primary navigation and points to the correct Blog page.
 - Mobile layout does not crowd or overlap.
 - Header, footer, WordPress site logo, Elementor Site Logo, favicon/site icon and Yoast site representation do not show the previous template/client brand.
 
@@ -204,6 +256,7 @@ Report:
 - Archive template name/ID
 - Categories created
 - Starter posts created
+- Primary navigation Blog item status
 - Images used
 - Yoast status
 - Any items that need review
