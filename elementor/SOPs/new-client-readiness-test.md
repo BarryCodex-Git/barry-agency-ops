@@ -30,7 +30,7 @@ Confirm Barry has everything needed to safely complete the standard New Client B
 
 ### Base Template
 
-- The populated master from `https://mynewwebsite.co.za/` has been cloned to the target domain.
+- The populated master from `https://template.mynewwebsite.co.za/` has been cloned to the target domain.
 - Permalinks are set to Post Name.
 - Home page, Services page, Service Areas page, Service Page Template source page, Blog page, Single Post template, and Post Archive template are available or ready to create.
 - The Home, Services, Service Areas and Blog records are Elementor pages, not WordPress block editor replacement pages.
@@ -41,11 +41,13 @@ Confirm Barry has everything needed to safely complete the standard New Client B
   - Home page: `2747`
   - Services hub: `6217`
   - Service Areas hub: `6414`
-  - Service Page Template draft: `6573`
+  - About Us page: `6606`
+  - Service Page Template: `6655`
   - Blog page: `6425`
   - Single Post template: `6432`
   - Post Archive template: `6434`
   - Global Contact CTA Buttons reusable template: `6575`
+- The reference inventory was checked against `elementor/references/master-template-source-record.md`.
 - A rollback/export point exists before major content work.
 - The inherited example content will be replaced in place, not blanked before the build.
 

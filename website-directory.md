@@ -50,29 +50,31 @@ Access status: WordPress application password and Elementor MCP readiness confir
 
 Client folder: clients/Solar Repair Pros
 
-### My New Website Master Template
+### Barry Master Template
 
-Aliases: my new website, master template, Barry master
+Aliases: template, master template, Barry master, final template, HoneySucker template
 
-Domain: mynewwebsite.co.za
+Domain: template.mynewwebsite.co.za
 
-Public URL: https://mynewwebsite.co.za/
+Public URL: https://template.mynewwebsite.co.za/
 
-WP Admin: https://mynewwebsite.co.za/wp-admin/
+WP Admin: https://template.mynewwebsite.co.za/wp-admin/
 
 Bookmark folder: DEV Websites
 
 Type: MASTER
 
-Purpose: approved populated master template source for future client and development-domain clones
+Purpose: completed HoneySucker-derived master template and source of truth for all future client and development-domain clones
 
 Barry WordPress user: barry
 
-Access status: WordPress application password and Elementor MCP confirmed 2026-06-19
+Access status: Barry administrator access, WordPress application password, public rendering, and Elementor MCP confirmed 2026-08-23
 
-Client folder: clients/dummy-plumber
+Client folder: clients/HoneySucker Septic Services Pretoria
 
 Clone source only: yes
+
+Previous template domain: `mynewwebsite.co.za` was released from the Barry master-template role on 2026-08-23. Do not route template work, template cloning, or template verification to that root domain unless the user explicitly names it for a separate task.
 
 ### Development 8 - Zach's Handyman of Bozeman
 

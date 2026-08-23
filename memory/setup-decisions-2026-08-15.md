@@ -59,3 +59,14 @@ Raw old conversations should not be imported directly into GitHub or Graphify.
 
 Useful old conversation knowledge should be distilled into memory files or promoted into SOPs after removing credentials, stale instructions, and noise.
 
+## Master Template Domain Handover: 2026-08-23
+
+The completed HoneySucker website is now Barry's approved final master template.
+
+- Master template domain: `template.mynewwebsite.co.za`
+- WordPress admin: `https://template.mynewwebsite.co.za/wp-admin/`
+- Elementor MCP: `https://template.mynewwebsite.co.za/wp-json/mcp/elementor-mcp-server`
+- Template role: clone source and controlled future template-development environment
+- Previous master domain: `mynewwebsite.co.za` is released from the template role and must not be used for future template work unless the user explicitly identifies it as a separate target.
+
+This operational routing decision was propagated through the governing SOPs, skills, template reference maps and website directory on 2026-08-23. Graphify must be refreshed after those source changes, and the approved governance files must be synchronized to GitHub without credentials or unrelated client work.

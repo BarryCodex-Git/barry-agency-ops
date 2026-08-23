@@ -2,11 +2,13 @@
 
 Use this SOP when Barry is asked to clone the approved master template to a new development or client domain.
 
+Read `master-template-management.md` and `../references/master-template-source-record.md` before using this SOP.
+
 ## Approved Master Source
 
 The approved master website is:
 
-`https://mynewwebsite.co.za/`
+`https://template.mynewwebsite.co.za/`
 
 It contains the complete approved page structures, Elementor templates, global elements, example content, image placements, navigation, Yoast setup patterns and design system.
 
@@ -26,7 +28,7 @@ When the user says:
 
 Barry or the user should use the approved master source:
 
-`https://mynewwebsite.co.za/`
+`https://template.mynewwebsite.co.za/`
 
 and clone it to the named target domain.
 
@@ -36,7 +38,7 @@ Primary: Migrate Guru.
 
 Fallbacks:
 
-- All-in-One WP Migration export/import
+- a current All-in-One WP Migration export/import created from the approved live template, with explicit confirmation that the archive is the intended source
 - WP Migrate
 - host-level clone only with explicit user approval
 

@@ -63,7 +63,7 @@ Barry's goal is to master design inside the provided template, not to escape the
 2. Confirm the intake source and target domain.
 3. Run `add-new-website.md` if the website/domain record does not exist yet.
 4. Confirm WordPress access.
-5. Confirm the user has cloned the approved populated master from `https://mynewwebsite.co.za/`, or run `theme-setup.md` only when specifically required.
+5. Confirm the user has cloned the approved populated master from `https://template.mynewwebsite.co.za/`, or run `theme-setup.md` only when specifically required.
 6. Run `quick-domain-access-test.md` using the target domain's saved application password and MCP endpoint.
 7. Run the full `mcp-readiness-test.md` only when first-time MCP setup is incomplete or the quick test identifies a real access failure.
 8. Confirm the target Home, Services, Service Areas, Blog and Service Page Template records are Elementor records before applying client content.
@@ -194,7 +194,8 @@ For full client website builds, use the approved `Barry - Codex` Chrome profile.
 - Do not customize a client site until access is confirmed.
 - Do not perform serious Elementor work until MCP readiness and the exact save-method preflight pass, unless the user explicitly asks for browser/manual mode.
 - Do not start a new-client conversion until the approved imported Elementor master/template is confirmed on the target domain.
-- Treat `https://mynewwebsite.co.za/` as the approved master source-of-truth website. Do not use it as a client build target.
+- Treat `https://template.mynewwebsite.co.za/` as the approved master source-of-truth website. Do not use it as a client build target.
+- The root domain `mynewwebsite.co.za` is released from the template workflow and must not be accessed or used as a template fallback unless the user explicitly authorizes a separate non-template task on that exact domain.
 - Use Development sites for testing and skill refinement.
 - Keep every website's status files updated as work progresses.
 - Keep all actions scoped to the exact domain approved for the task.
@@ -204,11 +205,12 @@ For full client website builds, use the approved `Barry - Codex` Chrome profile.
 - A standard New Client Build normally includes the Home page, Services hub page, About Us page, every primary and additional service page from intake, Blog page, Single Post template, Post Archive template, three real starter blog posts, global items, SEO, schema and QA unless the user explicitly limits scope.
 - The About Us page is a mandatory first-run ranking and company-profile page. Build it from `new-client-about-page-build.md`; do not defer it to a later cleanup phase.
 - The full Service Areas hub is a separate add-on. It begins only after an explicit user request once the standard build has established the primary regions on the Home page.
-- The current My New Website master structure is the approved source of truth. The cloned WordPress IDs normally remain:
+- The current Barry Master Template structure on `template.mynewwebsite.co.za` is the approved source of truth. The cloned WordPress IDs normally remain:
   - Home page `2747`
   - Services hub `6217`
   - Service Areas hub `6414`
-  - Service Page Template draft `6573`
+  - About Us page `6606`
+  - Service Page Template `6655`
   - Blog page `6425`
   - Single Post template `6432`
   - Post Archive template `6434`

@@ -1,7 +1,7 @@
 # Master Template Homepage Map
 
 Source site: Development 1  
-Source URL: https://dev1.mynewwebsite.co.za/  
+Source URL: https://template.mynewwebsite.co.za/
 Elementor page: Home  
 Elementor page ID: 2747  
 Last updated: 2026-06-19  

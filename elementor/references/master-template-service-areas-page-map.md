@@ -1,7 +1,7 @@
 # Master Template Service Areas Page Map
 
 Source site: Development 1  
-Source URL: https://dev1.mynewwebsite.co.za/service-areas/  
+Source URL: https://template.mynewwebsite.co.za/service-areas/
 Elementor page: Service Areas  
 Elementor page ID: 6414  
 Last updated: 2026-06-17  

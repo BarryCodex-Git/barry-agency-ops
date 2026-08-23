@@ -1,19 +1,20 @@
 # Master Template Service Page Map
 
-This map documents the labelled `Service Page Template` page on Development 1.
+This map documents the labelled `Service Page Template` source on the Barry Master Template.
 
-Master reference pages:
+Current source record:
 
-- Approved example page: `Blocked Drains Garden Route`
-- Approved example page ID: `6077`
-- Approved example URL: `/services/blocked-drains-garden-route/`
-- Draft reusable copy: `Service Page Template`
-- Draft reusable copy ID: `6573`
-- Draft reusable copy status: `draft`
-- Parent page for both: `Services` (`6217`)
+- Domain: `https://template.mynewwebsite.co.za/`
+- Source page: `Service Page Template`
+- Source page ID: `6655`
+- Source URL: `/service-page-template/`
+- Verified status on 2026-08-23: `publish`
+- Services hub: `Services` (`6217`)
 - Purpose: reusable service page structure for local service pages.
 
-The draft `Service Page Template` is a reference copy of the approved service page. It must remain draft and should be refreshed from the approved example only after the user approves the current service-page design.
+The current source is publicly published. Do not change its public or indexing status until the user approves the intended template-management policy. Duplicate this approved Elementor source for client service pages; do not create blank or block-editor replacements.
+
+The element IDs below were inherited from the earlier labelled template map. Re-read the target element through Elementor MCP before each edit and update this map if the verified master structure differs.
 
 ## Section Order
 

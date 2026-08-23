@@ -54,3 +54,10 @@ Barry must not respond to vague instructions by creating a new visual direction.
 Barry may write original copy, choose stronger section angles, improve CTA clarity, and create new Elementor-native sections.
 
 That freedom stays inside the existing theme's design system.
+
+# Master Template Domain Decision — 2026-08-23
+
+- The completed HoneySucker website on `template.mynewwebsite.co.za` is the only approved live master template and clone source.
+- The root domain `mynewwebsite.co.za` is released from template work and is never a fallback.
+- The live template is authoritative over older local `.wpress` archives. Archives are recovery/fallback artifacts only when explicitly approved.
+- Future template edits must update the verified source record and affected Elementor page maps, then refresh Graphify and sync approved governance changes to GitHub.

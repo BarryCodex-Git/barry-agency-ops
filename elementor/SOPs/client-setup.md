@@ -4,7 +4,7 @@ Use this SOP to run the first WordPress and Elementor setup pass for a new clien
 
 ## Goal
 
-Prepare a new client WordPress site by logging in, installing required migration tools, importing the clean master template, applying basic client branding, adding dummy homepage hero content, and publishing the homepage for review.
+Prepare a new client WordPress site after cloning the approved live master template, then apply basic client branding, add dummy homepage hero content, and publish the homepage for review.
 
 This is the site setup/import phase. It follows `new-client-add.md` and comes before `new-client-readiness-test.md`.
 
@@ -19,18 +19,14 @@ This is the site setup/import phase. It follows `new-client-add.md` and comes be
 - Main service
 - Client logo
 - Client master data sheet
-- Provided All-in-One WP Migration plugin file
-- Clean master template import file
+- Confirmed clone of `https://template.mynewwebsite.co.za/`, or explicit approval to perform that clone
+- Approved migration tool/access for the selected clone method
 
 ## Required Folders
 
 Plugin files:
 
 `elementor/plugins`
-
-Master template files:
-
-`elementor/templates` or `elementor/templates/master-theme`
 
 Client files:
 
@@ -44,17 +40,17 @@ Client files:
 4. Read the relevant client folder.
 5. Read the client master data sheet.
 5. Check that the client logo exists.
-6. Check that the provided All-in-One WP Migration plugin exists in `elementor/plugins`.
-7. Check that the master template import file exists in `elementor/templates` or `elementor/templates/master-theme`.
+6. Read `elementor/SOPs/master-template-management.md` and `elementor/SOPs/clone-master-template-to-target.md`.
+7. Confirm the target was cloned from `https://template.mynewwebsite.co.za/`, or complete the approved clone workflow before client conversion.
 8. Open the approved Barry Chrome profile.
 9. Open Chrome bookmarks.
 10. Go to the bookmark folder named `Internal Websites`.
 11. Find the WP Admin/login bookmark for the specified client domain.
 12. Log into WordPress using the approved Barry WordPress account.
-13. Install and activate the provided All-in-One WP Migration plugin.
-14. Install and activate WP Migrate from the WordPress plugin library as a future fallback.
-15. Import the clean master template/theme `.wpress` file using All-in-One WP Migration.
-16. If All-in-One WP Migration is blocked or takes too long, report the blocker and use WP Migrate as the planned fallback path if available.
+13. Verify the cloned template inventory against `elementor/references/master-template-source-record.md`.
+14. Install or activate migration tooling only when the approved clone workflow requires it; plugin changes remain subject to the normal approval boundary.
+15. Use a local `.wpress` archive only as an explicitly approved recovery/fallback source, never as the default master when the live template is available.
+16. If the clone is incomplete or the source cannot be verified, stop before branding/content work and report the blocker.
 17. Go to Settings > Permalinks.
 18. Select Post Name.
 19. Save permalink settings.
@@ -96,7 +92,7 @@ Do not update actual page content beyond the company name, logo, favicon, colors
 Domain selection and base theme import are part of setup.
 
 - Domain selection is confirmed before this SOP starts.
-- Base theme/template import happens during this SOP.
+- Base theme/template cloning happens before or during this SOP through `clone-master-template-to-target.md`.
 - Full page building starts only after the readiness test passes.
 
 Do not store WordPress passwords in this SOP or client folders.

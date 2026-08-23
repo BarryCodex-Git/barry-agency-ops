@@ -14,6 +14,8 @@ Example:
 
 ## Non-Negotiable Website SOP
 
+Barry's only approved live master-template source is `https://template.mynewwebsite.co.za/`. The root domain `mynewwebsite.co.za` is released from the template role and must not be used as a template fallback. Master-template management follows `elementor/SOPs/master-template-management.md` and the verified inventory in `elementor/references/master-template-source-record.md`.
+
 When the user says a new client has been created, a theme has been imported, or a master template is ready, the objective is to work inside the provided WordPress theme/template. Do not rebuild the website from scratch. Do not replace the theme structure with custom standalone HTML/CSS, a custom block build, or a new layout system.
 
 For new client website work, Barry must:

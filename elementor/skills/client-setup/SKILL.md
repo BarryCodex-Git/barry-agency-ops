@@ -20,9 +20,11 @@ Required:
 - Main service
 - Company name
 
-Expected Barry asset folders:
+Expected Barry asset folder:
 - Plugin files: `elementor/plugins`
-- Master template files: `elementor/templates` or `elementor/templates/master-theme`
+
+Approved live master source:
+- `https://template.mynewwebsite.co.za/`
 
 Do not store passwords in this skill or in client files.
 
@@ -52,7 +54,7 @@ Barry may complete normal setup steps without stopping, including:
 - Logging into WordPress with the approved Barry account
 - Installing and activating approved free plugins
 - Installing and activating provided plugin `.zip` files from `elementor/plugins`
-- Importing the approved clean master template from `elementor/templates/master-theme`
+- Verifying or completing an approved clone from `https://template.mynewwebsite.co.za/`
 - Setting permalinks to Post Name
 - Updating ordinary theme/site identity settings
 - Uploading the client logo and favicon
@@ -81,17 +83,17 @@ Ask before:
 4. Read `elementor/SOPs/navigation-hero-footer-rules.md`.
 5. Read the requested client folder.
 5. Read the client master data sheet.
-6. Confirm required assets exist:
+6. Confirm required assets and source state:
    - client logo
-   - provided All-in-One WP Migration plugin file
-   - clean master template import file, usually a `.wpress` file
+   - target domain
+   - verified clone of `https://template.mynewwebsite.co.za/`, or approval to run the clone workflow
 7. Open the approved Chrome profile and go to the WordPress login URL/bookmark.
 8. Look in the Chrome bookmark folder named `Internal Websites` for the specified client domain's WP Admin/login URL.
 9. Log in with the approved Barry WordPress account.
-10. Install and activate the provided All-in-One WP Migration plugin from `elementor/plugins`.
-11. Install and activate the WP Migrate plugin from the WordPress plugin library as a future fallback option.
-12. Import the clean master theme/template `.wpress` file using All-in-One WP Migration as the primary import method.
-13. If All-in-One WP Migration is blocked or takes too long, report the blocker and use WP Migrate as the planned fallback path if available.
+10. Read and follow `elementor/SOPs/master-template-management.md` and `elementor/SOPs/clone-master-template-to-target.md`.
+11. Verify the target's cloned page/template inventory against `elementor/references/master-template-source-record.md`.
+12. Use the live template domain as the primary clone source.
+13. Use a local `.wpress` archive only as an explicitly approved recovery/fallback source; report any incomplete or unverifiable clone before conversion work.
 14. Set permalinks to `Post name` and save.
 15. Update theme/site settings with the client company name only.
 16. Upload the client logo.
@@ -115,7 +117,7 @@ Ask before:
 Domain selection and base theme import are part of setup.
 
 - The target domain must be confirmed before this skill starts.
-- The clean master template/theme import happens in this skill.
+- The approved live master clone is verified or completed through the clone SOP during this skill.
 - Full page building starts only after the New Client Readiness Test passes.
 
 ## Output Report

@@ -17,6 +17,10 @@ Before any WordPress or Elementor website task, Barry must read and follow:
 
 `elementor/SOPs/always-read-elementor-rules.md`
 
+For master-template management, editing, verification, cloning or governance, Barry must also read:
+
+`elementor/SOPs/master-template-management.md`
+
 This always-read SOP controls Elementor-first building, theme fidelity, human handoff/editor parity, existing-page edits, action safety boundaries, verification, and content completeness.
 
 For broad Barry project-memory or repo-navigation questions, Barry should also follow:
@@ -108,6 +112,16 @@ Use `DEV Websites` for testing, skill-building, staging, and experimental WordPr
 The test website for building and refining Barry's WordPress/Elementor skills is:
 
 `my new website`
+
+## Master Template Routing Rule
+
+Barry's only approved master-template domain is:
+
+`https://template.mynewwebsite.co.za/`
+
+When the user says `the template`, `master template`, `Barry master`, `template domain`, `clone source`, or refers to future template work without naming another domain, Barry must route all WordPress, Elementor MCP, REST, browser, verification, clone-source, documentation, and template-development work exclusively to `template.mynewwebsite.co.za`.
+
+The root domain `mynewwebsite.co.za` is completely released from the Barry template role. Barry must not access, inspect, test, log in to, modify, use as a clone source, or fall back to that root domain during template work. It may only be used again if the user explicitly names the root domain for a new, separate, non-template task.
 
 ## Autonomy Level
 
@@ -497,7 +511,7 @@ If the task involves menu structure, header navigation, hero form text, hero tru
 
 `elementor/SOPs/navigation-hero-footer-rules.md`
 
-If the task involves setting up a new client WordPress site, importing the clean master template, installing the migration plugins, setting permalinks, applying company name/logo/favicon/colors, or preparing the first homepage setup, use:
+If the task involves setting up a new client WordPress site, verifying or completing the approved live master clone, setting permalinks, applying company name/logo/favicon/colors, or preparing the first homepage setup, use:
 
 `elementor/skills/client-setup/SKILL.md`
 
@@ -509,7 +523,7 @@ If the task involves the full website setup pipeline, cloning or importing a mas
 
 `elementor/SOPs/website-build-pipeline.md`
 
-If the task involves cloning the approved master template to a development/client domain, promoting DEV1 to `mynewwebsite.co.za` as the future master source, using Migrate Guru, or preparing a cloned site for new client intake, use:
+If the task involves cloning the approved master template at `template.mynewwebsite.co.za` to a development/client domain, using Migrate Guru, or preparing a cloned site for new client intake, use:
 
 `elementor/SOPs/clone-master-template-to-target.md`
 

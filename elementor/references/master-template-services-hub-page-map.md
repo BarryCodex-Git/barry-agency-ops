@@ -1,7 +1,7 @@
 # Master Template Services Hub Page Map
 
 Source site: Development 1  
-Source URL: https://dev1.mynewwebsite.co.za/services/  
+Source URL: https://template.mynewwebsite.co.za/services/
 Elementor page: Services  
 Elementor page ID: 6217  
 Last updated: 2026-06-16  
