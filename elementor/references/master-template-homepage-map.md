@@ -160,6 +160,15 @@ Repeated field classes:
 - Testimonial names: `barry-field barry-heading home-testimonial-name`
 - Testimonial quotes: `barry-field barry-copy home-testimonial-quote`
 
+Approved New Client Build state:
+
+- Populate all three cards with real approved reviews or, when the review source is not connected yet, three completed handover review placeholders.
+- Use three plausible customer names and three approved primary-region locations. Write natural customer-style reviews of similar length that relate to real client services.
+- Keep internal placeholder wording out of the visible H2, introduction, names and review copy.
+- Change the Elementor Navigator labels for the section and all six name/quote widgets to include `PLACEHOLDER` and `Replace With Trustindex`.
+- Manually replace the three cards with the verified Trustindex widget when the client's Google profile and review connection are ready.
+- Never include the placeholder reviews in Review or AggregateRating schema and never describe them as verified Google reviews.
+
 ## Service Guarantees Fields
 
 Section widgets:

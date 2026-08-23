@@ -102,8 +102,12 @@ Convert the approved Elementor Home page into a polished, SEO-friendly, conversi
     - Keep the two sections distinct: `Why Choose Us` covers service fit and benefits; `Why Trust Us` covers communication, preparation, access, equipment, scope or realistic expectations.
     - Use verified client proof when available. When it is not available, use honest process and service details without inventing trust claims.
     - Write FAQ answers with useful local-service detail and natural focus-keyphrase variants.
-    - Keep the testimonials/reviews section as real reviews or a verified Google Reviews widget; do not turn it into generic service-promise copy.
-    - If reviews are not approved or available, use a clearly labelled pending-review placeholder instead of invented quotes or fake-looking Google cards.
+    - Always complete the existing Home Testimonials section during the first New Client Build.
+    - Use real approved reviews or the verified Trustindex/Google review widget when available. Otherwise add exactly three handover review placeholders using plausible customer names, three approved primary-region locations and natural customer-style service feedback.
+    - Update the section H2 and introduction for the client's service and primary location. Keep all three review cards similar in copy length and visually balanced.
+    - Do not show `dummy`, `placeholder`, `handover` or other internal production wording in the visible section. Mark the section, names and quote widgets clearly in Elementor Navigator as placeholders to be replaced with Trustindex.
+    - Replace the placeholders manually once the client's Google profile and Trustindex review connection are ready.
+    - Until replacement, do not describe the cards as verified Google reviews and do not add Review or AggregateRating schema for them.
     - Fully populate trust, service-standard and “why choose” sections for the end customer. When verified certifications, guarantees or awards were not supplied, use honest general trust signals and useful process expectations without inventing claims or mentioning the absence of credentials.
     - Visually confirm every icon box renders its icon and that coloured-section eyebrow/bubble text is bold and remains one line on mobile.
     - Populate the Service Areas section from the intake. Use the primary Home Page service areas for visible cards.
@@ -221,7 +225,8 @@ The Home page build is complete when:
 - support images fit their containers and required aspect ratios
 - content/support image widgets that require square images use actual square 1000x1000 source files, not visually cropped landscape/portrait files
 - hero/background/overlay images use actual 1920x1080 landscape WebP files, compressed before upload and not multi-megabyte PNGs
-- testimonial/review section uses real approved reviews, a verified Google review widget, or a clearly labelled pending-review state
+- testimonial/review section uses real approved reviews, a verified Trustindex widget, or exactly three completed handover review placeholders with backend-only replacement labels
+- placeholder reviews are excluded from Review and AggregateRating schema and are scheduled for manual Trustindex replacement when the live-domain review connection is ready
 - Yoast SEO fields are prepared/applied
 - changed elements follow labelling standard
 - page remains editable in Elementor and has not been replaced by block editor content

@@ -84,9 +84,12 @@ For a full new-client website, also duplicate the approved Service Page Template
 - Label the standard problem-intent section `PROBLEMS WE SOLVE`. Write its H2 and introduction in a solution-led tone that clearly says the business can help with the named problems, without making unsupported diagnosis or outcome claims.
 - Build the paired Home Page `Why Choose Us` and `Why Trust Us` sections to the full standard in `content/SOPs/homepage-copywriting.md`: descriptive service/location H2s, purposeful H3s, useful two-to-three-sentence paragraphs, and three complete client-facing proof or process points per section.
 - Give the two About Us sections distinct roles. `Why Choose Us` explains service fit and benefits; `Why Trust Us` explains communication, preparation, access, equipment, scope or realistic service expectations.
-- Use verified proof when supplied. Otherwise create confidence with honest process detail and never invent ratings, reviews, credentials, guarantees, awards, years, insurance or response times.
-- Keep the testimonials/reviews section as real approved testimonials, a verified Google Reviews/Trustindex-style widget, or a clearly labelled pending-review state.
-- Do not use generic service standards or invented quotes inside Google-style review cards.
+- Use verified proof when supplied. Otherwise create confidence with honest process detail and never invent ratings, credentials, guarantees, awards, years, insurance or response times.
+- Always complete the Home Testimonials section. Use real approved testimonials or the verified Trustindex/Google review widget when available. Otherwise add exactly three handover review placeholders with plausible customer names, three approved primary-region locations and natural customer-style feedback about real services or practical site experiences.
+- Keep the three placeholder reviews similar in length, locally relevant and free from exaggerated claims. Do not expose internal placeholder wording in the visible section.
+- Mark the section and every placeholder name/quote widget in Elementor Navigator as `PLACEHOLDER` and `Replace With Trustindex`.
+- Replace the placeholder cards manually when the client's Google profile and Trustindex connection are ready.
+- Do not describe placeholder cards as verified Google reviews and do not create Review or AggregateRating schema for them.
 - Include a Home Service Areas section when the template contains one.
 - Service Areas cards should use real locations from intake, local natural copy, and future-page CTA wording such as `Plumber in George`.
 - Keep Service Areas links as placeholders until the hub/spoke pages exist or the user approves the URL structure.

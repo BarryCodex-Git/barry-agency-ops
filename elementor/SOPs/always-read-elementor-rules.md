@@ -102,6 +102,17 @@ Do not publish placeholder, internal-source, or example wording such as "client 
 
 If final facts are not verified, write clean public copy that avoids the unverified claim rather than exposing internal notes.
 
+### Approved New-Client Testimonial Handover Exception
+
+The approved Home Page Testimonials section is a narrow exception for agency New Client Builds when verified reviews or a Trustindex connection are not available yet.
+
+- Build the existing Testimonials section with exactly three clearly managed handover review placeholders.
+- The visible cards may use plausible customer names, natural customer-style wording and locations from the client's approved primary service regions so the development and handover design is complete.
+- Mark the section and every placeholder name/quote clearly in Elementor Navigator as `PLACEHOLDER` and `Replace With Trustindex`. These backend labels must not appear in the visible copy.
+- Manually replace the cards with the approved Trustindex or Google review widget once the client's Google profile and review connection are ready.
+- Until replacement, do not describe the cards as verified Google reviews, do not create an aggregate rating claim, and do not include the placeholder reviews in Review or AggregateRating schema.
+- This exception applies only to the approved New Client Build Testimonials section. It does not permit invented reviews, ratings or customer proof elsewhere on the website.
+
 ## 8. Square Paired-Content Image Gate
 
 Across every page type, any standard inline image widget used beside text in a two-column content section must use a genuine 1000x1000 square source/upload file unless that exact template slot has a documented approved exception.

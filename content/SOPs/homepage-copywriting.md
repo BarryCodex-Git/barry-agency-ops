@@ -191,10 +191,15 @@ Before approving these sections, confirm:
 
 Testimonials/reviews:
 - The testimonials/reviews section must stay a reviews section, not a substitute service-promise or values section.
-- Use real approved client testimonials or a verified Google Reviews/Trustindex-style widget when available.
-- If real reviews are not available yet, use a clearly labelled placeholder state such as `Reviews coming soon` or `Google reviews pending approval`, and avoid invented quotes.
-- Do not place generic service standards inside Google-style review cards because it makes the section look like fake reviews.
-- Keep testimonial card H3/name text short, and keep review body copy authentic, specific, and naturally local.
+- Use real approved client testimonials or the verified Trustindex/Google review widget when it is already available.
+- When the verified review source is not available, fully populate the existing section with exactly three handover review placeholders.
+- Give each placeholder a plausible customer name and one approved primary-region location. Use three different names and locations.
+- Write each review in natural customer language around a real service, practical communication, access, delivery, collection or site experience. Avoid exaggerated praise, guarantees, ratings and claims that the intake cannot support.
+- Keep the three review bodies similar in length so the cards remain visually balanced.
+- Write a descriptive local H2 and a concise visitor-facing introduction. Do not expose internal words such as `dummy`, `placeholder`, `handover` or `pending` in the visible section.
+- Mark the section and all six name/quote widgets as placeholders in Elementor Navigator, with instructions to replace them with Trustindex.
+- Manually replace the placeholder cards with the verified Trustindex widget once the client's Google profile and review connection are ready.
+- Do not present the placeholders as verified Google reviews and do not add Review or AggregateRating schema for them.
 
 FAQs:
 - Answer real buying objections.

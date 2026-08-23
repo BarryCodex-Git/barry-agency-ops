@@ -68,7 +68,7 @@ After the user confirms the intake and target domain, run:
 3. `elementor/SOPs/navigation-hero-footer-rules.md`
 4. `content/SOPs/local-service-seo-copywriting.md`
 5. Full build workflow if readiness passes:
-   - Home Page
+   - Home Page, including the completed three-card Testimonials handover section or an available verified Trustindex widget
    - Services Hub Page
    - All primary and additional Service Pages, duplicated from the approved Service Page Template
    - About Page
