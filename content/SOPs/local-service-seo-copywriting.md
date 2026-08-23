@@ -239,6 +239,19 @@ Use headings and layout in a way that helps both people and crawlers.
 - FAQs must be about booking, choosing, urgent help, coverage, and service scope.
 - Do not duplicate Home Page FAQs.
 
+### About Us Page
+
+- Treat the About Us page as a mandatory first-run ranking and company-profile page, not thin supporting copy.
+- Clearly identify the business, service category, primary location, customer types, active services, primary service regions and practical booking route.
+- Write for prospective clients first while making the business entity easy for search engines and AI systems to understand.
+- Use one concise hero paragraph, then provide deeper company and service detail below the fold.
+- Give `Who We Are` one purposeful paragraph and three complete `Label: explanation` bullets.
+- Use honest process, service scope, coverage and access details when verified proof is unavailable. Never invent credentials, awards, guarantees, years or ratings.
+- Link to published service and location pages naturally.
+- Reuse the approved Home nested FAQ widget treatment and keep its visible content synchronized with FAQ schema.
+- End with a clear CTA that is visually separate from the footer.
+- Follow `elementor/SOPs/new-client-about-page-build.md` for the complete Elementor structure and completion gate.
+
 ### Service Page
 
 - Treat each service page as a ranking page, not a thin brochure page.

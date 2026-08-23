@@ -7,6 +7,7 @@ This is an Elementor template conversion SOP. Do not create or replace the Home 
 For a standard New Client Build, this SOP is followed by:
 
 - `elementor/SOPs/new-client-services-hub-page-build.md`
+- `elementor/SOPs/new-client-about-page-build.md`
 
 The full Service Areas hub is a separate add-on. The Home page must still identify and display the approved primary service regions, but Barry must not research or populate the full Service Areas page until the user explicitly requests that add-on.
 
@@ -150,9 +151,10 @@ Convert the approved Elementor Home page into a polished, SEO-friendly, conversi
 17. Open the published Home page in Chrome.
 18. Check desktop view visually.
 19. Note any mobile/tablet checks still required.
-20. If the user requested the full new-client build, continue to the Services Hub page SOP.
-21. Record the Service Areas page as a separate available add-on. Do not continue into its SOP without an explicit later request.
-22. Update website setup status.
+20. If the user requested the full new-client build, continue to the Services Hub page SOP and the mandatory About Us page SOP.
+21. Build the About Us page during the first run. Do not defer it to a later cleanup phase.
+22. Record the Service Areas page as a separate available add-on. Do not continue into its SOP without an explicit later request.
+23. Update website setup status.
 
 ## High-Risk Elementor Change Rules
 
@@ -236,10 +238,14 @@ Unless the user specifically says to build only the Home page, a new-client setu
    - Give every service one card.
    - Use/reuse relevant service images and SEO image metadata.
    - Check the AI Images folder and brand guide before generating missing service images.
-2. Individual Service Pages and remaining standard build stages:
+2. About Us page:
+   - Run `elementor/SOPs/new-client-about-page-build.md` during the same first build.
+   - Use the approved company-profile structure, Home hero bubbles, global form and CTAs, client-facing trust bullets, Home nested FAQ widget and footer-separated final CTA treatment.
+   - Complete unique Yoast metadata, internal links, schema checks and responsive QA.
+3. Individual Service Pages and remaining standard build stages:
    - Build every approved active service page from the Service Page Template.
    - Complete the global form, navigation, CTA, SEO, schema, responsive and residue checks required by the main pipeline.
-3. Service Areas add-on handoff:
+4. Service Areas add-on handoff:
    - Confirm that the primary regions are present on the Home page.
    - Stop before researching sub-locations or populating the full Service Areas hub.
    - Continue only after an explicit later request such as `Let's build the Service Areas page for this client.`

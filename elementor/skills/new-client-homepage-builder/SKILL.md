@@ -16,7 +16,7 @@ Use this skill when the user says things like:
 
 Turn an added website/development domain into a client-ready Home page using the agency master template, Elementor MCP, client intake data, SEO content, images, and Yoast SEO.
 
-When the user asks for a full new-client setup, continue after the Home page into the Services Hub, individual Service Pages and the remaining standard build stages. The full Service Areas hub is a separate add-on and requires a later explicit request.
+When the user asks for a full new-client setup, continue after the Home page into the Services Hub, the mandatory About Us page, individual Service Pages and the remaining standard build stages. The full Service Areas hub is a separate add-on and requires a later explicit request.
 
 For a full new-client website, also duplicate the approved Service Page Template for every primary and additional service in the intake, preserve its section structure, write fresh service-specific copy, nest the pages under Services, and complete the menu and internal-link structure.
 
@@ -59,10 +59,11 @@ For a full new-client website, also duplicate the approved Service Page Template
 15. Apply or prepare Yoast SEO fields.
 16. Use `seo/skills/local-business-schema/SKILL.md` to establish the canonical business entity and inject/validate Home schema during the build.
 17. For a full new-client build, run `elementor/SOPs/new-client-services-hub-page-build.md`.
-18. Confirm the Home page primary service regions are complete, then record the full Service Areas hub as a separate available add-on.
-19. Do not run `elementor/SOPs/new-client-service-areas-page-build.md` unless the user explicitly requests the Service Areas add-on.
-20. Open the published pages in Chrome for visual review.
-21. Update status files and report review notes.
+18. Build the About Us page during the same first run using `elementor/SOPs/new-client-about-page-build.md`.
+19. Confirm the Home page primary service regions are complete, then record the full Service Areas hub as a separate available add-on.
+20. Do not run `elementor/SOPs/new-client-service-areas-page-build.md` unless the user explicitly requests the Service Areas add-on.
+21. Open the published pages in Chrome for visual review.
+22. Update status files and report review notes.
 
 ## Content Rules
 
@@ -94,6 +95,7 @@ For a full new-client website, also duplicate the approved Service Page Template
 - Use `#` for submenu items until their real pages exist, then replace `#` with the page URL.
 - Services Hub page uses the five primary Home services plus all additional services from intake.
 - The standard build records and displays the primary service regions on the Home page but does not populate the full Service Areas hub.
+- The standard build always includes a complete About Us page during the first run. Use the approved Home hero bubbles, global form and CTAs, client-facing `Who We Are` bullets, Home nested FAQ widget and visually separated final CTA treatment.
 - When the user later requests the Service Areas add-on, Barry follows `elementor/SOPs/new-client-service-areas-page-build.md`, researches exactly 12 suitable sub-locations per primary region, and saves the approved map in the client folder.
 - The primary region itself must never be repeated as a sub-location card inside its own section.
 

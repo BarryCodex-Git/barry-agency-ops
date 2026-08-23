@@ -42,10 +42,11 @@ Barry's goal is to master design inside the provided template, not to escape the
 5. Client data intake
 6. Brand conversion
 7. Content replacement
-8. Build-time schema injection
-9. Yoast SEO setup and sitewide schema audit
-10. Visual QA
-11. Approval and handoff
+8. Mandatory About Us page build
+9. Build-time schema injection
+10. Yoast SEO setup and sitewide schema audit
+11. Visual QA
+12. Approval and handoff
 
 ## Stage Status Values
 
@@ -79,17 +80,21 @@ Barry's goal is to master design inside the provided template, not to escape the
 13. Run `client-customization.md` if still needed.
 14. For a first Home page build, run `new-client-homepage-build.md`.
 15. For a main Services hub page, run `new-client-services-hub-page-build.md`.
-16. Record the Service Areas hub as a separate add-on. Do not run `new-client-service-areas-page-build.md` during the standard New Client Build.
+16. Build the About Us page during the same first-run New Client Build using `new-client-about-page-build.md`.
+   - This is mandatory standard scope, not a later add-on.
+   - Reuse the approved Home hero bubbles, global form, CTA, bullet-list treatment and nested FAQ widget.
+   - Preserve the approved About page spacing and keep the closing CTA visually separate from the footer.
+17. Record the Service Areas hub as a separate add-on. Do not run `new-client-service-areas-page-build.md` during the standard New Client Build.
    - The standard build still confirms the primary service regions and displays them on the Home page.
    - Start the Service Areas add-on only after an explicit later request from the user.
-17. Duplicate the approved Elementor Service Page Template and build every primary and additional service page supplied in the intake.
+18. Duplicate the approved Elementor Service Page Template and build every primary and additional service page supplied in the intake.
     - Do not redesign, reorder, add or remove template sections unless the user specifically requests a structural change.
     - Rewrite every content field as fresh, service-specific copy; do not mirror paragraph logic across services.
     - Keep every service page nested under the Services hub.
     - Use `/services/{service-location-slug}/` for service page URLs.
     - Keep the approved draft `Service Page Template` unchanged as the reusable reference copy.
     - Add completed primary service pages to the Services submenu and connect relevant service cards, related-service cards and internal links.
-18. For a Blog setup, run `new-client-blog-setup.md`.
+19. For a Blog setup, run `new-client-blog-setup.md`.
     - Create the Blog page.
     - Create the Elementor Pro Single Post template.
     - Create the Elementor Pro Post Archive template.
@@ -97,10 +102,10 @@ Barry's goal is to master design inside the provided template, not to escape the
     - Publish three real, useful starter posts for the client, not dummy posts.
     - Generate or assign SEO-named featured images and mid-content images.
     - Apply and verify Yoast metadata per post.
-19. During every page-build stage, use `seo/skills/local-business-schema/SKILL.md` to plan, inject and validate the relevant schema before that page is marked complete. Maintain one client `schema-plan.md` and one stable business entity ID.
-20. Run `seo/SOPs/yoast-seo-setup.md`, including the final sitewide schema audit.
-21. Use Chrome or the in-app browser for visual QA only after direct MCP/REST checks pass, unless the user explicitly asks to watch/review pages in Chrome.
-22. Report what changed and what needs review.
+20. During every page-build stage, use `seo/skills/local-business-schema/SKILL.md` to plan, inject and validate the relevant schema before that page is marked complete. Maintain one client `schema-plan.md` and one stable business entity ID.
+21. Run `seo/SOPs/yoast-seo-setup.md`, including the final sitewide schema audit.
+22. Use Chrome or the in-app browser for visual QA only after direct MCP/REST checks pass, unless the user explicitly asks to watch/review pages in Chrome.
+23. Report what changed and what needs review.
 
 ## Credit-Efficient Execution
 
@@ -196,7 +201,8 @@ For full client website builds, use the approved `Barry - Codex` Chrome profile.
 - Do not inspect or test other domains on the same server unless the user explicitly asks for them.
 - Pace MCP, REST, media upload, and browser reload workflows so they do not look like abusive traffic.
 - If requests start timing out or security responses appear, pause and check whether IP whitelisting or firewall rules are needed.
-- A standard New Client Build normally includes the Home page, Services hub page, every primary and additional service page from intake, Blog page, Single Post template, Post Archive template, three real starter blog posts, global items, SEO, schema and QA unless the user explicitly limits scope.
+- A standard New Client Build normally includes the Home page, Services hub page, About Us page, every primary and additional service page from intake, Blog page, Single Post template, Post Archive template, three real starter blog posts, global items, SEO, schema and QA unless the user explicitly limits scope.
+- The About Us page is a mandatory first-run ranking and company-profile page. Build it from `new-client-about-page-build.md`; do not defer it to a later cleanup phase.
 - The full Service Areas hub is a separate add-on. It begins only after an explicit user request once the standard build has established the primary regions on the Home page.
 - The current My New Website master structure is the approved source of truth. The cloned WordPress IDs normally remain:
   - Home page `2747`
