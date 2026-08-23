@@ -1,6 +1,6 @@
 # Barry SOP Lessons
 
-Last updated: 2026-08-17
+Last updated: 2026-08-23
 
 This file stores selected lessons from successful Barry conversations and SOP correction sessions.
 
@@ -87,6 +87,18 @@ Both sections use the same quality benchmark as the approved Home Page trust cop
 Use natural focus-keyphrase variations, service terms, business/entity language and the primary location where they help the reader. The copy should be confident and conversion-focused, but it must not use unsupported claims such as `best`, `top rated`, `number one`, guarantees, awards or response times. Honest service scope, booking preparation, access planning, communication and next-step guidance are preferred trust signals.
 
 The tracked contact actions remain exact: `Call Us Now` for phone buttons and `WhatsApp Us` for WhatsApp buttons.
+
+## Approved Individual Service Page Content Pattern
+
+The HoneySucker service pages established the approved quality benchmark for future individual service pages.
+
+The hero uses a natural quality adjective, the exact service and the primary location in the H1. The copy below it is one concise paragraph that confirms the visitor has found the right service and gives a clear reason to call or WhatsApp. It must not become a two-paragraph explanation before the first CTA.
+
+The page then uses distinct `Problems We Solve`, `Our Approach`, `Why Book Us`, `Related Services`, `Helpful Local Knowledge` and service-specific FAQ sections. `Our Approach` and `Why Book Us` each use a descriptive H2, a purposeful H3, exactly one body paragraph and three complete `Label: explanation` bullets. Their purposes must remain different: one explains service planning and delivery, while the other supports the booking decision and reduces uncertainty.
+
+Problem cards and related-service cards need content-matched icons in the approved brand treatment. Paired content sections use true 1000x1000 square images, while 1920x1080 files are reserved for hero and section backgrounds. The helpful local knowledge section must add genuinely useful context and one relevant high-authority external link.
+
+On mobile, centre the eyebrow, H2, H3, introductory paragraph and CTA row when that is the approved template pattern. Keep bullet and icon lists left aligned. Complete and verify the Yoast record, exact CTA labels and destinations, internal links, image alt text and the zero em-dash scan before handoff.
 
 ## Approved Service Areas Hub Top-Half Pattern
 

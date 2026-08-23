@@ -253,6 +253,58 @@ Use headings and layout in a way that helps both people and crawlers.
 - Do not dilute this section into `Common situations we help with` unless the user explicitly requests a softer draft.
 - Include one useful high-authority external link where it genuinely helps the reader understand local responsibility, safety, regulations, public services or background context.
 
+#### Approved Individual Service Page Content Pattern
+
+Use this as the default content standard for every individual service page built from the approved Elementor Service Page Template.
+
+1. **Hero**
+   - Write one H1 using a natural quality adjective, the exact service and the primary location.
+   - Keep the supporting copy to one concise paragraph. It must confirm that the visitor has found the right service, explain the immediate value and encourage a call or WhatsApp enquiry.
+   - Do not place two paragraphs below the H1. Deeper explanations belong below the fold.
+   - Use two short, relevant trust bubbles that remain on one line on mobile.
+
+2. **Problems We Solve**
+   - Use the eyebrow `PROBLEMS WE SOLVE`.
+   - Write a descriptive service-and-location H2 and one client-facing introduction.
+   - Use four service-specific problem cards where the template provides four cards.
+   - Match each icon to its title and use the approved black-and-yellow icon treatment.
+   - Explain recognisable symptoms and customer concerns without promising an unverified diagnosis or outcome.
+
+3. **Our Approach**
+   - Explain how the service is assessed, prepared and carried out in practical terms.
+   - Use a descriptive H2, a purposeful H3, exactly one body paragraph and three complete `Label: explanation` bullets.
+   - Keep the paragraph focused on the planning logic. Use the bullets for access, preparation and service steps.
+
+4. **Why Book Us**
+   - Encourage the booking decision by reducing uncertainty and explaining what the client should expect or prepare.
+   - Use a different H2, H3, paragraph and bullet logic from `Our Approach`.
+   - Use exactly one body paragraph and three complete `Label: explanation` bullets.
+   - Prefer honest process, communication, access and service-scope signals over unsupported hype.
+
+5. **Related Services**
+   - Preserve this as an internal-linking section to genuinely related services.
+   - Use service-specific card titles, descriptions, destinations and matching icons.
+   - Keep the supporting text links visually clear and verify every destination.
+
+6. **Helpful Local Knowledge**
+   - Give the section a useful service-specific and location-aware H2.
+   - Add informative content that improves the client's understanding of local planning, safety, responsibility, regulations or service preparation.
+   - Include one relevant high-authority external link, preferably a local government, official public body, standards organisation or other authoritative resource.
+   - The external link must help the reader. Do not add it only to satisfy an SEO checklist.
+
+7. **FAQs and SEO record**
+   - Write unique service-specific questions based on real customer decisions, access concerns, preparation needs and service limitations.
+   - Complete the Yoast focus keyphrase, SEO title, meta description, slug and social metadata.
+   - Verify the stored focus keyphrase separately from the rendered public metadata.
+   - Green Yoast lights are a target, but truthful, natural and useful copy remains the editorial priority.
+
+8. **Human writing and responsive quality gate**
+   - Use direct, customer-facing South African English and the technical reality of the service.
+   - Avoid repeated sentence patterns, AI-style filler, generic claims, keyword swapping and em dashes.
+   - Use true 1000x1000 square images in paired content sections. Reserve 1920x1080 images for heroes and section backgrounds.
+   - On mobile, centre the eyebrow, H2, H3, introductory paragraph and CTA row when that matches the approved template. Keep bullet and icon lists left aligned for readability.
+   - Verify desktop and mobile rendering, exact CTA labels and destinations, internal links, alt text, Yoast metadata and the zero em-dash scan before handoff.
+
 ### Service Areas Page
 
 - Treat this page as the location hub for future hub-and-spoke builds.
