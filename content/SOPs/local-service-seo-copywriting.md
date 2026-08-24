@@ -59,6 +59,8 @@ If Barry cannot safely update the existing copy widgets because of a technical i
 - Do not mirror the same paragraph rhythm from one service to another.
 - Do not reuse the same story format with only the service name changed.
 - Do not use repeated FAQ question structures across services.
+- For bulk page sets, run `content/SOPs/content-uniqueness-audit.md` before handoff and keep a project-specific uniqueness ledger.
+- Treat repeated hero openings, FAQ answer openings, section intros and Recent Work story formats as publishing blockers on ranking pages.
 - Do not use fill-in-the-blank language.
 - Do not copy phrasing from example sites, competitor sites, or previous Barry outputs.
 - Treat a supplied old website, Google Business Profile and social profiles as contextual research only. Learn relevant facts and trust signals, then write the new website from scratch.
@@ -317,6 +319,7 @@ Use this as the default content standard for every individual service page built
    - Use true 1000x1000 square images in paired content sections. Reserve 1920x1080 images for heroes and section backgrounds.
    - On mobile, centre the eyebrow, H2, H3, introductory paragraph and CTA row when that matches the approved template. Keep bullet and icon lists left aligned for readability.
    - Verify desktop and mobile rendering, exact CTA labels and destinations, internal links, alt text, Yoast metadata and the zero em-dash scan before handoff.
+   - Run the content uniqueness audit for every bulk service, location, suburb, hub-and-spoke or blog batch. Repeated layout is acceptable; repeated page-writing logic is not.
 
 ### Service Areas Page
 
@@ -407,6 +410,7 @@ Before publishing or handing over copy, Barry must check:
 - Would a customer understand what to do next?
 - Are headings useful rather than stuffed?
 - Are FAQs unique to this page?
+- Has the content uniqueness audit checked repeated openings, repeated story formats and repeated FAQ answer logic across the full page set?
 - Are local references believable?
 - Are any paragraphs obviously reused from another page?
 - Is the CTA clear without sounding pushy?

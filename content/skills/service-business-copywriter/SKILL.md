@@ -21,6 +21,10 @@ For Yoast fields, also read:
 
 `C:\Users\USER\Documents\Codex\Barry\seo\SOPs\yoast-seo-setup.md`
 
+For bulk service, location, suburb, blog, or hub-and-spoke page sets, also read:
+
+`C:\Users\USER\Documents\Codex\Barry\content\SOPs\content-uniqueness-audit.md`
+
 ## Workflow
 
 1. Read the client intake, client notes, and page type.
@@ -30,7 +34,9 @@ For Yoast fields, also read:
 5. Vary paragraph openings, story logic, examples, and FAQ structures across services and locations.
 6. Include local relevance only where it feels natural and useful.
 7. Prepare Yoast title, meta description, slug, focus keyphrase, and image alt guidance.
-8. Run the local-service quality gate before applying copy to Elementor or WordPress.
+8. For bulk page sets, create or update the project uniqueness ledger before writing final copy.
+9. Run the local-service quality gate before applying copy to Elementor or WordPress.
+10. Run the content uniqueness audit before handoff when multiple related pages were created or revised.
 
 ## Hard Rules
 
@@ -43,6 +49,8 @@ For Yoast fields, also read:
 - Treat em dashes as a hard failure. Before delivery, scan the draft and rendered copy for `—`, `&mdash;`, and `&#8212;`; all three must return zero matches.
 - Do not keyword-stuff headings or paragraphs.
 - Do not make every FAQ follow the same question pattern.
+- Do not make FAQ answers begin with the same phrase across bulk pages.
+- Do not reuse hero openings, section intros, local-work story formats or authority-note paragraph rhythms across ranking pages.
 - Keep South African English unless the client or market requires otherwise.
 
 ## Output Expectations
