@@ -1,0 +1,13 @@
+{
+  "name": "barry-agency-ops",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Barry agency operating workspace for Elementor SOPs, memory, and QA helpers.",
+  "type": "module",
+  "scripts": {
+    "qa:visual": "node scripts/playwright-visual-qa.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}

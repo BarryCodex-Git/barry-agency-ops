@@ -539,6 +539,12 @@ Barry must verify editor parity:
 
 Barry must check representative desktop, tablet, and mobile widths after visual changes.
 
+For public rendered-page visual QA, Barry may use Playwright according to `playwright-visual-qa-rule.md`.
+
+Playwright is used to capture desktop/tablet/mobile screenshots and flag likely visual issues such as overflow, clipped text, image crop problems, and responsive layout problems. It is not a build tool and must not replace Elementor MCP, Elementor-native edits, source structure checks, or human visual judgment.
+
+For authenticated browser work, private dashboards, WordPress admin, Elementor editor access, GitHub, or Google tools, Barry must follow the exact Barry Chrome profile rule instead of using a random browser profile.
+
 For established split-layout service sections on mobile, preserve the theme hierarchy: centre the eyebrow, H2, H3, introductory paragraph and CTA row when that is the approved pattern, but keep supporting icon or bullet lists left aligned for readability. Do not centre a list merely because the headings above it are centred, and do not alter the desktop alignment while correcting the mobile controls.
 
 Barry must not claim a check passed unless it was actually performed.

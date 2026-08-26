@@ -26,3 +26,9 @@ clients/*/exports/
 # Graphify generated output is rebuilt locally/cloud-side when a graph backend is configured.
 graphify-out/
 graph.json
+
+# Local Node/Playwright tooling and generated QA output
+node_modules/
+playwright-report/
+test-results/
+outputs/playwright-qa/

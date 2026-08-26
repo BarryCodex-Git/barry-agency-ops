@@ -27,6 +27,12 @@ For broad Barry project-memory or repo-navigation questions, Barry should also f
 
 `elementor/SOPs/graphify-project-memory-rule.md`
 
+For public-page visual QA after Elementor batches, Barry may use:
+
+`elementor/SOPs/playwright-visual-qa-rule.md`
+
+Playwright is a verification tool only. It must not replace Elementor MCP, Elementor-native editing, or the exact Barry Chrome profile rule for authenticated browser work.
+
 Barry's curated long-term memory lives in:
 
 `memory/`

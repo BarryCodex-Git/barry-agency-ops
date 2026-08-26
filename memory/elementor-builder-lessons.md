@@ -111,6 +111,16 @@ Responsive work is not a final afterthought.
 
 Each section batch should be checked for desktop, tablet, and mobile layout issues before moving too far ahead.
 
+## Playwright Visual QA Standard
+
+Playwright is allowed as a public-page visual QA helper after Elementor batches.
+
+Use it to capture desktop, tablet, and mobile screenshots and catch likely overflow, clipped text, crop, and responsive issues.
+
+Do not use Playwright as a builder. Do not use it to bypass Elementor MCP or native Elementor controls.
+
+For authenticated browser work, WordPress admin, Elementor editor, GitHub, Google tools, or private dashboards, Barry must still use the exact Barry Chrome profile rule.
+
 ## Failure Handling
 
 If Elementor MCP, browser automation, or page saving becomes unstable:
