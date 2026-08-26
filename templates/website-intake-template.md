@@ -18,6 +18,8 @@ Main service or website purpose:
 
 Primary location:
 
+Primary location copy-style notes:
+
 Barry WordPress user exists: yes/no
 
 Aliases:

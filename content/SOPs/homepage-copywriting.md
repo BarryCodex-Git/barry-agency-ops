@@ -44,17 +44,18 @@ Use the brand-led pattern when the Home Page should rank as the main brand/local
 1. Read `content/SOPs/local-service-seo-copywriting.md`.
 2. Read client intake.
 3. Identify primary service and location.
-4. Identify customer problem.
-5. Write hero H1.
-6. Write hero support copy.
-7. Write CTA text.
-8. Write service overview.
-9. Write service card copy.
-10. Write trust/why choose copy.
-11. Write process copy.
-12. Write local relevance copy.
-13. Write unique, page-specific FAQs.
-14. Prepare SEO fields.
+4. Identify the Primary location's country/region language style before writing final copy.
+5. Identify customer problem.
+6. Write hero H1.
+7. Write hero support copy.
+8. Write CTA text.
+9. Write service overview.
+10. Write service card copy.
+11. Write trust/why choose copy.
+12. Write process copy.
+13. Write local relevance copy.
+14. Write unique, page-specific FAQs.
+15. Prepare SEO fields.
 
 ## CTA Rule
 
@@ -112,6 +113,7 @@ Headings:
 - Do not repeat the exact focus keyphrase across many H2 headings.
 - Distribute the primary service, focus keyphrase, close variants, brand references, location wording, customer problems and service intent naturally across the page.
 - Place the primary location strategically in selected H2s and introductions, especially Services, Problems We Solve, Process, FAQs, Service Areas and trust sections, without forcing it into every heading.
+- Match spelling, terminology, units, quoting/estimate language and local phrasing to the Primary location.
 - H2 headings may be more descriptive than card headings when it helps local SEO and clarity.
 - H3 headings should stay short, scannable, and service-specific.
 - The blue bubble/eyebrow is part of the section heading system, not optional decoration.

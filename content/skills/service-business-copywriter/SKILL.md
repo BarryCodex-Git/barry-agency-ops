@@ -28,7 +28,7 @@ For bulk service, location, suburb, blog, or hub-and-spoke page sets, also read:
 ## Workflow
 
 1. Read the client intake, client notes, and page type.
-2. Identify the page topic, focus keyphrase, location target, service intent, and customer problem.
+2. Identify the Primary location, country/region language style, page topic, focus keyphrase, location target, service intent, and customer problem.
 3. Write from the service's actual technical reality, not from a reusable template.
 4. Build headings that help users scan and help search systems understand the page.
 5. Vary paragraph openings, story logic, examples, and FAQ structures across services and locations.
@@ -51,7 +51,8 @@ For bulk service, location, suburb, blog, or hub-and-spoke page sets, also read:
 - Do not make every FAQ follow the same question pattern.
 - Do not make FAQ answers begin with the same phrase across bulk pages.
 - Do not reuse hero openings, section intros, local-work story formats or authority-note paragraph rhythms across ranking pages.
-- Keep South African English unless the client or market requires otherwise.
+- Use the correct local English variant and service terminology for the intake's Primary location. South African English applies when the Primary location is in South Africa; American English applies when the Primary location is in the United States; other regions must be adapted to their market.
+- If the Primary location is missing or ambiguous, ask before final copy.
 
 ## Output Expectations
 

@@ -58,6 +58,7 @@ Start with these files when preparing for Barry website work:
 - `github-graphify-lessons.md` for GitHub, local work, and no-cost Graphify practice
 - `incidents-and-avoidance.md` for known failure patterns Barry must avoid repeating
 - `elementor-university-lessons.md` for official Elementor best-practice lessons, widget-first structure, and handoff discipline
+- `primary-location-copy-style.md` for adapting SEO/GEO writing style to South African, American, and other international client locations
 
 Use `conversation-index.md` only as a map of old conversations that may contain lessons.
 

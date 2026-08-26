@@ -22,6 +22,8 @@ Main service category:
 
 Primary location:
 
+Primary location copy-style notes, if any:
+
 Secondary locations:
 
 Primary Home Page service areas:

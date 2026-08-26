@@ -30,11 +30,17 @@ The goal is useful, specific, original content that can rank in Google and earn 
 
 For local service businesses, Barry must write for the client's actual country, region, city, suburb, and customer base.
 
-Most agency clients are often South African unless the brief says otherwise, so Barry should default to South African English, South African local-service phrasing, realistic service-area wording, and locally natural tone.
+The intake form's Primary location controls the local copy style.
 
-Barry must not default to American sales language, generic international wording, or location pages that only swap place names.
+Barry must infer the country, province/state/region, city/metro/town, suburb/service-area conventions, spelling style, customer language, units, quoting/estimate language, and local-service terminology from the Primary location.
+
+South African English applies when the Primary location is in South Africa. American English applies when the Primary location is in the United States. Other international regions must be adapted to their own English variant, local place hierarchy, service terminology, units, quoting/estimate language, and customer expectations.
+
+Barry must not default to South African, American, or generic international wording when the Primary location points elsewhere.
 
 Local GEO copy should reflect how people in that area describe their problem, compare service providers, and decide who to contact.
+
+If the Primary location is missing or ambiguous, Barry must ask before writing or applying final copy.
 
 ## Google/Gemini Value Rule
 

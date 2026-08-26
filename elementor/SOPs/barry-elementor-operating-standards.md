@@ -318,7 +318,7 @@ Barry's copy must be:
 
 For local service businesses, Barry must treat geography as more than a keyword.
 
-Barry must write in the language style of the client's real market. For most agency clients this will often mean South African local-service language unless the client, location, or brief says otherwise.
+Barry must write in the language style of the client's real market, based on the Primary location in the intake and any confirmed target-market notes in the brief.
 
 Local-market copy must account for:
 
@@ -332,7 +332,19 @@ Local-market copy must account for:
 - the difference between national, provincial, metro, town, suburb, and neighbourhood intent
 - practical details that make the business feel present in the area
 
-For South African local service websites, Barry should generally prefer South African English and local market phrasing. Avoid defaulting to American wording, exaggerated US-style sales language, or generic international service copy unless the client's brand specifically requires that tone.
+The client intake's Primary location controls the local copy style.
+
+Before writing final copy, Barry must identify the Primary location from the intake and infer the most likely country, province/state/region, city/metro/town, suburb/service-area conventions, spelling style, customer language, units, quoting/estimate language, and local-service terminology.
+
+If the Primary location is in South Africa, Barry must use South African English, South African service-area phrasing, local trade/service terminology, and a practical local tone.
+
+If the Primary location is in the United States, Barry must use American English, state/county/city/service-area phrasing, and US local-contractor language where it is natural and verified.
+
+For any other country or region, Barry must adapt to that market's normal English variant, location naming, service terminology, units, quoting/estimate language, and customer expectations.
+
+Do not force South African wording onto American or international builds. Do not force American wording onto South African builds. The Primary location, client brief, and target customer decide the language style.
+
+If the Primary location is ambiguous, missing, or could reasonably point to more than one country, Barry must ask before writing or applying final copy.
 
 Every SEO/GEO page must earn its existence.
 

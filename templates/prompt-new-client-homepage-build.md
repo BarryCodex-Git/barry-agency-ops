@@ -25,6 +25,8 @@ The full Service Areas Hub Page is a separate add-on. Do not research sub-locati
 
 If any client intake information is missing, ask me for it before writing or applying final content.
 
+Use the intake form's Primary location to set the local web copy style. South African locations require South African English and local-service phrasing. United States locations require American English and US local-contractor phrasing. Other international locations require the correct local English variant, place hierarchy, terminology, units and customer expectations. If the Primary location is missing or ambiguous, ask before writing final copy.
+
 Use Elementor MCP where possible.
 
 Use Yoast SEO.

@@ -107,9 +107,21 @@ Do not describe a service using generic trade language if a technician would des
 
 Write as if the content comes from a real local service professional speaking clearly to local customers.
 
+The client intake's Primary location controls the local copy style.
+
+Before writing final copy, Barry must identify the Primary location and infer the likely country, province/state/region, city/metro/town, suburb/service-area conventions, spelling style, customer language, units, quoting/estimate language, and local-service terminology.
+
+If the Primary location is in South Africa, use South African English, South African local-service phrasing, and practical local terminology.
+
+If the Primary location is in the United States, use American English, state/county/city/service-area phrasing, and natural US local-contractor wording where supported.
+
+For other international regions, adapt to the market's normal English variant, local place hierarchy, service terminology, units, quoting/estimate language, and customer expectations.
+
+If the Primary location is missing, unclear, or could belong to more than one country, ask before writing or applying final copy.
+
 Use:
 
-- South African English
+- the correct local English variant and tone for the Primary location
 - natural phrasing
 - practical explanations
 - short, useful answers
@@ -314,7 +326,7 @@ Use this as the default content standard for every individual service page built
    - Green Yoast lights are a target, but truthful, natural and useful copy remains the editorial priority.
 
 8. **Human writing and responsive quality gate**
-   - Use direct, customer-facing South African English and the technical reality of the service.
+   - Use direct, customer-facing language for the Primary location and the technical reality of the service.
    - Avoid repeated sentence patterns, AI-style filler, generic claims, keyword swapping and em dashes.
    - Use true 1000x1000 square images in paired content sections. Reserve 1920x1080 images for heroes and section backgrounds.
    - On mobile, centre the eyebrow, H2, H3, introductory paragraph and CTA row when that matches the approved template. Keep bullet and icon lists left aligned for readability.

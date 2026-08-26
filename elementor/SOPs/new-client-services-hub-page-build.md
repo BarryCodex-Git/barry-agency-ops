@@ -24,6 +24,8 @@ Convert the approved Elementor Services hub into a page that lists the client's 
 - AI Images brand guide/example folder, if available
 - Yoast focus keyphrase for the Services page
 
+Primary location controls the Services page's local copy style. Barry must use the correct English variant, local place hierarchy, terminology, units, quoting/estimate language and customer expectations for that location. If the Primary location is missing or ambiguous, ask before writing or applying final copy.
+
 ## Process
 
 1. Confirm the target Services page and page ID.

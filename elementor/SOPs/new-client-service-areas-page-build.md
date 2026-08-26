@@ -34,6 +34,8 @@ When the standard New Client Build finishes, report this page as an available ad
 - Approved region images or location image plan
 - AI Images brand guide/example folder, if available
 
+Primary location controls the Service Areas page's local copy style. Barry must use the correct English variant, local place hierarchy, terminology, units, quoting/estimate language and customer expectations for that location. If the Primary location is missing or ambiguous, ask before writing or applying final copy.
+
 ## Process
 
 1. Confirm the `Service Areas` page is an Elementor page from the approved imported master/template.

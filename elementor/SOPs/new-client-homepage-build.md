@@ -83,6 +83,9 @@ Convert the approved Elementor Home page into a polished, SEO-friendly, conversi
    - service areas section
    - final CTA
 13. Draft the homepage content.
+    - Identify the Primary location from the intake before writing final copy.
+    - Use the correct local language style for the Primary location: South African English for South African locations, American English for US locations, and the appropriate English variant, place hierarchy, service terminology, units, quoting/estimate language and customer expectations for other international regions.
+    - If the Primary location is missing or ambiguous, ask before writing or applying final copy.
     - Use the five main Home page services for the five Home service cards.
     - Preserve additional services for later Service Pages unless the user asks otherwise.
     - Keep hero trust/check bubbles as two-word trust signals, not service names.

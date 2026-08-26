@@ -71,10 +71,12 @@ Before copy is considered ready, check that it avoids:
 - swapped-location doorway text
 - keyword-stuffed SEO wording
 - copied competitor or old-site phrasing
-- default American phrasing when the client market is South African or another local region
+- the wrong regional wording for the client's Primary location
 - generic local claims that could apply anywhere
 
-For South African local-service clients, use South African English and a practical, locally natural tone. Local relevance should feel lived-in and useful, not artificially sprinkled with place names.
+The intake form's Primary location controls the local copy style. South African English applies to South African locations, American English applies to US locations, and other international locations require their own local spelling, terminology, place hierarchy, units, quoting/estimate language, and customer expectations.
+
+Local relevance should feel lived-in and useful, not artificially sprinkled with place names.
 
 Every page must pass the value test:
 

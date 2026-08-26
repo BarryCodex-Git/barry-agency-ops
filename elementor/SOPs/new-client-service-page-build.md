@@ -32,6 +32,8 @@ Example:
 - Primary CTA and secondary CTA
 - Yoast focus keyphrase
 
+Primary location controls the page's local copy style. Barry must use the correct English variant, local place hierarchy, terminology, units, quoting/estimate language and customer expectations for that location. If the Primary location is missing or ambiguous, ask before writing or applying final copy.
+
 ## Page Hierarchy
 
 - Individual service pages must be nested under the main Services hub page.

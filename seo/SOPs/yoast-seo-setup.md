@@ -165,6 +165,7 @@ Example:
 
 Homepage content guidance:
 
+- Primary location controls local language style, spelling, service-area terminology, units, and regional phrasing for Yoast titles, meta descriptions, headings, alt text, and page copy.
 - H1 should use the primary service/location clearly.
 - The first paragraph under the hero or first main content section should include the focus keyphrase or a close synonym.
 - H2 headings should use human-readable phrasing and close variants. Do not make every H2 an exact-match SEO phrase.

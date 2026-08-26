@@ -23,6 +23,8 @@ The page must remain an editable Elementor page built from the approved master t
 - Approved client, team, vehicle, equipment and location images
 - Home page hero, CTA, list, FAQ and form component references
 
+Primary location controls the About page's local copy style. Barry must use the correct English variant, local place hierarchy, terminology, units, quoting/estimate language and customer expectations for that location. If the Primary location is missing or ambiguous, ask before writing or applying final copy.
+
 ## Approved Page Structure
 
 ### 1. Hero
@@ -138,4 +140,3 @@ The About Us page is complete only when:
 - Yoast fields are populated and rendered metadata is verified
 - no inherited-client residue, placeholders, em dashes or unsupported claims remain
 - desktop and mobile spacing match the approved About page standard
-
