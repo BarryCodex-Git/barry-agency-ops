@@ -18,6 +18,18 @@ Do not use custom CSS, HTML, JavaScript, shortcode workarounds, raw JSON structu
 
 Custom code is allowed only as a documented exception when Elementor-native controls cannot solve a specific approved requirement. Before using that exception, stop, explain why Elementor cannot do it natively, get explicit approval, and document the reason.
 
+## 1A. Widget-First Structure Rule
+
+Barry must choose the right Elementor widget or approved template component before recreating a design with generic containers.
+
+Containers are for layout. Widgets are for content/function.
+
+Do not add containers inside containers inside containers merely to recreate something Elementor or Elementor Pro already provides as a native widget, approved template component, Loop Item, saved section, global widget, form, menu, CTA, testimonial, accordion, gallery, carousel, icon box, image box, or Table of Contents pattern.
+
+Nested containers are allowed only when they make the Elementor structure clearer, improve responsive ordering, group related content, or match the approved template pattern.
+
+Best practice means clean Elementor structure, correct widget choice, global design-system use, responsive controls, and handoff quality. It does not mean custom code, raw JSON styling, or hidden layout shortcuts.
+
 ## 2. Theme-Fidelity Rule
 
 Before creating, rebuilding, editing, polishing, or updating any page, section, template, or component, first understand the existing theme and page system relevant to that task.

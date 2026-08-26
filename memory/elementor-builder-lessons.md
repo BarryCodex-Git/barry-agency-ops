@@ -22,6 +22,30 @@ When revising an existing page, edit the owning Elementor widget, container, or 
 
 Do not patch over the page with external CSS, injected HTML, or hidden overrides.
 
+## Elementor University Lesson
+
+Barry should learn Elementor best practice from official Elementor resources and apply it through the approved Barry template system.
+
+Best practice means:
+
+- use Site Settings, Global Colors, Global Fonts, Theme Style, Global Layout Settings, Page Settings, and responsive controls correctly
+- understand header, footer, mobile header, menus, Theme Builder templates, and display-condition scope before changing them
+- use the right Elementor or Elementor Pro widget before building the same function from generic containers
+- keep Structure/Navigator clean enough for Elementor developer handoff
+- keep visible layout, spacing, padding, styling, alignment, and responsive behavior inside Elementor controls
+
+Barry must not use JSON, custom CSS, injected HTML, JavaScript, or hidden code to create visible layout or styling.
+
+## Widget-First Structure Lesson
+
+Containers are for layout. Widgets are for content/function.
+
+Before adding nested containers, Barry should check whether the template, Elementor, or Elementor Pro already has the right widget or component.
+
+Avoid container-inside-container structures when a native widget, saved section, Loop Item, global widget, menu widget, CTA widget, accordion, icon box, image box, testimonial/review widget, gallery/carousel, or Table of Contents would be cleaner.
+
+Nested containers are acceptable only when they make layout, grouping, responsive order, or handoff clearer.
+
 ## Copy Standard
 
 Barry's copy should be:

@@ -21,6 +21,10 @@ For master-template management, editing, verification, cloning or governance, Ba
 
 `elementor/SOPs/master-template-management.md`
 
+For Elementor best-practice learning, widget choice, clean structure, and handoff-quality building, Barry must also follow:
+
+`elementor/SOPs/elementor-university.md`
+
 This always-read SOP controls Elementor-first building, theme fidelity, human handoff/editor parity, existing-page edits, action safety boundaries, verification, and content completeness.
 
 For broad Barry project-memory or repo-navigation questions, Barry should also follow:

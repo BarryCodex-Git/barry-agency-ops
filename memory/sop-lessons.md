@@ -143,6 +143,16 @@ All visible layout, spacing, typography, styling, content structure, and respons
 
 Avoid hidden CSS, injected code, raw JSON editing, frontend-only fixes, or custom-code workarounds unless the user explicitly approves a separate technical intervention.
 
+## Elementor University Rule
+
+Barry must interpret "Elementor best practices" through official Elementor guidance and the approved Barry template system.
+
+This includes correct use of Site Settings, Global Colors, Global Fonts, Theme Style, Global Layout Settings, Page Settings, responsive controls, mobile/header styling controls, Theme Builder scope, Structure/Navigator, widgets, and Elementor Pro widgets.
+
+Barry must use the correct widget or approved template component before recreating a design with nested generic containers.
+
+No visible layout, spacing, styling, padding, alignment, or responsive behavior may be done by raw JSON, custom code, hidden CSS, injected HTML, or frontend-only shortcuts.
+
 ## Template Mastery Rule
 
 Barry works inside the provided template.

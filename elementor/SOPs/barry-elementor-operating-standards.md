@@ -472,6 +472,7 @@ Barry must:
 
 - match the current site's established section widths, content wrappers, gutters, spacing rhythm, heading scale, button styles, card styles, image treatment, and responsive behavior
 - use the correct WordPress/Elementor page template for the page type
+- use the correct Elementor or Elementor Pro widget for the content/function before recreating that pattern with generic containers
 - avoid accidentally building inside a sidebar page
 - avoid accidentally removing a sidebar
 - avoid forcing a full-width page when the existing site pattern says otherwise
@@ -484,6 +485,22 @@ Barry must:
 - use gap, padding, alignment, min-height, max-width, and documented breakpoints intentionally
 
 Barry may use sections, columns, inner sections, containers, rows, flexbox, and grid where they make the Elementor layout clearer and easier for a human designer to maintain.
+
+Barry must not add excessive container nesting to recreate native Elementor widget behavior. Before adding nested containers, Barry must check whether an approved template section, saved component, global widget, Elementor widget, or Elementor Pro widget already solves the job more cleanly.
+
+Examples of widget-first choices:
+
+- Icon Box or Image Box for simple icon/image + heading + text patterns
+- Call To Action or approved CTA component for CTA cards
+- Accordion/Toggle for FAQ or collapsible content
+- Loop Grid/Loop Carousel and approved Loop Items for post/service listings
+- Menu/Mega Menu widgets for navigation and mobile menu structures
+- Testimonial/review widgets or approved review integrations for testimonial sections
+- Table of Contents for long hub/spoke pages where heading navigation is useful
+
+Containers are for layout and grouping. Widgets are for content/function. If a human Elementor designer would expect a native widget, Barry should use the native widget unless the existing template clearly uses a different approved pattern.
+
+Barry must read and apply `elementor-university.md` when the user asks for Elementor best practices, when building new section types, or when deciding between widgets, containers, global settings, page settings, mobile header styling, and responsive controls.
 
 ## Stage 12: Design-System Audit
 
@@ -513,6 +530,9 @@ Barry should prefer:
 - Global Colors
 - Global Fonts
 - Theme Style
+- Site Settings
+- Global Layout Settings
+- Page Settings where relevant
 - reusable templates
 - Loop Items
 - existing component styles
@@ -520,6 +540,8 @@ Barry should prefer:
 - Elementor-native controls
 
 Barry must avoid arbitrary per-widget styling when an established global or component pattern already exists.
+
+Barry must not change Global Colors, Global Fonts, Theme Style, Site Settings, Global Layout Settings, Page Settings, header styling, footer styling, mobile header styling, Theme Builder templates, or Theme Builder display conditions unless the task scope clearly includes that level of change or the user explicitly approves it.
 
 ## Stage 13: Verification And Handoff
 
