@@ -69,7 +69,12 @@ These controls are immutable by default, not permanently unchangeable. A clear u
 
 After startup and preflight, the first actual client-site mutation is the approved global palette and site identity.
 
-- Derive or confirm the palette from the approved logo/brand guide.
+- Derive the palette from the approved logo unless the user supplies an explicit palette override.
+- `Primary`: the main prominent usable brand colour taken from the logo.
+- `Secondary`: a lighter, darker, muted or richer tonal variation of Primary. It must remain in the same colour family and must not introduce an unrelated hue.
+- `Accent` / `Highlight`: another clearly distinguishable lighter or darker shade of Primary for emphasis. It must remain in the same colour family.
+- `Text`: black, `#000000`.
+- Do not invent complementary, contrasting or unrelated colours. White and transparent template utility tokens remain preserved and are not substitutes for the four System Colors.
 - Update only the intended global colour values while preserving the complete Elementor Kit, token IDs and every unrelated setting.
 - Never replace the whole Kit settings object with a partial object.
 - Read the global colours back before continuing.

@@ -100,9 +100,10 @@ Ask before:
 16. Record the clean cloned baseline and prove one small save/readback route.
 17. Extract the usable logo colours:
     - most prominent usable logo colour = Primary
-    - next most prominent usable logo colour = Secondary
-    - if the logo has only one usable colour, Secondary must be a suitable variation or contrasting shade of Primary
+    - Secondary = a lighter, darker, muted or richer tonal variation of Primary in the same colour family
+    - Accent/Highlight = another distinguishable lighter or darker shade of Primary in the same colour family
     - Text must always be black: `#000000`
+    - never introduce an unrelated or complementary colour unless the user explicitly supplies it as a palette override
 18. Make the targeted global-colour update the first client-site mutation using the non-browser Global Palette Fast Path in `elementor/skills/elementor-mcp-assistant/SKILL.md`; preserve the complete Elementor Kit and read back all four System Colors.
 19. Set permalinks to `Post name` and save.
 20. Update site identity with the company name, logo and favicon.

@@ -54,11 +54,13 @@ Confirm Barry has everything needed to safely complete the standard New Client B
 ### Brand And Assets
 
 - Logo is present or missing logo has been flagged.
-- Primary, secondary and text colours are confirmed or extracted from logo.
+- Primary, secondary, accent/highlight and text colours are confirmed from the logo-derived palette.
 - Elementor Global Colors System Colors are ready to update:
   - Primary from logo
-  - Secondary from logo or primary variation
+  - Secondary as a tonal variation of Primary in the same colour family
+  - Accent/Highlight as another tonal shade of Primary in the same colour family
   - Text black `#000000`
+  - No unrelated or complementary hue unless explicitly supplied by the user
 - Client image folders have been inspected.
 - `assets/AI Images/` has been inspected.
 - `assets/AI Images/brand guide/` has been inspected if present.

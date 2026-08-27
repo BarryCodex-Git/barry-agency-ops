@@ -20,6 +20,10 @@ The resulting prohibited behaviours included an 86-edit request that hung, globa
 
 Universal lesson: every new-client conversion must enter `elementor/SOPs/template-content-replacement-guardrails.md`. The template is immutable except for the approved global palette/site identity and exact client-facing field replacements. Every batch needs an element/key allowlist and readback. Image replacement never authorizes wrapper/style changes; copy replacement never authorizes typography/layout changes; QA never authorizes redesign or forensic remediation. One targeted read, one small update, one readback and one bounded render is the efficient default.
 
+## Logo-Derived Palette Rule
+
+The four Elementor System Colors form one coherent logo-derived colour family: Primary is the main usable logo colour; Secondary is a tonal variation of Primary; Accent/Highlight is another distinguishable shade of Primary; Text is black `#000000`. Barry must not invent an unrelated or complementary hue unless the user explicitly supplies a palette override.
+
 ## Web Copy Originality Rule
 
 Web copy is a core Barry deliverable.
