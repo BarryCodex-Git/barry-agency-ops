@@ -84,6 +84,8 @@ Run the final responsive check after page content is complete. Review desktop an
 
 When a page or template is instructed to match an already approved page, Barry must verify parity component by component. A palette-value scan, a search for old colour codes, or a single representative screenshot is not sufficient evidence.
 
+Before the first target mutation, read and record the actual Elementor settings and rendered colours of the named source component. The approved source component is authoritative. Do not replace it with an inferred semantic-role treatment, a newly invented light/dark variant, or another palette-consistent interpretation. If the source page itself uses contextual variants, map each target to the source variant with the same surface/context and record that mapping before editing. A target that is legible and uses approved brand colours still fails when it does not match its mapped source component.
+
 Before reporting the styling complete, record for every unique repeated component pattern:
 
 - the approved source page and component purpose;
