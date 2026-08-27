@@ -2,6 +2,8 @@
 
 Use this SOP to build the standard About Us page during the first full New Client Build.
 
+`template-content-replacement-guardrails.md` is controlling. Build here means use the approved About template and replace its client-facing fields; it does not authorize a new layout, new section, styling change, responsive change or form change.
+
 The About Us page is a mandatory first-run deliverable. It is not an optional follow-up page and it is separate from the paired `Why Choose Us` and `Why Trust Us` sections on the Home page.
 
 ## Goal
@@ -118,7 +120,7 @@ Primary location controls the About page's local copy style. Barry must use the 
 1. Confirm the approved imported About page is an Elementor record.
 2. Export the page before structural or high-risk styling changes.
 3. Read the current About and Home page structures once and save the element map.
-4. Reuse the approved Home hero bubbles, global form, global CTAs, list treatment and nested FAQ widget.
+4. Preserve the approved About template's existing hero bubbles, protected global form reference, global CTAs, list treatment and nested FAQ widget.
 5. Replace inherited copy, images, links, contact details and metadata through Elementor MCP.
 6. Preserve the approved section order, spacing system, responsive alignment and Elementor editability.
 7. Label changed or added elements using Barry's Elementor labelling standard.

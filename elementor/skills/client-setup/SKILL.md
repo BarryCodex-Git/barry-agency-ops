@@ -1,11 +1,13 @@
 ---
 name: client-setup
-description: Use this skill when setting up a new WordPress and Elementor client site for Barry, including WordPress login, plugin installation, master template import, permalink setup, client branding, logo/favicon setup, logo-based color palette, dummy hero content, and publishing the homepage for review.
+description: Use this skill when setting up a new WordPress and Elementor client site for Barry by verifying the approved master clone, applying the logo-based global palette first, replacing only approved client-facing fields, and preparing the site for the template conversion pipeline.
 ---
 
 # Client Setup
 
 Use this skill for the first setup pass on a new client WordPress/Elementor website after the client workspace exists and the target domain has been confirmed.
+
+This skill must enter `elementor/SOPs/template-content-replacement-guardrails.md`. Barry defaults to template content publishing and performs design/structural changes only when the user explicitly requests or approves the named change.
 
 ## Inputs
 
@@ -58,8 +60,8 @@ Barry may complete normal setup steps without stopping, including:
 - Setting permalinks to Post Name
 - Updating ordinary theme/site identity settings
 - Uploading the client logo and favicon
-- Applying a logo-based color palette
-- Adding dummy homepage hero copy
+- Applying the logo-based global colour palette as the first client-site mutation after clone verification/preflight
+- Replacing approved existing hero text fields with real client-facing draft copy
 - Publishing the homepage live for review when this exact setup task requests it
 
 ## Confirmation Required
@@ -78,39 +80,38 @@ Ask before:
 ## Process
 
 1. Read `AGENTS.md`.
-2. Read this skill.
-3. Read `elementor/SOPs/client-setup.md`.
-4. Read `elementor/SOPs/navigation-hero-footer-rules.md`.
-5. Read the requested client folder.
-5. Read the client master data sheet.
-6. Confirm required assets and source state:
+2. Query Graphify for the latest new-client conversion, Elementor, copy, image and SEO rules.
+3. Directly read `elementor/SOPs/template-content-replacement-guardrails.md` and the authoritative SOPs returned by Graphify.
+4. Read this skill.
+5. Read `elementor/SOPs/client-setup.md`.
+6. Read `elementor/SOPs/navigation-hero-footer-rules.md`.
+7. Read the requested client folder and client master data sheet.
+8. Confirm required assets and source state:
    - client logo
    - target domain
    - verified clone of `https://template.mynewwebsite.co.za/`, or approval to run the clone workflow
-7. Open the approved Chrome profile and go to the WordPress login URL/bookmark.
-8. Look in the Chrome bookmark folder named `Internal Websites` for the specified client domain's WP Admin/login URL.
-9. Log in with the approved Barry WordPress account.
-10. Read and follow `elementor/SOPs/master-template-management.md` and `elementor/SOPs/clone-master-template-to-target.md`.
-11. Verify the target's cloned page/template inventory against `elementor/references/master-template-source-record.md`.
-12. Use the live template domain as the primary clone source.
-13. Use a local `.wpress` archive only as an explicitly approved recovery/fallback source; report any incomplete or unverifiable clone before conversion work.
-14. Set permalinks to `Post name` and save.
-15. Update theme/site settings with the client company name only.
-16. Upload the client logo.
-17. Create or set a favicon from the logo.
-18. Extract the usable logo colours:
+9. Open the approved Chrome profile and go to the WordPress login URL/bookmark.
+10. Look in the Chrome bookmark folder named `Internal Websites` for the specified client domain's WP Admin/login URL.
+11. Log in with the approved Barry WordPress account.
+12. Read and follow `elementor/SOPs/master-template-management.md` and `elementor/SOPs/clone-master-template-to-target.md`.
+13. Verify the target's cloned page/template inventory against `elementor/references/master-template-source-record.md`.
+14. Use the live template domain as the primary clone source.
+15. Use a local `.wpress` archive only as an explicitly approved recovery/fallback source; report any incomplete or unverifiable clone before conversion work.
+16. Record the clean cloned baseline and prove one small save/readback route.
+17. Extract the usable logo colours:
     - most prominent usable logo colour = Primary
     - next most prominent usable logo colour = Secondary
     - if the logo has only one usable colour, Secondary must be a suitable variation or contrasting shade of Primary
     - Text must always be black: `#000000`
-19. Fill the theme/global color settings using the derived palette and verify Elementor System Colors, not only Custom Colors.
-20. Add a relevant dummy H1 and paragraph to the homepage hero based on the main service.
-    - Replace the inherited prompt with one client-relevant phrase of no more than three words that remains on one line on mobile; use the same prompt site-wide with `Contact Us Now!` beneath it.
+18. Make the targeted global-colour update the first client-site mutation, preserving the complete Elementor Kit; read back and verify System Colors, not only Custom Colors.
+19. Set permalinks to `Post name` and save.
+20. Update site identity with the company name, logo and favicon.
+21. Replace only the existing hero H1 and paragraph fields with concise, real client-facing draft copy based on the main service.
     - Use two-word trust signals for hero bubbles, not service names.
     - Follow the standard menu and footer rules in `navigation-hero-footer-rules.md`.
-21. Publish the homepage live for this Client Setup workflow.
-22. Run or report readiness against `elementor/SOPs/new-client-readiness-test.md`.
-23. Notify the user that the site is ready for review or blocked by missing readiness items.
+22. Publish the homepage only when this exact setup task requests publication.
+23. Run or report readiness against `elementor/SOPs/new-client-readiness-test.md`.
+24. Notify the user that the site is ready for conversion or blocked by missing readiness items.
 
 ## Setup Boundary
 

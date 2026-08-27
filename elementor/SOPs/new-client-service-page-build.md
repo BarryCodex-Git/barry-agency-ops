@@ -2,6 +2,8 @@
 
 Use this SOP when creating or refining an individual service page for a local service business.
 
+`template-content-replacement-guardrails.md` is controlling. This SOP supplies copy, SEO, image and page-field requirements only; it does not authorize changes to the duplicated template's sections, layout, styling, responsive controls or global components.
+
 For new-client builds, `creating` a service page means duplicating the approved Elementor Service Page Template and editing that Elementor page. It never means creating a blank WordPress block editor page or a custom standalone HTML/CSS page.
 
 ## Goal

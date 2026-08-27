@@ -5,6 +5,8 @@ description: Use this skill when Barry needs to onboard a new client or use an e
 
 # New Client Homepage Builder
 
+`elementor/SOPs/template-content-replacement-guardrails.md` is controlling. This skill publishes client content into the approved template; web-design authority applies only to a named change the user explicitly requests or approves.
+
 Use this skill when the user says things like:
 
 - "Barry, let's take on a new client."
@@ -32,38 +34,40 @@ For a full new-client website, also duplicate the approved Service Page Template
 ## Workflow
 
 1. Read `AGENTS.md`.
-2. Read `elementor/SOPs/new-client-homepage-build.md`.
-3. Read `elementor/SOPs/navigation-hero-footer-rules.md`.
-4. Read website/client folder.
-4. If client intake is missing, ask the user for it using `content/templates/client-homepage-intake.md`.
-5. If the user supplies a client folder path, inspect it for logo files, images, notes, intake data, and AI image references before asking for more file paths.
+2. Query Graphify for the latest new-client, Elementor, copy, image and SEO rules.
+3. Directly read `elementor/SOPs/template-content-replacement-guardrails.md` and the authoritative SOPs returned by Graphify.
+4. Read `elementor/SOPs/new-client-homepage-build.md`.
+5. Read `elementor/SOPs/navigation-hero-footer-rules.md`.
+6. Read website/client folder.
+7. If client intake is missing, ask the user for it using `content/templates/client-homepage-intake.md`.
+8. If the user supplies a client folder path, inspect it for logo files, images, notes, intake data, and AI image references before asking for more file paths.
    - Check `assets/AI Images/`.
    - Check `assets/AI Images/brand guide/`.
    - Read `assets/AI Images/brand-image-rules.md` if present.
    - Check approved generated images and `image-plan.md`.
-6. If a logo is available, extract primary and secondary brand colours from the logo unless the user supplied preferred colours.
-7. Confirm target website/domain.
-8. Confirm Home page target.
-9. Use Elementor MCP to read the Home page structure.
-10. Use the labelling standard to understand replaceable fields.
-11. Export the current Elementor page/template before high-risk changes such as top-level backgrounds, global colours, headers, footers, maps, custom HTML, or global widgets.
-12. Write SEO-friendly homepage content using `service + location`.
+9. If a logo is available, extract primary and secondary brand colours from the logo unless the user supplied preferred colours.
+10. Confirm target website/domain.
+11. Confirm Home page target.
+12. Use Elementor MCP to read the Home page structure.
+13. Use the labelling standard to understand replaceable fields.
+14. Export the current Elementor page/template as the immutable baseline before any replacement.
+15. Write SEO-friendly homepage content using `service + location`.
     - Use the five main Home page services for the Home service cards.
     - Keep additional services aside for later Service Pages unless asked otherwise.
     - Populate the Service Areas section from the primary service areas in intake and treat it as a future hub/spoke SEO entry point.
-13. Prepare image plan and alt text.
+16. Prepare image plan and alt text.
     - Never source images from an existing or previous client website. Existing websites are context-only; use supplied client-folder assets, approved AI generation, or approved stock sources.
     - Before generating AI images, follow `images/SOPs/ai-client-image-generation.md`.
     - Use `assets/AI Images/brand guide/` and approved AI images as style references when present.
-14. Update Elementor content through MCP.
-15. Apply or prepare Yoast SEO fields.
-16. Use `seo/skills/local-business-schema/SKILL.md` to establish the canonical business entity and inject/validate Home schema during the build.
-17. For a full new-client build, run `elementor/SOPs/new-client-services-hub-page-build.md`.
-18. Build the About Us page during the same first run using `elementor/SOPs/new-client-about-page-build.md`.
-19. Confirm the Home page primary service regions are complete, then record the full Service Areas hub as a separate available add-on.
-20. Do not run `elementor/SOPs/new-client-service-areas-page-build.md` unless the user explicitly requests the Service Areas add-on.
-21. Open the published pages in Chrome for visual review.
-22. Update status files and report review notes.
+17. Apply the approved global palette as the first mutation, then update only allowlisted Elementor content/media fields through MCP.
+18. Apply or prepare Yoast SEO fields.
+19. Use `seo/skills/local-business-schema/SKILL.md` to establish the canonical business entity and inject/validate Home schema during the build.
+20. For a full new-client build, run `elementor/SOPs/new-client-services-hub-page-build.md`.
+21. Build the About Us page during the same first run using `elementor/SOPs/new-client-about-page-build.md`.
+22. Confirm the Home page primary service regions are complete, then record the full Service Areas hub as a separate available add-on.
+23. Do not run `elementor/SOPs/new-client-service-areas-page-build.md` unless the user explicitly requests the Service Areas add-on.
+24. Perform one bounded rendered review after direct readback passes.
+25. Update status files and report review notes.
 
 ## Content Rules
 
@@ -77,7 +81,7 @@ For a full new-client website, also duplicate the approved Service Page Template
 - Tone should feel relevant, local, authentic, and human-written.
 - Keep hero trust/check bubbles as two-word trust signals, not service names.
 - Keep both hero trust bubbles similar in character length.
-- Replace the inherited hero-form prompt with one client-relevant phrase of no more than three words that remains on one line on mobile. Use it consistently on every page with `Contact Us Now!` beneath it.
+- Leave the protected hero form and all of its text, logo, spacing, styling and structure untouched unless the user explicitly authorizes a separate global-form change.
 - Target 35-40 words for Home service card descriptions where the layout supports it.
 - Keep H3 headings short and scannable.
 - Review every main Home Page H2 and section introduction as one coordinated SEO and client-reading hierarchy. Use slightly longer descriptive H2s, useful two-sentence introductions, and natural service/location variations without repeating keywords mechanically.
@@ -104,21 +108,14 @@ For a full new-client website, also duplicate the approved Service Page Template
 
 ## Design Rules
 
-- Follow the existing agency master template style.
-- Preserve the current homepage section order unless the user requests a restructure.
-- Keep section layout consistent.
-- Do not invent a new design language unless requested.
-- Preserve spacing, hierarchy, and responsive structure.
-- Label any new/changed sections and fields using Barry's labelling standard.
-- Apply extracted brand colors to Elementor Site Settings > Global Colors > System Colors, verify the visible global palette changed, and check hard-coded old template colors on sections, buttons, cards, forms, footer, and hover states.
+- Do not design. Preserve the existing agency master template's sections, order, layout, typography, line-height, spacing, hierarchy, wrappers, overlays, hover states, responsive settings, animations, forms and global components exactly.
+- Apply extracted brand colours first to Elementor Site Settings > Global Colors > System Colors by merging only the intended token values and preserving the complete Kit.
 - Primary must be the most prominent usable colour from the logo.
 - Secondary must be the next most prominent usable logo colour. If the logo has only one usable colour, use a suitable variation or contrasting shade of the primary.
 - Text must always be black: `#000000`.
 - Do not leave the correct palette only in Custom Colors while old template values remain in System Colors.
-- Do not batch top-level background/container changes with copy or image-widget updates.
-- Do not change complex hero background modes unless the page export/rollback point is confirmed first.
-- Prefer replacing image widgets over changing top-level section backgrounds only when the requested change is an inline image-widget change.
-- Keep inline support images and section background images scoped separately.
+- If hard-coded template colours remain after the approved global-token update, report them as a separate design decision; do not apply local colour fixes automatically.
+- Change only the owning media reference for image widgets and background image slots. Do not change their containers, background modes, overlays or styling.
 - 1000x1000 square support images are standard for process, why choose, trust, service card, and similar inline image slots.
 - Wide high-resolution WebP assets are for hero/blue section/top-level background images only, unless the user explicitly asks to change an inline image widget.
 

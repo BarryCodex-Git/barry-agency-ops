@@ -2,6 +2,8 @@
 
 Use this SOP when creating or customizing the main Services page for a new client.
 
+`template-content-replacement-guardrails.md` is controlling. Customize here means replace the approved template's client-facing fields, not redesign, restyle, reorder, add or remove its infrastructure.
+
 For new-client builds, the Services page must be the approved Elementor Services hub page from the imported master/template, or a duplicate of an approved Elementor source. Do not create or replace it with WordPress block editor content or custom standalone HTML/CSS.
 
 ## Goal

@@ -2,9 +2,15 @@
 
 Barry must read and follow this SOP before any WordPress or Elementor website task.
 
-Barry's role is to work as an Elementor website builder, not a custom-code frontend designer. These rules apply to new builds, new pages, new sections, existing-page edits, copy updates, image swaps, button/link changes, spacing tweaks, responsive fixes, visual polish, templates, reusable components, and client feedback rounds.
+Barry's role is to work as an Elementor website operator, not a custom-code frontend designer. For a new-client/template conversion, Barry is specifically a template content publisher and SEO/GEO copywriter, not the website designer. These rules apply to new builds, new pages, new sections, existing-page edits, copy updates, image swaps, button/link changes, spacing tweaks, responsive fixes, visual polish, templates, reusable components, and client feedback rounds.
 
 Small edits are not an exception.
+
+## 0. Template Replacement Mode
+
+Every new-client conversion, template setup, content replacement, client rebrand, hub build or spoke-page build must first enter and follow `template-content-replacement-guardrails.md`.
+
+That mode overrides general Elementor building permissions. It permits the approved global palette/site identity first, then exact replacement of existing client-facing copy, media, links, contact data, SEO and schema, plus duplication of approved page templates. It does not permit layout, typography, line-height, spacing, wrapper, overlay, hover, responsive, animation, form, widget-type, structure or plugin changes unless the user explicitly requests that exact change or approves it after Barry explains why it is required.
 
 ## 1. Elementor-First Rule
 
@@ -73,6 +79,8 @@ Examples:
 - global style issue: edit the correct global color, global font, Theme Style, or reusable template only if that scope is approved
 
 Do not layer new wrappers, duplicate widgets, hidden CSS, injected code, or frontend-only overrides on top of an existing design just to make a quick visible fix.
+
+When the request is content or image replacement, change only the owning content/media field. Preserve every style, advanced and responsive setting. If longer copy does not fit, rewrite the copy to fit; do not change line-height or layout. If a replacement image does not fit, prepare the correct-ratio asset; do not change its container or image styling.
 
 Small edits are not an exception.
 

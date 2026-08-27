@@ -2,11 +2,11 @@
 
 Use this SOP after theme setup and MCP readiness have passed.
 
-For new-client work, this SOP customizes the imported Elementor master/template site. It must not be used to rebuild pages outside Elementor.
+For new-client work, this SOP replaces client-facing fields in the imported Elementor master/template site. It must follow `template-content-replacement-guardrails.md` and must not redesign, restyle or rebuild the template.
 
 ## Goal
 
-Customize a standard agency theme/site using the client data sheet and brand assets.
+Convert a standard agency template using the client data sheet and brand assets while preserving its structure and styling.
 
 ## Required Inputs
 
@@ -30,10 +30,9 @@ Customize a standard agency theme/site using the client data sheet and brand ass
    - Do not create or replace pages with WordPress block editor content.
    - If a page is missing, duplicate the approved Elementor template source or stop and ask.
 5. Confirm the exact save method for the planned work has passed:
-   - global settings save/readback for colour and typography changes
+   - targeted global-colour merge/save/readback that preserves the complete Elementor Kit
    - one widget save/readback before copy/link batches
-   - one container save/readback before layout/style batches
-   - disposable draft test before section deletion, full-page import, or raw Elementor data writes
+   - one owning media/background field save/readback before image-reference batches
 6. Use the proven Elementor MCP working route:
    - get page/template structure
    - find the exact element
@@ -42,22 +41,20 @@ Customize a standard agency theme/site using the client data sheet and brand ass
    - read the changed settings back
    - clear Elementor CSS/cache once after a completed batch when needed
    - verify the changed public section
-7. Extract or confirm logo colors.
-8. Create a brand palette.
-9. Prepare homepage copy.
-10. Prepare service section copy.
-11. Prepare image plan and alt text.
-12. Update Elementor global colors through MCP where appropriate.
-13. Update company name and basic site identity.
-14. Update page content through MCP in small chunks where appropriate.
-15. Apply Barry's Elementor labelling standard to any new or modified sections/widgets.
-16. Audit the active WordPress header menu before any menu save:
+7. Extract or confirm logo colours.
+8. Create the approved brand palette.
+9. Make the approved global palette and site identity the first site mutation; read them back before page work.
+10. Prepare client-facing Home, About, Services hub and service-page copy using the current copy SOP.
+11. Prepare varied, correctly sized images and honest alt text for the existing slots.
+12. Replace only existing content/media/link fields through MCP in small allowlisted batches.
+13. Duplicate the approved page template for required hub-and-spoke pages, then replace its existing fields only.
+14. Audit the active WordPress header menu before any menu save:
    - remove inherited previous-client labels and custom links
    - inspect unsaved `Pending` items
    - do not save until only the approved client hierarchy remains
    - verify the published desktop and mobile menu after saving
-17. Use browser for visual QA only after direct checks pass, unless the user specifically asks for Chrome visual review.
-18. Update status files.
+15. Use browser for visual QA only after direct checks pass, unless the user specifically asks for Chrome visual review.
+16. Update status files.
 
 ## Efficient Editing Rules
 
@@ -69,18 +66,17 @@ Customize a standard agency theme/site using the client data sheet and brand ass
 - If an MCP batch fails, split the same work into smaller MCP element updates. If targeted MCP updates also fail, stop and report the blocker instead of inventing another route.
 - Prefer small MCP `update-element` or `update-multiple-elements` batches.
 - Verify saved settings by reading them back before checking the rendered page.
-- Verify public HTTP 200 after each high-risk chunk.
+- Verify public HTTP 200 after each completed page.
 - Keep header/sticky/logo changes separate from body copy changes.
-- Keep structural deletes separate from style/copy updates.
-- If MCP rejects section deletion because of legacy Elementor data, stop that route and report it. Do not keep retrying.
+- Do not perform structural deletes or layout/style updates during ordinary template conversion.
 
-## Styling Rules
+## Template Preservation Rules
 
 - Do not use custom CSS, injected CSS, pseudo-content, HTML inline styles, JavaScript, snippets or code shortcuts for normal Elementor styling.
-- Use Elementor's own section, container, column and widget controls for all alignment, spacing, padding, margins, widths, typography, colours, borders, shadows, backgrounds, hover states and responsive behaviour.
-- Header, footer, menu, button and form alignment must be solved with container structure and Elementor controls first.
-- Keep the result client-editable inside Elementor. If a client cannot easily adjust the styling from Elementor controls, the method is not acceptable for normal build work.
-- Only consider code after stopping and asking the user, and only for a clearly exceptional requirement that Elementor controls cannot handle.
+- Do not change alignment, spacing, padding, margins, widths, typography, line-height, local colours, borders, shadows, overlays, hover states, wrappers, responsive behaviour, animations, forms or structure during ordinary conversion.
+- Replace an image by changing only its media fields. Prepare the correct asset ratio before placement; never alter the slot to fit it.
+- Replace copy by changing only its text fields. Rewrite overlong copy to fit; never alter heading styling or line-height.
+- Treat any design or structural need as a separate scope requiring explicit approval.
 
 ## Confirmation Stops
 

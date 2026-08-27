@@ -2,9 +2,9 @@
 
 ## Purpose
 
-Use this skill for WordPress and Elementor website tasks.
+Use this skill for WordPress and Elementor template content-publishing tasks.
 
-Barry helps create, update, and prepare Elementor websites for service businesses, with a focus on brand consistency, SEO content, images, and safe editing.
+Barry converts approved Elementor templates for service businesses by applying the global brand palette, replacing client-facing copy and images, duplicating approved hub-and-spoke templates, and completing SEO/schema. Barry performs web-design changes during a client conversion only when the user explicitly requests or approves the named change.
 
 ## Typical Tasks
 
@@ -33,15 +33,18 @@ If any of these are missing, make the best safe draft and clearly say what is mi
 
 ## Editing Rules
 
-Barry should work with high autonomy on normal WordPress and Elementor implementation tasks.
+For every new-client/template conversion, first read and obey `../../SOPs/template-content-replacement-guardrails.md`. Its mutation allowlist overrides the broader permissions below.
+
+Barry should work with high autonomy only inside the approved content-publishing scope.
 
 Barry may:
-- Edit Elementor pages and sections
-- Create new sections, templates, and draft pages
-- Upload, replace, rename, and optimize images
-- Edit page copy, headings, SEO text, button text, links, and layout settings
-- Install, activate, disable, configure, or change plugins when required for the task
-- Make ordinary Elementor, theme, WordPress, and plugin settings changes needed to complete website work
+- Apply approved global colour tokens and site identity first without replacing unrelated Elementor Kit settings
+- Edit existing client-facing text, image/media, link, contact, Yoast and schema fields
+- Duplicate approved Elementor page templates for required hub-and-spoke pages
+- Upload, prepare, rename and optimize correctly sized images before like-for-like placement
+- Publish and connect approved pages when the user has authorised that action
+
+Barry may not infer permission to edit layout settings, typography, line-height, spacing, wrappers, overlays, hover states, responsive controls, animations, forms, plugins, themes, global components or page structure. Those require a separate explicit request naming the change, or Barry must explain why the change is required and receive approval before acting.
 
 Prefer draft or staging edits when available, but do not stop unnecessarily when normal live-site website maintenance is clearly requested.
 

@@ -2,6 +2,8 @@
 
 Use this SOP when converting the first full Home page for a new client using the agency master Elementor template.
 
+`template-content-replacement-guardrails.md` is controlling. This SOP supplies content requirements only; it does not authorize section, layout, typography, line-height, spacing, wrapper, overlay, hover, responsive, animation or form changes.
+
 This is an Elementor template conversion SOP. Do not create or replace the Home page with WordPress block editor content, custom standalone HTML/CSS, or a non-Elementor fallback page.
 
 For a standard New Client Build, this SOP is followed by:
@@ -13,7 +15,7 @@ The full Service Areas hub is a separate add-on. The Home page must still identi
 
 ## Goal
 
-Convert the approved Elementor Home page into a polished, SEO-friendly, conversion-focused client Home page from intake data while preserving the master layout and Elementor editability.
+Convert the approved Elementor Home page into a client-ready, SEO-friendly, conversion-focused Home page by replacing its existing client-facing fields while preserving the complete master layout and styling.
 
 ## Required Inputs
 
@@ -90,8 +92,7 @@ Convert the approved Elementor Home page into a polished, SEO-friendly, conversi
     - Preserve additional services for later Service Pages unless the user asks otherwise.
     - Keep hero trust/check bubbles as two-word trust signals, not service names.
     - Keep both hero bubbles similar in character length.
-    - Replace the inherited hero-form prompt with a client-relevant phrase of no more than three words that remains on one line on mobile. Use the same prompt across the website; do not leave `Need a Plumber?` on a non-plumbing build.
-    - Keep the form-bottom logo compact and readable against the form background. When the standard logo has dark lettering on a dark form, create and use an approved white-letter transparent variant.
+    - Leave the protected hero form, including its prompt, supporting text, logo, spacing, colours, styling and structure, untouched unless the user explicitly authorizes a separate global-form change.
     - Target 35-40 words for Home service card descriptions where the design allows.
     - Keep H3 headings short and scannable.
     - Give H2 headings enough detail and include the focus keyphrase or variants naturally.

@@ -4,7 +4,7 @@ Use this SOP to run the first WordPress and Elementor setup pass for a new clien
 
 ## Goal
 
-Prepare a new client WordPress site after cloning the approved live master template, then apply basic client branding, add dummy homepage hero content, and publish the homepage for review.
+Prepare a new client WordPress site after cloning the approved live master template. Apply the logo-based global palette first, then replace only the approved client-facing setup fields. Do not redesign or restyle the template.
 
 This is the site setup/import phase. It follows `new-client-add.md` and comes before `new-client-readiness-test.md`.
 
@@ -35,46 +35,42 @@ Client files:
 ## Steps
 
 1. Read Barry's `AGENTS.md`.
-2. Read `elementor/skills/client-setup/SKILL.md`.
-3. Read `elementor/SOPs/navigation-hero-footer-rules.md`.
-4. Read the relevant client folder.
-5. Read the client master data sheet.
-5. Check that the client logo exists.
-6. Read `elementor/SOPs/master-template-management.md` and `elementor/SOPs/clone-master-template-to-target.md`.
-7. Confirm the target was cloned from `https://template.mynewwebsite.co.za/`, or complete the approved clone workflow before client conversion.
-8. Open the approved Barry Chrome profile.
-9. Open Chrome bookmarks.
-10. Go to the bookmark folder named `Internal Websites`.
-11. Find the WP Admin/login bookmark for the specified client domain.
-12. Log into WordPress using the approved Barry WordPress account.
-13. Verify the cloned template inventory against `elementor/references/master-template-source-record.md`.
-14. Install or activate migration tooling only when the approved clone workflow requires it; plugin changes remain subject to the normal approval boundary.
-15. Use a local `.wpress` archive only as an explicitly approved recovery/fallback source, never as the default master when the live template is available.
-16. If the clone is incomplete or the source cannot be verified, stop before branding/content work and report the blocker.
-17. Go to Settings > Permalinks.
-18. Select Post Name.
-19. Save permalink settings.
-20. Update the theme/site settings with the client company name only.
-21. Upload the logo.
-22. Create or set a favicon from the logo.
-23. Extract the usable logo colours.
-24. Set theme/global color settings using:
+2. Query Graphify for the latest new-client conversion, Elementor, copy, image and SEO rules.
+3. Directly read `elementor/SOPs/template-content-replacement-guardrails.md` and every authoritative SOP routed for this setup.
+4. Read `elementor/skills/client-setup/SKILL.md`.
+5. Read `elementor/SOPs/navigation-hero-footer-rules.md`.
+6. Read the relevant client folder and client master data sheet.
+7. Check that the client logo exists.
+8. Read `elementor/SOPs/master-template-management.md` and `elementor/SOPs/clone-master-template-to-target.md`.
+9. Confirm the target was cloned from `https://template.mynewwebsite.co.za/`, or complete the approved clone workflow before client conversion.
+10. Open the approved Barry Chrome profile.
+11. Open Chrome bookmarks.
+12. Go to the bookmark folder named `Internal Websites`.
+13. Find the WP Admin/login bookmark for the specified client domain.
+14. Log into WordPress using the approved Barry WordPress account.
+15. Verify the cloned template inventory against `elementor/references/master-template-source-record.md`.
+16. Install or activate migration tooling only when the approved clone workflow requires it; plugin changes remain subject to the normal approval boundary.
+17. Use a local `.wpress` archive only as an explicitly approved recovery/fallback source, never as the default master when the live template is available.
+18. If the clone is incomplete or the source cannot be verified, stop before branding/content work and report the blocker.
+19. Record a clean baseline of the cloned template and prove a small save/readback route.
+20. Extract the usable logo colours.
+21. As the first client-site mutation, merge only the intended theme/global colour values while preserving the complete Elementor Kit:
     - Primary: most prominent usable logo colour
     - Secondary: next most prominent usable logo colour, or a suitable variation/contrasting shade of Primary when the logo has only one usable colour
     - Text: always black, `#000000`
-25. Verify Elementor Site Settings > Global Colors > System Colors, not only Custom Colors.
-26. Populate the remaining theme custom colors with suitable palette variations.
-27. Add a dummy homepage hero H1 related to the main service.
-28. Add a dummy homepage hero paragraph related to the main service.
-29. Replace the inherited hero-form prompt with a client-relevant phrase of no more than three words that remains on one line on mobile (for example, `Need Solar Help?`). Keep the same prompt on every page unless the user approves a page-specific variation. The supporting line may remain `Contact Us Now!`.
-30. Use two-word trust signals for hero bubbles, not service names.
-31. Prepare the standard menu and footer rules for the build:
+22. Read back and verify Elementor Site Settings > Global Colors > System Colors, not only Custom Colors.
+23. Go to Settings > Permalinks, select Post Name and save.
+24. Update site identity with the client company name, logo and favicon.
+25. Replace only the existing homepage hero H1 and paragraph fields with concise, real client-facing draft copy related to the main service.
+26. Leave the protected hero form untouched unless the user explicitly authorizes a separate global form change.
+27. Use two-word trust signals for hero bubbles, not service names.
+28. Prepare the standard menu and footer rules for the build:
     - menu order: `Services`, `Service Areas`, `Process`, `About Us`, `Reviews`, `FAQ's`
     - footer Service Areas uses only primary service area regions
     - footer Google Maps/GBP uses the exact intake link when supplied
-32. Publish the homepage live.
-33. Notify the user that the homepage is ready for review.
-34. Run `elementor/SOPs/new-client-readiness-test.md` before starting the full page build.
+29. Publish the homepage only when the exact setup request authorizes publication.
+30. Notify the user that the site is ready for conversion or blocked.
+31. Run `elementor/SOPs/new-client-readiness-test.md` before starting the full page conversion.
 
 ## Confirmation Stops
 
@@ -87,7 +83,7 @@ Stop and ask before:
 
 ## Notes
 
-Do not update actual page content beyond the company name, logo, favicon, colors, and dummy homepage hero unless the task specifically says to continue.
+Do not update page content beyond the approved site identity, global colours and existing hero text fields unless the task specifically says to continue. Every edit remains subject to the replacement guardrails.
 
 Domain selection and base theme import are part of setup.
 

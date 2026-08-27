@@ -2,7 +2,7 @@
 
 Use this SOP as Barry's master workflow for converting the approved imported Elementor master/template site into a client-ready Elementor website.
 
-Before using this pipeline, Barry must read and follow `always-read-elementor-rules.md`, then `barry-elementor-operating-standards.md`. Those operating standards control Elementor-first building, theme fidelity, human handoff/editor parity, existing-page edits, confirmation boundaries, custom-code exceptions, verification, content completeness, and stop conditions.
+Before using this pipeline, Barry must read and follow `always-read-elementor-rules.md`, `template-content-replacement-guardrails.md`, then `barry-elementor-operating-standards.md`. The replacement guardrails control client-conversion scope and override broader design permissions.
 
 ## Automatic New-Client Startup Gate
 
@@ -29,9 +29,9 @@ For Barry, a new-client build is an Elementor template conversion, not a blank w
 
 They do not mean WordPress block editor pages, custom standalone HTML/CSS, a new layout system, a new design direction, a recreated website, or bypassing Elementor.
 
-`New client`, `new page`, `new section`, `new service page`, `new service area page`, and `hub-and-spoke page` mean Barry must work inside the approved imported Elementor template/theme. Barry may create fresh content and new Elementor sections when the client/page needs them, but those sections must inherit the existing template's global styles, page patterns, section structures, spacing, widths, typography, buttons, cards, image treatment, header/footer context, and responsive standards.
+`New client`, `new page`, `new section`, `new service page`, `new service area page`, and `hub-and-spoke page` mean Barry must work inside the approved imported Elementor template/theme. Barry may create fresh copy and duplicate approved page templates, but may not create, reorder, restyle or remove sections unless the user separately approves that exact structural change.
 
-Barry's goal is to master design inside the provided template, not to escape the template.
+Barry's goal is to publish the new client's content inside the provided template, not to redesign it.
 
 ## Pipeline Stages
 
@@ -74,6 +74,7 @@ Barry's goal is to master design inside the provided template, not to escape the
    - Read-only MCP success is not enough.
    - Prove the save route before changing client pages.
    - If a save route fails once, stop that route and switch to a smaller proven Elementor MCP element-level method.
+   - Record the target element and exact allowlisted keys before every mutation; read them back and stop on any styling or structural drift.
 10. Run `new-client-readiness-test.md`.
 11. Read the client master data sheet.
 12. Read `content/SOPs/local-service-seo-copywriting.md` before writing or applying website copy.
@@ -149,6 +150,8 @@ Barry's goal is to master design inside the provided template, not to escape the
 - Ask the user only when missing information would create a material factual, legal, structural or brand error; safely draft ordinary customer-facing content from the approved intake and guardrails.
 
 ## Elementor Styling Discipline
+
+During Template Replacement Mode, styling is locked by default. This section governs only design work the user explicitly requested or approved after Barry explained why it was required; it never authorizes unrequested repair or improvement during content replacement.
 
 Barry must style Elementor sites with Elementor controls, not custom-code shortcuts.
 
@@ -226,7 +229,7 @@ For full client website builds, use the approved `Barry - Codex` Chrome profile.
 - For every contact CTA, compare the rendered label/value with its actual target. Displayed phone digits must match the `tel:` digits, and displayed email text must match the `mailto:` address; clear inherited dynamic-link overrides that silently replace the configured target.
 - Apply and verify the favicon/site icon before the first design-review handoff.
 - Keep the header logo large enough to read without overpowering navigation, and verify desktop/tablet/mobile widths.
-- Use one client-relevant hero-form prompt of no more than three words across the site; verify one-line mobile rendering.
+- Preserve the protected global hero form unchanged unless the user explicitly authorizes a separate global-form change.
 - Keep every hero paragraph under the H1 to one concise paragraph of 40-50 words. Do not place multi-paragraph About, service, location, or company explanations in the hero.
 - Match all secondary-page hero overlays to the approved Home overlay intensity.
 - Every linked location card must use a unique image of its exact named place. This includes primary region, suburb, estate, town, neighbourhood, sub-location and service-plus-location spoke cards. The title, CTA destination, filename, visible scene and alt text must all resolve to the same location; never substitute trade, truck, technician, equipment or generic job-site imagery.
