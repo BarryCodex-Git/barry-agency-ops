@@ -22,6 +22,8 @@ Universal lesson: every new-client conversion must enter `elementor/SOPs/templat
 
 Northstar supporting-page styling exposed a second verification failure: a zero-result search for legacy palette colours was wrongly treated as visual completion. Valid brand colours were assigned to the wrong roles, and an old gold hover survived in existing Elementor custom CSS even though the resting links looked correct. Prevention: any instruction to match an approved page requires a target-by-target rendered component receipt covering source component, target element IDs, background/overlay, text, icon, border, button and interaction-state colours on desktop and mobile. Source settings and palette scans are supporting evidence only; they cannot pass the page without rendered parity and screenshot judgment.
 
+The same correction exposed a nested-update hazard: sending `__globals__` with only `title_color` replaced the widget's broader binding map and removed its inherited background binding. The label became readable but no longer matched the approved component. Never treat one readable colour as component parity. Read and preserve complete nested setting objects, or apply the full approved foreground/background/border set together and verify all roles on the rendered target.
+
 The same incident proved that a mandatory copy SOP can fail if it is treated as background reading. The human-facing copy and SEO heading checks must therefore create stored `PASS` evidence before Elementor receives any copy. A complete field plan is not a pass. Generic headings, abstract AI phrasing, an H1 without the service/location target, weak H2 variations, or unfinished CTA text block publication.
 
 ## Logo-Derived Palette Rule

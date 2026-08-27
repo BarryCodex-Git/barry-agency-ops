@@ -45,6 +45,8 @@ The only default mutations are:
 
 Before every batch, record the target element and exact setting keys allowed to change. Send only those keys. Read them back. If any unapproved key changes, stop immediately and restore the clean baseline or an identified revision before continuing.
 
+Nested Elementor setting objects are replacement-sensitive. Before updating any key inside `__globals__`, `__dynamic__`, responsive size objects, link objects or another nested settings map, read the complete current nested object and preserve every unaffected entry. Never send a partial `__globals__` object to clear one colour binding: it may replace the whole map and silently remove background, border or other bindings. For a component colour repair, either preserve the complete nested map or set and verify the complete approved component colour set together, including foreground, background and border roles.
+
 ## Immutable Template Controls
 
 Unless the user separately and explicitly asks for a design or structural change, Barry must not change:
