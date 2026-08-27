@@ -55,11 +55,14 @@ Client files:
 19. Record a clean baseline of the cloned template and prove a small save/readback route.
 20. Extract the usable logo colours.
 21. As the first client-site mutation, use the non-browser Global Palette Fast Path in `elementor/skills/elementor-mcp-assistant/SKILL.md`. Resolve the active Kit and update only its complete four-item `system_colors` array while preserving every unrelated Kit field:
-    - Primary: most prominent usable logo colour
-    - Secondary: a lighter, darker, muted or richer tonal variation of Primary in the same colour family
-    - Accent/Highlight: another distinguishable lighter or darker shade of Primary in the same colour family
+    - Inventory: every usable colour visibly present in the logo
+    - Primary: main prominent logo colour
+    - Secondary: another suitable logo colour; it may contrast with Primary and is often black in a two-colour logo
+    - Accent/Highlight: another suitable logo colour when available; it does not have to be a shade of Primary
+    - Supporting/custom colours: additional colours visibly present in a multi-colour logo
+    - Fallback: derive shades or tonal variations only when the logo does not provide enough usable colours for the required tokens
     - Text: always black, `#000000`
-    - No unrelated or complementary hue unless the user explicitly supplies a palette override
+    - Never invent a hue absent from the logo unless the user explicitly supplies a palette override
 22. Read back and verify Elementor Site Settings > Global Colors > System Colors, not only Custom Colors.
 23. Go to Settings > Permalinks, select Post Name and save.
 24. Update site identity with the client company name, logo and favicon.

@@ -60,11 +60,14 @@ Convert the approved Elementor Home page into a client-ready, SEO-friendly, conv
    - Apply the palette to Elementor global colors.
    - Confirm the visible global palette changes in Elementor/site CSS, not only individual widgets.
    - Specifically verify Elementor Site Settings > Global Colors > System Colors: `Primary`, `Secondary`, `Text`, and `Accent`.
-   - `Primary` must be the most prominent usable colour from the logo.
-   - `Secondary` must be a lighter, darker, muted or richer tonal variation of Primary in the same colour family.
-   - `Accent` / `Highlight` must be another distinguishable lighter or darker shade of Primary in the same colour family.
+   - Inventory every usable colour visibly present in the logo before assigning tokens.
+   - `Primary` must be the main prominent logo colour.
+   - `Secondary` must be another suitable logo colour. It may contrast with Primary and is often black in a two-colour logo.
+   - `Accent` / `Highlight` must be another suitable logo colour when available; it does not have to be a shade of Primary.
+   - Additional colours visibly present in a multi-colour logo may become supporting/custom global colours.
+   - Derive shades or tonal variations only when the logo does not provide enough usable colours for the required tokens.
    - `Text` must always be black: `#000000`.
-   - Do not introduce an unrelated or complementary hue unless the user explicitly supplies a palette override.
+   - Never invent a hue absent from the logo unless the user explicitly supplies a palette override.
    - Do not leave old template values in System Colors while adding the correct colours only under Custom Colors.
    - Check hard-coded section, button, card, form, footer, and hover colors that may still show the old template palette.
    - Do not leave old brand colors visible after a new-client homepage build.

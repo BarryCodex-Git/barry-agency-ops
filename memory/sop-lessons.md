@@ -22,7 +22,7 @@ Universal lesson: every new-client conversion must enter `elementor/SOPs/templat
 
 ## Logo-Derived Palette Rule
 
-The four Elementor System Colors form one coherent logo-derived colour family: Primary is the main usable logo colour; Secondary is a tonal variation of Primary; Accent/Highlight is another distinguishable shade of Primary; Text is black `#000000`. Barry must not invent an unrelated or complementary hue unless the user explicitly supplies a palette override.
+The Elementor palette is selected from the complete provided logo. Inventory all usable visible logo colours first. Primary is the main prominent logo colour; Secondary is another suitable logo colour and may contrast strongly with Primary; Accent/Highlight is another suitable logo colour when available; Text is black `#000000`. Black is a valid and common Secondary. Multi-colour logos may supply additional supporting/custom globals. Derive shades or tonal variations only when the logo does not contain enough usable colours for the required tokens. Never invent a hue absent from the logo unless the user explicitly supplies a palette override.
 
 ## Web Copy Originality Rule
 

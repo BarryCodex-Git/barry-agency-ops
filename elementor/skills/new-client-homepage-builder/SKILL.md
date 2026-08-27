@@ -110,11 +110,14 @@ For a full new-client website, also duplicate the approved Service Page Template
 
 - Do not design. Preserve the existing agency master template's sections, order, layout, typography, line-height, spacing, hierarchy, wrappers, overlays, hover states, responsive settings, animations, forms and global components exactly.
 - Apply extracted brand colours first to Elementor Site Settings > Global Colors > System Colors by merging only the intended token values and preserving the complete Kit.
-- Primary must be the most prominent usable colour from the logo.
-- Secondary must be a lighter, darker, muted or richer tonal variation of Primary in the same colour family.
-- Accent/Highlight must be another distinguishable lighter or darker shade of Primary in the same colour family.
+- Inventory every usable colour visibly present in the logo.
+- Primary must be the main prominent logo colour.
+- Secondary must be another suitable logo colour. It may contrast with Primary and is often black in a two-colour logo.
+- Accent/Highlight must be another suitable logo colour when available; it does not have to be a shade of Primary.
+- Additional colours from a multi-colour logo may be used as supporting/custom global colours.
+- Derive shades or tonal variations only when the logo does not provide enough usable colours for the required tokens.
 - Text must always be black: `#000000`.
-- Do not introduce an unrelated or complementary hue unless the user explicitly supplies a palette override.
+- Never invent a hue absent from the logo unless the user explicitly supplies a palette override.
 - Do not leave the correct palette only in Custom Colors while old template values remain in System Colors.
 - If hard-coded template colours remain after the approved global-token update, report them as a separate design decision; do not apply local colour fixes automatically.
 - Change only the owning media reference for image widgets and background image slots. Do not change their containers, background modes, overlays or styling.

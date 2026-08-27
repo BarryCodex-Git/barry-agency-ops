@@ -99,11 +99,14 @@ Ask before:
 15. Use a local `.wpress` archive only as an explicitly approved recovery/fallback source; report any incomplete or unverifiable clone before conversion work.
 16. Record the clean cloned baseline and prove one small save/readback route.
 17. Extract the usable logo colours:
-    - most prominent usable logo colour = Primary
-    - Secondary = a lighter, darker, muted or richer tonal variation of Primary in the same colour family
-    - Accent/Highlight = another distinguishable lighter or darker shade of Primary in the same colour family
+    - inventory every usable colour visibly present in the logo
+    - Primary = the main prominent logo colour
+    - Secondary = another suitable logo colour; it may contrast with Primary and is often black in a two-colour logo
+    - Accent/Highlight = another suitable logo colour when available; it does not have to be a shade of Primary
+    - additional logo colours may be used as supporting/custom global colours
+    - derive shades or tonal variations only when the logo does not provide enough usable colours for the required tokens
     - Text must always be black: `#000000`
-    - never introduce an unrelated or complementary colour unless the user explicitly supplies it as a palette override
+    - never invent a hue absent from the logo unless the user explicitly supplies a palette override
 18. Make the targeted global-colour update the first client-site mutation using the non-browser Global Palette Fast Path in `elementor/skills/elementor-mcp-assistant/SKILL.md`; preserve the complete Elementor Kit and read back all four System Colors.
 19. Set permalinks to `Post name` and save.
 20. Update site identity with the company name, logo and favicon.
