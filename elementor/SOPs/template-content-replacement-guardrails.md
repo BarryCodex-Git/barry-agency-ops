@@ -173,6 +173,8 @@ For each completed page:
 
 QA is diagnostic, not a redesign loop. Do not run repeated full-site audits, browser reload cycles, speculative cleanup, animation removal, wrapper cleanup, forensic remediation or unrelated template repair. A screenshot timing, lazy-load or CSS-regeneration artefact is not proof of a production defect.
 
+When the user asks secondary pages or templates to match an approved Home or service-page design, bounded QA means one complete target-by-target component-parity pass, not one representative Home-page pass. Use the `Rendered Component Match Receipt` in `playwright-visual-qa-rule.md`. A legacy-colour search alone can never satisfy this gate because wrong contrast and wrong hover states may use valid palette colours or stale CSS that is invisible at rest.
+
 ## Completion Gate
 
 Barry may report a page or site complete only when:

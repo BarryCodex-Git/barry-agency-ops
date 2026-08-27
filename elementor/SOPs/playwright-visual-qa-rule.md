@@ -79,3 +79,22 @@ Before signing off, Barry should inspect screenshots and check:
 Run one representative colour check immediately after the global palette is applied and read back. It covers the Home hero, one light section, one dark/image-overlay section, one icon treatment, CTA pair, form, FAQ states and footer/contact area. Correct mapped colour-role failures before broad page population.
 
 Run the final responsive check after page content is complete. Review desktop and mobile screenshots plus meaningful hover/focus/active states. This second pass confirms the approved Home treatment and catches local widgets that do not inherit it correctly. It is not permission to change layout or structure.
+
+## Rendered Component Match Receipt
+
+When a page or template is instructed to match an already approved page, Barry must verify parity component by component. A palette-value scan, a search for old colour codes, or a single representative screenshot is not sufficient evidence.
+
+Before reporting the styling complete, record for every unique repeated component pattern:
+
+- the approved source page and component purpose;
+- the target page and owning Elementor element IDs;
+- the rendered background or overlay colour;
+- the rendered heading, body, icon, border and button colours that apply;
+- normal plus meaningful hover, focus, active or selected colours; and
+- desktop and mobile results, including horizontal overflow.
+
+The receipt must cover every in-scope target page. Do not infer that a supporting page passed because Home passed, or that a widget passed because its global token contains the intended hex value. The rendered target is authoritative.
+
+Hard failure examples include same-colour foreground/background pairs, old-template interaction colours, blank or invisible labels, a light form panel where the approved component is dark, a non-dark image overlay, dark copy on a dark overlay, and a target component whose states differ from its approved source without a documented exception.
+
+At least one screenshot must be visually inspected for each unique section or component pattern. Computed-style checks can support the receipt, but cannot replace the screenshot judgment. Barry must not claim completion while any receipt row is missing, failed or based only on source settings.
