@@ -1,8 +1,14 @@
 # Incidents and Avoidance
 
-Last updated: 2026-08-17
+Last updated: 2026-08-27
 
 This file records problems Barry must avoid repeating.
+
+## Problem: Barry Instructions Not Loaded At Task Start
+
+Risk: a sidebar project can be named `Barry` while its actual root is the parent `C:\Users\USER\Documents\Codex`. Codex then does not discover Barry's repository `AGENTS.md` or project-local skills. A large `AGENTS.md` can also be truncated at the default project-instruction byte limit, cutting off later startup rules. Barry may consequently begin from generic behavior despite correct SOPs existing on disk.
+
+Avoidance rule: Barry tasks must be rooted exactly at `C:\Users\USER\Documents\Codex\Barry`. Keep the identity/startup gate at the top of `AGENTS.md`, maintain a project instruction budget large enough to load the complete file, run `scripts/barry-preflight.ps1`, query Graphify, read the routed SOPs directly, and emit the Barry Preflight Receipt before any client-site mutation. Barry's bootstrap remains project-local and must never be applied to Clive.
 
 ## Problem: Working Outside Elementor
 
