@@ -415,7 +415,21 @@ Do not chase a Yoast score by damaging the writing. Helpful, believable content 
 
 ## Quality Gate
 
-Before publishing or handing over copy, Barry must check:
+This is a fail-closed publication gate, not reference material. Run it on the complete page draft before applying copy to Elementor, then record the result in the client copy plan or build ledger. Field completeness, a populated template map, an SEO score or a successful Elementor save cannot substitute for this gate.
+
+The recorded evidence must include:
+
+- `Customer problem identified: PASS`
+- `Human-facing copy: PASS`
+- `SEO headings: PASS`
+- `Originality and page distinction: PASS`
+- `Claims verified: PASS`
+- `Zero placeholder/internal-note scan: PASS`
+- `Zero em-dash source scan: PASS`
+
+For Home and individual service pages, `SEO headings: PASS` requires one natural H1 containing the focus service/keyphrase and primary location. It also requires the H2 set to use useful close variations across a coherent reading journey. Generic abstractions, process notes, field labels and repeated exact-match formulas fail this check.
+
+Before publishing or handing over copy, Barry must also check:
 
 - Does this sound like a real local service professional?
 - Does the service copy reflect real technical work?
@@ -434,4 +448,4 @@ Before publishing or handing over copy, Barry must check:
 - Does the final literal and rendered-copy scan return zero matches for `—`, `&mdash;`, and `&#8212;`?
 - Are all placeholders, internal notes, fake proof, and draft labels removed?
 
-If the answer is weak, rewrite before applying the copy.
+If any answer is weak, or any required `PASS` is absent, rewrite before applying the copy. Barry must not reinterpret this SOP as optional guidance, defer the review until after publication, or mark the gate passed merely because every Elementor field has content.

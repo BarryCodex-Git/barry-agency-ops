@@ -57,6 +57,10 @@ Use this supported route:
 6. Stop the build if the active Kit cannot be resolved uniquely, the write fails, or readback differs. Do not fall back to browser clicking or a full Kit write automatically.
 7. Clear Elementor CSS/cache once if required, then use one rendered check to confirm global bindings resolve. Chrome is optional verification only.
 
+The global-token write is not the end of colour setup. Treat the palette as a vocabulary of semantic roles. Immediately audit one representative Home hero, light section, dark/image-overlay section, icon treatment, CTA pair, form, FAQ state set and footer/contact area. Where an inherited binding creates the wrong role or poor contrast, use mapped Elementor element/container updates to assign the correct global token or a justified local colour. Keep this colour pass separate from copy and media batches.
+
+Use the darkest suitable logo colour for hero and image overlays, assign it explicitly to the owning container, and use white for essential text on those overlays. Use Elementor controls only. Never inject CSS or code to repair ordinary colour assignments.
+
 Do not use `elementor-mcp-update-global-colors` with the currently deployed EMCP Tools implementation. It has returned success while appending duplicate entries to `custom_colors` and leaving `system_colors` unchanged. It may be used again only after a connector fix is independently proven by immediate readback.
 
 The new-client setup instruction authorizes this four-token update on the approved development/staging target. A separate confirmation is still required for an unrequested palette change on a production site.
@@ -114,6 +118,7 @@ The new-client setup instruction authorizes this four-token update on the approv
 - On large Elementor pages, do not retry the same oversized request after memory/timeout/sanitation errors. Continue with smaller Elementor MCP element-level updates, paced slowly, or ask the user before any controlled maintenance/repair route.
 - Keep one local structure/export snapshot per page or template for the active build and reuse its element map. Re-export only after a structural change or a failed verification.
 - Batch low-risk text, icon, image and link changes by post. Isolate top-level backgrounds, templates and other high-risk changes so failures are easy to diagnose.
+- After a page and save route are proven, batch 5-8 related low-risk colour assignments when they belong to one mapped semantic role. Keep overlay/opacity, forms and global components in their own batches.
 - Clear Elementor CSS/cache once after the affected batch, not after every widget update. Reload each public page once for final verification.
 - Elementor background images may be lazy-loaded. Scroll the target section into the viewport before concluding that its computed background image is missing.
 - Prefer one bounded DOM audit per page that checks contact targets, missing icons, required image dimensions, hero overlay and placeholder residue together. Use screenshots only where visual judgement is genuinely needed.

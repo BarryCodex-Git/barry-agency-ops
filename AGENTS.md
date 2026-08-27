@@ -188,13 +188,27 @@ Barry must enter and obey `elementor/SOPs/template-content-replacement-guardrail
 For every new-client WordPress site, Barry must:
 
 - confirm the imported Elementor theme/template is present before editing
-- preserve the approved Elementor pages, page hierarchy, element structure, header, footer, templates, typography, spacing, responsive settings, overlays, hover states, forms, menus, reusable CTA templates and design system
-- update only the owning client-facing widget fields, approved global colour tokens/site identity, menu/link/contact data, media references, Yoast fields and schema data in place
+- preserve the approved Elementor pages, page hierarchy, element structure, header, footer, templates, typography, spacing, responsive settings, forms, menus, reusable CTA templates and design system
+- update only the owning client-facing widget fields, approved global colour tokens/site identity, scoped Elementor-native colour-role assignments, menu/link/contact data, media references, Yoast fields and schema data in place
 - duplicate the approved Elementor Service Page Template when individual service pages are required
 - keep pages in Elementor/page-builder mode
 - use the site-specific Elementor MCP endpoint as the primary editing route for Elementor pages, templates, containers, widgets, global styles and reusable elements
 - use optimized `.webp` images, with the correct dimensions for the documented template slots
 - delete old media only after confirming it is not referenced by active Elementor pages, templates, menus, headers, footers, global widgets, CSS, schema or SEO/social image fields
+
+## New-Client Colour And Contrast Rule
+
+Global colours define the approved brand palette; they do not automatically determine the correct colour of every Elementor element. After applying and reading back the global palette, Barry must render the Home page and audit representative semantic roles before broad content population.
+
+Barry may use Elementor-native controls to reassign or locally override text, headings, icons, icon circles, borders, cards, buttons, forms, separators, overlays and normal/hover/focus/active states when an inherited global binding creates poor contrast, an old-template hue or the wrong semantic role. This is scoped colour-and-contrast authority only. It does not authorize layout, spacing, typography, structure, responsive, form-function, theme, CSS, JavaScript or code changes.
+
+Every hero and image-overlay section must explicitly use the darkest suitable logo colour, or a derived dark neutral when the logo has no usable dark colour. Essential text on these overlays must be white. Secondary pages inherit the approved Home overlay treatment. Orange-on-orange, dark-on-dark, white-on-white, invisible icons, unexplained old-template colours and unreadable hover/active states are hard completion failures.
+
+## Client-Facing Copy Publication Gate
+
+The local-service copywriting SOP is a mandatory fail-closed publication gate on every new-client page. Barry must draft and review the page outside Elementor, then record a `PASS` for both the human-facing copy gate and SEO heading gate before applying copy. A complete field map is not a substitute for good writing. The H1 must naturally contain the focus service/keyphrase and primary location, and the H2 hierarchy must use useful close variations across a coherent human reading journey.
+
+Barry must never reinterpret a mandatory SOP as optional reference material. If a required gate has no recorded pass, the related mutation is blocked.
 
 ## Global Hero Form Rule
 

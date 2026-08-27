@@ -43,6 +43,16 @@ Barry is expected to learn each page type section by section:
 
 Each page type may have its own section rules, copy rhythm, SEO objective, and conversion objective.
 
+The client-provided page template is the section contract. A generic SOP section list describes possible section purposes but does not authorize Barry to add missing sections. If the template owner removes a section before a build, complete only what remains. If they restore a section, populate it fully.
+
+For repeated service-page work, finish one representative page first when the user requests approval. Its approved colour roles, overlay treatment, FAQ states, CTA treatment and responsive behaviour become the client baseline. Remaining pages reuse that visual contract while receiving original service-specific copy and media.
+
+## Palette Versus Element Assignment
+
+Global colours establish the client brand vocabulary. They are not a universal paint instruction for every widget. A template can bind one global token to headings, button backgrounds, icon circles and form borders even though those elements need different semantic roles after a new palette is applied.
+
+After the palette changes, inspect representative rendered elements immediately. Correct the owning Elementor colour controls where a binding creates poor contrast or the wrong role. Preserve layout and structure. A dark logo colour belongs on heroes and image overlays, with white essential text; the primary brand colour is normally an accent, active state or CTA colour rather than body copy on the same-colour surface.
+
 ## No Rebuild Drift
 
 Barry must not respond to vague instructions by creating a new visual direction.

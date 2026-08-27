@@ -68,13 +68,15 @@ When services are added, replaced, hidden or restored, treat the active service 
 7. Local Authority / Responsibility Note
 8. Service FAQ
 
-This order and the approved template containers/widgets must be preserved during normal new-client builds. Populate the template; do not redesign it.
+The list above describes the full standard template only. The actual client-provided Service Page Template is the controlling section contract for each build. Populate every section present in that template, preserve its order and purpose, and do not add a section merely because it appears in this SOP. If the client/template owner has manually removed a section, treat that omission as deliberate. If they add it back before the build, complete it fully.
 
 If the approved Service Page Template is missing, malformed, or no longer editable in Elementor, stop and ask for a template import/repair decision before building service pages.
 
 ## Content Rules
 
+- Draft the complete page copy outside Elementor and record `Human-facing copy: PASS` plus `SEO headings: PASS` before the first copy mutation. Missing or failed evidence blocks application even when every template field has a draft value.
 - Write for people first and search engines second.
+- Use one natural H1 containing the focus service/keyphrase and primary location.
 - Use the exact focus phrase in the SEO title, meta description, H1 or opening paragraph, and one natural H2 where possible.
 - Use variants everywhere else.
 - Do not repeat the exact phrase across every H2.
@@ -164,7 +166,10 @@ Every page must have unique local work examples. Do not reuse the same story str
 - Only dedicated navigation sections such as `RELATED SERVICES`, service cards, service-area cards, menus and approved CTA buttons should contain hyperlinks.
 - Every related-service card must link to the published service page through the card/title link, not only through nearby paragraph copy.
 - Replace unsupported or inherited icon names and visually verify that every icon circle contains a rendered icon.
-- Keep hero overlay intensity identical to the approved Home hero unless the user explicitly approves a page-specific exception.
+- Inherit the approved Home colour-role map and overlay treatment. Keep hero overlay intensity identical to the approved Home hero unless image legibility requires a stronger value or the user explicitly approves another exception.
+- Hero and image-overlay containers use the darkest suitable logo colour or derived dark neutral, assigned explicitly in Elementor. Essential text on those overlays is white.
+- Use Elementor-native element-level colour assignments when inherited global bindings create poor contrast, the wrong semantic role or an old-template hue. This colour authority does not permit layout, spacing, typography, structure, responsive, form-function or code changes.
+- Verify icon foreground/background pairs, CTA text/background/border pairs, form borders, and FAQ normal/hover/active states. Any invisible, blank or low-contrast state blocks approval.
 - Keep eyebrow/bubble labels short enough to remain on one line on mobile. On coloured or image backgrounds, set the bubble text to a bold weight for legibility; do not automatically bold bubbles on white backgrounds.
 - Use `RECENT WORK`, `WORK COMPLETED`, `LOCAL WORK`, or another approved compact work-section eyebrow for completed local examples. Do not label these sections as hypothetical or `scenarios` unless the user specifically requests a draft-only version.
 - Do not repeat the same technician pose in both feature-image slots across multiple service pages; introduce a small number of approved pose/scene variations while preserving the brand image style.
@@ -239,8 +244,11 @@ The approved service-page master structure uses 5 FAQ questions and 5 answer con
 The page is ready for review when:
 
 - section order matches this SOP
+- every section present in the client-provided Service Page Template is complete, and no SOP-only section was invented
 - page was duplicated from the approved Elementor Service Page Template or updated as an Elementor page
 - copy is useful, local and service-specific
+- the stored human-facing copy and SEO heading gates show `PASS`
+- H1 contains the focus service/keyphrase and primary location, and H2s use readable variations
 - each H3-led service detail section includes a unique 60-70 word-or-less descriptive paragraph before its bullet list or cards
 - exact keyword use is controlled and natural
 - local examples are verified or clearly representative
@@ -252,5 +260,10 @@ The page is ready for review when:
 - page SEO record exists and the stored focus keyphrase, SEO title and meta description are non-empty
 - no old-template/client metadata remains
 - public page opens for review
+- page title is hidden and the approved Home colour/overlay/FAQ treatment is matched in rendered desktop and mobile views
 - the active service list matches across cards, menus, related-service links and global form selectors
+
+## First-Page Approval And Scale Gate
+
+When more than one service page is requested, complete one representative service page first. Verify its template sections, copy, SEO, imagery, colour roles, overlays, FAQ states, CTAs and responsive rendering, then obtain the requested approval. Record that page as the client-specific service baseline. Only then duplicate/build the remaining pages, using the approved template structure and visual treatment while replacing every content field with fresh service-specific writing and media.
 - hidden-but-retained service pages have no links from active site navigation or service-card sections

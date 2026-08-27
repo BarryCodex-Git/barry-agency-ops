@@ -35,6 +35,7 @@ Failure of any startup step is a hard stop. Graphify routing never replaces dire
 The only default mutations are:
 
 - approved Elementor global colour tokens and WordPress/Elementor site identity;
+- Elementor-native colour-role assignments and local colour overrides that are required to make the approved client palette legible and semantically correct, subject to the scoped authority below;
 - existing widget text fields, headings, editor content, CTA labels and approved destinations;
 - existing image or background-media references, alt text and media metadata;
 - verified client contact details, menu labels/items and internal links that are in scope;
@@ -51,7 +52,7 @@ Unless the user separately and explicitly asks for a design or structural change
 - element IDs, parent IDs, hierarchy, order, widget types, containers, wrappers, classes or anchors;
 - sections, columns, cards, global components, header, footer, forms or template conditions;
 - typography, font family, font size, font weight, line-height or letter spacing;
-- local colours, gradients, overlays, opacity or hover states;
+- gradients unrelated to the approved palette, decorative colour effects, or opacity changes outside the scoped colour-and-contrast authority below;
 - padding, margins, gaps, widths, heights, min-heights, alignment or positioning;
 - backgrounds other than the background image reference itself;
 - borders, radius, shadows, masks or decorative wrappers;
@@ -82,10 +83,48 @@ After startup and preflight, the first actual client-site mutation is the approv
 - Read the global colours back before continuing.
 - Use the exact non-browser Global Palette Fast Path in `elementor/skills/elementor-mcp-assistant/SKILL.md`: resolve the active Kit, call `elementor-mcp-update-page-settings` with only the complete four-item `system_colors` array, then verify with `elementor-mcp-get-global-settings`.
 - Do not use the currently defective `elementor-mcp-update-global-colors` tool until an independent test proves that it updates System Colors rather than appending duplicate Custom Colors.
-- Do not compensate for the new palette with per-widget colour, hover, overlay, icon or contrast edits. If the approved template needs design adaptation after the palette change, stop and ask for a separate design decision.
+
+The global palette is the approved brand vocabulary, not a promise that every inherited token binding is correct. Immediately after the global-token readback, render the Home page once and run the representative colour-role audit below before populating the rest of the page.
+
+## Scoped Colour And Contrast Authority
+
+During a new-client conversion, Barry may correct Elementor-native colour settings without separate design approval when the global palette exposes an inherited binding that is visibly wrong, carries an old-template hue, or fails reasonable contrast. This authority is deliberately limited to:
+
+- text and heading colour;
+- icon foreground and icon-circle/background colour;
+- button background, text and border colour;
+- card, form and field border/background/text colour;
+- section background overlays and their opacity;
+- separators and neutral borders; and
+- normal, hover, focus, active and selected colour states.
+
+Use global tokens where their semantic role is correct. Reassign the element to the correct global token, or apply a local Elementor colour only when the inherited binding is coupled to the wrong role. Never invent a new hue when the logo palette or a derived neutral can solve the problem. These changes must remain editable in Elementor and must not use CSS, JavaScript, code injection or raw full-page data writes.
+
+This authority does not permit changes to layout, structure, spacing, typography, sizing, responsive behaviour, form function, dynamic data, animation, theme settings or template conditions. Keep colour correction in its own mapped batch and read back the exact changed settings.
+
+Use these semantic roles even if the active Kit uses different token names:
+
+- `Brand Primary`: the main logo colour for emphasis and selected accents;
+- `Brand Dark`: the darkest suitable logo colour or a derived dark neutral;
+- `Body Text`: black or the approved near-black used on light surfaces;
+- `Light Surface`: white or an approved near-white;
+- `Text On Dark`: white;
+- `Neutral Border`: a restrained neutral that remains visible; and
+- `Supporting Tint`: optional and used only when the logo genuinely supports it.
+
+The first representative audit must inspect the hero, one light section, one dark or image-overlay section, one icon treatment, one primary/secondary CTA pair, the hero/global form, the FAQ normal/hover/active states and the footer/contact area. Fix the mapped colour-role problems before broad copy or media replacement continues. Hard failures include orange-on-orange, dark-on-dark, white-on-white, an unexplained old-template hue, a blank or invisible CTA, an icon that disappears into its circle, and an interaction state whose text loses contrast.
+
+## Dark Overlay Contract
+
+Every hero or full-width image-overlay section must use the darkest suitable colour from the approved logo, such as black, navy or dark green. If the logo has no usable dark colour, derive a dark tonal neutral. Assign the overlay explicitly to the owning Elementor container instead of trusting a global token binding.
+
+Headings, paragraphs, lists, labels and other essential copy on the dark overlay must render white unless a documented approved design uses another accessible light colour. Start from the approved Home overlay intensity and strengthen it only when the image prevents reliable text legibility. Approved secondary pages inherit the Home overlay treatment unless the user requests a deliberate exception.
 
 ## Exact Copy Replacement Contract
 
+- Treat the current local-service copywriting SOP as a fail-closed publishing gate, never as optional reference material.
+- Draft and review the full page copy outside Elementor before the first copy mutation. Record a `PASS` for the human-facing copy gate and the SEO heading gate in the build ledger or client copy plan.
+- Do not apply copy when either gate is missing or failed. Field completeness is not proof that the writing is publishable.
 - Change only the existing text-owning fields.
 - Preserve the template's heading levels, typography, line-height, spacing and responsive behaviour.
 - If copy wraps poorly, rewrite it more concisely to fit the approved template. Do not restyle the widget.
@@ -93,6 +132,7 @@ After startup and preflight, the first actual client-site mutation is the approv
 - Use the focus keyphrase, primary service, location and close variations naturally across relevant H2s without repeating one mechanical construction.
 - Keep pages distinct, useful and sufficiently detailed. Never keyword-swap or reuse one paragraph skeleton across spokes.
 - Use verified facts only and complete the required zero-placeholder and zero-em-dash checks.
+- Require one H1 that naturally contains the focus service/keyphrase and primary location. Require useful H2 keyphrase variations across the reading journey rather than generic abstractions or repeated exact-match formulas.
 
 ## Exact Image Replacement Contract
 
@@ -114,7 +154,7 @@ Only an explicitly authorized contact-data or recipient update may be made, in i
 ## Small-Batch Execution Contract
 
 - Work on one page and one section at a time.
-- Default to 1-3 related low-risk fields per batch. Use at most 5 only after the exact route has saved and read back cleanly.
+- Default to 1-3 related low-risk fields per batch until the route and page are proven. Once the page/template is stable, use 5-8 related low-risk text, link, icon or colour-assignment fields per batch when they share one clear purpose.
 - Never send full-page, multi-section, mixed-purpose or broad raw Elementor writes.
 - Keep global colours, site identity, menus, global components, page copy, page media, SEO and publication in separate batches.
 - After one hang, timeout, partial write or unexpected result, abandon that batch shape immediately and re-check saved state.
@@ -128,7 +168,7 @@ For each completed page:
 
 1. verify the changed Elementor fields and their links/media;
 2. perform one targeted rendered check of the changed areas at the required responsive sizes;
-3. check for stale client-facing copy/media, broken destinations, incorrect image ratios, SEO/schema omissions and obvious contrast caused by the approved palette; and
+3. check for stale client-facing copy/media, broken destinations, incorrect image ratios, SEO/schema omissions, page-title residue, incomplete CTAs, icon contrast and normal/hover/active colour failures; and
 4. record pass, blocker or user decision.
 
 QA is diagnostic, not a redesign loop. Do not run repeated full-site audits, browser reload cycles, speculative cleanup, animation removal, wrapper cleanup, forensic remediation or unrelated template repair. A screenshot timing, lazy-load or CSS-regeneration artefact is not proof of a production defect.
@@ -138,8 +178,10 @@ QA is diagnostic, not a redesign loop. Do not run repeated full-site audits, bro
 Barry may report a page or site complete only when:
 
 - every in-scope original client-facing field has been replaced;
+- the stored human-facing copy and SEO heading gates show `PASS` before Elementor application;
 - page-specific copy and imagery are present and no stale client residue remains;
 - the global palette/site identity, contact data, menus and destinations are correct;
+- the representative colour-role audit and final responsive colour/state audit passed;
 - approved hub-and-spoke pages use duplicated template infrastructure and the correct hierarchy;
 - Yoast, schema, titles, descriptions, links and media metadata are complete;
 - all actual mutations stayed inside the allowlist; and

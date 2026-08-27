@@ -78,8 +78,12 @@ Barry's goal is to publish the new client's content inside the provided template
 10. Run `new-client-readiness-test.md`.
 11. Read the client master data sheet.
 12. Read `content/SOPs/local-service-seo-copywriting.md` before writing or applying website copy.
+    - Treat it as a fail-closed publication gate. Store the human-facing copy and SEO heading `PASS` results before the first Elementor copy mutation.
 13. Run `client-customization.md` if still needed.
 14. For a first Home page build, run `new-client-homepage-build.md`.
+    - Apply and read back the global palette first.
+    - Immediately render the Home page and complete the representative colour-role audit before broad copy/media population.
+    - Save the corrected Home colour/overlay treatment as the client baseline.
 15. For a main Services hub page, run `new-client-services-hub-page-build.md`.
 16. Build the About Us page during the same first-run New Client Build using `new-client-about-page-build.md`.
    - This is mandatory standard scope, not a later add-on.
@@ -89,7 +93,9 @@ Barry's goal is to publish the new client's content inside the provided template
    - The standard build still confirms the primary service regions and displays them on the Home page.
    - Start the Service Areas add-on only after an explicit later request from the user.
 18. Duplicate the approved Elementor Service Page Template and build every primary and additional service page supplied in the intake.
+    - The client-provided Service Page Template is the section contract. Complete exactly the sections it contains; do not add an SOP-listed section that the template owner removed.
     - Do not redesign, reorder, add or remove template sections unless the user specifically requests a structural change.
+    - When approval of one page is requested, complete and approve one representative service page first, save it as the client baseline, then build the remaining pages.
     - Rewrite every content field as fresh, service-specific copy; do not mirror paragraph logic across services.
     - Keep every service page nested under the Services hub.
     - Use `/services/{service-location-slug}/` for service page URLs.
@@ -117,6 +123,7 @@ Barry's goal is to publish the new client's content inside the provided template
 - Prefer Elementor MCP small element/container updates over full-page imports or raw data writes.
 - The default successful route is: get page structure, find the target element, read settings, update via MCP, read back, clear Elementor CSS/cache when needed, verify rendered output.
 - Treat small staged batches as the default workflow, not as a fallback after a failed large request.
+- Do not turn safe chunking into repeated micro-work after a route is proven. Once a page/template is stable, batch 5-8 related low-risk text, link, icon or colour-assignment fields that share one purpose.
 - Do not send broad multi-section, full-page, or mixed-purpose payloads just because many changes are known at once. Break them into page, section, and widget-level stages.
 - Work in small chunks by default:
   - one page/template at a time
@@ -144,6 +151,7 @@ Barry's goal is to publish the new client's content inside the provided template
 - Never use WordPress content/body updates as the primary visible output for an Elementor client page.
 - Never use WordPress REST `content.raw` updates as a fallback for Elementor copy, layout, image, button, FAQ or section work.
 - Run one bounded rendered-page audit for contact destinations, icons, image dimensions, overlays, placeholder residue and key text. Take screenshots only for visual decisions.
+- Run the palette/colour-role audit early, not only at final QA. Global tokens are the palette vocabulary; local Elementor assignments remain mandatory where semantic roles or contrast are wrong.
 - During the image-dimension audit, verify that Home/service page content-section image widgets that require square images use actual square 1000x1000 source/media files, not landscape/portrait files hidden by CSS, Elementor object-fit, masks or visual cropping.
 - During the image-dimension audit, verify that hero/background/overlay image slots use actual 1920x1080 landscape compressed WebP source/media files unless the template documents another landscape ratio.
 - Flag and fix any background/overlay image that is square, portrait, PNG, a screenshot-style upload, or larger than 500 KB. Target under 350 KB whenever possible.

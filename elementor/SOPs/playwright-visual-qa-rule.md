@@ -19,6 +19,7 @@ Playwright is useful for:
 - checking image crop/ratio problems
 - checking whether visible sections still match the approved template style
 - saving before/after visual evidence for QA
+- checking colour contrast and interaction-state candidates after a palette change
 
 ## When Not To Use Playwright
 
@@ -65,3 +66,16 @@ Before signing off, Barry should inspect screenshots and check:
 - button visibility
 - template style consistency
 - obvious spacing problems
+- theme/page-title residue above the Elementor hero
+- white text on every dark/image-overlay section
+- visible, complete CTA labels and contrasting button states
+- icon foreground/background contrast
+- form background, field and border contrast
+- FAQ normal, hover and active colours
+- old-template hues or unexplained colours that remain after client branding
+
+## Two-Pass Colour QA
+
+Run one representative colour check immediately after the global palette is applied and read back. It covers the Home hero, one light section, one dark/image-overlay section, one icon treatment, CTA pair, form, FAQ states and footer/contact area. Correct mapped colour-role failures before broad page population.
+
+Run the final responsive check after page content is complete. Review desktop and mobile screenshots plus meaningful hover/focus/active states. This second pass confirms the approved Home treatment and catches local widgets that do not inherit it correctly. It is not permission to change layout or structure.

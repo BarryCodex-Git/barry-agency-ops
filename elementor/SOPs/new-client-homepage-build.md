@@ -71,6 +71,11 @@ Convert the approved Elementor Home page into a client-ready, SEO-friendly, conv
    - Do not leave old template values in System Colors while adding the correct colours only under Custom Colors.
    - Check hard-coded section, button, card, form, footer, and hover colors that may still show the old template palette.
    - Do not leave old brand colors visible after a new-client homepage build.
+   - Treat System Colors as the brand vocabulary, not the final assignment for every element.
+   - Immediately after palette readback, render the Home page once and audit the hero, one light section, one dark/image-overlay section, one icon treatment, the CTA pair, hero/global form, FAQ normal/hover/active states and footer/contact area.
+   - Correct wrong semantic bindings and contrast with Elementor-native local/global colour controls under the scoped authority in `template-content-replacement-guardrails.md`.
+   - Assign every hero/image overlay explicitly to the darkest suitable logo colour or a derived dark neutral. Render essential overlay text in white.
+   - Block further population when the representative audit finds orange-on-orange, dark-on-dark, white-on-white, an invisible icon, a blank CTA, an unexplained old-template hue or unreadable interaction state.
    - Update and verify the Elementor kit/site logo, WordPress site logo, header logo widgets, footer logo widgets, favicon/site icon where appropriate, and Yoast site representation.
    - Do not leave old template/client logos visible in the public header, footer, favicon, schema, or social metadata.
 8. Read the Home page structure through MCP.
@@ -101,6 +106,7 @@ Convert the approved Elementor Home page into a client-ready, SEO-friendly, conv
     - Target 35-40 words for Home service card descriptions where the design allows.
     - Keep H3 headings short and scannable.
     - Give H2 headings enough detail and include the focus keyphrase or variants naturally.
+    - Require the H1 to include the focus service/keyphrase and primary location naturally.
     - Review all main section H2s and introductions as one hierarchy. Make them slightly longer and more descriptive where useful, and distribute the primary service, location and close keyphrase variations without repeating the same formula.
     - Give each main section a useful introduction, normally two connected sentences, that explains its client purpose rather than repeating the heading.
     - Use `PROBLEMS WE SOLVE` as the standard problem-intent eyebrow. Its H2 and introduction must clearly communicate that the business can help with the named customer problems, while avoiding unsupported diagnosis, repair or outcome promises.
@@ -122,6 +128,7 @@ Convert the approved Elementor Home page into a client-ready, SEO-friendly, conv
     - Populate the Service Areas section from the intake. Use the primary Home Page service areas for visible cards.
     - Write Service Areas copy for local relevance and SEO, but keep it useful and natural.
     - Treat Service Areas cards as future hub/spoke entry points. Do not create broken final links unless the service-area pages already exist or the user approves the URL plan.
+    - Run `content/SOPs/local-service-seo-copywriting.md` as a fail-closed gate. Record `Human-facing copy: PASS` and `SEO headings: PASS` in the client copy plan or build ledger before step 15. If either result is missing or failed, rewrite before applying anything to Elementor.
 13. Prepare Yoast SEO fields.
     - Use `seo/skills/local-business-schema/SKILL.md` to create or correct the global business, WebSite and Home WebPage graph while the Home page is built.
     - Establish the canonical business `@id` in the client `schema-plan.md`; all later page schema must reference it.
@@ -163,7 +170,7 @@ Convert the approved Elementor Home page into a client-ready, SEO-friendly, conv
 16. Apply labels/classes to any new or modified elements.
 17. Open the published Home page in Chrome.
 18. Check desktop view visually.
-19. Note any mobile/tablet checks still required.
+19. Check tablet/mobile and the normal/hover/active colour states that are meaningful at each size. Confirm the page title is hidden, every CTA is visible and labelled, icons remain legible, overlay text is white and no old-template colour remains.
 20. If the user requested the full new-client build, continue to the Services Hub page SOP and the mandatory About Us page SOP.
 21. Build the About Us page during the first run. Do not defer it to a later cleanup phase.
 22. Record the Service Areas page as a separate available add-on. Do not continue into its SOP without an explicit later request.
@@ -228,6 +235,8 @@ The Home page build is complete when:
 
 - main content is replaced
 - hero is client-specific
+- H1 contains the focus service/keyphrase and primary location, and the H2 hierarchy uses natural close variations
+- the stored human-facing copy and SEO heading gates show `PASS`
 - service sections match intake
 - service area section matches intake, uses one unique place-relevant image per named location, and repeats the same location-to-image mapping on the main Service Areas page
 - images are relevant or clearly marked pending
@@ -240,6 +249,8 @@ The Home page build is complete when:
 - changed elements follow labelling standard
 - page remains editable in Elementor and has not been replaced by block editor content
 - published page opens for visual review
+- representative and final colour-role audits pass across light, dark, overlay, icon, form, CTA, FAQ and footer treatments
+- the theme/page title is not visibly injected above the Elementor hero
 - status files are updated
 
 ## Standard New-Client Build Continuation
@@ -264,3 +275,5 @@ Unless the user specifically says to build only the Home page, a new-client setu
    - Stop before researching sub-locations or populating the full Service Areas hub.
    - Continue only after an explicit later request such as `Let's build the Service Areas page for this client.`
    - When requested, use `elementor/SOPs/new-client-service-areas-page-build.md`.
+
+When the user says `Home page only`, that is a hard sequencing boundary. Complete and obtain approval for Home before creating service pages, service-page copy plans, service-page images or later-stage assets.
