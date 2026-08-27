@@ -54,7 +54,7 @@ Client files:
 18. If the clone is incomplete or the source cannot be verified, stop before branding/content work and report the blocker.
 19. Record a clean baseline of the cloned template and prove a small save/readback route.
 20. Extract the usable logo colours.
-21. As the first client-site mutation, merge only the intended theme/global colour values while preserving the complete Elementor Kit:
+21. As the first client-site mutation, use the non-browser Global Palette Fast Path in `elementor/skills/elementor-mcp-assistant/SKILL.md`. Resolve the active Kit and update only its complete four-item `system_colors` array while preserving every unrelated Kit field:
     - Primary: most prominent usable logo colour
     - Secondary: next most prominent usable logo colour, or a suitable variation/contrasting shade of Primary when the logo has only one usable colour
     - Text: always black, `#000000`

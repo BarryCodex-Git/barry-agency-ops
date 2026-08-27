@@ -48,7 +48,7 @@ This is not optional. Read-only MCP access is not enough.
 
 Run the smallest safe preflight that matches the planned operation:
 
-- For global colour or typography work: read global settings, update one intended global token, then read it back.
+- For a new-client global palette: follow the Global Palette Fast Path in `elementor/skills/elementor-mcp-assistant/SKILL.md`. Resolve the active Kit, update all four System Color tokens once through `elementor-mcp-update-page-settings`, and read all four back. This palette write/readback is the save-method preflight; do not perform a separate throwaway colour mutation.
 - For a widget text/link edit: update one low-risk target widget, then read the widget settings back and check the public page still returns HTTP 200.
 - For a container/style edit: update one low-risk target container setting, then read it back and check the public page still returns HTTP 200.
 - For section removal: test `elementor-mcp-remove-element` on a disposable draft page or duplicated draft section first. Do not test destructive section removal on a live production section.

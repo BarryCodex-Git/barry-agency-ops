@@ -103,7 +103,7 @@ Ask before:
     - next most prominent usable logo colour = Secondary
     - if the logo has only one usable colour, Secondary must be a suitable variation or contrasting shade of Primary
     - Text must always be black: `#000000`
-18. Make the targeted global-colour update the first client-site mutation, preserving the complete Elementor Kit; read back and verify System Colors, not only Custom Colors.
+18. Make the targeted global-colour update the first client-site mutation using the non-browser Global Palette Fast Path in `elementor/skills/elementor-mcp-assistant/SKILL.md`; preserve the complete Elementor Kit and read back all four System Colors.
 19. Set permalinks to `Post name` and save.
 20. Update site identity with the company name, logo and favicon.
 21. Replace only the existing hero H1 and paragraph fields with concise, real client-facing draft copy based on the main service.

@@ -43,6 +43,23 @@ If Codex does not expose MCP tools directly, call the HTTP MCP endpoint manually
 2. Reuse the returned `Mcp-Session-Id`.
 3. Call only the specific tool needed.
 
+## Global Palette Fast Path
+
+For a new-client clone, the palette is the first website mutation. Do not open Chrome to edit Site Settings.
+
+Use this supported route:
+
+1. Call `elementor-mcp-get-global-settings` and retain the four active `system_colors` tokens.
+2. Resolve the active Elementor Kit ID. Prefer a connector result that supplies the active Kit ID. When it does not, list `elementor_library` records through authenticated WordPress REST with edit context, filter to `_elementor_template_type = kit`, and select the unique Kit whose stored `system_colors` exactly match the global-settings readback. Never assume a cloned Kit keeps a particular ID.
+3. Call `elementor-mcp-update-page-settings` once against that Kit ID with a settings object containing only the complete four-item `system_colors` array: `primary`, `secondary`, `text`, and `accent`. Preserve those token IDs and titles.
+4. Immediately call `elementor-mcp-get-global-settings` again and compare all four IDs and normalized hex values with the approved palette.
+5. Stop the build if the active Kit cannot be resolved uniquely, the write fails, or readback differs. Do not fall back to browser clicking or a full Kit write automatically.
+6. Clear Elementor CSS/cache once if required, then use one rendered check to confirm global bindings resolve. Chrome is optional verification only.
+
+Do not use `elementor-mcp-update-global-colors` with the currently deployed EMCP Tools implementation. It has returned success while appending duplicate entries to `custom_colors` and leaving `system_colors` unchanged. It may be used again only after a connector fix is independently proven by immediate readback.
+
+The new-client setup instruction authorizes this four-token update on the approved development/staging target. A separate confirmation is still required for an unrequested palette change on a production site.
+
 ## Credit-Saving Rules
 
 - Do not list all tools unless the user asks what tools are available.
@@ -125,7 +142,7 @@ Ask before:
 - Publishing live changes
 - Deleting Elementor content
 - Removing elements
-- Updating global colors/typography on a live client site
+- Updating global colors/typography on a production site when that change was not already requested
 - Making large layout rewrites
 - Using paid assets or paid plugin features
 - Changing WHM, cPanel, firewall, WAF, ModSecurity, Imunify, CSF/LFD, IP whitelist, DNS, or server-level security settings

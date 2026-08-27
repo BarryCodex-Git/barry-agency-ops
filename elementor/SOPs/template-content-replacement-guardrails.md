@@ -73,6 +73,8 @@ After startup and preflight, the first actual client-site mutation is the approv
 - Update only the intended global colour values while preserving the complete Elementor Kit, token IDs and every unrelated setting.
 - Never replace the whole Kit settings object with a partial object.
 - Read the global colours back before continuing.
+- Use the exact non-browser Global Palette Fast Path in `elementor/skills/elementor-mcp-assistant/SKILL.md`: resolve the active Kit, call `elementor-mcp-update-page-settings` with only the complete four-item `system_colors` array, then verify with `elementor-mcp-get-global-settings`.
+- Do not use the currently defective `elementor-mcp-update-global-colors` tool until an independent test proves that it updates System Colors rather than appending duplicate Custom Colors.
 - Do not compensate for the new palette with per-widget colour, hover, overlay, icon or contrast edits. If the approved template needs design adaptation after the palette change, stop and ask for a separate design decision.
 
 ## Exact Copy Replacement Contract
