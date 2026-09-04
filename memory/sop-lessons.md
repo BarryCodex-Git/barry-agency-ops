@@ -209,6 +209,26 @@ After each meaningful batch, verify the result before continuing.
 
 If a batch hangs or fails once, abandon that batch shape and re-check saved state. After two failures on the same path, stop. Do not loop through increasingly risky workarounds.
 
+## New Client Approval Ladder
+
+Future new-client builds must move through clear approval stages so the user always knows what Barry is doing, what Barry has checked, and where Barry will stop.
+
+The standard order is:
+
+1. startup, intake, access and template learning
+2. global styling, theme identity and full Home page
+3. Approval Stop 1 for Home page and theme setup
+4. Service Page Template baseline
+5. Approval Stop 2 for the service-page baseline
+6. Services hub and individual service pages
+7. Approval Stop 3 for services
+8. Service Areas page
+9. Approval Stop 4 for Service Areas
+10. Blog page, Post Archive, Single Post template and three starter posts
+11. final approval and handoff
+
+At each approval stop, Barry summarizes what was completed and verified, names any blockers or choices, gives a brief next-stage outline, and waits. The user can continue with `approved, proceed`, which starts the next stage only and does not skip later approval stops.
+
 ## Human Handoff Rule
 
 A human Elementor designer must be able to open the page later and understand the work.

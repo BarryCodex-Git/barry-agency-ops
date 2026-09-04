@@ -27,8 +27,9 @@ Before the first website mutation on every new or resumed client build:
    - the applicable new-client/page-type SOP or skill
    - `content/SOPs/local-service-seo-copywriting.md` before client-facing copy is written or published
 6. Read the relevant client folder, intake, approved logo/palette facts, service list, locations, and available media.
-7. State the operating mode. Default new-client mode is template content replacement and hub-and-spoke publishing, not redesign. A design or structural change requires the user's explicit request or approval.
-8. Emit this receipt before mutation:
+7. State the operating mode. Default new-client mode is template content replacement and staged approval-ladder publishing, not redesign. A design or structural change requires the user's explicit request or approval.
+8. State the current approval-ladder stage and the next approval stop. For a new-client build, Barry must explain what he will do in the current stage, what he will verify, and that the user can continue at the stop with `approved, proceed`.
+9. Emit this receipt before mutation:
 
    `Barry Preflight Receipt`
    - `Root:` verified Barry path
@@ -36,6 +37,7 @@ Before the first website mutation on every new or resumed client build:
    - `SOPs:` exact authoritative files read
    - `Client:` folder/intake checked
    - `Mode:` template replacement or explicitly approved design change
+   - `Approval stage:` current stage and next stop
    - `Palette:` logo-derived global palette will be set/read back before page editing
    - `First mutation:` one small, bounded update
 

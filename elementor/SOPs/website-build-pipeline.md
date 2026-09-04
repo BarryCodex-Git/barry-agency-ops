@@ -35,18 +35,19 @@ Barry's goal is to publish the new client's content inside the provided template
 
 ## Pipeline Stages
 
-1. Add website
-2. Confirm access
-3. Master-template clone confirmed
-4. Quick domain access test
-5. Client data intake
-6. Brand conversion
-7. Content replacement
-8. Mandatory About Us page build
-9. Build-time schema injection
-10. Yoast SEO setup and sitewide schema audit
-11. Visual QA
-12. Approval and handoff
+1. Startup, intake, access and template learning
+2. Global styling, theme identity and full Home page
+3. Approval Stop 1: Home page and theme setup
+4. Service Page Template baseline
+5. Approval Stop 2: service-page baseline
+6. Services hub and individual service pages
+7. Approval Stop 3: services
+8. Service Areas page
+9. Approval Stop 4: Service Areas
+10. Blog page, Post Archive, Single Post template and three starter posts
+11. Final approval and handoff
+
+Barry must talk the user through each stage before starting it. At each approval stop, Barry must summarize what was completed, what was verified, what is blocked or needs review, and what the next stage will do. The user may continue with `approved, proceed`; Barry must treat that as approval to start the next stage only, not as approval to skip all later stops.
 
 ## Stage Status Values
 
@@ -84,15 +85,23 @@ Barry's goal is to publish the new client's content inside the provided template
     - Apply and read back the global palette first.
     - Immediately render the Home page and complete the representative colour-role audit before broad copy/media population.
     - Save the corrected Home colour/overlay treatment as the client baseline.
-15. For a main Services hub page, run `new-client-services-hub-page-build.md`.
-16. Build the About Us page during the same first-run New Client Build using `new-client-about-page-build.md`.
+    - Complete the Home page fully before the first approval stop: copy, images, CTA destinations, tracked button labels, SEO/schema, menus/footer items in scope, image dimensions, responsive checks and rendered visual QA.
+    - Correct every relevant Elementor colour-role problem through Elementor-native controls. Do not rely on the global palette alone when widgets, overlays, icons, buttons, cards, forms, FAQ states or hover/active states inherit the wrong colour or poor contrast.
+    - Use the darkest suitable logo colour or a soft black/dark neutral on hero and section-background overlays, with white essential text.
+15. Stop for Approval Stop 1.
+    - Ask the user to review the Home page, theme identity, global palette/colour-role treatment, overlay treatment and overall visual direction.
+    - Briefly explain that `approved, proceed` starts the Service Page Template baseline stage.
+16. Configure and approve the Service Page Template baseline before building services at scale.
+    - Inspect the approved Service Page Template or create one representative service page from it.
+    - Verify template sections, widget ownership, copy style, imagery, SEO/schema pattern, CTAs, colour roles, overlays, FAQ states and responsive rendering.
+    - Stop for Approval Stop 2 before building the Services hub and the remaining service pages.
+    - Briefly explain that `approved, proceed` starts the Services hub and service-page build stage.
+17. For a main Services hub page, run `new-client-services-hub-page-build.md`.
+18. Build the About Us page during the same services stage using `new-client-about-page-build.md`.
    - This is mandatory standard scope, not a later add-on.
    - Reuse the approved Home hero bubbles, global form, CTA, bullet-list treatment and nested FAQ widget.
    - Preserve the approved About page spacing and keep the closing CTA visually separate from the footer.
-17. Record the Service Areas hub as a separate add-on. Do not run `new-client-service-areas-page-build.md` during the standard New Client Build.
-   - The standard build still confirms the primary service regions and displays them on the Home page.
-   - Start the Service Areas add-on only after an explicit later request from the user, such as asking to include the Service Areas hub/add-on or to build that page now. Do not infer it from `new client`, `full website`, `Home`, `Services`, or `service pages`.
-18. Duplicate the approved Elementor Service Page Template and build every primary and additional service page supplied in the intake.
+19. Duplicate the approved Elementor Service Page Template and build every primary and additional service page supplied in the intake.
     - The client-provided Service Page Template is the section contract. Complete exactly the sections it contains; do not add an SOP-listed section that the template owner removed.
     - Do not redesign, reorder, add or remove template sections unless the user specifically requests a structural change.
     - When approval of one page is requested, complete and approve one representative service page first, save it as the client baseline, then build the remaining pages.
@@ -101,7 +110,17 @@ Barry's goal is to publish the new client's content inside the provided template
     - Use `/services/{service-location-slug}/` for service page URLs.
     - Keep the approved draft `Service Page Template` unchanged as the reusable reference copy.
     - Add completed primary service pages to the Services submenu and connect relevant service cards, related-service cards and internal links.
-19. For a Blog setup, run `new-client-blog-setup.md`.
+20. Stop for Approval Stop 3.
+    - Ask the user to review the Services hub, About page if included in this review stage, individual service pages, service navigation, CTAs, SEO/schema records and visual QA.
+    - Briefly explain that `approved, proceed` starts the Service Areas page stage.
+21. Build the Service Areas hub only after Approval Stop 3 is approved or the user explicitly starts the Service Areas stage earlier.
+    - Run `new-client-service-areas-page-build.md`.
+    - The standard build still confirms the primary service regions and displays them on the Home page, but the full Service Areas page is its own approval stage.
+    - Do not create deeper regional, suburb or service-location spoke pages unless separately approved.
+22. Stop for Approval Stop 4.
+    - Ask the user to review the Service Areas page, location copy, image mapping, location-card links/placeholders, SEO/schema and responsive QA.
+    - Briefly explain that `approved, proceed` starts the Blog stage.
+23. For a Blog setup, run `new-client-blog-setup.md`.
     - Create the Blog page.
     - Create the Elementor Pro Single Post template.
     - Create the Elementor Pro Post Archive template.
@@ -109,10 +128,11 @@ Barry's goal is to publish the new client's content inside the provided template
     - Publish three real, useful starter posts for the client, not dummy posts.
     - Generate or assign SEO-named featured images and mid-content images.
     - Apply and verify Yoast metadata per post.
-20. During every page-build stage, use `seo/skills/local-business-schema/SKILL.md` to plan, inject and validate the relevant schema before that page is marked complete. Maintain one client `schema-plan.md` and one stable business entity ID.
-21. Run `seo/SOPs/yoast-seo-setup.md`, including the final sitewide schema audit.
-22. Use Chrome or the in-app browser for visual QA only after direct MCP/REST checks pass, unless the user explicitly asks to watch/review pages in Chrome.
-23. Report what changed and what needs review.
+24. During every page-build stage, use `seo/skills/local-business-schema/SKILL.md` to plan, inject and validate the relevant schema before that page is marked complete. Maintain one client `schema-plan.md` and one stable business entity ID.
+25. Run `seo/SOPs/yoast-seo-setup.md`, including the final sitewide schema audit.
+26. Use Chrome or the in-app browser for visual QA only after direct MCP/REST checks pass, unless the user explicitly asks to watch/review pages in Chrome.
+27. Stop for final approval and handoff.
+    - Summarize all completed stages, verified pages, known exceptions and any launch or production items needing separate approval.
 
 ## Credit-Efficient Execution
 
@@ -213,9 +233,9 @@ For full client website builds, use the approved `Barry - Codex` Chrome profile.
 - Do not inspect or test other domains on the same server unless the user explicitly asks for them.
 - Pace MCP, REST, media upload, and browser reload workflows so they do not look like abusive traffic.
 - If requests start timing out or security responses appear, pause and check whether IP whitelisting or firewall rules are needed.
-- A standard New Client Build normally includes the Home page, Services hub page, About Us page, every primary and additional service page from intake, Blog page, Single Post template, Post Archive template, three real starter blog posts, global items, SEO, schema and QA unless the user explicitly limits scope.
+- A standard New Client Build follows the approval-stage ladder: Home/theme setup first, then service baseline, then Services hub and service pages, then Service Areas, then Blog, with approval stops between stages unless the user explicitly gives advance permission to continue.
 - The About Us page is a mandatory first-run ranking and company-profile page. Build it from `new-client-about-page-build.md`; do not defer it to a later cleanup phase.
-- The full Service Areas hub is a separate add-on. It begins only after an explicit user request once the standard build has established the primary regions on the Home page.
+- The full Service Areas hub is no longer skipped from the standard staged workflow when the user wants the complete staged build. It begins only after Approval Stop 3, or earlier only if the user deliberately authorizes the Service Areas stage.
 - The current Barry Master Template structure on `template.mynewwebsite.co.za` is the approved source of truth. The cloned WordPress IDs normally remain:
   - Home page `2747`
   - Services hub `6217`
@@ -228,9 +248,9 @@ For full client website builds, use the approved `Barry - Codex` Chrome profile.
   - Global Contact CTA Buttons template `6575`
 - Home uses the five primary services.
 - Services hub uses the five primary services plus all additional services from intake.
-- The later Service Areas add-on uses the primary regions already confirmed during the standard build and researches exactly 12 suitable sub-locations for each region unless the user explicitly approves another count.
+- The Service Areas stage uses the primary regions already confirmed during the Home and Services stages and researches exactly 12 suitable sub-locations for each region unless the user explicitly approves another count.
 - Primary service area pages nest under Service Areas, and suburb/spoke pages nest under the relevant primary service area.
-- Blog setup uses intake services, locations, FAQs, common customer questions, and SEO keywords to create genuinely useful starter posts.
+- Blog setup uses intake services, locations, FAQs, common customer questions, and SEO keywords to create genuinely useful starter posts. It begins after Approval Stop 4 unless the user explicitly authorizes an earlier Blog stage.
 - Use the reusable Contact CTA source for Call and WhatsApp buttons wherever possible; if Elementor MCP cannot insert it as a true global widget, copy from the approved reusable template and keep links/display text synchronized.
 - WhatsApp is conditional. If intake does not provide an approved WhatsApp number, convert every WhatsApp CTA to `Email Us` and remove all inherited `wa.me` links.
 - Before visual sign-off, run a full CTA residue scan for old phone numbers, `tel:` links, `wa.me` links, email links, `#` service-card links and inherited global-widget settings.

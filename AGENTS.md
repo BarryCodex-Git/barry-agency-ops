@@ -198,6 +198,46 @@ For every new-client WordPress site, Barry must:
 - use optimized `.webp` images, with the correct dimensions for the documented template slots
 - delete old media only after confirming it is not referenced by active Elementor pages, templates, menus, headers, footers, global widgets, CSS, schema or SEO/social image fields
 
+## New Client Approval Stage Ladder
+
+Barry must run future new-client projects as a staged approval workflow. Barry should briefly explain the current stage, what he will do next, what he will verify, and where he will stop. At every approval stop, the user can continue with a simple instruction such as `approved, proceed`.
+
+The standard approval ladder is:
+
+1. **Startup, intake and template learning**
+   - Read the routed SOPs and query Graphify without wasting time on broad rediscovery.
+   - Prioritise the client-facing copy rules, local SEO/GEO rules, image rules, Elementor template-replacement rules, MCP/save-route rules and current client intake.
+   - Confirm the target domain, imported template, relevant page/template records, client folder, brand material, services, locations, media and safe small-batch editing route.
+2. **Global styling, theme identity and full Home page**
+   - Apply and read back approved site identity and global palette first.
+   - Inspect the Home template and learn its current section/style system.
+   - Complete the Home page copy, images, SEO/schema, CTAs, menus as in scope, and all Elementor-native colour-role corrections.
+   - Style every relevant Elementor element through Elementor controls where the inherited global palette produces wrong colours, old-template colours, poor contrast, unreadable hover/active states or incorrect semantic roles.
+   - Use the darkest suitable logo colour, or a soft black/dark neutral when needed, on hero and section background overlays. Essential overlay text must render white.
+   - **Approval Stop 1:** Stop for user approval of Home page, theme identity, global palette/colour-role treatment, overlay treatment and overall visual direction before moving into service-template work.
+3. **Service Page Template baseline**
+   - Configure, inspect and complete one approved Service Page Template or one representative service page baseline inside the existing template style.
+   - Verify structure, section logic, copy style, imagery, SEO/schema pattern, CTAs, colour roles, overlays, FAQ states and responsive rendering.
+   - **Approval Stop 2:** Stop for user approval of the service-page baseline before building the Services hub and remaining service pages.
+4. **Services hub and individual service pages**
+   - Build the Services hub from the approved template structure.
+   - Duplicate the approved Service Page Template for every primary and additional service page in scope.
+   - Write fresh, non-repetitive, service-specific copy for every page; do not mirror paragraph skeletons across services.
+   - Complete SEO, schema, images, CTAs, links and QA in small batches.
+   - **Approval Stop 3:** Stop for user approval of the Services hub and service-page set before moving into Service Areas.
+5. **Service Areas page**
+   - Build the Service Areas hub only after the user approves this stage.
+   - Use the approved Service Areas template, primary locations/regions from intake, local copy style, unique place images and the documented location-card rules.
+   - Do not create deeper regional, suburb or service-location spoke pages unless separately approved.
+   - **Approval Stop 4:** Stop for user approval of the Service Areas page before moving into Blog work.
+6. **Blog page, archive, single post template and starter posts**
+   - Restyle, design and edit the Blog page, Post Archive template and Single Post template inside the approved Elementor template system.
+   - Create three relevant, useful, SEO-ready starter blog posts with proper categories, images, Yoast fields and schema.
+   - Verify rendered Blog, archive/category and single-post output.
+   - **Final Approval Stop:** Stop for final user review and handoff.
+
+Do not skip an approval stop unless the user explicitly gives advance permission for Barry to continue through that stop. After each stop, Barry must provide a concise completed-stage summary, issues or decisions needed, and the next-stage outline.
+
 ## New-Client Colour And Contrast Rule
 
 Global colours define the approved brand palette; they do not automatically determine the correct colour of every Elementor element. After applying and reading back the global palette, Barry must render the Home page and audit representative semantic roles before broad content population.

@@ -1,8 +1,8 @@
 # SOP: Service Areas Add-On Page Build
 
-Use this SOP only when the user explicitly starts the Service Areas add-on after the standard New Client Build is complete, for example: `Let's build the Service Areas page for this client.`
+Use this SOP when the user explicitly starts or approves the Service Areas stage in the new-client approval ladder, for example: `approved, proceed` after Services approval or `Let's build the Service Areas page for this client.`
 
-The standard New Client Build identifies the primary service regions and presents them on the Home page. It does not research, populate or complete the full Service Areas hub. Do not continue into this SOP automatically from the Home page, Services hub or individual service-page workflow.
+The early Home and Services stages identify the primary service regions and present them where the template requires. Do not continue into this SOP automatically from the Home page, Services hub or individual service-page workflow. Begin only after the user approves the Service Areas stage, or deliberately authorises it early.
 
 For new-client builds, the Service Areas page must be the approved Elementor Service Areas hub page from the imported master/template, or a duplicate of an approved Elementor source. Do not create or replace it with WordPress block editor content or custom standalone HTML/CSS.
 
@@ -14,13 +14,13 @@ Convert the approved Elementor Service Areas hub into a complete location hub wi
 
 Begin only when:
 
-- the user has explicitly requested the Service Areas add-on
-- the standard New Client Build is complete or the user has deliberately authorised this add-on early
+- the user has approved the Service Areas stage in the approval ladder, explicitly requested the Service Areas add-on, or deliberately authorised this stage early
+- the Home/theme and Services stages are complete unless the user has deliberately authorised this stage early
 - the primary service regions from the intake have already been confirmed
 - the Home page primary-region cards and their location-to-image mapping are known
 - the approved Elementor Service Areas page exists and is safe to edit
 
-When the standard New Client Build finishes, report this page as an available add-on. Do not treat the existence of a blank or imported Service Areas template page as permission to populate it.
+When the Services stage finishes, report this page as the next approval-stage item. Do not treat the existence of a blank or imported Service Areas template page as permission to populate it.
 
 ## Required Inputs
 

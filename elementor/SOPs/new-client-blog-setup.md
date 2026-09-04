@@ -2,7 +2,7 @@
 
 Use this SOP when creating the Blog infrastructure for a new client website.
 
-The Blog build is mandatory in every standard New Client Build. It is completed during the first full build with the Home Page, Services Hub, Service Pages and About Page. It is not a later optional add-on.
+The Blog build is part of the standard staged New Client Build, but it is not started during the first Home or Services stages. It begins after the Service Areas approval stop unless the user explicitly authorizes an earlier Blog stage or limits the project scope.
 
 For new-client builds, Blog infrastructure must use the approved Elementor Blog page, Elementor Pro Single Post template and Elementor Pro Archive template from the imported master/template, or duplicates of approved Elementor sources. Do not build the Blog page or templates as WordPress block editor pages or custom standalone HTML/CSS.
 
