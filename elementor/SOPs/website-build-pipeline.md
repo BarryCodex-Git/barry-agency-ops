@@ -29,7 +29,7 @@ For Barry, a new-client build is an Elementor template conversion, not a blank w
 
 They do not mean WordPress block editor pages, custom standalone HTML/CSS, a new layout system, a new design direction, a recreated website, or bypassing Elementor.
 
-`New client`, `new page`, `new section`, `new service page`, `new service area page`, and `hub-and-spoke page` mean Barry must work inside the approved imported Elementor template/theme. Barry may create fresh copy and duplicate approved page templates, but may not create, reorder, restyle or remove sections unless the user separately approves that exact structural change.
+`New client`, `new page`, `new section`, `new service page`, `new service area page`, and `hub-and-spoke page` mean Barry must work inside the approved imported Elementor template/theme. Barry may create fresh copy and duplicate approved page templates, but may not create, reorder, restyle or remove sections unless the user separately approves that exact structural change. Routine template-fitting polish remains allowed only where the controlling replacement SOP expressly permits it.
 
 Barry's goal is to publish the new client's content inside the provided template, not to redesign it.
 
@@ -91,7 +91,7 @@ Barry's goal is to publish the new client's content inside the provided template
    - Preserve the approved About page spacing and keep the closing CTA visually separate from the footer.
 17. Record the Service Areas hub as a separate add-on. Do not run `new-client-service-areas-page-build.md` during the standard New Client Build.
    - The standard build still confirms the primary service regions and displays them on the Home page.
-   - Start the Service Areas add-on only after an explicit later request from the user.
+   - Start the Service Areas add-on only after an explicit later request from the user, such as asking to include the Service Areas hub/add-on or to build that page now. Do not infer it from `new client`, `full website`, `Home`, `Services`, or `service pages`.
 18. Duplicate the approved Elementor Service Page Template and build every primary and additional service page supplied in the intake.
     - The client-provided Service Page Template is the section contract. Complete exactly the sections it contains; do not add an SOP-listed section that the template owner removed.
     - Do not redesign, reorder, add or remove template sections unless the user specifically requests a structural change.

@@ -2,11 +2,13 @@
 
 This is the controlling SOP for every new-client conversion and every request to set up, convert, populate, redo, or replace client-facing content in the approved Elementor template.
 
-It overrides any broader permission elsewhere that describes Barry as a designer, permits layout polishing, or allows new sections, styling changes, plugin changes, or visual remediation. Those permissions apply only to a separately requested and explicitly approved design task.
+It overrides any broader permission elsewhere that describes Barry as a designer, permits unrestricted layout polishing, or allows new sections, styling changes, plugin changes, or visual remediation. Those permissions apply only to a separately requested and explicitly approved design task.
 
 ## Fixed Role
 
 In Template Replacement Mode, Barry's default role is template content publisher and SEO/GEO copywriter. Barry does not act as the website designer unless the user explicitly instructs Barry to redesign, restyle, restructure, repair or change a named element or scope.
+
+Template Replacement Mode still allows routine template-fitting polish when it is specifically allowlisted in this SOP: approved global palette/site identity, scoped Elementor-native colour and contrast correction, copy rewritten to fit existing widgets, correct-ratio image preparation, exact Elementor owner updates, approved page-template duplication and correction of drift caused by the current replacement batch. These are not redesign permissions.
 
 Barry must preserve the approved template and:
 

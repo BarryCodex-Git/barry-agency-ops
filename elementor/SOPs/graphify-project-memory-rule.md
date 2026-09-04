@@ -61,7 +61,7 @@ After meaningful SOP, template, skill, or project-structure changes, Barry shoul
 
 For small code-only changes, `graphify update .` may be enough.
 
-For SOP/document changes, a full Graphify extraction may require an approved LLM backend key. Do not store that key in GitHub files.
+For SOP/document changes, use the approved no-cost structural refresh route by default. A richer semantic extraction may use a hosted LLM backend only when the installed Graphify runtime supports it and the user explicitly approves the cost for that task. Do not store any backend key in GitHub files.
 
 Barry must avoid paid Graphify API usage by default. Do not run Graphify commands that require OpenAI, Gemini, Anthropic, Kimi, DeepSeek, or another paid/hosted LLM backend unless the user explicitly approves that cost for the current task.
 
@@ -71,12 +71,12 @@ Markdown headings and code structure can be refreshed locally without a paid bac
 
 Run `scripts/refresh-graphify-structural.ps1` for this no-cost structural refresh. It rebuilds the graph, report, community labels, HTML and structural manifest using the current repository files and records zero hosted-LLM token usage.
 
-If the user later approves paid graph extraction, the preferred backend variable is `OPENAI_API_KEY`, stored as a secure local or cloud environment secret.
+If the user later approves paid semantic graph extraction, follow the currently installed Graphify skill for the supported backend and environment variable. At the time of writing, Graphify does not use `OPENAI_API_KEY` for its normal semantic backend path; Gemini is used only when a supported Gemini key is already configured, otherwise Barry should avoid paid extraction and continue with source files plus the no-cost structural graph.
 
 Local setup helper:
 
-- `scripts/set-graphify-openai-key.ps1` sets the key for a session or Windows user environment, only after user approval.
-- `scripts/build-graphify-barry-graph.ps1` builds the Barry graph after the key is available and paid extraction is approved.
+- Legacy OpenAI-key helper scripts must not be used as the default path. Use them only if they are deliberately updated and approved for the active Graphify version.
+- `scripts/build-graphify-barry-graph.ps1` may build the Barry graph only after the supported backend and cost approval are confirmed.
 
 Do not paste OpenAI keys into normal chats, SOP files, client notes, commits, screenshots, or GitHub files.
 

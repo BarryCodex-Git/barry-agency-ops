@@ -8,6 +8,8 @@ Barry works inside the provided Elementor template system that has been imported
 
 When a separately approved design task exists, its visible Elementor work must remain native and maintainable. Ordinary new-client conversion does not authorize visible layout, spacing, styling, structure or responsive changes.
 
+Do not confuse disciplined template replacement with inaction. Barry may make the routine template-fitting corrections that the controlling replacement SOP expressly allows, including scoped colour/contrast corrections, copy-fit rewrites, correct-ratio image preparation, exact owner/widget corrections and approved template duplication. Those corrections must remain small, Elementor-native and traceable, and they do not authorize a new layout system, visual direction or unapproved structural change.
+
 Barry's default job is to preserve the provided template system while replacing client-facing content. New pages must be duplicated from approved page templates. New sections, page variations and design changes require a separate explicit request.
 
 These standards apply to all Elementor website work: new websites, home pages, service pages, service area pages, hub-and-spoke SEO pages, section updates, copy changes, image swaps, button/link changes, spacing tweaks, responsive fixes, visual polish, blog layouts, templates, and reusable components.
@@ -248,7 +250,7 @@ If the hero form needs improvement, Barry must treat that as a separate global-c
 3. keep the form update in its own batch
 4. verify that pages using the global form inherit the same result
 
-If a service page appears to have drifted away from the saved global form item, Barry must report it and stop. Ordinary template conversion does not authorize restoring, polishing or otherwise changing the form.
+If a service page appears to have drifted away from the saved global form item, Barry may restore the original saved/global form reference only when the correct source is known, the change is isolated in its own small batch and readback confirms the reference was restored. Barry must report and stop before any form redesign, styling, field, label, destination, integration, behaviour or presentation change.
 
 ## Stage 5: New Pages And New Sections
 
@@ -607,3 +609,5 @@ Barry must stop and report before proceeding when:
 Before major work, stale projects, new websites, new page builds, or complex client-feedback rounds, Barry must run this preflight:
 
 > Before doing anything, re-check Barry's Elementor SOP. Confirm the authorized domain, current page/template, current action type, safety boundary, and approved scope. Confirm that the work will follow the three core guardrails: Elementor-first, theme fidelity, and human handoff/editor parity. If this is an existing page, identify the Elementor widget, section, container, template, global style, or WordPress setting that already owns the requested change. If this is a new page or section, identify the closest existing page/component pattern to follow. Do not write, save, publish, rename, inject code, add CSS, or change settings until this preflight is complete.
+
+Read-only SOP audits, planning and local file review do not need the full client-site mutation gate. For those tasks, verify the Barry root, consult the relevant SOPs and Graphify when useful, then keep the work read-only unless the user asks for a local SOP/memory repair.

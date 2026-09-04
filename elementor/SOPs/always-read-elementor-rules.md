@@ -126,11 +126,11 @@ If final facts are not verified, write clean public copy that avoids the unverif
 
 The approved Home Page Testimonials section is a narrow exception for agency New Client Builds when verified reviews or a Trustindex connection are not available yet.
 
-- Build the existing Testimonials section with exactly three clearly managed handover review placeholders.
-- The visible cards may use plausible customer names, natural customer-style wording and locations from the client's approved primary service regions so the development and handover design is complete.
+- Build the existing Testimonials section with exactly three clearly managed handover review placeholders for development handoff only.
+- The visible cards may use plausible customer names, natural customer-style wording and locations from the client's approved primary service regions so the design is complete before the Trustindex/Google review connection is ready.
 - Mark the section and every placeholder name/quote clearly in Elementor Navigator as `PLACEHOLDER` and `Replace With Trustindex`. These backend labels must not appear in the visible copy.
 - Manually replace the cards with the approved Trustindex or Google review widget once the client's Google profile and review connection are ready.
-- Until replacement, do not describe the cards as verified Google reviews, do not create an aggregate rating claim, and do not include the placeholder reviews in Review or AggregateRating schema.
+- Until replacement, treat the cards as non-verified development placeholders. Do not describe them as verified Google reviews, do not create an aggregate rating claim, do not include them in Review or AggregateRating schema, and do not present them in handoff notes as real customer proof.
 - This exception applies only to the approved New Client Build Testimonials section. It does not permit invented reviews, ratings or customer proof elsewhere on the website.
 
 ## 8. Square Paired-Content Image Gate
